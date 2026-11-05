@@ -1,0 +1,13 @@
+{
+  "name": "it-quest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "IT QUEST — ITパスポート合格特化型 学習ゲーム（PWA・依存なし）",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node tools/validate.mjs"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "IT QUEST — ITパスポート学習ゲーム",
+  "short_name": "IT QUEST",
+  "description": "ITパスポート試験の合格をめざす学習ゲーム。学習の実績に合わせて計画が変わります。",
+  "lang": "ja",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef1ff",
+  "theme_color": "#5b6cff",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

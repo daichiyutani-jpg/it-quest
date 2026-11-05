@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#5b6cff">
+  <meta name="description" content="ITパスポート試験の合格をめざす、スマートフォン向けの学習ゲーム。学習の実績に合わせて計画が変わります。">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="IT QUEST">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>IT QUEST — ITパスポート学習ゲーム</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <header id="topbar">
+    <a href="#/home" class="logo" aria-label="ホーム">IT <b>QUEST</b></a>
+    <span id="net" class="net" hidden></span>
+    <a href="#/settings" class="icon-btn" aria-label="設定">⚙️</a>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <nav id="tabbar" aria-label="メインメニュー">
+    <a href="#/home" data-tab="home"><span>🏠</span>ホーム</a>
+    <a href="#/learn" data-tab="learn"><span>🗺️</span>学ぶ</a>
+    <a href="#/practice" data-tab="practice"><span>⚔️</span>演習</a>
+    <a href="#/adventure" data-tab="adventure"><span>🗼</span>冒険</a>
+    <a href="#/stats" data-tab="stats"><span>📊</span>記録</a>
+  </nav>
+  <noscript>このアプリを使うには JavaScript を有効にしてください。</noscript>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
