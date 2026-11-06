@@ -15,6 +15,7 @@ INCLUDE.forEach((x) => walk(join(ROOT, x)));
 const list = files.map((f) => './' + relative(ROOT, f).split(sep).join('/')).sort();
 const hash = createHash('sha256');
 for (const f of files.sort()) hash.update(readFileSync(f));
+hash.update('sw-template-rev-2'); // 下の Service Worker の中身を変えたら数字を上げる（版が変わり、端末のキャッシュが入れ替わる）
 const version = hash.digest('hex').slice(0, 10);
 
 const sw = `// オフライン用 Service Worker（tools/build-sw.mjs で自動生成。直接編集しない）
@@ -23,7 +24,8 @@ const CACHE = 'it-quest-${version}';
 const FILES = ${JSON.stringify(['./', ...list], null, 2)};
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
+  // cache: 'reload'：ブラウザのHTTPキャッシュ（GitHub Pages は最大10分）を通さず、必ず最新のファイルを取る
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES.map((u) => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {

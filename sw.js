@@ -1,6 +1,6 @@
 // オフライン用 Service Worker（tools/build-sw.mjs で自動生成。直接編集しない）
 // 学習データは IndexedDB にあり、ここで扱うキャッシュとは別。キャッシュを入れ替えても学習データは消えない。
-const CACHE = 'it-quest-bb5fd8c371';
+const CACHE = 'it-quest-8858037858';
 const FILES = [
   "./",
   "./icons/icon-192.png",
@@ -67,7 +67,8 @@ const FILES = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
+  // cache: 'reload'：ブラウザのHTTPキャッシュ（GitHub Pages は最大10分）を通さず、必ず最新のファイルを取る
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES.map((u) => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
