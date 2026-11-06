@@ -8,7 +8,9 @@ import { fileURLToPath } from 'node:url';
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const INCLUDE = ['index.html', 'manifest.webmanifest', 'icons', 'src'];
 const files = [];
-const walk = (p) => { if (statSync(p).isDirectory()) readdirSync(p).forEach((f) => walk(join(p, f))); else files.push(p); };
+// 照合担当の生の報告（src/data/verify/raw/）はアプリが読まないのでキャッシュしない（反映済みの all.js だけを使う）
+const SKIP = [join(ROOT, 'src', 'data', 'verify', 'raw')];
+const walk = (p) => { if (SKIP.includes(p)) return; if (statSync(p).isDirectory()) readdirSync(p).forEach((f) => walk(join(p, f))); else files.push(p); };
 INCLUDE.forEach((x) => walk(join(ROOT, x)));
 const list = files.map((f) => './' + relative(ROOT, f).split(sep).join('/')).sort();
 const hash = createHash('sha256');

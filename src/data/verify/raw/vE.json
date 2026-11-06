@@ -1,0 +1,2172 @@
+{
+  "range": "U44-U51",
+  "verifier": "照合担当E（作成とは別のAI）",
+  "checkedAt": "2026-11-06",
+  "sources": [
+    {
+      "key": "S1",
+      "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第2章 コミュニケーションと情報デザイン",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20200928-mxt_jogai01-100013300_001.pdf",
+      "where": "p.59（文字コード）、p.70（デザイン原則 近接・整列・反復・対比）、p.81（ピクトグラム・インフォグラフィックス）、p.82（シグニファイア・ユーザエクスペリエンス・情報の構造化・究極の5個の帽子掛け＝LATCH）、p.83（人間中心設計のプロセス JIS Z 8530）、p.89（構造化シナリオ法）、p.91（アーカイブ）",
+      "published": "記載なし（ファイル名は20200928）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S2",
+      "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第3章 コンピュータとプログラミング",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf",
+      "where": "学習11 p.98（入力装置・出力装置の例）、p.99（メモリ不足時にHDDとのやり取りで遅くなる、AND・OR・NOTとベン図）",
+      "published": "記載なし（ファイル名は20200722）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S3",
+      "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第4章 情報通信ネットワークとデータの活用",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_006.pdf",
+      "where": "p.186（表計算ソフトの関数 MAX・MIN・AVERAGE など）",
+      "published": "記載なし（ファイル名は20200722）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S4",
+      "name": "高等学校情報科「情報Ⅱ」教員研修用教材 第4章 情報システムとプログラミング",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/content/20200609-mxt_jogai01-000007843_005.pdf",
+      "where": "p.184（オンライン処理と応答時間）、p.185（サーバの種類と役割）、p.193-194（アクセス制御とアクセス権）、p.226（非機能テスト：操作してから結果が表示されるまでの処理時間）",
+      "published": "記載なし（教材は令和2年3月発行）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S5",
+      "name": "NIST/SEMATECH e-Handbook of Statistical Methods 8.1.8.2 Series model",
+      "publisher": "NIST",
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm",
+      "where": "8.1.8.2（直列系の信頼度は各信頼度の積）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S6",
+      "name": "NIST/SEMATECH e-Handbook of Statistical Methods 8.1.8.3 Parallel or redundant model",
+      "publisher": "NIST",
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr183.htm",
+      "where": "8.1.8.3（並列系は全部が故障したときだけ故障＝故障確率の積）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S7",
+      "name": "NIST/SEMATECH e-Handbook of Statistical Methods 8.1.7.1 Homogeneous Poisson Process",
+      "publisher": "NIST",
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr171.htm",
+      "where": "8.1.7.1（1/λ＝MTBF）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S8",
+      "name": "NIST/SEMATECH e-Handbook of Statistical Methods 8.4.5.1 Constant repair rate model",
+      "publisher": "NIST",
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section4/apr451.htm",
+      "where": "8.4.5.1（MTBFの推定値＝総動作時間÷故障数）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S9",
+      "name": "NASA-HDBK-8709.22 Safety and Mission Assurance Acronyms, Abbreviations, and Definitions",
+      "publisher": "NASA",
+      "url": "https://ntrs.nasa.gov/api/citations/20180004878/downloads/20180004878.pdf",
+      "where": "p.29（Availability：uptime/(uptime+downtime)、MTTRを含む固有アベイラビリティ）、p.59（Fail-Safe）、p.61（fault tolerance）、Redundancy の項",
+      "published": "2018-03-08",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S10",
+      "name": "リスクアセスメント導入のための資料集「7 リスク低減措置と災害防止対策」",
+      "publisher": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/bunya/roudoukijun/anzeneisei14/dl/100119-4g.pdf",
+      "where": "第4章 p.102（フールプルーフ・フェールセーフの定義、鉄道信号は故障時に赤）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S11",
+      "name": "組織における内部不正防止ガイドライン 第5版",
+      "publisher": "IPA",
+      "url": "https://www.ipa.go.jp/security/guide/hjuojm00000055l0-att/ps6vr7000000jvcb.pdf",
+      "where": "p.40（不要な利用者IDの削除）、p.42（特権は必要な操作以外で使わない）、p.44（共有IDを使わない）、p.62（管理者権限は必要最小限）、p.81（雇用終了時に利用者IDを速やかに削除）",
+      "published": "2022年4月",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S12",
+      "name": "CSRC Glossary: operating system",
+      "publisher": "NIST",
+      "url": "https://csrc.nist.gov/glossary/term/operating_system",
+      "where": "SP 800-152・SP 800-86・NISTIR 7695 の定義（ハードウェア資源を管理し共通サービスを提供、他のプログラムが動く基盤、利用者との仲介）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S13",
+      "name": "CSRC Glossary: least privilege",
+      "publisher": "NIST",
+      "url": "https://csrc.nist.gov/glossary/term/least_privilege",
+      "where": "最小権限の原則",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S14",
+      "name": "The Linux kernel documentation: Linux kernel release README（What is Linux?）",
+      "publisher": "kernel.org",
+      "url": "https://docs.kernel.org/admin-guide/README.html",
+      "where": "What is Linux?（Unixのクローン、マルチタスク・仮想記憶・メモリ管理、GPL v2）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S15",
+      "name": "ChromeOS 公式サイト",
+      "publisher": "Google",
+      "url": "https://chromeos.google/intl/ja_jp/",
+      "where": "トップ（Googleが開発したクラウドベースのOS）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S16",
+      "name": "macOS 公式ページ",
+      "publisher": "Apple",
+      "url": "https://www.apple.com/jp/macos/",
+      "where": "トップ（Mac用のOS）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S17",
+      "name": "iOS 公式ページ",
+      "publisher": "Apple",
+      "url": "https://www.apple.com/jp/ios/",
+      "where": "トップ（iPhone用のOS）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S18",
+      "name": "Android Developers: Platform architecture",
+      "publisher": "Google",
+      "url": "https://developer.android.com/guide/platform?hl=ja",
+      "where": "冒頭（オープンソースのLinuxベースのソフトウェアスタック）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S19",
+      "name": "NIST SP 800-34 Rev.1 Contingency Planning Guide for Federal Information Systems",
+      "publisher": "NIST",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-34r1.pdf",
+      "where": "3.4.2（バックアップとオフサイト保管、p.21 脚注25：定期的に試験して取り出せるか確かめる）、5.1.2（p.44-45：フル・増分・差分の定義と復元に必要な媒体、保管期間・ローテーション）",
+      "published": "2010年5月",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S20",
+      "name": "相対参照、絶対参照、複合参照を切り替える",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/dfec08cd-ae65-4f56-839e-5f0d8d0baca9",
+      "where": "本文と参照の種類の表",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S21",
+      "name": "演算子と Excel での優先順位",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/48be406d-4975-4d31-b2b8-7af9e0e2878a",
+      "where": "計算の優先順位",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S22",
+      "name": "IF 関数",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+      "where": "書式・入れ子",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S23",
+      "name": "ピボットテーブルを作成してワークシート データを分析する",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/a9a84538-bfe9-40a9-a8e9-f99134456576",
+      "where": "概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S24",
+      "name": "メール、手紙、ラベル、封筒を一括にして差し込み印刷を使用する",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/f488ed5b-b849-4c11-9cff-932c49474705",
+      "where": "概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S25",
+      "name": "PowerPointのスライド マスターとは",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/b9abb2a0-7aef-4257-a14e-4329c904da54",
+      "where": "概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S26",
+      "name": "シークレット モードでブラウジングする（Google Chrome ヘルプ）",
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/95464?hl=ja",
+      "where": "端末に残らない情報／ネットワーク管理者・サイトからは知られる可能性",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S27",
+      "name": "The Open Source Definition",
+      "publisher": "Open Source Initiative",
+      "url": "https://opensource.org/osd",
+      "where": "1 Free Redistribution、2 Source Code、3 Derived Works、5・6 差別の禁止",
+      "published": "Version 1.9（ページ最終更新 2024-02-16）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S28",
+      "name": "The MIT License",
+      "publisher": "Open Source Initiative",
+      "url": "https://opensource.org/license/mit",
+      "where": "許諾範囲・条件（著作権表示と許諾表示）・無保証",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S29",
+      "name": "コピーレフトって何?",
+      "publisher": "GNU Project（FSF）",
+      "url": "https://www.gnu.org/licenses/copyleft.ja.html",
+      "where": "本文",
+      "published": "2025/12/28 更新",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S30",
+      "name": "GNUライセンスに関してよく聞かれる質問（GPL FAQ）",
+      "publisher": "GNU Project（FSF）",
+      "url": "https://www.gnu.org/licenses/gpl-faq.ja.html",
+      "where": "改変版の公開義務、組織内のコピー、販売、バイナリ配布時のソース、追加制限の禁止",
+      "published": "2024-10-13 更新",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S31",
+      "name": "フリーソフトウェアとフリーでないソフトウェアの分類",
+      "publisher": "GNU Project（FSF）",
+      "url": "https://www.gnu.org/philosophy/categories.ja.html",
+      "where": "フリーウェア、商用とプロプライエタリ",
+      "published": "2025/06/05 更新",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S32",
+      "name": "The Apache HTTP Server Project",
+      "publisher": "Apache Software Foundation",
+      "url": "https://httpd.apache.org/",
+      "where": "トップ（open-source web server）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S33",
+      "name": "About PostgreSQL",
+      "publisher": "PostgreSQL Global Development Group",
+      "url": "https://www.postgresql.org/about/",
+      "where": "冒頭（open source object-relational database system）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S34",
+      "name": "MySQL 公式サイト",
+      "publisher": "Oracle（MySQL）",
+      "url": "https://www.mysql.com/",
+      "where": "トップ（open source database）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S35",
+      "name": "LibreOffice: Who are we?",
+      "publisher": "The Document Foundation",
+      "url": "https://www.libreoffice.org/about-us/who-are-we/",
+      "where": "本文（free and open source software）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S36",
+      "name": "Mozilla Licensing Policies",
+      "publisher": "Mozilla",
+      "url": "https://www.mozilla.org/en-US/foundation/licensing/",
+      "where": "本文（All Mozilla software is open source、FirefoxはMPL）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S37",
+      "name": "About GIMP",
+      "publisher": "GIMP",
+      "url": "https://www.gimp.org/about/",
+      "where": "本文（GNU GPLのフリーソフトウェア）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S38",
+      "name": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher": "W3C",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "where": "1.1.1、1.2.2、1.4.1、1.4.3、1.4.4、3.2.4、3.3.1、3.3.3",
+      "published": "2024-12-12 W3C勧告",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S39",
+      "name": "Introduction to Web Accessibility",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+      "where": "定義・障害のない人や高齢者にも役立つこと",
+      "published": "2026-02-03 更新",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S40",
+      "name": "Accessibility, Usability, and Inclusion",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/",
+      "where": "Usability（ISO 9241-11の定義：効果・効率・満足）",
+      "published": "2016-05-06 更新",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S41",
+      "name": "ユニバーサルデザインとは",
+      "publisher": "国土交通省 中国地方整備局",
+      "url": "https://www.cgr.mlit.go.jp/universal/pdf/01_01.pdf",
+      "where": "p.1（定義）、p.4（バリアフリーとの違い：はじめから全ての人が使いやすく）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S42",
+      "name": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+      "publisher": "W3C",
+      "url": "https://www.w3.org/TR/wai-aria-1.2/",
+      "where": "ロール定義 radio・radiogroup・checkbox・listbox・combobox・menu・menubar・tooltip",
+      "published": "2023-06-06 W3C勧告",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S43",
+      "name": "Android Developers: Detect common gestures",
+      "publisher": "Google",
+      "url": "https://developer.android.com/develop/ui/views/touch-and-input/gestures/detector",
+      "where": "タップ（single tap）・長押し（long press / touch & hold）・フリング・スクロール",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S44",
+      "name": "Android Developers: Drag and scale",
+      "publisher": "Google",
+      "url": "https://developer.android.com/develop/ui/views/touch-and-input/gestures/scale",
+      "where": "Use touch to perform scaling（複数の指による拡大縮小）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S45",
+      "name": "Cascading Style Sheets home page",
+      "publisher": "W3C",
+      "url": "https://www.w3.org/Style/CSS/",
+      "where": "冒頭（Web文書にスタイルを加える言語）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S46",
+      "name": "RFC 9110 HTTP Semantics",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "where": "15.4 Redirection 3xx、15.4.2 301 Moved Permanently",
+      "published": "2022年6月",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S47",
+      "name": "モバイルサイトとモバイル ファースト インデックスに関するおすすめの方法",
+      "publisher": "Google 検索セントラル",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing?hl=ja",
+      "where": "レスポンシブ ウェブデザインの説明",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S48",
+      "name": "Office で利用可能なグラフの種類",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/office/a6187218-807e-4103-9e0a-27cdb19afb90",
+      "where": "折れ線・円・散布図・レーダー",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S49",
+      "name": "クリップボードの使用",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/ja-jp/windows/c436501e-985d-1c8d-97ea-fe46ddf338c6",
+      "where": "概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S50",
+      "name": "Chrome でブックマークを作成、表示、編集する",
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/188842?hl=ja",
+      "where": "概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S51",
+      "name": "Chrome の閲覧データを削除する",
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/95582?hl=ja",
+      "where": "キャッシュ・Cookie の説明",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S52",
+      "name": "The Open Group Base Specifications Issue 8 (IEEE Std 1003.1-2024) Chapter 4 General Concepts",
+      "publisher": "The Open Group / IEEE",
+      "url": "https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap04.html",
+      "where": "4.16 Pathname Resolution（絶対パスはルート、相対パスはカレント、. と ..）",
+      "published": "2024",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S53",
+      "name": "RFC 4180 Common Format and MIME Type for CSV Files",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc4180",
+      "where": "2（形式）、3（MIME type text/csv、拡張子 CSV）",
+      "published": "2005年10月",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S54",
+      "name": "What is a mainframe?（IBM Think）",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/think/topics/mainframe",
+      "where": "冒頭（連続稼働・大量トランザクション処理の大型高性能コンピュータ）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S55",
+      "name": "Additive Manufacturing",
+      "publisher": "NIST",
+      "url": "https://www.nist.gov/additive-manufacturing",
+      "where": "トップ（薄い層を積み重ねて3次元形状を作る）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    }
+  ],
+  "items": {
+    "lesson:U44": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S9",
+        "S10",
+        "S5",
+        "S6"
+      ],
+      "note": "稼働率・直列並列・フェールセーフ・フールプルーフ・フォールトトレラントは確認済み。ベンチマーク、TCO、ホット／コールドスタンバイの記述を資料で確かめられなかった"
+    },
+    "U44-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9",
+        "S5",
+        "S6"
+      ],
+      "note": "node で 0.9×0.8＝0.72、(1−0.8)²＝0.04、1−0.04＝0.96 を再計算して一致"
+    },
+    "U44-f2": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "デュアル／デュプレックス／ホット・コールドスタンバイの定義を確かめられる公的機関・規格団体の資料を開けなかった（IPA高回復力システム基盤導入ガイドは語の使用のみで定義なし）"
+    },
+    "U44-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S9"
+      ],
+      "note": "レスポンスタイム＝操作してから結果が返るまでの時間（S4 p.226）。MTBF・MTTRはS9"
+    },
+    "U44-q02": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ベンチマークの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U44-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9"
+      ],
+      "note": "稼働率＝uptime/(uptime+downtime)（S9）。node で 480/500＝0.96"
+    },
+    "U44-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S5",
+        "S6",
+        "S9"
+      ],
+      "note": "node で (1−0.1²)×0.95＝0.9405"
+    },
+    "U44-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S5",
+        "S9"
+      ],
+      "note": "node で 0.9×0.8＝0.72"
+    },
+    "U44-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10",
+        "S9"
+      ],
+      "note": "フールプルーフ＝取扱いを誤っても災害につながらない機能（ロック機構等）S10 p.102"
+    },
+    "U44-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10"
+      ],
+      "note": "S10 p.102 に「鉄道信号では故障したときに常に赤になる」機能的フェールセーフの例がある"
+    },
+    "U44-q08": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TCO・初期コスト・運用コストの定義を確かめられる公的機関・規格団体の資料を開けなかった（計算自体は node で一致）"
+    },
+    "U44-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S8"
+      ],
+      "note": "MTBF＝総動作時間÷故障数（S8）。node で (1000−40)/4＝240"
+    },
+    "U44-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S6",
+        "S9"
+      ],
+      "note": "node で 1−0.2×0.2＝0.96"
+    },
+    "U44-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9"
+      ],
+      "note": "node で 490/0.98−490＝10、490/499.8≒0.9804。9.8時間でも0.98以上になり「何時間以下にすればよいか」では正解が1つに決まらないため、上限を問う文に修正",
+      "patch": {
+        "q": "ある装置の MTBF は490時間である。この装置の稼働率を0.98以上にするとき、許される MTTR の上限（最大値）は何時間か。",
+        "why": [
+          "50時間だと490÷540≒0.907で、0.98に届きません。",
+          "9.8時間は490×0.02の値で、式の立て方が違います。9.8時間でも稼働率は0.98以上になりますが、上限（最大値）は10時間です。",
+          "正しい。490÷0.98＝500、500−490＝10時間です。",
+          "20時間だと490÷510≒0.961で、0.98に届きません。"
+        ],
+        "explain": "490÷（490＋MTTR）＝0.98 を解くと、490＋MTTR＝500 なので MTTR＝10時間です。MTTR が10時間以下なら稼働率は0.98以上になるので、上限は10時間です。"
+      }
+    },
+    "U44-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S7"
+      ],
+      "note": "1/λ＝MTBF（S7）。node で 1/500＝0.002"
+    },
+    "U44-q13": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "デュアル／デュプレックス／ホット・コールドスタンバイの定義を確かめられる公的機関・規格団体の資料を開けなかった（IPA高回復力システム基盤導入ガイドは語の使用のみで定義なし）"
+    },
+    "U44-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "デュアル／デュプレックス／ホット・コールドスタンバイの定義を確かめられる公的機関・規格団体の資料を開けなかった（IPA高回復力システム基盤導入ガイドは語の使用のみで定義なし）"
+    },
+    "U44-q15": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "デュアル／デュプレックス／ホット・コールドスタンバイの定義を確かめられる公的機関・規格団体の資料を開けなかった（IPA高回復力システム基盤導入ガイドは語の使用のみで定義なし）"
+    },
+    "U44-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9",
+        "S10"
+      ],
+      "note": "fault tolerance＝指定数の故障があっても正しい動作を続ける能力（S9）"
+    },
+    "U44-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9",
+        "S5"
+      ],
+      "note": "稼働率はMTTR（修理時間）が短いほど上がる（S9のアベイラビリティの式）。直列は信頼度の積（S5）"
+    },
+    "U44-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S9"
+      ],
+      "note": "S4 p.226（操作してから結果が表示されるまでの処理時間）"
+    },
+    "U44-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4"
+      ],
+      "note": "node で 0.2＋0.6＋0.2＝1.0"
+    },
+    "U44-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TCO・初期コスト・運用コストの定義を確かめられる公的機関・規格団体の資料を開けなかった（計算自体は node で一致）"
+    },
+    "U44-q21": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TCO・初期コスト・運用コストの定義を確かめられる公的機関・規格団体の資料を開けなかった（計算自体は node で一致）"
+    },
+    "U44-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TCO・初期コスト・運用コストの定義を確かめられる公的機関・規格団体の資料を開けなかった（計算自体は node で一致）。node で 440・460・420"
+    },
+    "lesson:U45": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S14",
+        "S2",
+        "S4",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "note": "OSの役割（S12）、マルチタスク・仮想記憶（S14）、メモリ不足時の補助記憶とのやり取り（S2 p.99）、アクセス権（S4）、各OS（S15〜S18）"
+    },
+    "U45-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "U45-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S14",
+        "S4"
+      ]
+    },
+    "U45-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "U45-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S2"
+      ],
+      "note": "仮想記憶はOSの機能（S14）、主記憶があふれた分を補助記憶で扱う（S2 p.99）"
+    },
+    "U45-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S12"
+      ]
+    },
+    "U45-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S4"
+      ]
+    },
+    "U45-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S17",
+        "S18"
+      ]
+    },
+    "U45-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S27"
+      ],
+      "note": "LinuxはGPL v2（S14）、OSSはソースコード公開・改変可（S27）"
+    },
+    "U45-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "U45-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "U45-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "U45-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S11"
+      ],
+      "note": "S11 p.40・p.81：不要になった利用者IDは雇用終了直後に速やかに削除。共有IDの禁止 p.44"
+    },
+    "U45-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ],
+      "note": "「ユーザープロファイル」の定義を確かめられる公的機関・規格団体の資料を開けなかった（作成時に自信が低いとされた問題）"
+    },
+    "U45-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4"
+      ],
+      "note": "S4 p.193-194：フォルダやファイルにユーザー・グループごとに読み取り等の権限を設定"
+    },
+    "U45-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "U45-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S14"
+      ]
+    },
+    "U45-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S4"
+      ]
+    },
+    "U45-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S13",
+        "S11"
+      ],
+      "note": "最小権限（S13）、特権は必要な操作以外で使わない・管理者権限は最小限（S11 p.42・p.62）"
+    },
+    "U45-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "S2 p.99：メモリが少ないとあふれたデータをHDDとやり取りし実行速度が上がらない"
+    },
+    "U45-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S15"
+      ]
+    },
+    "U45-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S16"
+      ]
+    },
+    "U45-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14"
+      ]
+    },
+    "U45-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.59：文字に文字コードという番号を割り当てて扱う"
+    },
+    "U45-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12"
+      ]
+    },
+    "lesson:U46": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S52",
+        "S19",
+        "S53",
+        "S1"
+      ],
+      "note": "パス・バックアップの種類・アーカイブは確認済み。フラグメンテーション（断片化）とデフラグの記述を確かめられる資料を開けなかった"
+    },
+    "U46-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ],
+      "note": "node（path.posix.resolve）で /data/sales/2026 → ../../hr/list.txt ＝ /data/hr/list.txt"
+    },
+    "U46-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "S19 5.1.2：フルは全ファイル、増分は種類を問わず前回以降、差分は前回フル以降で日ごとに増える、差分の復元はフル＋最新の差分"
+    },
+    "U46-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ]
+    },
+    "U46-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ],
+      "note": "node で /home/sato + ../tanaka/memo.txt ＝ /home/tanaka/memo.txt"
+    },
+    "U46-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S53"
+      ]
+    },
+    "U46-q04": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "フラグメンテーションの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U46-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "S19 5.1.2：増分の復元にはフルと各日の増分が必要。日曜フル＋月火水の増分＝4"
+    },
+    "U46-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ]
+    },
+    "U46-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.91：作成したものはアーカイブとして保存し、必要な時に取り出せるようにする"
+    },
+    "U46-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ],
+      "note": "node で /data/hr/list.txt"
+    },
+    "U46-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ],
+      "note": "node で path.relative＝../keiri/2026.csv、../../keiri/2026.csv は /keiri/2026.csv"
+    },
+    "U46-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ]
+    },
+    "U46-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ]
+    },
+    "U46-q12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "拡張子を変えても中身の形式が変わらないことを確かめられる資料を開けなかった"
+    },
+    "U46-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4"
+      ],
+      "note": "S4 p.194：読み取り・修正などの権限をユーザーごとに設定"
+    },
+    "U46-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "デフラグの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U46-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ]
+    },
+    "U46-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "S19 5.1.2：差分の復元はフル＋最後の差分のみ"
+    },
+    "U46-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "S19 5.1.2：保管期間・媒体のローテーションを決める"
+    },
+    "U46-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "S19 3.4.2：バックアップはオフサイト（別の場所）に保管するのがよい"
+    },
+    "U46-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ]
+    },
+    "U46-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ]
+    },
+    "U46-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "差分は前回フル以降の変更を毎回含む（S19）。node で 5×3＝15"
+    },
+    "U46-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": "S19 p.21 脚注25：バックアップは定期的に試験し、誤りなく取り出せるか確かめる"
+    },
+    "lesson:U47": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S20",
+        "S22",
+        "S24",
+        "S25",
+        "S26",
+        "S50",
+        "S51"
+      ],
+      "note": "参照・関数・差し込み印刷・スライドマスター・ブラウザ機能は確認済み。ソフトウェアパッケージの特徴、文書作成ソフトのスタイル・変更履歴の記述を資料で確かめられなかった"
+    },
+    "U47-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20"
+      ]
+    },
+    "U47-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "AND・OR・NOT はベン図の積・和・否定（S2 p.99）。「結果の数」は語の含まれ方によって変わらないこともあるため「同じこともある」を補った",
+      "patch": {
+        "rows": [
+          [
+            "A AND B",
+            "A と B の両方を含む",
+            "A だけより少ない（同じこともある）"
+          ],
+          [
+            "A OR B",
+            "A と B のどちらかを含む",
+            "A だけより多い（同じこともある）"
+          ],
+          [
+            "A NOT B",
+            "A を含み、B を含まない",
+            "A だけより少ない（同じこともある）"
+          ]
+        ]
+      }
+    },
+    "U47-q01": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ソフトウェアパッケージ（既製品）の特徴を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U47-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S24",
+        "S25"
+      ]
+    },
+    "U47-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20"
+      ]
+    },
+    "U47-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20"
+      ],
+      "note": "S20 の表（$A1 は列固定、A$1 は行固定）。C3→D4 で $A4*C$1"
+    },
+    "U47-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S22"
+      ],
+      "note": "node で 60以上は 3件"
+    },
+    "U47-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20",
+        "S22",
+        "S3"
+      ],
+      "note": "node で平均110、○は120と140の2行。範囲の絶対参照（S20）"
+    },
+    "U47-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S25"
+      ]
+    },
+    "U47-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S26",
+        "S50",
+        "S51"
+      ],
+      "note": "シークレットモードでもネットワーク管理者やサイトには知られる可能性（S26）"
+    },
+    "U47-q09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "各ソフトウェアパッケージの用途の対応を確かめられる資料を開けなかった"
+    },
+    "U47-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S49"
+      ]
+    },
+    "U47-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "リンク貼り付け（元ファイルとの関連付け）の仕組みを確かめられる資料を開けなかった"
+    },
+    "U47-q12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S49"
+      ],
+      "note": "切り取りとコピーの違いを明示した資料を開けなかった（S49 はコピーとクリップボードのみ）"
+    },
+    "U47-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3"
+      ],
+      "note": "S3 p.186（MAX・MIN）。node で 90−38＝52"
+    },
+    "U47-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S21"
+      ],
+      "note": "乗除が加減より先（S21）。node で 10−4*2＝2"
+    },
+    "U47-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3"
+      ],
+      "note": "node で降順：江藤・井上・大野・青木・上田"
+    },
+    "U47-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S23"
+      ]
+    },
+    "U47-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S48"
+      ]
+    },
+    "U47-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S22"
+      ],
+      "note": "node で 65 → \"B\""
+    },
+    "U47-q19": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "スライドの文字の大きさ・書体についての指針を確かめられる資料を開けなかった"
+    },
+    "U47-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "図形のグループ化を確かめられる資料を開けなかった"
+    },
+    "U47-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "node で P2・P5 の2件、りんご OR みかん は4件"
+    },
+    "U47-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ]
+    },
+    "lesson:U48": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S14",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36"
+      ],
+      "note": "代表的なOSSのうち資料で確かめていない Nginx と Python を外し、MIT ライセンスの条件を「著作権表示と許諾表示」に正確化",
+      "patch": {
+        "pages": [
+          {
+            "title": "オープンソースソフトウェアとは",
+            "body": "オープンソースソフトウェア（OSS）は、ソースコード（プログラムの設計図）が公開され、誰でも利用・改変・再配布ができるソフトウェアです。多くの人が改良に参加できるのが強みです。ただし「無料で使える＝OSS」ではありません。また、多くは無保証なので、問題が起きたときは自分で調べるか、有償のサポートを契約して対応します。"
+          },
+          {
+            "title": "ライセンスとコピーレフト",
+            "body": "OSSは自由に使えますが、ライセンス（利用条件）は守る必要があります。代表的なGPLは「コピーレフト」の考え方を持ち、GPLのソフトを改変して配布するときは、その改変版も同じGPLで配布し、ソースコードを入手できるようにしなければなりません。一方、MITライセンスなどは条件がゆるく、著作権表示と許諾表示を残せば、改変版のソースコードを公開しなくてもよいとされます。"
+          },
+          {
+            "title": "代表的なOSS",
+            "body": "OSのLinux、WebサーバのApache HTTP Server、データベースのMySQLやPostgreSQL、WebブラウザのFirefox、オフィスソフトのLibreOfficeなどがあります。OSSを使って作った製品を販売することも、ライセンスの条件を守れば認められています。また、OSSは利用する人や分野を差別して制限してはいけないとされています。"
+          }
+        ]
+      }
+    },
+    "U48-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27",
+        "S31",
+        "S28"
+      ]
+    },
+    "U48-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S32",
+        "S35",
+        "S33",
+        "S34",
+        "S36",
+        "S37"
+      ]
+    },
+    "U48-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27",
+        "S31"
+      ]
+    },
+    "U48-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S29"
+      ]
+    },
+    "U48-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S32",
+        "S33"
+      ]
+    },
+    "U48-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S30",
+        "S27"
+      ],
+      "note": "販売可（S30）、人・分野の差別禁止（S27 5・6）"
+    },
+    "U48-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S30",
+        "S29"
+      ],
+      "note": "エ（元の作者の許可を個別に取れば…）は、すべての著作権者から別ライセンスを得る場合には正しいとも読めるため、明確に誤りの選択肢に差し替え",
+      "patch": {
+        "choices": [
+          "改変した部分は A 社の著作物なので、ソースコードを提供する必要はない",
+          "製品を受け取った顧客がソースコードを入手できるようにし、改変したものも GPL で配布する",
+          "販売するのであれば、GPL のソフトウェアは使えないので、すべて作り直す",
+          "改変した製品は A 社独自のライセンスで配布し、顧客による改変や再配布を禁止する"
+        ],
+        "why": [
+          "GPLのソフトを改変して配布する場合、改変部分を含めたソースコードを提供する必要があります。",
+          "正しい。配布先がソースコードを入手できるようにし、同じGPLで配布します。",
+          "GPLのソフトを使った製品も、条件を守れば販売できます。",
+          "GPLのソフトを改変して配布するときは改変物もGPLで配布する必要があり、受け取った人の改変や再配布の自由を制限することはできません。"
+        ]
+      }
+    },
+    "U48-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S30"
+      ],
+      "note": "S30：GPLは改変版のリリースを要求しない、組織内のコピーは配布に当たらない（作成時に自信が低いとされた問題）"
+    },
+    "U48-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S28",
+        "S30"
+      ],
+      "note": "MIT は AS IS・無保証・責任を負わない（S28）"
+    },
+    "U48-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S28"
+      ]
+    },
+    "U48-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27"
+      ]
+    },
+    "U48-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27",
+        "S31"
+      ]
+    },
+    "U48-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S33",
+        "S36"
+      ]
+    },
+    "U48-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S34",
+        "S35",
+        "S32",
+        "S36"
+      ]
+    },
+    "U48-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S33",
+        "S35",
+        "S36"
+      ]
+    },
+    "U48-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27",
+        "S28",
+        "S30"
+      ]
+    },
+    "U48-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S29"
+      ],
+      "note": "GNUはパブリックドメインにせず著作権を主張してコピーレフトを適用（S29）"
+    },
+    "U48-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S28"
+      ],
+      "note": "MITの条件は著作権表示と許諾表示のみで、ソースコードの提供は求めない（作成時に自信が低いとされた問題）"
+    },
+    "U48-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S30"
+      ],
+      "note": "バイナリを配布したら対応するソースコードも配布（S30）（作成時に自信が低いとされた問題）"
+    },
+    "U48-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27",
+        "S28"
+      ]
+    },
+    "U48-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S29",
+        "S30"
+      ],
+      "note": "改変・再配布可、追加制限の禁止（S30）（作成時に自信が低いとされた問題）"
+    },
+    "U48-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S14"
+      ],
+      "note": "Linuxのディストリビューションについて確かめられる資料を開けなかった"
+    },
+    "U48-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S32",
+        "S33",
+        "S35",
+        "S36"
+      ]
+    },
+    "U48-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S28"
+      ],
+      "note": "OSSの脆弱性対応（修正版の確認・適用）を確かめられる公的機関の資料を開けなかった"
+    },
+    "lesson:U49": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S2",
+        "S4",
+        "S54",
+        "S55"
+      ],
+      "note": "ウェアラブル端末・ポインティングデバイス・イメージスキャナー・バーコードリーダー・液晶と有機ELの違い（曲げられる点を含む）・ヘッドマウントディスプレイなどの記述を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-f1": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "イメージスキャナー・バーコードリーダー・Webカメラ・プロジェクター・3Dプリンターの分類を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-f2": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "液晶（バックライト）と有機EL（自発光・曲げられる）の違いを確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S54"
+      ]
+    },
+    "U49-q02": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ウェアラブル端末の定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4"
+      ],
+      "note": "S4 p.185：サーバはクライアントの要求に応じてファイル・Webなどのサービスを提供"
+    },
+    "U49-q04": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "ポインティングデバイスの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q05": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "有機ELの自発光・バックライト不要・曲げられる点を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S55"
+      ],
+      "note": "3Dプリンター（積層造形）は薄い層を積み重ねて立体を作る（S55）"
+    },
+    "U49-q07": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ヘッドマウントディスプレイの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q08": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "PCの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "タブレット端末の定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q10": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "スマートデバイスの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "タブレット端末の特徴を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "スマートフォンの特徴を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q13": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "イメージスキャナーの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "バーコードリーダーの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q15": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "タッチパネルの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q16": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ジョイスティックの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q17": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ペンタブレットの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q18": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "液晶ディスプレイの表示のしくみを確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q19": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "Webカメラの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "プロジェクターの定義を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q21": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "インクジェットプリンターの印刷方式を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U49-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "プロジェクター・ジョイスティック・ペンタブレット等の入出力の区分（S2 p.98 はキーボード・マウス・タブレット＝入力、ディスプレイ・プリンター＝出力のみ）を確かめられる公的機関・規格団体の資料を開けなかった。タッチパネルは表示も兼ねるため why[2] を修正",
+      "patch": {
+        "why": [
+          "3つとも入力装置です。",
+          "イメージスキャナーとバーコードリーダーは入力装置です。",
+          "ジョイスティックとペンタブレットは入力装置です。タッチパネルも、画面に触れて位置を入力するポインティングデバイスです。",
+          "正しい。3つとも出力装置です。"
+        ]
+      }
+    },
+    "lesson:U50": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S41",
+        "S39",
+        "S38"
+      ]
+    },
+    "U50-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82 究極の5個の帽子掛け（位置・アルファベット・時間・カテゴリ・連続量（Hierarchy））"
+    },
+    "U50-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.89：バリューシナリオ→アクティビティシナリオ→インタラクションシナリオ"
+    },
+    "U50-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.70 デザイン原則"
+    },
+    "U50-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.70 デザイン原則"
+    },
+    "U50-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.70 デザイン原則"
+    },
+    "U50-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.70：同じ要素の繰り返しで統一感、見出しやフォーマットを揃える（作成時に自信が低いとされた問題）"
+    },
+    "U50-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82 究極の5個の帽子掛け（LATCH）"
+    },
+    "U50-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82 究極の5個の帽子掛け（LATCH）"
+    },
+    "U50-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82 究極の5個の帽子掛け（LATCH）"
+    },
+    "U50-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82 究極の5個の帽子掛け（LATCH）"
+    },
+    "U50-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82 究極の5個の帽子掛け（LATCH）"
+    },
+    "U50-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82：利用者に適切な行動を誘導するデザイン＝シグニファイア"
+    },
+    "U50-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.89 構造化シナリオ法"
+    },
+    "U50-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.81 ピクトグラム・インフォグラフィックス"
+    },
+    "U50-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "WCAG 1.1.1・1.4.1・1.4.3・1.4.4・1.2.2"
+    },
+    "U50-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S41"
+      ]
+    },
+    "U50-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U50-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.82：「順序」は番号付きリスト、情報の構造化"
+    },
+    "U50-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U50-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S39"
+      ]
+    },
+    "U50-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S39",
+        "S9"
+      ],
+      "note": "アクセシビリティの定義（S39）、稼働率（S9）"
+    },
+    "U50-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S41"
+      ],
+      "note": "S41 p.4：はじめから全ての人が使いやすく（超低床ノンステップバスの例）"
+    },
+    "U50-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "WCAG 1.4.1：色だけで情報を伝えない"
+    },
+    "U50-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "WCAG 1.2.2：収録済み音声にキャプション"
+    },
+    "lesson:U51": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S42",
+        "S43",
+        "S44",
+        "S40",
+        "S1",
+        "S45",
+        "S46",
+        "S47"
+      ],
+      "note": "GUI部品・タッチ操作・ユーザビリティ・人間中心設計・CSS・レスポンシブ・リダイレクトは確認済み。フリック／スワイプの区別、VUI、ジェスチャーインタフェース、帳票設計（右そろえ等）、モバイルファーストの記述を資料で確かめられなかった"
+    },
+    "U51-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ]
+    },
+    "U51-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "S1 p.83 人間中心設計のプロセス（JIS Z 8530:2019）"
+    },
+    "U51-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S44",
+        "S43"
+      ]
+    },
+    "U51-q02": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "VUI（音声による操作）の定義を確かめられる資料を開けなかった"
+    },
+    "U51-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "radio：同じグループで一度に1つだけチェックできる"
+    },
+    "U51-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "tooltip：要素の説明を表示する文脈上のポップアップ"
+    },
+    "U51-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "WCAG 3.3.1 誤りの特定・3.3.3 修正の提案"
+    },
+    "U51-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S47",
+        "S45"
+      ]
+    },
+    "U51-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S46"
+      ]
+    },
+    "U51-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U51-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S43"
+      ]
+    },
+    "U51-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S43"
+      ]
+    },
+    "U51-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S40",
+        "S9"
+      ]
+    },
+    "U51-q12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ジェスチャーインタフェースの定義を確かめられる資料を開けなかった"
+    },
+    "U51-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ]
+    },
+    "U51-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "一覧がポップアップして1つを選ぶ部品（combobox・listbox）。選択肢の中で該当するのはプルダウンメニューだけ（作成時に自信が低いとされた問題）"
+    },
+    "U51-q15": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "サムネイルの定義を確かめられる資料を開けなかった"
+    },
+    "U51-q16": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "右クリックで出るポップアップメニューの定義を確かめられる資料を開けなかった（S42 は menu 一般のみ）"
+    },
+    "U51-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U51-q18": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "帳票設計の指針を確かめられる公的機関・規格団体の資料を開けなかった"
+    },
+    "U51-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "WCAG 3.2.4 一貫した識別、1.4.1"
+    },
+    "U51-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "入力画面の項目順の指針を確かめられる資料を開けなかった"
+    },
+    "U51-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45"
+      ]
+    },
+    "U51-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S47"
+      ],
+      "note": "モバイルファースト（設計の考え方）を確かめられる資料を開けなかった（S47 はGoogleのモバイルファーストインデックスで別の意味）"
+    }
+  }
+}

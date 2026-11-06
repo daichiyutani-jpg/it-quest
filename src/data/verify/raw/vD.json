@@ -1,0 +1,2738 @@
+{
+ "range": "U34-U43",
+ "verifier": "照合担当D（作成とは別のAI）",
+ "checkedAt": "2026-11-06",
+ "sources": [
+  {
+   "key": "S1",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第4章 情報通信ネットワークとデータの活用",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_006.pdf",
+   "where": "尺度水準・代表値・分散/標準偏差・偏差値・相関・回帰・仮説検定・推定(pp.183-186付近)、グラフ/有向グラフ(p.176-177付近)、フィールド/レコード(p.175付近)、単位あたりへの変換。目次ページ https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1416756.htm",
+   "published": "2020",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S2",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第3章 コンピュータとプログラミング",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf",
+   "where": "学習11 p.98(5大装置・CPU=制御+演算・主記憶・HDD/SSD)、学習12 p.104-106(各種センサ・アクチュエータ)、学習13-14(順次/分岐/反復・フローチャート・配列・関数・API/WebAPI・ライブラリ)、学習15(線形/2分探索・選択/クイックソート)、学習16(確率モデル：サイコロ、動的モデル：レジの待ち行列)",
+   "published": "2020",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S3",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第2章 コミュニケーションと情報デザイン",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200928-mxt_jogai01-100013300_001.pdf",
+   "where": "p.57-58 標本化・量子化・符号化、デジタルは劣化しにくい、文字コード(7ビット・16ビット)",
+   "published": "2020",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S4",
+   "name": "高等学校情報科「情報Ⅱ」教員研修用教材 第3章 後半(学習15-18)",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200609-mxt_jogai01-000007843_007.pdf",
+   "where": "教師あり/なし学習、過学習、活性化関数、誤差逆伝播法(p.162-166付近)、ディープラーニング。目次ページ https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00742.html",
+   "published": "2020",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S5",
+   "name": "高等学校情報科「情報Ⅱ」教員研修用教材 第4章 情報システムとプログラミング",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200609-mxt_jogai01-000007843_005.pdf",
+   "where": "学習19 pp.182-186 処理形態(バッチ/オンライントランザクション/リアルタイム制御/対話型「人の判断を加えながら情報処理を進める形態」、例：預金システム、ATM等)、集中/分散処理、クライアントサーバ、P2P。p.218 帰納法(デバッグ手法)",
+   "published": "2020",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S6",
+   "name": "試験で使用する情報技術に関する用語・プログラム言語など Ver.5.1",
+   "publisher": "IPA",
+   "url": "https://www.ipa.go.jp/shiken/syllabus/doe3um0000002djj-att/shiken_yougo_ver5_1.pdf",
+   "where": "別紙1 pp.2-3 擬似言語の記述形式(型名: 変数名、←、if/elseif/else/endif、while、for、○手続名、mod、配列{}・要素番号1始まり・2次元配列 a[2, 5])。プログラム言語としてJavaとECMAScriptを別に記載",
+   "published": "2023-11-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S7",
+   "name": "RFC 8259 The JavaScript Object Notation (JSON) Data Interchange Format",
+   "publisher": "IETF",
+   "url": "https://www.rfc-editor.org/rfc/rfc8259",
+   "where": "Abstract(lightweight)、§3 値(true/false/null)、§4 オブジェクト、§5 配列、§7 文字列は二重引用符、§8.1 UTF-8",
+   "published": "2017-12",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8",
+   "name": "HTML Living Standard §4.5 Text-level semantics",
+   "publisher": "WHATWG",
+   "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html",
+   "where": "a要素・href属性",
+   "published": "2026-11-05更新",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8b",
+   "name": "HTML Living Standard §4.3 Sections",
+   "publisher": "WHATWG",
+   "url": "https://html.spec.whatwg.org/multipage/sections.html",
+   "where": "§4.3.6 h1〜h6(h1が最上位)",
+   "published": "2026-11-05更新",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8c",
+   "name": "HTML Living Standard §4.4 Grouping content",
+   "publisher": "WHATWG",
+   "url": "https://html.spec.whatwg.org/multipage/grouping-content.html",
+   "where": "§4.4.1 p、§4.4.6 ul、§4.4.8 li",
+   "published": "2026-11-05更新",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8d",
+   "name": "HTML Living Standard §13.1 Writing HTML documents",
+   "publisher": "WHATWG",
+   "url": "https://html.spec.whatwg.org/multipage/syntax.html",
+   "where": "§13.1.2.2 終了タグ、§13.1.2.3 属性、§13.1.6 コメント",
+   "published": "2026-11-05更新",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8e",
+   "name": "HTML Living Standard §4.8 Embedded content",
+   "publisher": "WHATWG",
+   "url": "https://html.spec.whatwg.org/multipage/embedded-content.html",
+   "where": "§4.8.3 img要素",
+   "published": "2026-11-05更新",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S9",
+   "name": "Extensible Markup Language (XML) 1.0 (Fifth Edition)",
+   "publisher": "W3C",
+   "url": "https://www.w3.org/TR/xml/",
+   "where": "Abstract(SGMLのサブセット)、§2.1 正しい入れ子、§3.1 Element Type Match、要素名は利用者が定める",
+   "published": "2008-11-26",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S10",
+   "name": "SI prefixes",
+   "publisher": "BIPM",
+   "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "where": "k〜P、m〜pの接頭語と倍率",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S10b",
+   "name": "SI base unit: second",
+   "publisher": "BIPM",
+   "url": "https://www.bipm.org/en/si-base-units/second",
+   "where": "Hz＝s⁻¹",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S11",
+   "name": "RFC 1468 Japanese Character Encoding for Internet Messages",
+   "publisher": "IETF",
+   "url": "https://www.rfc-editor.org/rfc/rfc1468",
+   "where": "ISO-2022-JP：エスケープシーケンスで文字集合を切替え、電子メールで使用",
+   "published": "1993-06",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S12",
+   "name": "What is Unicode?",
+   "publisher": "Unicode Consortium",
+   "url": "https://www.unicode.org/standard/WhatIsUnicode.html",
+   "where": "世界の文字を一つの体系で符号化",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13",
+   "name": "NIST Dictionary of Algorithms and Data Structures: stack",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/stack.html",
+   "where": "LIFO",
+   "published": "2019-10-01",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13b",
+   "name": "NIST DADS: queue",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/queue.html",
+   "where": "FIFO",
+   "published": "2020-12-14",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13c",
+   "name": "NIST DADS: binary search tree",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/binarySearchTree.html",
+   "where": "左の部分木<節点<右の部分木",
+   "published": "2021-08-30",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13d",
+   "name": "NIST DADS: bubble sort",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/bubblesort.html",
+   "where": "隣接要素の比較・交換",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13e",
+   "name": "NIST DADS: quicksort",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/quicksort.html",
+   "where": "ピボットで分割",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13f",
+   "name": "NIST DADS: linked list",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/linkedList.html",
+   "where": "ポインタでつなぐリスト",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13g",
+   "name": "NIST DADS: binary tree",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/binarytree.html",
+   "where": "子は最大2つ",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13h",
+   "name": "NIST DADS: leaf",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/leaf.html",
+   "where": "子を持たない節点",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13i",
+   "name": "NIST DADS: array",
+   "publisher": "NIST (Paul E. Black)",
+   "url": "https://xlinux.nist.gov/dads/HTML/array.html",
+   "where": "添字で要素を指定",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S14",
+   "name": "令和元年版 情報通信白書 AIの機能・機械学習",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r01/html/nd113210.html",
+   "where": "教師あり/なし/強化学習(報酬)、アノテーション、ディープラーニング",
+   "published": "2019",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S14b",
+   "name": "令和6年版 情報通信白書 生成AI・基盤モデル",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd131210.html",
+   "where": "生成AI、基盤モデル/LLM",
+   "published": "2024",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S15",
+   "name": "情報通信白書 for Kids 用語集(た行)",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/hakusho-kids/word/line_04_ta.html",
+   "where": "電子タグ(ICチップとアンテナ、電波で読み取り)",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S15b",
+   "name": "情報通信白書 for Kids 用語集(英数字)",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/hakusho-kids/word/line_11_abc.html",
+   "where": "NFC、Bluetooth",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S16",
+   "name": "生成AIの入門的な使い方と注意点 ver1.0",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/use_the_internet_wisely/special/generativeai/data/file01.pdf",
+   "where": "p.22 プロンプトの工夫(役割・出力形式の指定)",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S17",
+   "name": "AI事業者ガイドライン 第1.2版",
+   "publisher": "総務省・経済産業省",
+   "url": "https://www.soumu.go.jp/main_content/001064279.pdf",
+   "where": "事前学習・事後学習(ファインチューニング)、ハルシネーション、推論の定義",
+   "published": "令和8年3月31日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S18",
+   "name": "組込みソフトウェア開発向けコーディング作法ガイド ESCR Ver.3.0",
+   "publisher": "IPA",
+   "url": "https://www.ipa.go.jp/archive/publish/qv6pgp00000011mh-att/000064005.pdf",
+   "where": "字下げ・命名・保守性/読みやすさのための作法。案内ページ https://www.ipa.go.jp/archive/publish/secbooks20180629.html",
+   "published": "2018-06-29",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S19",
+   "name": "DX関連用語集",
+   "publisher": "IPA DX SQUARE",
+   "url": "https://dx.ipa.go.jp/dx-glossary-all",
+   "where": "ローコード、ノーコード、コンテナ(必要な資源が少ない)",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S20",
+   "name": "API標準設計ガイド・基礎編",
+   "publisher": "IPA",
+   "url": "https://www.ipa.go.jp/digital/data/jod03a000000a82y-att/api_standard_design_guide.pdf",
+   "where": "API/WebAPIの定義、JSONはJavaScriptのオブジェクト表記に基づく",
+   "published": "2025-03-26",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S21",
+   "name": "What is Python? Executive Summary",
+   "publisher": "Python Software Foundation",
+   "url": "https://www.python.org/doc/essays/blurb/",
+   "where": "読みやすい簡潔な文法、豊富なライブラリ",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S36",
+   "name": "What is R?",
+   "publisher": "The R Foundation",
+   "url": "https://www.r-project.org/about.html",
+   "where": "統計計算とグラフィックスのための言語・環境",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S37",
+   "name": "Fortran",
+   "publisher": "Fortran-lang",
+   "url": "https://fortran-lang.org/",
+   "where": "科学技術計算・数値計算向けの言語",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S38",
+   "name": "The Java Virtual Machine Specification, Java SE 21 Edition, Chapter 1",
+   "publisher": "Oracle",
+   "url": "https://docs.oracle.com/javase/specs/jvms/se21/html/jvms-1.html",
+   "where": "ハードウェア・OSに依存しない、オブジェクト指向",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S39",
+   "name": "Bjarne Stroustrup's FAQ",
+   "publisher": "Bjarne Stroustrup",
+   "url": "https://www.stroustrup.com/bs_faq.html",
+   "where": "C++はCの後継でオブジェクト指向を支援",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S40",
+   "name": "Memorial Tributes: Volume 20 — Dennis M. Ritchie",
+   "publisher": "National Academy of Engineering",
+   "url": "https://www.nationalacademies.org/read/23394/chapter/40",
+   "where": "p.246-249 C言語の開発、1973年までにUNIXをCで書き直し",
+   "published": "2016",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S41",
+   "name": "ECMA-262 ECMAScript Language Specification",
+   "publisher": "Ecma International",
+   "url": "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+   "where": "汎用プログラミング言語ECMAScript",
+   "published": "2026",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S22",
+   "name": "計算機科学基礎 講義テキスト 第3章 コンピュータ(前半)",
+   "publisher": "名古屋大学 情報基盤センター(島田)",
+   "url": "https://www.net.itc.nagoya-u.ac.jp/~shimada/old_lecture/CSC/text/chap03text1.pdf",
+   "where": "5大装置、主記憶は揮発性・DDR SDRAM、ROM/RAM/フラッシュメモリ(SDカード等)/DRAM/SRAM、クロック周波数(1GHz=10億回)・CPI、マルチコア",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S23",
+   "name": "計算機科学基礎 講義テキスト 第3章 コンピュータ(後半)",
+   "publisher": "名古屋大学 情報基盤センター(島田)",
+   "url": "https://www.net.itc.nagoya-u.ac.jp/~shimada/old_lecture/CSC/text/chap03text2.pdf",
+   "where": "記憶階層・キャッシュ・平均アクセス時間の式、RAID0/1/5、HDD、CD 700MB/DVD 4.7・8.5GB/BD 25GB、-ROM/-R/-RW/-RAM、シリアル/パラレル、USB(ホットプラグ・ハブ)、IrDA(向かい合わせ)、Bluetooth(約10m)、入力装置(タッチパネル・バーコードリーダ)",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S43",
+   "name": "計算機科学基礎 講義テキスト 第5章 データ構造",
+   "publisher": "名古屋大学 情報基盤センター(島田)",
+   "url": "https://www.net.itc.nagoya-u.ac.jp/~shimada/old_lecture/CSC/text/chap05text.pdf",
+   "where": "配列、リスト、スタック、キュー(待ち行列、ATMの行列の例)、木、葉、探索木",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S44",
+   "name": "計算機科学基礎 講義テキスト 第1章 情報の表現",
+   "publisher": "名古屋大学 情報基盤センター(島田)",
+   "url": "https://www.net.itc.nagoya-u.ac.jp/~shimada/old_lecture/CSC/text/chap01text.pdf",
+   "where": "ビット・数値の表現、JIS/Unicode等の文字コード",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S45",
+   "name": "計算機科学基礎 講義テキスト 第6章 アルゴリズム",
+   "publisher": "名古屋大学 情報基盤センター(島田)",
+   "url": "https://www.net.itc.nagoya-u.ac.jp/~shimada/old_lecture/CSC/text/chap06text.pdf",
+   "where": "フローチャート(JIS X0121に言及、記号表は図のため文字で確認できず)、線形/2分探索、バブル/選択/クイック/マージソート",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S24",
+   "name": "CUDA C++ Programming Guide v12.4 §1.1-1.2",
+   "publisher": "NVIDIA",
+   "url": "https://docs.nvidia.com/cuda/archive/12.4.0/cuda-c-programming-guide/index.html",
+   "where": "GPUは多数の処理を並列に行い高スループット、汎用並列計算プラットフォーム",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S25",
+   "name": "DDR5 SDRAM",
+   "publisher": "Micron",
+   "url": "https://www.micron.com/products/memory/dram-components/ddr5-sdram",
+   "where": "DDR5 4800-8800 MT/s、DDR4 600-3200 MT/s、DDR5とDDR4は物理的・電気的に互換性なし",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S26",
+   "name": "USB Type-C Cable and Connector Specification",
+   "publisher": "USB-IF",
+   "url": "https://www.usb.org/usb-type-cr-cable-and-connector-specification",
+   "where": "reversible plug orientation(上下の向きなし)",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S27",
+   "name": "HDMI Specification",
+   "publisher": "HDMI Licensing Administrator",
+   "url": "https://www.hdmi.org/spec/index",
+   "where": "映像・音声・データのデジタルインタフェース",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S28",
+   "name": "About DisplayPort",
+   "publisher": "VESA",
+   "url": "https://www.vesa.org/about-displayport/",
+   "where": "デジタルの映像インタフェース",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S29",
+   "name": "NFC Technology",
+   "publisher": "NFC Forum",
+   "url": "https://nfc-forum.org/learn/nfc-technology/",
+   "where": "通常の通信距離は最大約2cm、決済・交通",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S30",
+   "name": "Understanding Bluetooth Range",
+   "publisher": "Bluetooth SIG",
+   "url": "https://www.bluetooth.com/learn-about-bluetooth/key-attributes/range/",
+   "where": "距離は条件により1m未満〜1km超と幅がある",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S31",
+   "name": "Sensors overview",
+   "publisher": "Android Developers (Google)",
+   "url": "https://developer.android.com/develop/sensors-and-location/sensors/sensors_overview",
+   "where": "加速度(傾き)、ジャイロ(回転の速さ)、磁界(コンパス)、照度(画面の明るさ)、気圧",
+   "published": "",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S32",
+   "name": "What is a driver?",
+   "publisher": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/what-is-a-driver-",
+   "where": "OSとデバイスの仲立ちをするソフトウェア",
+   "published": "2025-10-28",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S32b",
+   "name": "Introduction to Plug and Play",
+   "publisher": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-plug-and-play",
+   "where": "機器を接続すると自動で認識・構成",
+   "published": "2025-04-23",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S33",
+   "name": "NIST SP 800-125 Guide to Security for Full Virtualization Technologies",
+   "publisher": "NIST",
+   "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-125.pdf",
+   "where": "§2 bare metal(ハードウェア上で直接)とhosted(ホストOS上)、サーバ仮想化は通常bare metal、ライブマイグレーション",
+   "published": "2011-01",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S34",
+   "name": "NIST SP 800-190 Application Container Security Guide",
+   "publisher": "NIST",
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf",
+   "where": "コンテナはホストOSカーネルを共有、VMは完全なゲストOSを含む",
+   "published": "2017-09",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S35",
+   "name": "テレワークセキュリティガイドライン 第5版",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_content/000752925.pdf",
+   "where": "VDI方式：デスクトップ環境をVDI基盤上に置き、端末へのデータ保存を制限",
+   "published": "令和3年5月",
+   "checked": "2026-11-06"
+  }
+ ],
+ "items": {
+  "lesson:U34": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S2"
+   ],
+   "note": "代表値・分散・偏差値・相関・回帰・検定・尺度・グラフはS1で確認。「利用率が1に近づくと待ち時間が急増」と最適化問題の説明は公的資料で確認できず。"
+  },
+  "U34-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算し正解と一致。平均6・中央値5・最頻値5。"
+  },
+  "U34-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "相関係数−1〜1、負の相関。"
+  },
+  "U34-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "回帰分析・説明変数/目的変数。"
+  },
+  "U34-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": "node で再計算し正解と一致。36通りを全列挙し合計7は6通り＝1/6。S2学習16の確率モデル(サイコロ)。"
+  },
+  "U34-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "尺度水準：順位は順序尺度。"
+  },
+  "U34-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "有向グラフ(方向性のある関係)。"
+  },
+  "U34-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": "「利用率が1に近づくと待ち時間が急増」を確かめる公的資料を開けなかった(S2は待ち行列を動的モデルの例に挙げるのみ)。一般的な待ち行列理論と矛盾はしないが未照合。"
+  },
+  "U34-q08": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し正解と一致。制約2X+Y≦8、X+2Y≦7の整数解を全探索し(3,2)で13万円が最大、誤答肢も実行可能解で値が小さいことを確認。ただし最適化問題(線形計画)の考え方を確かめる公的資料を開けなかった。"
+  },
+  "lesson:U35": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S10",
+    "S12",
+    "S4",
+    "S14",
+    "S14b",
+    "S17"
+   ],
+   "note": "単位・A/D変換・文字コード・機械学習・生成AIはS3/S10/S12/S4/S14/S14b/S17で確認。演繹推論・帰納推論の説明を確かめる公的資料を開けなかった。"
+  },
+  "U35-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "node で再計算し正解と一致。10⁻⁶÷10⁻⁹＝1,000。"
+  },
+  "U35-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "node で再計算し正解と一致。128,000÷4＝32,000枚。"
+  },
+  "U35-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "標本化→量子化→符号化(S3 p.57)。"
+  },
+  "U35-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "node で再計算し正解と一致。8,000×8÷8×60＝480,000バイト＝480kバイト。誤答はそれぞれ別の誤った計算に対応(1秒分8、ビットのまま3,840など)。"
+  },
+  "U35-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S12"
+   ],
+   "note": ""
+  },
+  "U35-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "帰納推論の定義を確かめる公的資料を開けなかった(S5 p.218の「帰納法」はデバッグ手法としての記述)。シラバス用語例の範囲内。"
+  },
+  "U35-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S14"
+   ],
+   "note": "強化学習＝報酬。"
+  },
+  "U35-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4"
+   ],
+   "note": "過学習。"
+  },
+  "lesson:U36": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13",
+    "S13b",
+    "S13c",
+    "S13f",
+    "S43",
+    "S1"
+   ],
+   "note": ""
+  },
+  "U36-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13"
+   ],
+   "note": "node で再計算し正解と一致。取り出し順3,4,2。"
+  },
+  "U36-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13b",
+    "S43"
+   ],
+   "note": ""
+  },
+  "U36-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13b",
+    "S43"
+   ],
+   "note": "node で再計算し正解と一致。C。"
+  },
+  "U36-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13g"
+   ],
+   "note": ""
+  },
+  "U36-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13f",
+    "S43"
+   ],
+   "note": ""
+  },
+  "U36-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13",
+    "S43"
+   ],
+   "note": ""
+  },
+  "U36-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13i",
+    "S2"
+   ],
+   "note": ""
+  },
+  "lesson:U37": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S6",
+    "S45",
+    "S13d",
+    "S13e"
+   ],
+   "note": "流れ図は「記号と矢印で表した図」という一般的な説明のみで、個別記号の意味は書かれていない。"
+  },
+  "U37-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U37-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U37-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。x=6。擬似言語の書式はS6別紙1に適合。"
+  },
+  "U37-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。n=243でc=5。擬似言語の書式はS6別紙1に適合。"
+  },
+  "U37-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。⌈log2 1001⌉=10。"
+  },
+  "U37-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13d",
+    "S45"
+   ],
+   "note": ""
+  },
+  "U37-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。[1,3,8,5,4]。"
+  },
+  "U37-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "lesson:U38": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S21",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S40",
+    "S41",
+    "S18",
+    "S19",
+    "S20",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U38-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S21"
+   ],
+   "note": ""
+  },
+  "U38-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S41"
+   ],
+   "note": ""
+  },
+  "U38-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36"
+   ],
+   "note": ""
+  },
+  "U38-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S38"
+   ],
+   "note": ""
+  },
+  "U38-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S18"
+   ],
+   "note": ""
+  },
+  "U38-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U38-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19"
+   ],
+   "note": ""
+  },
+  "U38-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "lesson:U39": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8",
+    "S8b",
+    "S8c",
+    "S8d",
+    "S8e",
+    "S9",
+    "S7",
+    "S20"
+   ],
+   "note": ""
+  },
+  "U39-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8b",
+    "S8c"
+   ],
+   "note": ""
+  },
+  "U39-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U39-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U39-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U39-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S20"
+   ],
+   "note": ""
+  },
+  "U39-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8d"
+   ],
+   "note": ""
+  },
+  "lesson:U40": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22",
+    "S24",
+    "S10b"
+   ],
+   "note": "「GPUが不足する」は時期で変わる需給の話で出典で確かめられないため、「多く使われる」に修正(S24：GPUは並列計算で高スループット)。",
+   "patch": {
+    "pages": [
+     {
+      "title": "コンピュータの5大装置",
+      "body": "コンピュータは「入力・記憶・演算・制御・出力」の5つの働きでできています。キーボードやマウスが入力装置、画面やプリンターが出力装置、メモリやSSDが記憶装置です。計算をするのが演算装置、ほかの装置に「次はこれをして」と指示を出すのが制御装置です。料理に例えると、材料を受け取る（入力）、冷蔵庫にしまう（記憶）、調理する（演算）、段取りを決める（制御）、お皿に盛る（出力）です。"
+     },
+     {
+      "title": "CPUはコンピュータの頭脳",
+      "body": "CPU（中央処理装置）は、制御装置と演算装置をひとつにまとめた部品です。プログラムの命令を主記憶（メモリ）から1つずつ読み出し、意味を解読して実行する、という流れをくり返します。CPUが直接やり取りするのは主記憶で、SSDなどの補助記憶にあるデータは、いったん主記憶に読み込んでから使います。"
+     },
+     {
+      "title": "クロック周波数とマルチコア",
+      "body": "CPUは「クロック」という一定のリズムに合わせて動きます。1秒間のリズムの回数がクロック周波数で、3GHzなら1秒に30億回です。同じ設計なら周波数が高いほど速く動きます。マルチコアプロセッサは、1つのCPUの中に処理の中心（コア）を複数持ち、仕事を分担して同時に進められます。レジ係が1人から4人に増えるイメージです。"
+     },
+     {
+      "title": "GPUとGPGPU",
+      "body": "GPUは画像や映像を描くための専用プロセッサです。単純な計算を大量に同時に行うのが得意で、3Dゲームや動画編集で活躍します。この「大量の同時計算が得意」という性質を、画像以外の計算、たとえばAIの学習や科学計算に使うことをGPGPUといいます。生成AIの開発でGPUが多く使われるのはこのためです。"
+     }
+    ]
+   }
+  },
+  "U40-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S10b"
+   ],
+   "note": "node で再計算し正解と一致。20億÷4=5億命令。"
+  },
+  "U40-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24"
+   ],
+   "note": ""
+  },
+  "U40-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24"
+   ],
+   "note": ""
+  },
+  "lesson:U41": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S23",
+    "S25"
+   ],
+   "note": "RAM/ROM・DDR世代の非互換(S25)・記録媒体・記憶階層は確認。ノートPC用SO-DIMMの記述(本文・用語・ポイント)を確かめる資料を開けなかった。"
+  },
+  "U41-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U41-q02": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "SO-DIMM＝ノートPC向け小型メモリモジュールを確かめる資料を開けなかった(JEDEC・Kingston・Crucialは取得失敗)。"
+  },
+  "U41-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S25"
+   ],
+   "note": "S25でDDR5とDDR4は物理的・電気的に互換性なし。"
+  },
+  "U41-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "node で再計算し正解と一致。64,000÷8=8,000枚(誤答800・512も確認)。"
+  },
+  "U41-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "lesson:U42": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27",
+    "S28",
+    "S26",
+    "S29",
+    "S30",
+    "S23",
+    "S15",
+    "S31",
+    "S2",
+    "S32",
+    "S32b"
+   ],
+   "note": "Bluetoothの「数m〜数十m」は代表的な目安(S23は約10m、S30は条件により1m未満〜1km超)で許容。"
+  },
+  "U42-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27"
+   ],
+   "note": ""
+  },
+  "U42-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S15b"
+   ],
+   "note": ""
+  },
+  "U42-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S26"
+   ],
+   "note": ""
+  },
+  "U42-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S15"
+   ],
+   "note": "電子タグ(ICチップとアンテナ、電波で読み取る)はS15で確認。解説の「複数のタグをまとめて読めます」を確かめる資料がないため解説から外した(正解は一つに決まる)。",
+   "patch": {
+    "explain": "RFIDはICタグの情報を電波で非接触に読み取る技術です。"
+   }
+  },
+  "U42-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": ""
+  },
+  "lesson:U43": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S23",
+    "S33",
+    "S34",
+    "S35"
+   ],
+   "note": "集中/分散・処理形態・C/S・P2P(S5)、RAID(S23)、仮想化(S33/S34/S35)は確認。レプリケーション・シンクライアント・NAS・デュアル/デュプレックス・クラスタの説明を確かめる公的資料を開けなかった。"
+  },
+  "U43-q01": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "レプリケーションの定義を確かめる公的資料を開けなかった。"
+  },
+  "U43-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "集中処理。"
+  },
+  "U43-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "デュアルシステムの定義を確かめる公的資料を開けなかった。"
+  },
+  "U43-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "node で再計算し正解と一致。(4−1)×2=6TB。"
+  },
+  "U43-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33"
+   ],
+   "note": "S33でbare metal型はハードウェア上で直接動き、サーバでよく使われることを確認。「効率よく動かせます」は確かめられないため解説を修正し、誤答のwhyに「誤り。」を付けて書式をそろえた。",
+   "patch": {
+    "explain": "ハイパーバイザー型は、ハードウェアの上で直接ハイパーバイザー（仮想化ソフトウェア）が動く方式で、ホストOSを必要としません。サーバの仮想化でよく使われます。",
+    "why": [
+     "誤り。ホスト型は、ホストOSの上で仮想化ソフトを動かす方式です。",
+     "正しい。ハードウェア上で直接仮想化ソフトが動くのはハイパーバイザー型です。",
+     "誤り。コンテナ型はOSを共有し、アプリの実行環境だけを分ける方式で、ゲストOSを動かしません。",
+     "誤り。シンクライアントは端末の方式で、仮想化の方式名ではありません。"
+    ]
+   }
+  },
+  "U43-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35"
+   ],
+   "note": "VDI。"
+  },
+  "U43-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33"
+   ],
+   "note": "ライブマイグレーション。"
+  },
+  "U43-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "バッチ処理とリアルタイム処理(S5 p.184)。"
+  },
+  "U35-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S14"
+   ],
+   "note": "アノテーションはU02のシラバス用語、S14で教師あり学習との関係を確認。範囲内。"
+  },
+  "U35-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S4"
+   ],
+   "note": "node で再計算し正解と一致。再現率36/50＝72%、適合率90%、正解率91%で各誤答に対応し計算は正しい。ただし「再現率」はシラバスU35の用語例・説明に見当たらず、シラバスより深い内容のため出題保留を推奨。"
+  },
+  "U35-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4"
+   ],
+   "note": "誤差逆伝播法。"
+  },
+  "U35-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S16"
+   ],
+   "note": "役割を与えるプロンプトの工夫(p.22)。"
+  },
+  "U35-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4",
+    "S14"
+   ],
+   "note": "教師なし学習(似たもの同士のグループ分け)。"
+  },
+  "U35-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "演繹推論の定義を確かめる公的資料を開けなかった。シラバス用語例の範囲内。"
+  },
+  "U35-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "node で再計算し正解と一致。2×1,000×1,000＝2,000,000Mバイト。"
+  },
+  "U37-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。v=1→3→6→13。擬似言語の書式はS6別紙1に適合。"
+  },
+  "U37-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。C,B,A。擬似言語の書式はS6別紙1に適合。"
+  },
+  "U37-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。各選択肢で実行し、i mod 3=0のみ63(誤答は3・1・147)。擬似言語の書式はS6別紙1に適合。"
+  },
+  "U37-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13d",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。1巡で3回交換し[2,6,4,1,9]。"
+  },
+  "U37-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。7+…+1=28。"
+  },
+  "U37-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": "node で再計算し正解と一致。外角360÷8=45度、8回。"
+  },
+  "U37-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S45"
+   ],
+   "note": ""
+  },
+  "U34-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算し正解と一致。平均5、分散5、標準偏差√5≒2.24。"
+  },
+  "U34-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "4つの尺度と例。"
+  },
+  "U34-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し正解と一致。全列挙で20通り。順列の考え方を確かめる公的資料を開けなかった。"
+  },
+  "U34-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し正解と一致。全列挙で21通り。組合せの考え方を確かめる公的資料を開けなかった。"
+  },
+  "U34-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": "node で再計算し正解と一致。5個から2個の全10組を列挙し赤赤は3組＝3/10。同様に確からしい場合の確率(S2学習16)。"
+  },
+  "U34-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算し正解と一致。分散5(定義は問題文にも明示)。"
+  },
+  "U34-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算し正解と一致。偏差値60(式は問題文に明示、S1に偏差値・標準偏差の記述)。"
+  },
+  "U34-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "仮説検定。"
+  },
+  "U34-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "最適化問題の定義を確かめる公的資料を開けなかった。"
+  },
+  "U34-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "比例尺度(重さ)。"
+  },
+  "U34-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算し正解と一致。100万円対75万円。S1に単位あたりへ変換して比べる記述。"
+  },
+  "U34-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "速度グラフの面積＝距離(積分)を確かめる公的資料を開けなかった。シラバス用語例の範囲内(1変数関数の微分と積分)。"
+  },
+  "U34-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し正解と一致。(3×100＋4×50, 5×100＋2×50)＝(500, 600)。誤答(550,500)等も別の値。行列とベクトルの積の計算規則を確かめる公的資料を開けなかった。シラバス用語例(行列)の範囲内。"
+  },
+  "U34-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算し正解と一致。全経路を列挙(ABCD 6, ABD 9, ACD 7, ACBD 12)し最短6分。11分に当たる経路はなく誤答として成立。グラフ(頂点と辺)はS1。"
+  },
+  "U34-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "頂点と辺。"
+  },
+  "U34-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": "客の到着間隔と1人あたりの処理時間から待ち時間を見積もることを確かめる公的資料の記述を確認できなかった(S2は「レジの待ち行列」をモデル例に挙げるのみ)。"
+  },
+  "U35-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": ""
+  },
+  "U35-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "node で再計算し正解と一致。4秒。"
+  },
+  "U35-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11"
+   ],
+   "note": "ISO-2022-JP(JISコード)はエスケープシーケンスで切替え。"
+  },
+  "U35-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S44"
+   ],
+   "note": "node で再計算し正解と一致。2¹⁶＝65,536。"
+  },
+  "U35-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S12",
+    "S44"
+   ],
+   "note": "文字コードの不一致による文字化け。"
+  },
+  "U35-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "node で再計算し正解と一致。2³＝8段階。"
+  },
+  "U35-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "デジタルは劣化しにくい(S3 p.58)。"
+  },
+  "U35-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "node で再計算し正解と一致。500×8÷1,000＝4秒。誤答0.5・4,000・32も別の誤った計算に対応。"
+  },
+  "U35-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10"
+   ],
+   "note": "p＜n＜μ＜m の順。"
+  },
+  "U36-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13",
+    "S13b"
+   ],
+   "note": ""
+  },
+  "U36-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13c"
+   ],
+   "note": "node で再計算し正解と一致。挿入位置を確認。"
+  },
+  "U36-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S43"
+   ],
+   "note": ""
+  },
+  "U36-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": ""
+  },
+  "U36-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "郵便番号は計算に使わず先頭0を保つので文字列型。"
+  },
+  "U36-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。2行目・3列目は9、誤答1・2・0の位置説明も表と一致。IPA擬似言語の2次元配列表記(S6別紙1：a[2, 5])に合わせ、A[2][3]をA[2, 3]に修正。",
+   "patch": {
+    "q": "次の表は、3行4列の2次元配列 A の中身である。A[2, 3] を「2行目・3列目の要素」とするとき、A[2, 3] の値はどれか。\n　　　1列 2列 3列 4列\n1行　 3　 8　 1　 6\n2行　 5　 2　 9　 4\n3行　 7　 0　 2　 5",
+    "why": [
+     "誤り。1 は1行目・3列目の要素（A[1, 3]）です。",
+     "誤り。2 は2行目・2列目（A[2, 2]）または3行目・3列目（A[3, 3]）の要素です。",
+     "誤り。0 は3行目・2列目の要素で、行と列を逆に読んでいます。",
+     "正しい。2行目・3列目の要素は9です。"
+    ],
+    "explain": "2行目は「5、2、9、4」で、その3列目は9です。2次元配列は、行と列の2つの添字で要素を指定します。"
+   }
+  },
+  "U36-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13c"
+   ],
+   "note": "node で再計算し正解と一致。40は30の右の子。"
+  },
+  "U36-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13h",
+    "S43"
+   ],
+   "note": ""
+  },
+  "U36-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13g"
+   ],
+   "note": "node で再計算し正解と一致。1+2+4=7。"
+  },
+  "U36-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13",
+    "S13b"
+   ],
+   "note": "node で再計算し正解と一致。C,B,A。"
+  },
+  "U36-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13",
+    "S13b"
+   ],
+   "note": ""
+  },
+  "U36-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13f",
+    "S43"
+   ],
+   "note": "node で再計算し正解と一致。A→B→C→Dで3番目はC。"
+  },
+  "U36-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13f",
+    "S43"
+   ],
+   "note": "node で再計算し正解と一致。選択肢ごとにポインタを付け替えてたどり、正解のみA→B→E→C→D(誤答はABCED・AEBCD)。"
+  },
+  "U36-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S13i"
+   ],
+   "note": "node で再計算し正解と一致。a[3]=2、a[2]=8。"
+  },
+  "U36-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S13i"
+   ],
+   "note": ""
+  },
+  "U36-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S43"
+   ],
+   "note": ""
+  },
+  "U36-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13i"
+   ],
+   "note": "node で再計算し正解と一致。7と9の2つ。"
+  },
+  "U37-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。17→26の2回。"
+  },
+  "U37-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13d",
+    "S13e",
+    "S45"
+   ],
+   "note": ""
+  },
+  "U37-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U37-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U37-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "node で再計算し正解と一致。s=55のときi=10。擬似言語の書式はS6別紙1に適合。"
+  },
+  "U37-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13e",
+    "S45"
+   ],
+   "note": ""
+  },
+  "U37-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。取り出し順1,2,3,4,7,8。"
+  },
+  "U37-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S45"
+   ],
+   "note": "node で再計算し正解と一致。比較は17,26の2回。"
+  },
+  "U37-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S45"
+   ],
+   "note": "流れ図のひし形＝判断(分岐)はJIS X 0121の規定だが、JISCの規格本文を開けなかった。S45はJIS X0121に言及するが記号表が図で、文字では確認できなかった。"
+  },
+  "U38-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S21",
+    "S36",
+    "S37",
+    "S38",
+    "S40",
+    "S41"
+   ],
+   "note": ""
+  },
+  "U38-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S18"
+   ],
+   "note": ""
+  },
+  "U38-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S37"
+   ],
+   "note": ""
+  },
+  "U38-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S40"
+   ],
+   "note": ""
+  },
+  "U38-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S39"
+   ],
+   "note": ""
+  },
+  "U38-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S38",
+    "S41",
+    "S6"
+   ],
+   "note": "S6でJavaとECMAScriptが別の言語として記載。"
+  },
+  "U38-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S18"
+   ],
+   "note": ""
+  },
+  "U38-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S18"
+   ],
+   "note": ""
+  },
+  "U38-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S18"
+   ],
+   "note": ""
+  },
+  "U38-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S18"
+   ],
+   "note": ""
+  },
+  "U38-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U38-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U38-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U38-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19"
+   ],
+   "note": ""
+  },
+  "U38-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U38-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "for→if→forの3段で正解(3段)と一致。"
+  },
+  "U39-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8c",
+    "S9",
+    "S7"
+   ],
+   "note": "JSONの「軽い」はRFC 8259 Abstractの lightweight。"
+  },
+  "U39-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U39-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "タグの書き方を問うが、シラバス説明に「書き方を含む」とあり範囲内。"
+  },
+  "U39-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8e"
+   ],
+   "note": "タグの書き方を問うが、シラバス説明に「書き方を含む」とあり範囲内。"
+  },
+  "U39-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U39-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8d",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U39-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U39-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8c"
+   ],
+   "note": "タグの書き方を問うが、シラバス説明に「書き方を含む」とあり範囲内。"
+  },
+  "U39-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8d"
+   ],
+   "note": "タグの書き方を問うが、シラバス説明に「書き方を含む」とあり範囲内。"
+  },
+  "U39-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9",
+    "S8d"
+   ],
+   "note": ""
+  },
+  "U39-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U39-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": "node で再計算し正解と一致。JSON.parseで読み120+80=200。"
+  },
+  "U39-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": "RFC 8259 §7(文字列は二重引用符)。"
+  },
+  "U39-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U39-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": "true/false(RFC 8259 §3)。"
+  },
+  "U39-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": "JSON.parseで2番目の要素\"関東\"を確認。"
+  },
+  "U39-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8b"
+   ],
+   "note": "タグの書き方を問うが、シラバス説明に「書き方を含む」とあり範囲内。"
+  },
+  "U39-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S20"
+   ],
+   "note": ""
+  },
+  "U40-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "node で再計算し正解と一致。8秒。"
+  },
+  "U40-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U40-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U40-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S10b"
+   ],
+   "note": "node で再計算し正解と一致。1÷30億秒≒0.333ns。"
+  },
+  "U40-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "node で再計算し正解と一致。200億÷25億=8秒、誤答2・4・20も別計算。"
+  },
+  "U40-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S10b"
+   ],
+   "note": ""
+  },
+  "U40-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24"
+   ],
+   "note": ""
+  },
+  "U40-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U40-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "node で再計算し正解と一致。A 5億、B 6億。"
+  },
+  "U40-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "node で再計算し正解と一致。3秒。"
+  },
+  "U40-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "デュアルコア＝2つ。マルチコアの範囲内。"
+  },
+  "U40-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "node で再計算し正解と一致。コア数×周波数 6/8/20.8/3.6(前提は問題文に明示)。"
+  },
+  "U40-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "node で再計算し正解と一致。9+6=15ns。"
+  },
+  "U41-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U41-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U41-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S25"
+   ],
+   "note": "S25でDDR4 600-3200 MT/s、DDR5 4800-8800 MT/s。"
+  },
+  "U41-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U41-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "「青紫色のレーザー」を確かめる資料を開けなかったため問題文・解説から外し、確認できたBD 1層25GB(S23)で問う形に修正。",
+   "patch": {
+    "q": "DVD より多くのデータを1枚に記録できる光ディスクはどれか。",
+    "explain": "ブルーレイディスクは、DVD より大容量（1層で25Gバイト）のデータを記録できる光ディスクです。",
+    "why": [
+     "誤り。CD-R は DVD より容量が小さい光ディスクです。",
+     "正しい。DVD より大容量の光ディスクはブルーレイディスクです。",
+     "誤り。DVD-RAM は書き換えのできる DVD で、DVD より大容量ではありません。",
+     "誤り。SD カードはフラッシュメモリを使ったカード型の記録媒体で、光ディスクではありません。"
+    ]
+   }
+  },
+  "U41-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22"
+   ],
+   "note": "「切手ほどの大きさ」は寸法を確かめられず(microSD等で大きさも違う)、「小型の」に修正。SDカードがフラッシュメモリの記録メディアであることはS22。",
+   "patch": {
+    "q": "デジタルカメラやスマートフォンなどに差し込んで使う、小型のカード型の記録媒体で、フラッシュメモリを使っているものはどれか。"
+   }
+  },
+  "U41-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "node で再計算し正解と一致。150×120=18,000MB=18GB、BD-R 25GBのみ収まる。"
+  },
+  "U41-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "node で再計算し正解と一致。0.9×10+0.1×60=15ns。S23の平均アクセス時間の式と問題文の前提が一致。誤答35・9・55も別計算。"
+  },
+  "U41-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U41-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U42-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U42-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U42-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S30",
+    "S15b",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U42-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U42-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27",
+    "S28"
+   ],
+   "note": "HDMI(S27)・DisplayPort(S28)はデジタル。USB Type-Cはコネクタ規格で、消去法でもアナログRGBのみが該当。"
+  },
+  "U42-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U42-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "ジャイロ＝回転の速さ(S31)。"
+  },
+  "U42-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": ""
+  },
+  "U42-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "圧力センサーの説明を確かめる公的資料を開けなかった(S2のセンサー一覧に圧力を確認できず、S31の気圧センサーは別物)。"
+  },
+  "U42-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": ""
+  },
+  "U42-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ],
+   "note": ""
+  },
+  "U42-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32b"
+   ],
+   "note": ""
+  },
+  "U42-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U43-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33",
+    "S34",
+    "S19"
+   ],
+   "note": "方式の位置・ゲストOSの有無はS33/S34で確認。「ホスト型より軽い／最も軽い」の比較は資料で確かめられないため、S34(VMはゲストOSを含む)とS19(コンテナは資源が少ない)で言える行に変更。",
+   "patch": {
+    "rows": [
+     [
+      "仮想化ソフトの位置",
+      "ホストOSの上",
+      "ハードウェアの上",
+      "ホストOSの上"
+     ],
+     [
+      "ゲストOS",
+      "あり",
+      "あり",
+      "なし（OSを共有）"
+     ],
+     [
+      "必要な資源",
+      "ゲストOSの分だけ多い",
+      "ゲストOSの分だけ多い",
+      "少なくて済む"
+     ]
+    ]
+   }
+  },
+  "U43-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "node で再計算し正解と一致。8/4/6TB。"
+  },
+  "U43-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "分散処理。"
+  },
+  "U43-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24",
+    "S22"
+   ],
+   "note": "並列処理。"
+  },
+  "U43-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": ""
+  },
+  "U43-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "デュプレックスシステムの定義を確かめる公的資料を開けなかった。"
+  },
+  "U43-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": ""
+  },
+  "U43-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "P2P。"
+  },
+  "U43-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S35"
+   ],
+   "note": "シンクライアントの定義を確かめる資料を開けなかった(S35はVDI方式の説明のみ)。"
+  },
+  "U43-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "NASの定義を確かめる公的資料を開けなかった。"
+  },
+  "U43-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": "node で再計算し正解と一致。4TB。"
+  },
+  "U43-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23"
+   ],
+   "note": ""
+  },
+  "U43-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S34",
+    "S19"
+   ],
+   "note": "S34でホストOSカーネル共有、S19で必要な資源が少ないことを確認。「すばやく起動できます」は確かめられないため修正。",
+   "patch": {
+    "explain": "コンテナ型は、OS の中核部分を共有し、アプリケーションごとに独立した実行環境（コンテナ）を作る方式です。ゲスト OS を動かさないので、必要なコンピュータ資源が少なくて済みます。"
+   }
+  },
+  "U43-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33"
+   ],
+   "note": "ホスト型。"
+  },
+  "U43-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "クラスタの定義を確かめる公的資料を開けなかった。"
+  },
+  "U43-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "S5 p.184では預金システムはオンライントランザクション処理、ATMは別の処理形態の例に挙がり、ATMの場面では正解が揺れるため場面を変更。対話型処理の説明はS5の「人の判断を加えながら情報処理を進める形態」に合わせた。",
+   "patch": {
+    "q": "PC のソフトウェアで、利用者が画面の案内に従って項目を選んだり入力したりし、その都度コンピュータが応答を返しながら処理を進める。このような利用形態はどれか。",
+    "explain": "利用者とコンピュータが画面を通してやり取りし、人の判断を加えながら処理を進める利用形態を、対話型処理といいます。"
+   }
+  }
+ }
+}

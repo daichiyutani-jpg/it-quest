@@ -7,6 +7,8 @@ import { today, fmtDate, fmtMin, pct } from '../core/util.js';
 import { bar, esc, timeChips, bindChips } from './dom.js';
 import { pico } from './art.js';
 import { startBlock, BLOCK_ICON } from './actions.js';
+import { readiness } from '../core/readiness.js';
+import { PLAN30 } from '../core/planner.js';
 
 export function renderHome(view, app) {
   app.refresh();
@@ -26,7 +28,15 @@ export function renderHome(view, app) {
   const weakFields = FIELDS.filter((f) => A.fields[f.id].recentN >= 5 && A.fields[f.id].recentAcc < 0.65);
   const nextUnit = P.stuck[0] || P.inProgress[0] || P.nextNew[0];
 
+  const R = readiness(app.DB);
+  const nVer = Object.keys(app.DB.questions).length;
+  const readyBox = !R.ready
+    ? `<section class="card"><p class="warn small"><b>教材の準備中です。</b>照合済みの教材だけを表示しています（問題${nVer}問）。すべての照合と動作確認が終わるまで、30日間の学習計画は始められません。<a href="#/data">準備状況</a></p></section>`
+    : !P.planStart ? `<section class="card"><p class="small"><b>準備完了：</b>30日間の学習計画（1日${PLAN30.dailyMin}分）を始められます。<a href="#/settings">開始日を決める</a></p></section>`
+    : P.dayNo >= 1 && P.dayNo <= PLAN30.days ? `<section class="card"><p class="small">📅 30日計画 <b>${P.dayNo}日目</b>／${PLAN30.days}日（${fmtDate(P.planEnd)}まで）</p></section>`
+    : P.dayNo > PLAN30.days ? `<section class="card"><p class="small">📅 30日計画は終わりました（${P.dayNo}日目）。模擬試験と時間を空けた再テストで実力を確かめる期間です。</p></section>` : '';
   view.innerHTML = `
+  ${readyBox}
   <section class="hero card">
     <div class="hero-row">
       ${pico(rank.stage, A.weakUnits.length > 6 ? 'sad' : 'happy', 76)}

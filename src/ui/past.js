@@ -2,14 +2,13 @@
 // ・PDFは利用者がIPAのサイトから自分でダウンロードし、この端末の中だけで読み込む（どこにも送信しない）
 // ・問題は画像として切り出して、この端末（IndexedDB「it-quest-past」）にだけ保存する。アプリ本体・公開リポジトリには問題文を入れていない
 // ・正答はIPA公開の解答例、分類と解説は本アプリ独自（問題文の転載なし）
-// ・回答は単元の正答率にも反映する（学習記録の answers に mode:'past' で入る。問題の画像はバックアップに含めない）
+// ・回答は単元の正答率にも反映する（学習記録の answers に mode:'past' で入る。問題の画像は端末内の別のDBに置く）
 import { PAST_YEARS, PAST_INFO } from '../data/past.js';
 import { UNITS, FIELDS } from '../data/syllabus.js';
 import { EXAM } from '../data/calendar.js';
 import { layoutYear, inkLines, guessYear, scorePast, pastQid } from '../core/pastimport.js';
 import { recordAnswer, setWrongReason } from '../core/mastery.js';
 import { XP } from '../core/game.js';
-import * as audio from '../core/audio.js';
 import { fmtMin, pct } from '../core/util.js';
 import { esc, rich, bar, toast, confirmDialog } from './dom.js';
 
@@ -204,7 +203,7 @@ export function renderPast(view, app, r) {
 function termsBox() {
   return `<section class="card notice"><h3>利用条件と、このアプリでの扱い</h3>
     <p class="small">公開問題の著作権はIPA（独立行政法人情報処理推進機構）にあります。IPAのFAQでは、教育目的で問題集・テキストに使う場合は許諾不要で、出典の明記が必要とされています（${esc(PAST_INFO.faqChecked)}確認）。</p>
-    <p class="small">このアプリには問題文を入れていません。あなたがIPAのサイトからダウンロードしたPDFを、この端末の中だけで読み込みます。読み込んだ問題の画像はどこにも送信せず、バックアップ（書き出し）にも含めません。<b>取り込んだ画像をほかの人に渡したり公開したりしないでください。</b></p>
+    <p class="small">このアプリには問題文を入れていません。あなたがIPAのサイトからダウンロードしたPDFを、この端末の中だけで読み込みます。読み込んだ問題の画像はどこにも送信しません。<b>取り込んだ画像をほかの人に渡したり公開したりしないでください。</b></p>
     <p class="tiny muted">問題の画像は公開PDFのページを問題ごとに切り出したもの（内容の改変なし）。正答はIPA公開の解答例。単元の分類・解説・ポイントは本アプリ独自のもので、IPAの見解ではありません。</p>
     <p class="tiny"><a href="${esc(PAST_INFO.faqUrl)}" target="_blank" rel="noopener">IPA よくある質問（過去問題の利用について）</a></p>
   </section>`;
@@ -395,7 +394,7 @@ function runView(view, app, y) {
     const no = act.nos[cur]; const q = qOf(y, no);
     const ms = Date.now() - shownAt;
     if (!act.instant) {
-      act.answers[no] = k; audio.se('tap'); save();
+      act.answers[no] = k; save();
       if (cur < act.nos.length - 1) { cur++; save(); draw(); window.scrollTo(0, 0); } else draw();
       return;
     }
@@ -406,7 +405,6 @@ function runView(view, app, y) {
     act.results[no] = { correct, first };
     app.tracker.countAnswer(correct);
     app.store.touch('answers', 'qstate', 'units', 'days', 'past');
-    audio.se(correct ? 'correct' : 'wrong');
     app.reward(correct ? (first ? XP.firstCorrect : 3) : (first ? XP.firstWrong : XP.reviewWrong), correct ? '正解（過去問）' : '挑戦（過去問）');
     save(); draw();
   };

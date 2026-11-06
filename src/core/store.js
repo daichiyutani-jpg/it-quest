@@ -4,8 +4,12 @@
 import { now, today, uid } from './util.js';
 import { DEFAULT_SOFT_GOAL } from '../data/calendar.js';
 
-export const SCHEMA_VERSION = 1;
-export const SECTIONS = ['meta', 'settings', 'units', 'qstate', 'answers', 'days', 'sessions', 'mocks', 'planHistory', 'game', 'resume', 'past'];
+// 保存形式の版（共通ルール §7：版番号を持たせ、更新時に履歴を壊さず移行する）
+// v1：初版（2026-11-05）
+// v2：2026-11-06 小テストの記録 tests・30日計画の開始日 planStart を追加。音の設定を削除（音は使わない）。
+//     回答記録に choice（選んだ選択肢）・conf（自信）・after（直前に読んだ別形式の説明）が付く（v1 の記録は無いまま使える）
+export const SCHEMA_VERSION = 2;
+export const SECTIONS = ['meta', 'settings', 'units', 'qstate', 'answers', 'days', 'sessions', 'mocks', 'planHistory', 'game', 'resume', 'past', 'tests'];
 
 export function defaultState() {
   return {
@@ -14,15 +18,15 @@ export function defaultState() {
       setupDone: false,
       examDate: null, // 'YYYY-MM-DD' または null（未定）
       softGoalDate: DEFAULT_SOFT_GOAL, // 受験日未定のときの「一通り学習」の目安日
-      weekdayMin: 30,
-      weekendMin: 60,
+      weekdayMin: 120, // 共通ルール §12：1日120分が基本
+      weekendMin: 120,
+      planStart: null, // 30日計画の開始日（学習開始前の品質確認がすべて済むまで設定できない）
       todayMin: null, // { date, min } その日だけの学習可能時間
       selfLevel: 2, // 1=ほぼ初めて 2=少し分かる 3=仕事で使う 4=詳しい
       experience: 'none', // none / some / retake
-      sessionMin: 30,
+      sessionMin: 60,
       daysPerWeek: 5,
       finalDays: 7, // 直前対策を始める日数（目安）
-      sound: { se: true, bgm: false, volume: 0.6, muted: false },
       fontScale: 1,
     },
     units: {}, // unitId -> { pagesSeen, lessonDone, lessonReads, termsViews, firstAt, lastAt }
@@ -35,6 +39,7 @@ export function defaultState() {
     game: { xp: 0, titles: [], streak: 0, bestStreak: 0, lastStreakDate: null, log: [] },
     resume: null, // 中断した演習・学習の続き
     past: { sessions: [], active: null }, // 公式公開問題の結果（問題の画像は別のDB it-quest-past にあり、ここには入れない）
+    tests: {}, // unitId -> [{ at, d, qids, correct, total, passed }] 小テストの記録
   };
 }
 
@@ -116,7 +121,15 @@ export function migrate(raw) {
     else if (base[k] && typeof base[k] === 'object') s[k] = { ...base[k], ...v };
     else s[k] = v;
   }
-  s.settings.sound = { ...base.settings.sound, ...(raw?.settings?.sound || {}) };
+  const from = raw?.meta?.schema || (raw && Object.keys(raw).length ? 1 : SCHEMA_VERSION);
+  if (from < 2) {
+    // v1 → v2：学習可能時間など本人が選んだ設定はそのまま。音の設定だけ消す
+    delete s.settings.sound;
+    if (!s.tests || typeof s.tests !== 'object') s.tests = {};
+    s.meta.migratedFrom = from;
+    s.meta.migratedAt = now().toISOString();
+  }
+  delete s.settings.sound;
   s.meta.schema = SCHEMA_VERSION;
   return s;
 }
@@ -181,28 +194,7 @@ export class Store {
 
   onChange(f) { this.listeners.add(f); return () => this.listeners.delete(f); }
 
-  // ---------- バックアップ ----------
-  exportJSON() {
-    return JSON.stringify({ format: 'it-quest-backup', schema: SCHEMA_VERSION, exportedAt: now().toISOString(), data: this.state }, null, 0);
-  }
-
-  /** 中身を確かめてから読み込む。失敗したら今のデータは変えない */
-  static parseBackup(text) {
-    let obj;
-    try { obj = JSON.parse(text); } catch { throw new Error('JSONとして読めませんでした。'); }
-    if (!obj || obj.format !== 'it-quest-backup' || !obj.data) throw new Error('IT QUEST のバックアップファイルではありません。');
-    if (obj.schema > SCHEMA_VERSION) throw new Error('新しい版のアプリで作ったバックアップです。アプリを更新してから読み込んでください。');
-    const d = migrate(obj.data);
-    if (!Array.isArray(d.answers) || typeof d.units !== 'object') throw new Error('データの形が正しくありません。');
-    return { data: d, exportedAt: obj.exportedAt };
-  }
-
-  async replaceAll(data) {
-    this.state = migrate(data);
-    for (const k of SECTIONS) this.dirty.add(k);
-    await this.flush();
-    for (const f of this.listeners) f(SECTIONS);
-  }
+  // バックアップ（書き出し・読み込み）は設けない（共通ルール §4）。
 
   async resetAll() {
     await this.backend.clear();

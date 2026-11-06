@@ -1,0 +1,2175 @@
+{
+  "range": "U06-U12",
+  "verifier": "照合担当vA2（作成とは別のAI）",
+  "checkedAt": "2026-11-06",
+  "sources": [
+    {
+      "key": "S1",
+      "name": "労働基準法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/322AC0000000049",
+      "where": "第28条・第32条・第32条の3・第36条・第38条の3",
+      "published": "昭和22年法律第49号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S2",
+      "name": "最低賃金法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/334AC0000000137",
+      "where": "第4条",
+      "published": "昭和34年法律第137号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S3",
+      "name": "労働者派遣事業の適正な運営の確保及び派遣労働者の保護等に関する法律（労働者派遣法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/360AC0000000088",
+      "where": "第5条（許可）",
+      "published": "昭和60年法律第88号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S4",
+      "name": "民法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/129AC0000000089",
+      "where": "第632条（請負）・第643条（委任）・第656条（準委任）",
+      "published": "明治29年法律第89号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S5",
+      "name": "「労働者派遣・請負を適正に行うためのガイド」について",
+      "publisher": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000077386_00020.html",
+      "where": "労働者派遣と請負の区分・偽装請負の説明",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S6",
+      "name": "労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律（労働施策総合推進法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/341AC0000000132",
+      "where": "第31条（職場における優越的な関係を背景とした言動に起因する問題に関する雇用管理上の措置等）",
+      "published": "昭和41年法律第132号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S7",
+      "name": "ビジネスQ&A「秘密保持契約というのはどういうものか教えてください。」",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/partnership/Q0392.html",
+      "where": "秘密保持契約の内容（第三者への開示・目的外使用の禁止）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S8",
+      "name": "知的財産の契約に関する基礎知識（契約の種類と定義）",
+      "publisher": "独立行政法人工業所有権情報・研修館（INPIT）",
+      "url": "https://www.inpit.go.jp/content/100874699.pdf",
+      "where": "知的財産に関する契約の種類「秘密保持契約」の定義",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S9",
+      "name": "製造委託等に係る中小受託事業者に対する代金の支払の遅延等の防止に関する法律（中小受託取引適正化法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/331AC0000000120",
+      "where": "第1条・第4条（明示）・第5条（遵守事項：減額・支払遅延・手形・返品・協議に応じない代金決定）",
+      "published": "昭和31年法律第120号（2026年1月施行の改正後の題名）（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S10",
+      "name": "不当景品類及び不当表示防止法（景品表示法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/337AC0000000134",
+      "where": "第5条（優良誤認・有利誤認・指定告示）",
+      "published": "昭和37年法律第134号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S11",
+      "name": "ステルスマーケティングに関する景品表示法の規制",
+      "publisher": "消費者庁",
+      "url": "https://www.caa.go.jp/policies/policy/representation/fair_labeling/stealth_marketing/",
+      "where": "令和5年10月1日から規制・事業者が第三者に依頼した投稿も広告",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S12",
+      "name": "特定商取引に関する法律（特定商取引法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/351AC0000000057",
+      "where": "第1条・第9条・第11条・第12条の6・第15条の3・第24条",
+      "published": "昭和51年法律第57号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S13",
+      "name": "特定商取引法ガイド「通信販売」",
+      "publisher": "消費者庁",
+      "url": "https://www.no-trouble.caa.go.jp/what/mailorder/",
+      "where": "広告の表示事項・最終確認画面の表示事項・契約の申込みの撤回又は解除（返品特約）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S14",
+      "name": "私的独占の禁止及び公正取引の確保に関する法律（独占禁止法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/322AC0000000054",
+      "where": "第2条第6項（不当な取引制限）",
+      "published": "昭和22年法律第54号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S15",
+      "name": "製造物責任法（PL法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/406AC0000000085",
+      "where": "第1条・第3条",
+      "published": "平成6年法律第85号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S16",
+      "name": "資金決済に関する法律（資金決済法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/421AC0000000059",
+      "where": "第1条（前払式支払手段・為替取引・暗号資産の交換等）",
+      "published": "平成21年法律第59号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S17",
+      "name": "金融商品取引法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/323AC0000000025",
+      "where": "第1条・第24条の4の4（内部統制報告書）・第27条の2（公開買付け）・第166条・第193条の2",
+      "published": "昭和23年法律第25号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S18",
+      "name": "特定デジタルプラットフォームの透明性及び公正性の向上に関する法律（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/502AC0000000038",
+      "where": "第1条・第5条（提供条件等の開示）・第9条（報告書の提出）",
+      "published": "令和2年法律第38号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S19",
+      "name": "特定デジタルプラットフォームの透明性及び公正性の向上に関する法律第四条第一項の事業の区分及び規模を定める政令（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/503CO0000000017",
+      "where": "本則（オンラインモール等の事業の区分）",
+      "published": "令和3年政令第17号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S20",
+      "name": "情報流通プラットフォーム対処法（旧プロバイダ責任制限法）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/ihoyugai.html",
+      "where": "2025年4月1日施行の改正・改称、略称、発信者情報開示、大規模事業者の削除対応の迅速化・運用状況の公表",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S21",
+      "name": "特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/413AC0000000137",
+      "where": "第1条（趣旨）",
+      "published": "平成13年法律第137号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S22",
+      "name": "公益通報者保護法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/416AC0000000122",
+      "where": "第1条・第3条",
+      "published": "平成16年法律第122号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S23",
+      "name": "行政機関の保有する情報の公開に関する法律（情報公開法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/411AC0000000042",
+      "where": "第3条（何人も）・第4条（開示請求書の記載事項）・第5条（不開示情報）・第25条（地方公共団体の情報公開）",
+      "published": "平成11年法律第42号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S24",
+      "name": "情報公開制度｜情報公開法制の概要",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/gyoukan/kanri/jyohokokai/gaiyo.html",
+      "where": "開示請求権者（何人も）・不開示情報",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S25",
+      "name": "廃棄物の処理及び清掃に関する法律（廃棄物処理法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/345AC0000000137",
+      "where": "第1条・第3条（事業者の責務）",
+      "published": "昭和45年法律第137号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S26",
+      "name": "特定家庭用機器再商品化法（家電リサイクル法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/410AC0000000097",
+      "where": "第9条（小売業者の引取義務）・第17条・第18条（製造業者等の再商品化等実施義務）・第19条（料金の請求）",
+      "published": "平成10年法律第97号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S27",
+      "name": "特定家庭用機器再商品化法施行令（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/410CO0000000378",
+      "where": "第1条（対象4品目）",
+      "published": "平成10年政令第378号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S28",
+      "name": "脱炭素成長型経済構造への円滑な移行の推進に関する法律（GX推進法）（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/505AC0000000032",
+      "where": "第1条・第2条",
+      "published": "令和5年法律第32号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S29",
+      "name": "今企業に求められる「ビジネスと人権」への対応「ビジネスと人権に関する調査研究」報告書 概要版",
+      "publisher": "法務省人権擁護局・公益財団法人人権教育啓発推進センター",
+      "url": "https://www.moj.go.jp/content/001417138.pdf",
+      "where": "企業の人権尊重責任（サプライチェーン・人権デュー・ディリジェンス）、パワハラの三つの要件、セクハラの説明",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S30",
+      "name": "あかるい職場応援団「ハラスメントに関する法律とハラスメント防止のために講ずべき措置」",
+      "publisher": "厚生労働省",
+      "url": "https://www.no-harassment.mhlw.go.jp/foundation/law-measure/",
+      "where": "パワハラ（労働施策総合推進法）・セクハラ（男女雇用機会均等法）・妊娠出産等ハラスメントの措置義務",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S31",
+      "name": "令和元年版 情報通信白書「インターネット上での情報流通の特徴と言われているもの」",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r01/html/nd114210.html",
+      "where": "エコーチェンバー・フィルターバブル",
+      "published": "令和元年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S32",
+      "name": "一生消えないデジタルタトゥー（ネットトラブル啓発資料）",
+      "publisher": "埼玉県教育委員会",
+      "url": "https://www.pref.saitama.lg.jp/documents/44152/r6_nettrouble03.pdf",
+      "where": "デジタルタトゥーの説明",
+      "published": "記載なし（令和6年度の資料）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S33",
+      "name": "我が国における青少年のインターネット利用に係るペアレンタルコントロールに関する調査結果の公表",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban08_03000375.html",
+      "where": "ペアレンタルコントロールの定義",
+      "published": "令和4年5月10日",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S34",
+      "name": "ELSI/RRIの取組",
+      "publisher": "国立研究開発法人科学技術振興機構 社会技術研究開発センター（JST RISTEX）",
+      "url": "https://www.jst.go.jp/ristex/internal_research/elsi/",
+      "where": "倫理的・法制度的・社会的課題（ELSI）の説明",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S35",
+      "name": "生成AIサービスの利用に関する注意喚起等（別添1）",
+      "publisher": "個人情報保護委員会",
+      "url": "https://www.ppc.go.jp/files/pdf/230602_alert_generative_AI_service.pdf",
+      "where": "個人情報取扱事業者における注意点、一般の利用者における留意点（機械学習に利用されることがある）",
+      "published": "令和5年6月2日",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S36",
+      "name": "コーポレートガバナンス・コード（改訂案）有識者会議 資料3-1",
+      "publisher": "金融庁",
+      "url": "https://www.fsa.go.jp/singi/revision_corporategovernance/siryo/20260226/03-1.pdf",
+      "where": "「コーポレートガバナンス」の定義、行動準則（原則2-2）、内部通報（原則2-5）、独立社外取締役（原則4-8等）",
+      "published": "2026-02-26（会議資料。改訂案）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S37",
+      "name": "ビジネスQ&A「コンプライアンス違反」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/governance/Q1519.html",
+      "where": "コンプライアンスの意味（法令遵守にとどまらず社会のルールや倫理、社内ルールも含む）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S38",
+      "name": "NEDO標準化マネジメントガイドライン",
+      "publisher": "国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）",
+      "url": "https://www.nedo.go.jp/content/100890502.pdf",
+      "where": "デジュール標準・フォーラム標準（W3C等）・デファクト標準、ISO・IECの扱う分野、JISの一部は規制に引用、互換性",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S39",
+      "name": "ICT分野の標準化について",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000039671.pdf",
+      "where": "標準の意義、IEEE（電気・電子分野の標準、無線LAN）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S40",
+      "name": "IEEE 802.11 Wireless Local Area Networks Working Group",
+      "publisher": "IEEE 802 LAN/MAN Standards Committee",
+      "url": "https://www.ieee802.org/11/",
+      "where": "トップページ（無線LANの標準を定めるWG）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S41",
+      "name": "Standards（W3C）",
+      "publisher": "World Wide Web Consortium",
+      "url": "https://www.w3.org/standards/",
+      "where": "HTML・CSSなどのWeb技術の標準",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S42",
+      "name": "GS1事業者コード・GTIN（JANコード）とは",
+      "publisher": "一般財団法人流通システム開発センター（GS1 Japan）",
+      "url": "https://www.gs1jp.org/code/jan/about_jan.html",
+      "where": "構成（GS1事業者コード・商品アイテムコード・チェックデジット）、「どの事業者の、どの商品か」",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S43",
+      "name": "QRコードの規格化・標準化（QRコードの誤り訂正機能のページも参照）",
+      "publisher": "株式会社デンソーウェーブ",
+      "url": "https://www.qrcode.com/about/standards.html",
+      "where": "2次元コード、JIS X 0510・ISO/IEC 18004。誤り訂正は https://www.qrcode.com/about/error_correction.html",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S44",
+      "name": "What is Unicode?",
+      "publisher": "Unicode Consortium",
+      "url": "https://www.unicode.org/standard/WhatIsUnicode.html",
+      "where": "各文字に固有の番号を与える",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S45",
+      "name": "ISMS適合性評価制度の概要",
+      "publisher": "一般財団法人日本情報経済社会推進協会 情報マネジメントシステム認定センター（ISMS-AC）",
+      "url": "https://isms.jp/isms/about.html",
+      "where": "認証基準 JIS Q 27001（ISO/IEC 27001）・第三者による適合性評価",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S46",
+      "name": "環境情報ひろば「ISO14001」",
+      "publisher": "環境省",
+      "url": "https://www.env.go.jp/policy/j-hiroba/04-iso14001.html",
+      "where": "環境マネジメントシステムの国際規格・ISO14000ファミリー・認証",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S47",
+      "name": "ビジネスQ&A「ISO14001について教えてください。」",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/governance/Q0013.html",
+      "where": "ISO14001・ISO9001（品質マネジメントの規格）・第三者認証",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S48",
+      "name": "ビジネスQ&A「企業の社会的責任（CSR）について教えてください。」",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/governance/Q0851.html",
+      "where": "ISO26000：あらゆる組織が対象、ISO9000・14000シリーズと異なり第三者認証を目的としないガイダンス規格",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S49",
+      "name": "人的資本可視化指針",
+      "publisher": "内閣官房 非財務情報可視化研究会",
+      "url": "https://www.cas.go.jp/jp/houdou/pdf/20220830shiryou1.pdf",
+      "where": "ISO30414（人的資本に関する情報開示のガイドライン）の紹介",
+      "published": "2022年8月30日",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S50",
+      "name": "ビジネスQ&A「SWOT分析」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/vision/Q0952.html",
+      "where": "内部環境（強み・弱み）・外部環境（機会・脅威）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S51",
+      "name": "ビジネスQ&A「目標達成・課題解決ツールのビジネス活用」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/efficiency/Q1496.html",
+      "where": "3C分析（自社・競合・市場）・VRIO分析・PPM（市場成長率と相対的市場シェア）・4P・SWOT・アンゾフ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S52",
+      "name": "ビジネスQ&A「自社の市場に大企業が進出してきた場合の対抗策」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/vision/Q0322.html",
+      "where": "競争地位別の戦略（リーダーの同質化、ニッチャーの集中）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S53",
+      "name": "経営ハンドブック「アンゾフの成長マトリックス」",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/handbook/development/ansoff.html",
+      "where": "市場浸透・市場開発（既存製品×新市場）・製品開発・多角化",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S54",
+      "name": "売れる商品をつくるコツ 第6ステップ：価格を設定する",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/org/foods15/step6.html",
+      "where": "コストプラス・スキミングプライシング（上澄み吸収価格）・ペネトレーションプライシング（市場浸透価格）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S55",
+      "name": "ビジネスQ&A「インターネット広告を出す場合の注意点」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/marketing/Q0729.html",
+      "where": "検索連動型のテキスト広告（リスティング広告）・バナー広告・クリック課金",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S56",
+      "name": "ビジネスQ&A「市場の細分化は何のために行うのか」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/marketanalysis/Q0320.html",
+      "where": "細分化の切り口（地域・年齢・性別・ライフスタイル等）と標的市場の選定",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S57",
+      "name": "経営ハンドブック「目標の設定と達成のマネジメント」",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/handbook/productivity/goals.html",
+      "where": "SMARTの法則（Specific・Measurable・Achievable・Relevant・Time-bound）、数値化できる目標",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S58",
+      "name": "経営ハンドブック「経営計画の策定」",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/handbook/org/strategy.html",
+      "where": "目標を具体的にし、年・月・週・日の単位に分解して確認する",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S59",
+      "name": "ビジネスQ&A「サプライチェーン・マネジメントの導入」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/systems/Q0705.html",
+      "where": "SCMの定義・企業間の情報共有・在庫削減・リードタイム短縮",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S60",
+      "name": "ビジネスQ&A「CRMの導入の進め方と注意点」について",
+      "publisher": "独立行政法人中小企業基盤整備機構（J-Net21）",
+      "url": "https://j-net21.smrj.go.jp/solution/qa/systems/Q1486.html",
+      "where": "CRM（顧客関係管理）の定義と目的",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S61",
+      "name": "特定電子メールの送信の適正化等に関する法律（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/414AC0100000026",
+      "where": "第1条",
+      "published": "平成14年法律第26号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S62",
+      "name": "労働契約法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/419AC0000000128",
+      "where": "第1条",
+      "published": "平成19年法律第128号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S63",
+      "name": "不正アクセス行為の禁止等に関する法律（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/411AC0000000128",
+      "where": "第1条",
+      "published": "平成11年法律第128号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S64",
+      "name": "不正競争防止法（e-Gov法令検索 法令データ）",
+      "publisher": "デジタル庁 e-Gov法令検索",
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/405AC0000000047",
+      "where": "第1条・第2条",
+      "published": "平成5年法律第47号（取得時点の現行条文）",
+      "checked": "2026-11-06"
+    }
+  ],
+  "items": {
+    "lesson:U06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S9",
+        "S10",
+        "S12",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ]
+    },
+    "U06-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S5"
+      ],
+      "note": "作成時に自信が低いとされた図。"
+    },
+    "U06-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9",
+        "S10",
+        "S12",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "note": "作成時に自信が低いとされた図。"
+    },
+    "U06-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U06-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U06-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S5",
+        "S4"
+      ]
+    },
+    "U06-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4"
+      ],
+      "note": "民法656条（準委任＝法律行為でない事務の委託）・632条（請負＝仕事の完成）で確認。作成時に自信が低いとされた問題。"
+    },
+    "U06-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9"
+      ],
+      "note": "法の題名は2026年1月施行の改正後の「中小受託取引適正化法」で確認。"
+    },
+    "U06-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10",
+        "S14",
+        "S12",
+        "S15"
+      ]
+    },
+    "U06-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S15",
+        "S12",
+        "S16",
+        "S17"
+      ]
+    },
+    "U06-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S16",
+        "S17",
+        "S14",
+        "S18"
+      ]
+    },
+    "U06-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ]
+    },
+    "U06-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2",
+        "S1"
+      ]
+    },
+    "U06-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S5"
+      ]
+    },
+    "U06-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3"
+      ],
+      "note": "法第5条は「許可」（シラバスの説明文は「認可」）。問題は条文どおり「許可」で正しい。"
+    },
+    "U06-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S7",
+        "S8"
+      ]
+    },
+    "U06-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S5"
+      ]
+    },
+    "U06-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S6",
+        "S30",
+        "S62",
+        "S3",
+        "S12"
+      ]
+    },
+    "U06-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S10",
+        "S14",
+        "S16"
+      ]
+    },
+    "U06-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S12",
+        "S13"
+      ],
+      "note": "作成時に自信が低いとされた問題。通信販売の広告の事業者名等は「請求により遅滞なく提供する旨の表示」で一部省略できる（法11条ただし書・消費者庁）ため、イの理由を「原則」に直し、返品特約がない場合の8日間の撤回・解除（法15条の3）を解説とアの理由に追記。",
+      "patch": {
+        "why": [
+          "通信販売には、訪問販売のようなクーリング・オフの規定はありません。返品の条件（返品特約）を表示しない場合は、商品の受取りから8日以内なら申込みの撤回や契約の解除ができる（返品の送料は購入者の負担）ので、返品の条件の表示が重要です。",
+          "通信販売の広告には、販売事業者の氏名（名称）・住所・電話番号を表示するのが原則です（請求があれば遅滞なく提供する旨を表示した場合などに限り、一部を省略できます）。",
+          "正解。返品の可否や条件を分かりやすく表示する必要があります。",
+          "最終確認の画面では、支払総額や引渡しの時期などを表示する必要があります。"
+        ],
+        "explain": "通信販売には訪問販売のようなクーリング・オフの規定はありませんが、返品の可否や条件（返品特約）は、広告と、インターネット通販では注文の最終確認の画面に表示する必要があります。返品特約を表示していない場合は、商品の受取りから8日以内であれば申込みの撤回や契約の解除ができます（返品の送料は購入者の負担）。"
+      }
+    },
+    "U06-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14",
+        "S12",
+        "S10",
+        "S9"
+      ]
+    },
+    "U06-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S9"
+      ],
+      "note": "作成時に自信が低いとされた問題。法4条（明示）、5条（手形の交付は支払遅延に含めて禁止・返品の禁止）を条文で確認。"
+    },
+    "U06-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S17",
+        "S16",
+        "S15",
+        "S12"
+      ]
+    },
+    "U06-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10",
+        "S11",
+        "S16",
+        "S12",
+        "S64"
+      ]
+    },
+    "U06-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S16",
+        "S61"
+      ],
+      "note": "作成時に自信が低いとされた問題。対象（政令の事業区分）・提供条件の開示（5条）・毎年度の報告書（9条）を条文で確認。"
+    },
+    "lesson:U07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20",
+        "S21",
+        "S22",
+        "S17",
+        "S23",
+        "S25",
+        "S26",
+        "S28",
+        "S29",
+        "S31",
+        "S32",
+        "S36",
+        "S37"
+      ]
+    },
+    "U07-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S31"
+      ]
+    },
+    "U07-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S36",
+        "S22",
+        "S17",
+        "S20",
+        "S37"
+      ],
+      "note": "「情プラ法」は所管の総務省ページで確認できる略称ではないため、「情報流通プラットフォーム対処法」に修正。内部通報が金融庁のコーポレートガバナンス・コード（原則2-5）でガバナンスの項目に含まれることを確認。",
+      "patch": {
+        "children": [
+          {
+            "label": "コンプライアンス",
+            "children": [
+              {
+                "label": "法令の遵守"
+              },
+              {
+                "label": "倫理規程"
+              },
+              {
+                "label": "ハラスメント防止"
+              }
+            ]
+          },
+          {
+            "label": "コーポレートガバナンス",
+            "children": [
+              {
+                "label": "社外取締役"
+              },
+              {
+                "label": "内部統制報告制度"
+              },
+              {
+                "label": "公益通報者保護法"
+              }
+            ]
+          },
+          {
+            "label": "情報倫理",
+            "children": [
+              {
+                "label": "情報流通プラットフォーム対処法"
+              },
+              {
+                "label": "ファクトチェック"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "U07-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S37",
+        "S36"
+      ]
+    },
+    "U07-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S29",
+        "S30",
+        "S6"
+      ]
+    },
+    "U07-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20",
+        "S21",
+        "S23",
+        "S63",
+        "S61"
+      ]
+    },
+    "U07-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S31"
+      ]
+    },
+    "U07-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S22",
+        "S17",
+        "S23"
+      ]
+    },
+    "U07-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S17",
+        "S22"
+      ]
+    },
+    "U07-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S23",
+        "S24"
+      ]
+    },
+    "U07-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S25",
+        "S28",
+        "S23",
+        "S10"
+      ]
+    },
+    "U07-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S29"
+      ]
+    },
+    "U07-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S29",
+        "S30"
+      ]
+    },
+    "U07-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S36",
+        "S37"
+      ]
+    },
+    "U07-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S31"
+      ]
+    },
+    "U07-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S32"
+      ]
+    },
+    "U07-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S34"
+      ],
+      "note": "JST RISTEXでは「倫理的・法制度的・社会的課題」。シラバスの表記と同じ意味。"
+    },
+    "U07-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S35"
+      ]
+    },
+    "U07-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S36"
+      ]
+    },
+    "U07-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S36"
+      ]
+    },
+    "U07-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S23",
+        "S24",
+        "S21"
+      ],
+      "note": "作成時に自信が低いとされた問題。情報公開法25条（地方公共団体は法の趣旨にのっとり施策を実施）で確認。"
+    },
+    "U07-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S23",
+        "S24"
+      ]
+    },
+    "U07-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S26",
+        "S27",
+        "S25",
+        "S28",
+        "S15"
+      ]
+    },
+    "U07-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S28",
+        "S25",
+        "S26",
+        "S22"
+      ],
+      "note": "作成時に自信が低いとされた問題。「GX経済移行債」「カーボンプライシング」は条文の用語ではないため、法第1条・第2条の用語（脱炭素成長型経済構造移行債、化石燃料採取者等に対する賦課金、排出枠の割当てに係る負担金）に合わせて修正。",
+      "patch": {
+        "q": "脱炭素と経済成長の両立に向けて、政府が発行する「脱炭素成長型経済構造移行債（GX経済移行債）」や、化石燃料の採取者などに対する賦課金、排出枠の割当てに係る負担金の徴収などを定めた法律はどれか。",
+        "why": [
+          "正解。脱炭素成長型経済構造移行債の発行や、賦課金・負担金の徴収などを定めた法律です。",
+          "廃棄物処理法は、廃棄物の処理の方法や排出事業者の責任を定めた法律です。",
+          "家電リサイクル法は、家庭用の特定の家電製品のリサイクルを定めた法律です。",
+          "公益通報者保護法は、法令違反などを通報した労働者を保護する法律です。"
+        ],
+        "explain": "GX推進法（脱炭素成長型経済構造への円滑な移行の推進に関する法律）は、脱炭素成長型経済構造移行推進戦略の策定、脱炭素成長型経済構造移行債の発行、化石燃料採取者等に対する賦課金や排出枠の割当てに係る負担金の徴収などを定め、脱炭素と経済成長の両立を図る法律です。"
+      }
+    },
+    "U07-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S33"
+      ]
+    },
+    "lesson:U08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "note": "JANコードの構成をGS1 Japanの説明（GS1事業者コード・商品アイテムコード・チェックデジット）に合わせて用語の説明を修正。JIS Q 31000・JIS Q 38500の分野はシラバスの用語例で確認（JISCのサイトは照合時に接続できず）。",
+      "patch": {
+        "terms": [
+          {
+            "term": "デファクトスタンダード",
+            "read": "でふぁくとすたんだーど",
+            "desc": "市場での競争の結果、事実上の標準になった規格。",
+            "item": "U08-1"
+          },
+          {
+            "term": "デジュレスタンダード",
+            "read": "でじゅれすたんだーど",
+            "desc": "ISOやJISなどの公的な標準化機関が正式に定めた規格。",
+            "item": "U08-1"
+          },
+          {
+            "term": "フォーラム標準",
+            "read": "ふぉーらむひょうじゅん",
+            "desc": "関心のある複数の企業や団体が集まったフォーラムで合意して作られた規格。",
+            "item": "U08-1"
+          },
+          {
+            "term": "JANコード",
+            "read": "ジャンこーど",
+            "desc": "日本で使われる共通の商品コード（GTIN）。GS1事業者コード・商品アイテムコード・チェックデジットからなり、どの事業者のどの商品かを表す番号をバーコードで表示する。",
+            "item": "U08-2"
+          },
+          {
+            "term": "QRコード",
+            "read": "キューアールこーど",
+            "desc": "縦横に情報を持つ2次元コード。JISやISOで規格化されている。",
+            "item": "U08-2"
+          },
+          {
+            "term": "ISO",
+            "read": "アイエスオー",
+            "desc": "国際標準化機構。工業製品などの国際規格を定める。",
+            "item": "U08-3"
+          },
+          {
+            "term": "W3C",
+            "read": "ダブリュースリーシー",
+            "desc": "HTMLやCSSなど、Webで使われる技術の標準化を進める団体。",
+            "item": "U08-3"
+          },
+          {
+            "term": "ISO 14000",
+            "read": "アイエスオーいちまんよんせん",
+            "desc": "環境マネジメントシステムに関する国際規格群。",
+            "item": "U08-3"
+          },
+          {
+            "term": "JIS Q 38500",
+            "read": "ジスキューさんまんはっせんごひゃく",
+            "desc": "ITガバナンス（組織のIT利用を経営として統制すること）に関する規格。",
+            "item": "U08-3"
+          }
+        ]
+      }
+    },
+    "U08-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38",
+        "S39",
+        "S40",
+        "S41"
+      ]
+    },
+    "U08-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "GS1 Japanの説明ではJANコード（GTIN）はGS1事業者コード・商品アイテムコード・チェックデジットからなり、「国」を表す部分は示されていないため、問題文と解説を修正。",
+      "patch": {
+        "q": "スーパーやコンビニで販売される商品に印刷され、どの事業者のどの商品かを表す番号をバーコードで表示している、日本の共通商品コードはどれか。",
+        "explain": "JANコード（GTIN）は、GS1事業者コード・商品アイテムコード・チェックデジットで構成される日本の共通商品コードで、どの事業者のどの商品かを表します。共通の規格なので、どの店のPOSレジでも読み取れます。"
+      }
+    },
+    "U08-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S46",
+        "S47",
+        "S45",
+        "S48"
+      ]
+    },
+    "U08-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S41",
+        "S40",
+        "S38"
+      ]
+    },
+    "U08-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S49",
+        "S46",
+        "S47"
+      ]
+    },
+    "U08-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45",
+        "S46"
+      ],
+      "note": "JIS Q 38500がITガバナンスの規格であることはシラバスの用語例で確認。「評価・指示・モニタリング」の部分は照合時に規格の本文・JISCの資料を開けず確かめられなかったため、問題文と解説から外した。",
+      "patch": {
+        "q": "組織のIT利用を経営者が適切に統制すること（ITガバナンス）に関する規格はどれか。",
+        "explain": "JIS Q 38500はITガバナンスに関する規格です。ISO 14000は環境、JIS Q 31000はリスクマネジメント、ISO/IEC 27000は情報セキュリティマネジメントシステムの規格（群）です。"
+      }
+    },
+    "U08-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "作成時に自信が低いとされた問題。JISの一部が規制に引用され強制力をもつこと（NEDOガイドライン）で確認。"
+    },
+    "U08-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ]
+    },
+    "U08-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S43",
+        "S42"
+      ],
+      "note": "エの選択肢の「国・事業者・商品」をGS1 Japanの説明に合わせて修正。",
+      "patch": {
+        "choices": [
+          "横方向だけに情報を持つ1次元のコードで、数字しか表せない",
+          "縦と横の2方向に情報を持つ2次元コードで、汚れなどで一部が読めなくても、誤り訂正の機能によって読み取れることがある",
+          "無線の電波を使って、離れた場所から読み取る小さな電子タグである",
+          "どの事業者のどの商品かを表す番号を、太さの異なる線の並びで表す日本の共通商品コードである"
+        ]
+      }
+    },
+    "U08-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "JANコードはGS1事業者コード・商品アイテムコード・チェックデジットで構成される（GS1 Japan）ことから、価格を含まないことを確認。解説の「国」を修正。",
+      "patch": {
+        "explain": "メーカーが印刷するJANコードは、GS1事業者コード・商品アイテムコード・チェックデジットからなる、どの事業者のどの商品かを表す共通の番号です。価格は含まれておらず、POSシステムが番号を基に店のデータベースから商品名や価格を呼び出しています。"
+      }
+    },
+    "U08-q15": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": "チェックデジットがJANコードの構成要素であることはGS1 Japanで確認できたが、「読み取りや入力の誤りを検出する」役割を述べた公的資料を照合時に開けなかった。あわせて、GS1 Japanの説明にない「国コード」を「ISBNコード」に、「事業者コード」を「GS1事業者コード」に差し替えた案をpatchに入れた。",
+      "patch": {
+        "choices": [
+          "チェックディジット",
+          "GS1事業者コード",
+          "商品アイテムコード",
+          "ISBNコード"
+        ],
+        "why": [
+          "正解。誤りを検出するために計算で求めて付け加える数字です。",
+          "GS1事業者コードは、どの事業者の商品かを表す部分です。",
+          "商品アイテムコードは、事業者が自社の商品ごとに付ける部分です。",
+          "ISBNコードは、書籍を識別するための番号の体系で、末尾に付け加える数字の名前ではありません。"
+        ]
+      }
+    },
+    "U08-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S44"
+      ]
+    },
+    "U08-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S40",
+        "S39",
+        "S41"
+      ],
+      "note": "作成時に自信が低いとされた問題。"
+    },
+    "U08-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38",
+        "S41"
+      ]
+    },
+    "U08-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S47",
+        "S48",
+        "S46",
+        "S45"
+      ],
+      "note": "ISO 9001が品質マネジメントの規格であることはJ-Net21（Q0013）とシラバスで確認。"
+    },
+    "U08-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45",
+        "S46",
+        "S47"
+      ],
+      "note": "JIS Q 31000の規格の題名（「指針」等）は照合時に確かめられなかったため、エの理由を「リスクマネジメントの規格」に修正。",
+      "patch": {
+        "why": [
+          "ISO 9000は、品質マネジメントシステムの規格群です。",
+          "ISO 14000は、環境マネジメントシステムの規格群です。",
+          "正解。情報セキュリティマネジメントシステムの規格群です。",
+          "JIS Q 31000は、リスクマネジメントの規格で、情報セキュリティの認証のための規格ではありません。"
+        ]
+      }
+    },
+    "U08-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S48",
+        "S47",
+        "S45",
+        "S49"
+      ]
+    },
+    "U08-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S46",
+        "S49"
+      ],
+      "note": "JIS Q 31000がリスクマネジメントの規格であることはシラバスの用語例で確認。規格の題名（「原則及び指針」）を照合時に確かめられなかったため、問題文・理由・解説を「リスクマネジメントの規格」に修正。",
+      "patch": {
+        "q": "組織が直面するさまざまなリスクを運用管理する（リスクマネジメント）ための規格はどれか。",
+        "why": [
+          "JIS Q 38500は、ITガバナンスの規格です。",
+          "ISO 14000は、環境マネジメントシステムの規格群です。",
+          "ISO 30414は、人的資本の情報の報告に関する指針です。",
+          "正解。リスクマネジメントの規格です。"
+        ],
+        "explain": "JIS Q 31000は、リスクマネジメントに関する規格です。JIS Q 38500はITガバナンス、ISO 14000は環境マネジメントシステム、ISO 30414は人的資本の情報の報告に関する規格です。"
+      }
+    },
+    "lesson:U09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S50",
+        "S51"
+      ],
+      "note": "SWOT・3C・VRIO・PPMの軸はJ-Net21で確認したが、PPMの4区分の名称、コアコンピタンス・ファブレス・OEM・カニバリゼーション・M&Aなどの説明を公的資料で確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-f1": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ],
+      "note": "PPMの4区分の名称と基本方針。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S50"
+      ]
+    },
+    "U09-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S50"
+      ]
+    },
+    "U09-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S50"
+      ]
+    },
+    "U09-q03": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ],
+      "note": "PPMの軸（市場成長率・相対的市場シェア）はJ-Net21で確認したが、4区分（問題児など）の定義を公的資料で確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S51",
+        "S50"
+      ],
+      "note": "3C（自社・競合・市場）と4P・SWOTはJ-Net21で確認。4Cは誤りの選択肢。"
+    },
+    "U09-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S51",
+        "S50"
+      ]
+    },
+    "U09-q06": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "コアコンピタンスの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q07": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ファブレスの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q08": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "カニバリゼーションの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ],
+      "note": "PPMの「金のなる木」の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q10": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ],
+      "note": "PPMの「負け犬」の方針。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S51",
+        "S50"
+      ]
+    },
+    "U09-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S50"
+      ]
+    },
+    "U09-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ]
+    },
+    "U09-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ブルーオーシャン戦略の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52"
+      ],
+      "note": "J-Net21（競争地位別の戦略）で、リーダーの同質化、ニッチャーの集中を確認。"
+    },
+    "U09-q16": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "OEMの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S17"
+      ],
+      "note": "金融商品取引法27条の2第6項（公開買付けの定義：公告により不特定多数の者に勧誘し取引所金融商品市場外で買付け）で確認。"
+    },
+    "U09-q18": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "MBOの定義（シラバスの用語例以外の資料なし）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q19": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "経験曲線・規模の経済の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "コモディティ化の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q21": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "垂直統合の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U09-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ベンチマーキングの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "lesson:U10": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51",
+        "S53",
+        "S54",
+        "S55"
+      ],
+      "note": "4P・アンゾフ・スキミング/ペネトレーション・リスティング広告は確認したが、4C・プロダクトライフサイクル・RFM分析・プッシュ/プル戦略・SEO・A/Bテスト・ダイナミックプライシングなどを公的資料で確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-f1": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ],
+      "note": "4Cの各要素と4Pとの対応。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-f2": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S55"
+      ],
+      "note": "nodeで再計算した値（2％・4％・0.08％）は正しいが、「クリック率」「コンバージョン率」の定義を公的資料で確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ]
+    },
+    "U10-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S53"
+      ],
+      "note": "J-Net21では「市場開発（既存製品×新市場）」。問題の区分と同じ。"
+    },
+    "U10-q03": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "プロダクトライフサイクルの各段階の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q04": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "RFM分析の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q05": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "プル戦略・プッシュ戦略の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S55"
+      ]
+    },
+    "U10-q07": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "A/Bテストの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S54"
+      ]
+    },
+    "U10-q09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S51"
+      ],
+      "note": "4Cの定義と4Pとの対応。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q10": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "カスタマージャーニーマップの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "オムニチャネルの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "プッシュ戦略の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S56"
+      ],
+      "note": "J-Net21の細分化の切り口（地域・年齢・性別・ライフスタイルなど）に「所得」がないため、問題文の基準の例を資料に合わせて修正。",
+      "patch": {
+        "q": "市場を年齢・性別、地域、ライフスタイルなどの基準で、同じようなニーズを持つグループに分け、特定のグループに合わせた製品や販売促進を行うマーケティングはどれか。"
+      }
+    },
+    "U10-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "インバウンドマーケティングの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q15": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ロケーションベースマーケティングの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S55"
+      ],
+      "note": "割合の定義は問題文で与えられている。nodeで再計算：30÷600＝5％（誤りの選択肢 1.5％・0.075％・20 も記載の誤った計算と一致）。"
+    },
+    "U10-q17": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SEOの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q18": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "アフィリエイトの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q19": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "レコメンデーションの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S54"
+      ]
+    },
+    "U10-q21": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ダイナミックプライシングの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U10-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "プロダクトライフサイクルの導入期の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "lesson:U11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S57",
+        "S58"
+      ],
+      "note": "SMARTは確認したが、KGI・KPI・CSF・BSCの4つの視点・バリューエンジニアリング（価値＝機能÷コスト）・GROWモデルを公的資料で確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58"
+      ],
+      "note": "nodeで再計算：1,500人、3,000人。"
+    },
+    "U11-f2": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "BSCの4つの視点と因果関係。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q01": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "KGIの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q02": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "BSCの4つの視点。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q03": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "BSCの学習と成長の視点。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q04": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "KGI・CSF・KPIの関係。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q05": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "CSFの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q06": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "VEの価値＝機能÷コスト。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58"
+      ],
+      "note": "売上高＝客数×客単価を問題文の条件で分解する計算。nodeで再計算：60人（50人なら125万円、75人は20日で割った値）。"
+    },
+    "U11-q08": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "KPIの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "BSCの顧客の視点。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q10": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "BSCの業務プロセスの視点（作成時に自信が低いとされた問題）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "BSCの特徴。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S57"
+      ]
+    },
+    "U11-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S57"
+      ]
+    },
+    "U11-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "GROWモデルの定義（作成時に自信が低いとされた問題）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q15": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "KPIツリーの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58"
+      ],
+      "note": "購入率は問題文で定義。nodeで再計算：5,000人（1,800・4,800は記載の誤った計算と一致）。"
+    },
+    "U11-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58"
+      ],
+      "note": "売上高の式は問題文で与えられている。nodeで再計算：4.8回（4.4回→2,200万円、6回→3,000万円）。"
+    },
+    "U11-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58"
+      ],
+      "note": "価値＝機能÷コストは問題文で与えられている。nodeで再計算：A1.25、B1.2、C1.2、D1.375で正解D。"
+    },
+    "U11-q19": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "CSFの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "KGI→CSF→KPIの順序。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q21": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "KGIとKPIの関係（nodeで客単価1,000円→800円は確認）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U11-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58"
+      ],
+      "note": "成約率は問題文で定義。nodeで再計算：150件（6・36は記載の誤った計算と一致）。"
+    },
+    "lesson:U12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S59",
+        "S60"
+      ],
+      "note": "SCM・CRMは確認したが、ERP・TQC/TQM・シックスシグマ・TOC・バリューチェーン・ナレッジマネジメント・SECIモデルを公的資料で確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-f1": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SECIモデルの4段階。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-f2": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TOCの考え方（nodeで70個→90個を確認）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S60",
+        "S59"
+      ]
+    },
+    "U12-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S59",
+        "S60"
+      ]
+    },
+    "U12-q03": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ERPの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q04": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SECIモデルの表出化。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q05": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TOCの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q06": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "バリューチェーンの主活動・支援活動。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q07": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ナレッジマネジメントの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q08": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "シックスシグマの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q09": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SECIモデルの共同化。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q10": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SECIモデルの連結化。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SECIモデルの内面化。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q12": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "SECIモデルの順序。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q13": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TQMの定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q14": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "ERPパッケージ導入の進め方。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S60",
+        "S59"
+      ]
+    },
+    "U12-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S59",
+        "S60"
+      ]
+    },
+    "U12-q17": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TOCの考え方（nodeで最小値60個を確認）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q18": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "TOCの考え方（nodeで改善後80個を確認）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q19": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "バリューチェーンの支援活動。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q20": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "シックスシグマの手順（作成時に自信が低いとされた問題）。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q21": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "暗黙知の定義。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    },
+    "U12-q22": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001",
+        "S59"
+      ],
+      "note": "SCMは確認したが、ERPの定義を確かめられなかった。経済産業省・中小企業庁のサイトが照合時に取得できず（HTTP 403）、ほかの公的資料（J-Net21など）でもこの用語の定義を確かめられなかった。"
+    }
+  }
+}

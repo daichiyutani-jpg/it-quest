@@ -1,6 +1,6 @@
 {
   "name": "it-quest",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "description": "IT QUEST — ITパスポート合格特化型 学習ゲーム（PWA・依存なし）",

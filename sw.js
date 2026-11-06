@@ -1,6 +1,6 @@
 // オフライン用 Service Worker（tools/build-sw.mjs で自動生成。直接編集しない）
 // 学習データは IndexedDB にあり、ここで扱うキャッシュとは別。キャッシュを入れ替えても学習データは消えない。
-const CACHE = 'it-quest-96755bb138';
+const CACHE = 'it-quest-73e71ad8e5';
 const FILES = [
   "./",
   "./icons/icon-192.png",
@@ -8,12 +8,13 @@ const FILES = [
   "./icons/icon.svg",
   "./index.html",
   "./manifest.webmanifest",
-  "./src/core/audio.js",
   "./src/core/game.js",
+  "./src/core/judge.js",
   "./src/core/mastery.js",
   "./src/core/pastimport.js",
   "./src/core/picker.js",
   "./src/core/planner.js",
+  "./src/core/readiness.js",
   "./src/core/session.js",
   "./src/core/store.js",
   "./src/core/util.js",
@@ -26,9 +27,21 @@ const FILES = [
   "./src/data/content/c6a.js",
   "./src/data/content/c6b.js",
   "./src/data/content/c6c.js",
+  "./src/data/content/c7a.js",
+  "./src/data/content/c7b.js",
+  "./src/data/content/c7c.js",
+  "./src/data/content/c7d.js",
+  "./src/data/content/c7e.js",
+  "./src/data/content/c7f.js",
+  "./src/data/content/c7g.js",
   "./src/data/content/index.js",
   "./src/data/past.js",
+  "./src/data/prereq.js",
+  "./src/data/readiness-manual.js",
+  "./src/data/sources-extra.js",
+  "./src/data/sources.js",
   "./src/data/syllabus.js",
+  "./src/data/verify/all.js",
   "./src/main.js",
   "./src/styles.css",
   "./src/ui/actions.js",
@@ -36,6 +49,7 @@ const FILES = [
   "./src/ui/art.js",
   "./src/ui/data.js",
   "./src/ui/dom.js",
+  "./src/ui/figure.js",
   "./src/ui/home.js",
   "./src/ui/learn.js",
   "./src/ui/past.js",
@@ -48,7 +62,8 @@ const FILES = [
   "./src/vendor/pdfjs/LICENSE",
   "./src/vendor/pdfjs/README.txt",
   "./src/vendor/pdfjs/pdf.min.mjs",
-  "./src/vendor/pdfjs/pdf.worker.min.mjs"
+  "./src/vendor/pdfjs/pdf.worker.min.mjs",
+  "./src/version.js"
 ];
 
 self.addEventListener('install', (e) => {

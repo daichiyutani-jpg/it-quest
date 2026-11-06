@@ -1,10 +1,11 @@
 // 試験範囲マップと単元の学習画面
-// 学習の順序：1 学習テーマの説明 → 2 重要用語 → 3 具体例 → 4 初学者向けの補足 → 5 確認問題 → 6 正解と解説 → 7 間違えた理由 → 8 復習登録
+// 学習の順序：1 学習テーマの説明 → 図解 → 2 重要用語 → 3 具体例 → 4 初学者向けの補足 → 5 練習問題（3問・その場で解説）→ 小テスト（10問・90%で合格）
 import { UNITS, FIELDS, SYLLABUS_INFO } from '../data/syllabus.js';
-import { STATUS, markLessonPage, unitStats } from '../core/mastery.js';
+import { STATUS, markLessonPage, unitStats, TEST } from '../core/mastery.js';
+import { PREREQ } from '../data/prereq.js';
+import { figureHTML, bindFigures } from './figure.js';
 import { XP } from '../core/game.js';
 import { pct } from '../core/util.js';
-import * as audio from '../core/audio.js';
 import { esc, rich, richBlock, bar, choiceChips, bindChoice } from './dom.js';
 import { startQuiz } from './actions.js';
 import { AREA_ICON } from './art.js';
@@ -53,6 +54,7 @@ export function renderUnit(view, app, r) {
 
   const steps = [
     ...L.pages.map((p, i) => ({ kind: 'page', label: `1. 学習テーマ（${i + 1}/${L.pages.length}）`, html: `<h3>${esc(p.title)}</h3>${richBlock(p.body)}` })),
+    ...((app.DB.figures[id] || []).length ? [{ kind: 'figure', label: '図解で確かめる', html: app.DB.figures[id].map((f, k) => figureHTML(f, k)).join('') }] : []),
     { kind: 'terms', label: '2. 重要用語', html: `<dl class="terms">${L.terms.map((t) => `<dt>${esc(t.term)}${t.read ? `<small>${esc(t.read)}</small>` : ''}</dt><dd>${rich(t.desc)}</dd>`).join('')}</dl>` },
     { kind: 'example', label: '3. 具体例', html: `<div class="example">💡 ${richBlock(L.example)}</div>` },
     { kind: 'beginner', label: '4. 初学者向けの補足', html: `<div class="beginner">🔰 ${richBlock(L.beginner)}</div>${L.points?.length ? `<h3>試験で問われやすい点</h3><ul>${L.points.map((p) => `<li>${rich(p)}</li>`).join('')}</ul>` : ''}` },
@@ -74,22 +76,23 @@ export function renderUnit(view, app, r) {
     <div class="sticky-actions row gap">
       <button class="btn ghost" id="prev" ${i === 0 ? 'disabled' : ''}>‹ 戻る</button>
       ${last
-    ? (q.pagesOnly ? '<button class="btn primary" id="finishRead">読み終えた（問題は次回）</button>' : '<button class="btn primary" id="toQuiz">5. 確認問題へ ›</button>')
+    ? (q.pagesOnly ? '<button class="btn primary" id="finishRead">読み終えた（問題は次回）</button>' : '<button class="btn primary" id="toQuiz">5. 練習問題へ（3問）›</button>')
     : '<button class="btn primary" id="next">次へ ›</button>'}
     </div>
-    ${last && q.pagesOnly ? '<div class="pad"><button class="btn ghost wide" id="toQuiz">時間があれば確認問題も解く</button></div>' : ''}`;
+    ${last && q.pagesOnly ? '<div class="pad"><button class="btn ghost wide" id="toQuiz">時間があれば練習問題も解く</button></div>' : ''}`;
+    bindFigures(view);
     const s = app.s;
     const before = !!s.units[id]?.lessonDone;
     markLessonPage(s, id, i, total);
     if (!before && s.units[id].lessonDone) { app.tracker.countLesson(); app.reward(XP.lesson, `単元「${u.name}」を読み終えた`); }
     app.store.touch('units', 'days');
     app.saveResume({ type: 'unit', hash: `#/unit/${id}?i=${i}${q.pagesOnly ? '&pagesOnly=1' : ''}`, title: `${u.name}（${stp.label}）` });
-    view.querySelector('#prev')?.addEventListener('click', () => { i--; audio.se('page'); draw(); window.scrollTo(0, 0); });
-    view.querySelector('#next')?.addEventListener('click', () => { i++; audio.se('page'); draw(); window.scrollTo(0, 0); });
+    view.querySelector('#prev')?.addEventListener('click', () => { i--; draw(); window.scrollTo(0, 0); });
+    view.querySelector('#next')?.addEventListener('click', () => { i++; draw(); window.scrollTo(0, 0); });
     view.querySelector('#finishRead')?.addEventListener('click', () => { app.clearResume(); app.replan(`単元「${u.name}」の説明を読了`); app.go(`#/unit/${id}?step=done`); });
     view.querySelector('#toQuiz')?.addEventListener('click', () => {
       app.clearResume();
-      startQuiz(app, { kind: 'lessonCheck', title: `確認問題：${u.name}`, unit: id, returnTo: `#/unit/${id}?step=done` });
+      startQuiz(app, { kind: 'lessonCheck', title: `練習問題：${u.name}`, unit: id, count: 3, returnTo: `#/unit/${id}?step=done` });
     });
   };
   draw();
@@ -104,9 +107,11 @@ function renderRemedial(view, app, u, L) {
     <p class="small">直近の正答率 ${st.recentAcc == null ? '—' : pct(st.recentAcc)}・未解決の間違い ${st.openWrong.length}問。要点を読み直してから、間違えた問題を中心に解きます。</p>
     ${L ? `<h3>要点</h3><ul>${(L.points || []).map((p) => `<li>${rich(p)}</li>`).join('')}</ul>
     <h3>重要用語</h3><dl class="terms">${L.terms.map((t) => `<dt>${esc(t.term)}</dt><dd>${rich(t.desc)}</dd>`).join('')}</dl>
-    <details><summary>具体例・補足をもう一度読む</summary><div class="example">💡 ${richBlock(L.example)}</div><div class="beginner">🔰 ${richBlock(L.beginner)}</div></details>` : '<p>この単元の教材は未作成です。</p>'}
+    ${(app.DB.figures[u.id] || []).map((f, k) => figureHTML(f, k)).join('')}
+    <details><summary>具体例・補足をもう一度読む</summary><div class="example">💡 ${richBlock(L.example)}</div><div class="beginner">🔰 ${richBlock(L.beginner)}</div></details>` : '<p>この単元の教材は照合が終わっていないため、まだ表示できません。</p>'}
   </section>
   <div class="sticky-actions row gap"><a class="btn ghost" href="#/unit/${u.id}">最初から読む</a><button class="btn primary" id="go">問題で確認 ›</button></div>`;
+  bindFigures(view);
   view.querySelector('#go').addEventListener('click', () => startQuiz(app, { kind: 'remedial', title: `補強：${u.name}`, unit: u.id, count: 5, returnTo: `#/unit/${u.id}?step=done` }));
 }
 
@@ -121,9 +126,11 @@ function renderUnitSummary(view, app, u) {
   const next = app.P.stuck.includes(u.id) ? null : (app.P.nextNew.find((x) => x !== u.id) || UNITS[idx + 1]?.id);
   const hints = [];
   if (st.status === 'new') hints.push('まだ学習していません。');
-  if (st.status === 'learning') hints.push(st.lessonDone ? `基礎理解まで：確認問題を${Math.max(0, Math.min(3, st.pool) - st.seenQ)}問以上解き、直近の正答率70%以上が目安です。` : 'まず説明を最後まで読みましょう。');
-  if (st.status === 'review') hints.push('正答率が低いか、間違えたままの問題があります。補強がおすすめです。');
-  if (st.status === 'basic') hints.push('習得確認には、日を空けて（2日以上）もう一度正解することが必要です。');
+  if (st.status === 'learning') hints.push(st.lessonDone ? `基礎理解まで：小テスト（${TEST.size}問）で${TEST.pass}問以上正解すると合格です。` : 'まず説明を最後まで読みましょう。');
+  if (st.status === 'review') hints.push(st.lastTest && !st.lastTest.passed ? '前回の小テストが不合格でした。間違えた所を復習してから、別の問題で再テストしましょう。' : '正答率が低いか、間違えたままの問題があります。補強がおすすめです。');
+  if (st.status === 'basic') hints.push(`習得確認には、合格した日（${st.passedAt}）から2日以上空けて、別の問題で確かめることが必要です（再確認 ${st.retest.c}/${st.retest.n}問）。`);
+  const pre = (PREREQ[u.id] || []).filter((p) => ['new', 'learning'].includes(A.units[p]?.status));
+  if (pre.length && st.status === 'new') hints.push(`先にこちらがおすすめ：${pre.map((p) => UNITS.find((x) => x.id === p).name).join('、')}（順番は自由です）`);
   if (st.status === 'mastered') hints.push('習得確認済みです。復習予定の日に問題が出ます。');
   view.innerHTML = `
   <section class="card">
@@ -138,10 +145,13 @@ function renderUnitSummary(view, app, u) {
       <div><b>${st.repeatAcc == null ? '—' : pct(st.repeatAcc)}</b><small>復習の正答率</small></div>
       <div><b>${st.openWrong.length}</b><small>未解決の間違い</small></div>
       <div><b>${s.units[u.id]?.lessonReads || 0}回</b><small>説明を読んだ</small></div>
+      <div><b>${st.tests ? `${st.lastTest.correct}/${st.lastTest.total}` : '—'}</b><small>前回の小テスト（${st.tests}回）</small></div>
+      <div><b>${st.unsure.length}</b><small>自信のない正解</small></div>
     </div>
     <div class="col gap">
-      ${L ? `<a class="btn ${st.status === 'new' ? 'primary' : 'ghost'} wide" href="#/unit/${u.id}">${st.lessonDone ? '説明をもう一度読む' : '説明を読む'}</a>` : '<p class="warn">この単元の教材（説明）は未作成です。</p>'}
-      ${qids.length ? `<button class="btn ${st.status !== 'new' ? 'primary' : 'ghost'} wide" id="quiz">この単元の問題（${qids.length}問）</button>` : '<p class="warn">この単元の問題は未作成です。</p>'}
+      ${L ? `<a class="btn ${st.status === 'new' ? 'primary' : 'ghost'} wide" href="#/unit/${u.id}">${st.lessonDone ? '説明をもう一度読む' : '説明を読む'}</a>` : `<p class="warn">この単元の教材（説明）は${app.DB.allLessons[u.id] ? '照合が終わっていないため、まだ表示できません' : '未作成です'}。</p>`}
+      ${qids.length >= TEST.size ? `<button class="btn ${st.lessonDone && !st.passed ? 'primary' : 'ghost'} wide" id="test">${st.tests ? '小テスト（別の問題で10問）' : '小テスト（10問・90%で合格）'}</button>` : `<p class="warn">照合済みの問題が${qids.length}問のため、小テスト（${TEST.size}問）はまだできません。</p>`}
+      ${qids.length ? `<button class="btn ghost wide" id="quiz">練習：この単元の問題（${qids.length}問・その場で解説）</button>` : ''}
       ${st.status === 'review' || st.openWrong.length ? `<a class="btn ghost wide" href="#/unit/${u.id}?mode=remedial">補強する</a>` : ''}
       ${next ? `<a class="btn ghost wide" href="#/unit/${next}">次の単元へ：${esc(UNITS.find((x) => x.id === next).name)} ›</a>` : ''}
     </div>
@@ -149,6 +159,7 @@ function renderUnitSummary(view, app, u) {
   <section class="card"><h3>この単元のシラバス項目</h3>
     <ul class="small">${u.items.map((it) => `<li>(${it.no}) ${esc(it.name)}　<span class="muted">問題${itemQ(it.id)}問${itemQ(it.id) ? '' : '（未作成）'}</span></li>`).join('')}</ul>
   </section>`;
+  view.querySelector('#test')?.addEventListener('click', () => startQuiz(app, { kind: 'unitTest', title: `小テスト：${u.name}`, unit: u.id, returnTo: '#/result' }));
   view.querySelector('#quiz')?.addEventListener('click', () => startQuiz(app, { kind: 'unit', title: `単元別問題：${u.name}`, unit: u.id, returnTo: `#/unit/${u.id}?step=done` }));
   void FIELDS;
 }

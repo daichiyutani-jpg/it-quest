@@ -2,16 +2,23 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { UNITS } from '../src/data/syllabus.js';
-import { indexContent, DB, inventory } from '../src/data/content/index.js';
-import { Store } from '../src/core/store.js';
+import { indexContent, DB, inventory, CONTENT_FILES } from '../src/data/content/index.js';
+import { Store, migrate, SCHEMA_VERSION } from '../src/core/store.js';
 import { setNow, today, addDays } from '../src/core/util.js';
-import { analyze, recordAnswer, markLessonPage, addStudySeconds, unitStatus } from '../src/core/mastery.js';
+import { analyze, recordAnswer, markLessonPage, addStudySeconds, unitStatus, recordTest } from '../src/core/mastery.js';
 import { buildPlan, sessionPlan } from '../src/core/planner.js';
-import { pickMock, pick } from '../src/core/picker.js';
+import { pickMock, pick, pickUnitTest, pickDiagnostic } from '../src/core/picker.js';
 import { updateStreak, levelInfo } from '../src/core/game.js';
+import { readiness } from '../src/core/readiness.js';
+import { judge } from '../src/core/judge.js';
+import { figureBody } from '../src/ui/figure.js';
 
-const mods = await Promise.all(['c1', 'c2', 'c3', 'c4', 'c5', 'c6a', 'c6b', 'c6c'].map((f) => import(`../src/data/content/${f}.js`).then((m) => m.default)));
-indexContent(mods);
+// 中身のテストでは、全件を照合済みとみなした照合結果を使う（照合前の実データでは何も出題されないため）
+const mods = [];
+for (const f of CONTENT_FILES) { try { mods.push((await import(`../src/data/content/${f}.js`)).default); } catch { /* 作成中のファイル */ } }
+const allIds = mods.flat().flatMap((e) => [...(e.questions || []).map((x) => x.id), ...(e.figures || []).map((x) => x.id), ...(e.lesson ? [`lesson:${e.unit}`] : [])]);
+const ALL_OK = { checkedAt: '2026-11-06', method: 'test', items: Object.fromEntries(allIds.map((id) => [id, { status: 'verified' }])) };
+indexContent(mods, ALL_OK);
 
 async function fresh(start = '2026-11-05T09:00:00') {
   setNow(start);
@@ -23,13 +30,20 @@ async function fresh(start = '2026-11-05T09:00:00') {
 const q = (unit, i = 0) => DB.questions[DB.byUnit[unit][i]];
 function readLesson(s, unit) { const n = DB.lessons[unit].pages.length + 3; for (let i = 0; i < n; i++) markLessonPage(s, unit, i, n); }
 function answer(s, unit, i, correct) { return recordAnswer(s, q(unit, i), { correct, mode: 'unit' }); }
+/** 小テストを受けたことにする（先頭から nCorrect 問を正解） */
+function takeTest(s, unit, nCorrect) {
+  const ids = pickUnitTest(s, DB, unit);
+  const res = ids.map((id, k) => ({ qid: id, correct: k < nCorrect }));
+  for (const r of res) recordAnswer(s, DB.questions[r.qid], { correct: r.correct, mode: 'unitTest', confidence: 'sure' });
+  return recordTest(s, unit, res);
+}
 
 test('教材と問題：全63単元・全180項目がそろい、正解番号が選択肢の範囲内', () => {
   const inv = inventory();
   assert.equal(inv.missingLessons.length, 0);
   assert.equal(inv.noQuestionUnits.length, 0);
   assert.equal(inv.itemsCovered, inv.itemsTotal);
-  assert.equal(inv.byType.official, 0, '出典未確認の公式問題を入れていない');
+  assert.equal(inv.byType.official, 0, '公式問題の問題文は同梱しない');
   for (const x of Object.values(DB.questions)) {
     assert.equal(x.choices.length, 4, x.id);
     assert.ok(x.answer >= 0 && x.answer < 4, x.id);
@@ -37,20 +51,85 @@ test('教材と問題：全63単元・全180項目がそろい、正解番号が
   }
 });
 
-test('理解度：一度読んだ・一度正解しただけでは習得確認済みにならない', async () => {
+test('照合前の教材は出さない・利用停止は出さない・照合で直した内容を使う・準備完了にしない', () => {
+  const D = indexContent(mods, { items: {} });
+  assert.equal(Object.keys(D.questions).length, 0);
+  assert.equal(Object.keys(D.lessons).length, 0);
+  assert.ok(Object.keys(D.allQuestions).length > 600);
+  assert.equal(readiness(D).ready, false);
+  const id0 = mods[0][0].questions[0].id; const id1 = mods[0][0].questions[1].id;
+  const D2 = indexContent(mods, { items: { ...ALL_OK.items, [id0]: { status: 'suspended', note: 'test' }, [id1]: { status: 'verified', patch: { explain: '直した解説' } } } });
+  assert.equal(D2.questions[id0], undefined);
+  assert.equal(D2.questions[id1].explain, '直した解説');
+  assert.ok(inventory().suspended.some((x) => x.id === id0));
+  indexContent(mods, ALL_OK);
+  assert.equal(readiness(DB).ready, false, '人が行う確認が未実施なら準備完了にしない');
+});
+
+test('理解度：読んで正解しただけでは基礎理解にならず、小テスト9/10で合格、日を空けた別問題で習得確認', async () => {
+  const U = UNITS.find((u) => DB.byUnit[u.id].length >= 20 && DB.lessons[u.id])?.id;
+  if (!U) return; // 20問ある単元がまだない（作成中）
   const st = await fresh(); const s = st.s;
-  readLesson(s, 'U01');
-  answer(s, 'U01', 0, true);
-  assert.equal(unitStatus(s, DB, 'U01'), 'learning');
-  answer(s, 'U01', 1, true); answer(s, 'U01', 2, true);
-  assert.equal(unitStatus(s, DB, 'U01'), 'basic');
-  // 同じ日にたくさん正解しても習得確認にはならない
-  for (let i = 3; i < 6; i++) answer(s, 'U01', i, true);
-  assert.equal(unitStatus(s, DB, 'U01'), 'basic');
-  // 3日後にもう一度正解すると習得確認
+  readLesson(s, U);
+  for (let i = 0; i < 5; i++) answer(s, U, i, true);
+  assert.equal(unitStatus(s, DB, U), 'learning', '小テスト前は学習中');
+  const t1 = takeTest(s, U, 8);
+  assert.equal(t1.passed, false);
+  assert.equal(unitStatus(s, DB, U), 'review', '8/10は不合格で要復習');
+  const t2 = takeTest(s, U, 10);
+  assert.equal(t2.passed, true);
+  assert.equal(t2.qids.filter((id) => t1.qids.includes(id)).length, 0, '再テストは別の問題');
+  // 不合格のテストで間違えた2問を解き直す
+  for (const id of t1.qids.slice(8)) recordAnswer(s, DB.questions[id], { correct: true, mode: 'review' });
+  assert.equal(unitStatus(s, DB, U), 'basic');
+  const notInT2 = DB.byUnit[U].filter((id) => !t2.qids.includes(id));
+  for (const id of notInT2.slice(0, 3)) recordAnswer(s, DB.questions[id], { correct: true, mode: 'review' });
+  assert.equal(unitStatus(s, DB, U), 'basic', '同じ日の正解では習得確認にならない');
   setNow('2026-11-08T09:00:00');
-  for (let i = 0; i < 6; i++) answer(s, 'U01', i, true);
-  assert.equal(unitStatus(s, DB, 'U01'), 'mastered');
+  for (const id of notInT2.slice(0, 4)) recordAnswer(s, DB.questions[id], { correct: true, mode: 'review' });
+  assert.equal(unitStatus(s, DB, U), 'mastered');
+});
+
+test('小テスト：20問以上ある単元は、別の問題で10問ずつ2回組める', () => {
+  let n20 = 0;
+  for (const u of UNITS) {
+    if (DB.byUnit[u.id].length < 20) continue; // 不足は readiness で表示する
+    n20++;
+    const s = { qstate: {}, tests: {} };
+    const a = pickUnitTest(s, DB, u.id);
+    s.tests[u.id] = [{ qids: [...a], passed: false }];
+    const b = pickUnitTest(s, DB, u.id);
+    assert.equal(a.length, 10); assert.equal(b.length, 10);
+    assert.equal(a.filter((x) => b.includes(x)).length, 0, u.id);
+  }
+  assert.ok(n20 > 0);
+});
+
+test('復習：自信の違いで間隔が変わる（勘の正解は翌日・たぶんは短め）', async () => {
+  const st = await fresh(); const s = st.s;
+  const [a, b, c] = DB.byUnit.U02;
+  for (let i = 0; i < 3; i++) {
+    recordAnswer(s, DB.questions[a], { correct: true, mode: 'review', confidence: 'sure' });
+    recordAnswer(s, DB.questions[b], { correct: true, mode: 'review', confidence: 'maybe' });
+  }
+  recordAnswer(s, DB.questions[c], { correct: true, mode: 'unit', confidence: 'guess' });
+  assert.ok(s.qstate[b].due < s.qstate[a].due, 'たぶんの方が早く復習');
+  assert.equal(s.qstate[c].due, addDays(today(), 1));
+  assert.equal(s.qstate[c].flagged, true, '勘の正解は復習リストへ');
+  assert.equal(s.answers[s.answers.length - 1].conf, 'guess');
+  const A = analyze(s, DB);
+  assert.equal(A.units.U02.unsure.length, 2);
+  assert.equal(pick(s, DB, A, { kind: 'flagged', count: 5 })[0], c);
+});
+
+test('復習：繰り返し間違える問題は間隔を短くする', async () => {
+  const st = await fresh(); const s = st.s;
+  const id = DB.byUnit.U03[0];
+  recordAnswer(s, DB.questions[id], { correct: false, mode: 'unit' });
+  recordAnswer(s, DB.questions[id], { correct: false, mode: 'unit' });
+  recordAnswer(s, DB.questions[id], { correct: true, mode: 'unit', confidence: 'sure' });
+  recordAnswer(s, DB.questions[id], { correct: true, mode: 'unit', confidence: 'sure' });
+  assert.equal(s.qstate[id].due, addDays(today(), 4), '箱3（7日）の半分＝4日');
 });
 
 test('理解度：間違いが続くと要復習、解き直して正解すると戻る', async () => {
@@ -99,19 +178,30 @@ test('計画：数日空くと再計画のメッセージを出し、要調整�
   assert.ok(P.messages.some((m) => m.includes('5日空きました')));
 });
 
-test('計画：受験日を変えると直前対策の開始日も変わり、直前期は模擬試験を含む', async () => {
+test('計画：30日計画の間は模擬試験を入れず、31日目から入れる', async () => {
   const st = await fresh(); const s = st.s;
-  s.settings.examDate = '2026-12-20';
-  let P = buildPlan(s, DB, analyze(s, DB));
-  assert.equal(P.finalStart, '2026-12-13'); assert.equal(P.mode, 'normal');
-  s.settings.examDate = '2026-11-10';
-  P = buildPlan(s, DB, analyze(s, DB));
-  assert.equal(P.finalStart, '2026-11-03'); assert.equal(P.mode, 'final');
-  const plan = sessionPlan(s, DB, analyze(s, DB), P, 120);
-  assert.ok(plan.blocks.some((b) => b.kind === 'mock'));
-  // 未学習の重要単元を切り捨てない
-  assert.ok(plan.blocks.some((b) => b.kind === 'lesson'));
-  assert.ok(P.priority.length === UNITS.length, '未学習の単元は全部優先順位リストに残る');
+  Object.assign(s.settings, { planStart: '2026-11-05', weekdayMin: 120, weekendMin: 120 });
+  for (let i = 0; i < 20; i++) readLesson(s, UNITS[i].id);
+  let A = analyze(s, DB); let P = buildPlan(s, DB, A);
+  assert.equal(P.dayNo, 1); assert.equal(P.planEnd, '2026-12-04'); assert.equal(P.target, '2026-12-04');
+  assert.ok(!sessionPlan(s, DB, A, P, 150).blocks.some((b) => b.kind === 'mock'));
+  s.settings.examDate = '2026-11-10'; // 直前期でも30日以内なら模擬試験なし
+  P = buildPlan(s, DB, A);
+  assert.equal(P.mode, 'final');
+  assert.ok(!sessionPlan(s, DB, A, P, 150).blocks.some((b) => b.kind === 'mock'));
+  assert.ok(P.messages.some((m) => m.includes('模擬試験の期間')));
+  s.settings.examDate = null;
+  setNow('2026-12-05T09:00:00');
+  A = analyze(s, DB); P = buildPlan(s, DB, A);
+  assert.equal(P.dayNo, 31); assert.equal(P.mockOk, true);
+  assert.ok(sessionPlan(s, DB, A, P, 150).blocks.some((b) => b.kind === 'mock'));
+});
+
+test('計画：説明を読んだ単元には小テストを入れる', async () => {
+  const st = await fresh(); const s = st.s;
+  readLesson(s, 'U14');
+  const A = analyze(s, DB); const P = buildPlan(s, DB, A);
+  assert.ok(sessionPlan(s, DB, A, P, 60).blocks.some((b) => b.kind === 'unitTest' && b.unit === 'U14'));
 });
 
 test('計画：時間が足りないときは後回しの単元を明示し、省略しない', async () => {
@@ -133,6 +223,16 @@ test('計画：受験日未設定でも計画でき、要集中にはしない',
   assert.equal(P.target, '2026-12-06');
 });
 
+test('見積り：1日120分・30日（60時間）で全範囲が収まるかを計算する', async () => {
+  const st = await fresh(); const s = st.s;
+  Object.assign(s.settings, { weekdayMin: 120, weekendMin: 120, selfLevel: 2 });
+  const P = buildPlan(s, DB, analyze(s, DB));
+  assert.ok(P.need60 > 0 && P.need60 <= 3600, `必要 ${P.need60}分`);
+  Object.assign(s.settings, { selfLevel: 1 });
+  const P1 = buildPlan(s, DB, analyze(s, DB));
+  assert.ok(P1.need60 > P.need60, 'ほぼ初めてなら多く見積もる');
+});
+
 test('1回の学習：10分・30分・60分・120分で内容が変わる', async () => {
   const st = await fresh(); const s = st.s;
   readLesson(s, 'U01'); for (let i = 0; i < 4; i++) answer(s, 'U01', i, i !== 1);
@@ -140,7 +240,7 @@ test('1回の学習：10分・30分・60分・120分で内容が変わる', asyn
   const kinds = (m) => sessionPlan(s, DB, A, P, m).blocks.map((b) => b.kind);
   const k10 = kinds(10); const k30 = kinds(30); const k60 = kinds(60); const k120 = kinds(120);
   assert.ok(k10.includes('terms') && !k10.includes('drill'));
-  assert.ok(k30.includes('lesson') || k30.includes('remedial'));
+  assert.ok(k30.includes('lesson') || k30.includes('remedial') || k30.includes('unitTest'));
   assert.ok(k60.filter((k) => k === 'lesson').length >= 1);
   assert.ok(k120.includes('drill'));
   for (const m of [10, 30, 60, 120]) assert.ok(sessionPlan(s, DB, A, P, m).blocks.reduce((a, b) => a + b.min, 0) <= m + 2, `${m}分を超えない`);
@@ -165,6 +265,13 @@ test('模擬試験：100問を35:20:45の比率で選ぶ', () => {
   assert.equal(new Set(ids).size, 100);
 });
 
+test('基礎の確認：10問・分野比率 S4 M2 T4・基礎の問題', () => {
+  const ids = pickDiagnostic(DB);
+  const c = { S: 0, M: 0, T: 0 };
+  for (const id of ids) { c[DB.questions[id].field]++; assert.equal(DB.questions[id].level, 1); }
+  assert.deepEqual(c, { S: 4, M: 2, T: 4 });
+});
+
 test('復習：間違えた問題は翌日に復習対象になる', async () => {
   const st = await fresh(); const s = st.s;
   answer(s, 'U59', 0, false);
@@ -175,17 +282,55 @@ test('復習：間違えた問題は翌日に復習対象になる', async () =>
   assert.deepEqual(pick(s, DB, A, { kind: 'review', count: 5 }), [q('U59').id]);
 });
 
-test('バックアップ：書き出したJSONを読み込むと同じデータに戻る。壊れたファイルは拒否', async () => {
+test('保存形式：v1のデータを壊さずv2に移行する（回答・設定はそのまま、音の設定は消え、tests が増える）', () => {
+  const v1 = { meta: { app: 'it-quest', schema: 1, createdAt: '2026-11-05T00:00:00Z' }, settings: { setupDone: true, weekdayMin: 30, weekendMin: 60, sound: { se: true } }, answers: [{ qid: 'U01-q01', unit: 'U01', field: 'S', d: '2026-11-05', correct: true, first: true, mode: 'unit' }], qstate: { 'U01-q01': { box: 1, seen: 1 } } };
+  const s = migrate(v1);
+  assert.equal(s.meta.schema, SCHEMA_VERSION);
+  assert.equal(s.meta.migratedFrom, 1);
+  assert.equal(s.answers.length, 1);
+  assert.equal(s.qstate['U01-q01'].box, 1);
+  assert.equal(s.settings.weekdayMin, 30, '本人の設定は変えない');
+  assert.equal(s.settings.sound, undefined);
+  assert.deepEqual(s.tests, {});
+  assert.equal(s.settings.planStart, null);
+  assert.equal(migrate({}).settings.weekdayMin, 120, '新規は1日120分');
+  assert.equal(migrate(s).meta.schema, SCHEMA_VERSION, 'v2をもう一度通しても変わらない');
+});
+
+test('保存：書いたデータを読み直すと残っている', async () => {
   const st = await fresh(); const s = st.s;
-  readLesson(s, 'U10'); answer(s, 'U10', 0, true); s.settings.examDate = '2027-01-20';
-  const json = st.exportJSON();
-  const st2 = await fresh();
-  const { data } = Store.parseBackup(json);
-  await st2.replaceAll(data);
-  assert.equal(st2.s.answers.length, 1);
-  assert.equal(st2.s.settings.examDate, '2027-01-20');
-  assert.throws(() => Store.parseBackup('{"x":1}'));
-  assert.throws(() => Store.parseBackup('not json'));
+  readLesson(s, 'U10'); answer(s, 'U10', 0, true); s.tests.U10 = [{ qids: ['x'], passed: true }];
+  st.touch('units', 'answers', 'qstate', 'tests'); await st.flush();
+  const raw = await st.backend.getAll();
+  const s2 = migrate(raw);
+  assert.equal(s2.answers.length, 1);
+  assert.equal(s2.tests.U10.length, 1);
+});
+
+test('合格の目安：材料がなければ判定しない・届いていると言わない', async () => {
+  const st = await fresh(); const s = st.s;
+  const J = judge(s, analyze(s, DB));
+  assert.equal(J.overall, 'unknown');
+  assert.ok(J.fields.every((f) => f.verdict !== 'good'));
+  assert.equal(J.allRead, false);
+});
+
+test('合格の目安：1分野でも足りなければ総合は届いていない（分野別の足切り）', async () => {
+  const st = await fresh(); const s = st.s;
+  const ids = Object.keys(DB.questions);
+  for (const id of ids) recordAnswer(s, DB.questions[id], { correct: DB.questions[id].field !== 'M', mode: 'random' });
+  s.mocks.push({ at: '2026-11-05T10:00:00Z', kind: 'mock', total: 100, correct: 80, byField: { S: [35, 35], M: [5, 20], T: [40, 45] } });
+  const J = judge(s, analyze(s, DB));
+  assert.equal(J.fields.find((f) => f.id === 'M').verdict, 'far');
+  assert.notEqual(J.overall, 'good');
+});
+
+test('図解：6種類すべて描けてコマ数がある', () => {
+  const figs = mods.flat().flatMap((e) => e.figures || []);
+  for (const f of figs) {
+    const b = figureBody(f);
+    assert.ok(b.frames >= 1 && !b.html.includes('表示できません'), f.id);
+  }
 });
 
 test('ゲーム：意味のある学習をした日だけ連続記録が伸びる', async () => {

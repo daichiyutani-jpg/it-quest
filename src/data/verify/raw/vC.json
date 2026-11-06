@@ -1,0 +1,2577 @@
+{
+ "range": "U23-U33",
+ "verifier": "照合担当C（作成とは別のAI）",
+ "checkedAt": "2026-11-06",
+ "sources": [
+  {
+   "key": "S1",
+   "name": "システム監査基準",
+   "publisher": "経済産業省",
+   "url": "https://www.meti.go.jp/policy/netsecurity/sys-kansa/sys-kansa-2023r.pdf",
+   "where": "前文（システム監査上の判断尺度）、システム監査の意義と目的、【基準4】監査の独立性と客観性の保持、【基準6】監査計画の策定（リスク・アプローチ）、【基準8】監査証拠の入手と評価（予備調査・本調査、監査技法の列挙）、【基準9】監査調書の作成と保管、【基準10】監査の結論の形成、【基準11】監査報告書の作成と報告、【基準12】改善提案（及び改善計画）のフォローアップ、用語集（ガバナンス：評価・指示・モニタ、マネジメント、CAAT）",
+   "published": "令和5年4月26日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S2",
+   "name": "財務報告に係る内部統制の評価及び監査の基準並びに財務報告に係る内部統制の評価及び監査に関する実施基準の改訂について（意見書）",
+   "publisher": "金融庁 企業会計審議会",
+   "url": "https://www.fsa.go.jp/news/r4/sonota/20230407/1.pdf",
+   "where": "基準Ⅰ.1 内部統制の定義（4つの目的・6つの基本的要素）、Ⅰ.2 基本的要素の各定義（統制環境〜ＩＴへの対応、日常的モニタリングと独立的評価）、Ⅰ.4 役割と責任（経営者・取締役会・監査役等・内部監査人）、Ⅱ 全社的な内部統制、実施基準（職務の分掌・相互牽制、ＩＴに係る全般統制・業務処理統制、新たなＩＴシステムの導入を要求しない旨、手作業の統制）",
+   "published": "2023年4月7日公表",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S3",
+   "name": "DS-120 デジタル・ガバメント推進標準ガイドライン実践ガイドブック",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+   "where": "第5章 要件定義（RFI、機能要件・非機能要件）、見積り（積み上げ法・LOC法・FP法）、調達（評価基準・配点の事前決定、見積書の精査）、設計・開発（WBS、ガントチャート、EVM：PV・EV・AC）、テスト（単体・結合・総合・受入れテスト、検収）、リスク（回避・軽減・受容）、教訓、稼働率の指標（計画停止等を除いた予定稼働時間）、ITILの注記、問題管理",
+   "published": "2026年6月12日最終改定（PDF 2026年7月15日更新）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S4",
+   "name": "DS-121 アジャイル開発実践ガイドブック",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+   "where": "表1 用語の定義（スクラム、スプリント、プロダクトオーナー、スクラムマスター、スプリントプランニング、デイリースクラム、スプリントレビュー、スプリント・レトロスペクティブ、プロダクトバックログ、スプリントバックログ）、2.1 アジャイル開発とは（反復期間は1か月以下）、XP（ペアプログラミング・テスト駆動開発）、CI",
+   "published": "2021年3月30日策定",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S5",
+   "name": "応用情報技術者試験（レベル3）シラバス Ver.7.2",
+   "publisher": "IPA 情報処理推進機構",
+   "url": "https://www.ipa.go.jp/shiken/syllabus/omgdg50000005kq5-att/syllabus_ap_ver7_2.pdf",
+   "where": "基礎理論（基数・補数表現・シフト演算・集合・論理演算・ド・モルガン）、ソフトウェア開発手法（開発モデル、アジャイル、XP、ユーザーストーリー、ユースケース、オブジェクト指向、リバースエンジニアリング）、テスト・レビュー、プロジェクトマネジメント（プロジェクト憲章、CCB、RACI、クラッシング、ファストトラッキング、EVM、見積り手法、リスク移転・保険、教訓）、サービスマネジメント（ITIL、SLA・SLO・SLI、JIS Q 20000、サービスカタログ、構成管理、サービスレベル管理、需要管理、容量・能力管理、変更管理、サービス受入れ基準、リリース及び展開管理、インシデント管理、サービス要求管理、問題管理、サービス可用性管理（MTBSI）、サービス継続管理、サービスデスク、AIOps）、ファシリティマネジメント（UPS、自家発電設備、サージ防護デバイス、コールドアイル・ホットアイル、電源の冗長化、維持保全、グリーンIT）、システム監査技法（チェックリスト法、ドキュメントレビュー法、インタビュー法、突合・照合法、テストデータ法）、ITガバナンス（JIS Q 38500）、CMMI、共通フレーム",
+   "published": "Ver.7.2（2026年版）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S6",
+   "name": "地方公共団体における情報セキュリティポリシーに関するガイドライン（令和5年3月版）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_content/000870997.pdf",
+   "where": "物理的セキュリティ（サーバ等の管理）の例文と解説：予備電源（UPS・蓄電池設備・自家発電機）、給電可能時間の定期確認（サーバ増設で30分→15分の例）、落雷等による過電流からの保護、温度・湿度・排気熱、サーバの冗長化、定期保守、転倒・落下防止等の耐震対策",
+   "published": "令和5年3月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S7",
+   "name": "第９章 雷害対策（水管理制御システムの技術指針）",
+   "publisher": "農林水産省",
+   "url": "https://www.maff.go.jp/j/nousin/seko/kyotu_siyosyo/kikaisisin/attach/pdf/mizukanri-22.pdf",
+   "where": "雷サージの定義、SPD（低圧配電用と通信・信号回路用）、電力・通信ケーブル等の引込み部の等電位ボンディング",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第3章 コンピュータとプログラミング",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf",
+   "where": "コンピュータの仕組み（2進数、AND・OR・NOT、真理値表、ベン図、2進数の足し算と論理回路）",
+   "published": "記載なし（2020年公開の教材）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S9",
+   "name": "アジャイルソフトウェア開発宣言（日本語訳）",
+   "publisher": "agilemanifesto.org（DS-121が参考情報として掲出）",
+   "url": "https://agilemanifesto.org/iso/ja/manifesto.html",
+   "where": "本文の4つの価値",
+   "published": "2001年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S10",
+   "name": "グリーン購入とは",
+   "publisher": "環境省",
+   "url": "https://www.env.go.jp/policy/hozen/green/g-law/net/index.html",
+   "where": "グリーン購入の定義",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S11",
+   "name": "ITSMS適合性評価制度",
+   "publisher": "一般社団法人 情報マネジメントシステム認定センター（ISMS-AC）",
+   "url": "https://isms.jp/itsms/",
+   "where": "ITSMSの説明、JIS Q 20000-1による認証制度",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  }
+ ],
+ "items": {
+  "lesson:U23": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U23-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "lesson:U24": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S10"
+   ],
+   "note": "「AI・データの利用に関する契約ガイドライン」の本文（経済産業省）を開けなかったため、発行元・内容の断定（学習済みモデルの権利など）を外し、シラバスの用語例であることと題名から分かる範囲に修正。グリーン調達は環境省の定義（S10：環境への負荷ができるだけ少ないものを選ぶ）に合わせた。",
+   "patch": {
+    "pages": [
+     {
+      "title": "調達の基本の流れ",
+      "body": "システムや製品を外部から手に入れることを調達といいます。基本の流れは、①情報提供依頼（RFI）→②提案依頼書（RFP）の作成・配付→③選定基準の作成→④ベンダーから提案書・見積書を受け取る→⑤提案内容の比較評価→⑥調達先の選定→⑦契約の締結→⑧受入れ・検収です。公平に比べるため、選定基準は提案を受け取る前に決めておきます。"
+     },
+     {
+      "title": "RFIとRFP",
+      "body": "RFI（情報提供依頼）は、RFPを作る前に、どんな技術や製品・手段があるかを知るため、ベンダーにシステム化の目的や業務の概要を示して情報提供を頼むものです。RFP（提案依頼書）は、導入するシステムの概要、提案してほしい事項、納期などの調達条件を示して、ベンダーに提案書の提出を頼む文書です。"
+     },
+     {
+      "title": "提案書と見積書",
+      "body": "提案書は、ベンダーがRFPをもとに検討したシステム構成や開発手法などを、依頼元に提案する文書です。見積書は、その提案を実現するための費用を、項目ごとの金額で示した文書です。依頼元は、価格だけでなく、提案の内容や実績なども選定基準に沿って総合的に評価し、調達先を決めます。"
+     },
+     {
+      "title": "環境とAIへの配慮",
+      "body": "価格や品質だけでなく、環境への負荷ができるだけ少ない製品やサービスを選んで調達することをグリーン調達といいます。また、AIの開発やデータの提供を外部に委託するときは、作ったものやデータを誰がどこまで使えるかなどで後からもめないよう、契約で取り決めておくことが大切です。ITパスポート試験のシラバスには、こうした契約に関する用語として「AI・データの利用に関する契約ガイドライン」が挙げられています。"
+     }
+    ],
+    "terms": [
+     {
+      "term": "調達",
+      "read": "ちょうたつ",
+      "desc": "必要なシステム・製品・サービスを外部から手に入れること。",
+      "item": "U24-1"
+     },
+     {
+      "term": "グリーン調達",
+      "read": "グリーンちょうたつ",
+      "desc": "製品やサービスを調達する際に、環境への負荷ができるだけ少ないものを選ぶこと。",
+      "item": "U24-1"
+     },
+     {
+      "term": "AI・データの利用に関する契約ガイドライン",
+      "read": "エーアイ・データのりようにかんするけいやくガイドライン",
+      "desc": "AIの開発やデータの利用に関する契約についての考え方を示したガイドライン。ITパスポート試験シラバスの用語例。",
+      "item": "U24-1"
+     },
+     {
+      "term": "検収",
+      "read": "けんしゅう",
+      "desc": "納品されたものが、契約や仕様のとおりかを確認して受け取ること。",
+      "item": "U24-1"
+     },
+     {
+      "term": "RFI（情報提供依頼）",
+      "read": "アールエフアイ",
+      "desc": "RFPの作成に先立ち、ベンダーに技術動向や製品などの情報提供を依頼すること。",
+      "item": "U24-2"
+     },
+     {
+      "term": "RFP（提案依頼書）",
+      "read": "アールエフピー",
+      "desc": "システムの概要・提案依頼事項・調達条件などを示し、ベンダーに提案書の提出を依頼する文書。",
+      "item": "U24-3"
+     },
+     {
+      "term": "提案書",
+      "read": "ていあんしょ",
+      "desc": "ベンダーがRFPをもとに検討したシステム構成や開発手法などを、依頼元に提案する文書。",
+      "item": "U24-4"
+     },
+     {
+      "term": "見積書",
+      "read": "みつもりしょ",
+      "desc": "ベンダーが、提案内容を実現するための費用を項目ごとの金額で示した文書。",
+      "item": "U24-5"
+     }
+    ],
+    "points": [
+     "調達の流れ：RFI→RFP→選定基準の作成→提案書・見積書→比較評価→選定→契約→受入れ・検収。",
+     "RFPは依頼元が作り、提案書・見積書はベンダーが作る。",
+     "選定基準は提案を受け取る前に決め、価格だけでなく総合的に評価する。",
+     "グリーン調達、AI・データの利用に関する契約ガイドライン（シラバスの用語例）。"
+    ]
+   }
+  },
+  "U24-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "図の数値・式をnodeで再計算し一致（数値は説明用の例）。"
+  },
+  "U24-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S10"
+   ]
+  },
+  "U24-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "「AI・データの利用に関する契約ガイドライン」本文（経済産業省サイト）を開けず（HTTP 403）、発行元・内容（学習済みモデルやデータの権利・利用条件）を照合できなかった。"
+  },
+  "U24-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U24-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U24-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "U24-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ]
+  },
+  "lesson:U25": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "作成時低信頼（図の数値は説明用の例）。S3のFP法の説明（機能数を複雑さで重み付けして集計）で考え方を確認し、式をnodeで再計算一致。"
+  },
+  "U25-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U25-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "計算はnodeで一致（27%）だが、生成AI導入による事務時間の削減計算はU25（システム開発技術）のシラバス項目・用語例の範囲外。載せる単元の判断が必要。"
+  },
+  "U25-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U25-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "作成時低信頼。相対見積の定義（基準の作業との比較で見積る）を、開けた公的資料（DS-120・DS-121・IPA応用情報／基本情報シラバス）で確認できなかった（SRC-001は用語名のみ）。"
+  },
+  "U25-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U25-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U25-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "lesson:U26": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4",
+    "S9"
+   ],
+   "note": "スパイラルモデル・RADの説明を資料で確認できなかったため用語名の紹介にとどめ、リバースエンジニアリングの説明をIPAシラバス（S5：既存のソフトウェアを解析して仕様や構成部品などの情報を得る）に合わせた。要点の比較対象もスパイラル→アジャイルに変更。",
+   "patch": {
+    "pages": [
+     {
+      "title": "作り方の考え方（手法）",
+      "body": "構造化手法は、大きな機能を小さな機能に分けていく考え方です。オブジェクト指向は、データとそれを扱う処理をひとまとめ（オブジェクト）にして部品化し、再利用しやすくする考え方です。オブジェクト指向の設計図の書き方を統一したのがUMLで、利用者とシステムのやり取りを表すユースケース図などがあります。開発と運用が協力して素早く改善を続けるDevOps、機械学習モデルにそれを応用したMLOpsもあります。"
+     },
+     {
+      "title": "進め方の型（モデル）",
+      "body": "ウォーターフォールモデルは、工程を上から下へ順に進め、原則として後戻りしません。プロトタイピングモデルは、試作品を早めに作って利用者に見てもらい、要望を固めます。このほか、スパイラルモデルやRAD（Rapid Application Development）といったモデルもあります。既存のソフトウェアを解析して、仕様や構成などの情報を得ることをリバースエンジニアリングといいます。"
+     },
+     {
+      "title": "アジャイルとスクラム",
+      "body": "アジャイルは、短い期間で「作る→見せる→直す」を繰り返す開発です。スクラムでは、プロダクトオーナーが作る機能の一覧（プロダクトバックログ）の優先順位を決め、開発者が1〜4週間程度のスプリントで作り、スクラムマスターが進め方を支えます。XPには、テストを先に書くテスト駆動開発、2人で1台を使うペアプログラミング、動きを変えずにコードを整理するリファクタリングなどがあります。"
+     },
+     {
+      "title": "プロセスの共通ルール",
+      "body": "発注者と開発者で「要件定義」などの言葉の意味がずれると、トラブルになります。そこで作業項目と用語を標準化した共通フレーム（SLCP）があります。また、開発組織のプロセスの成熟度を5段階で評価し、改善に役立てるモデルとしてCMMI（能力成熟度モデル統合）があります。"
+     }
+    ],
+    "terms": [
+     {
+      "term": "オブジェクト指向",
+      "read": "おぶじぇくとしこう",
+      "desc": "データと処理をひとまとめの部品（オブジェクト）として扱い、再利用しやすくする考え方。",
+      "item": "U26-1"
+     },
+     {
+      "term": "UML",
+      "read": "ゆーえむえる",
+      "desc": "オブジェクト指向の設計を図で表すための統一された表記法。ユースケース図、クラス図など。",
+      "item": "U26-1"
+     },
+     {
+      "term": "DevOps",
+      "read": "でぶおぷす",
+      "desc": "開発（Development）と運用（Operations）が協力し、素早く継続的にリリースと改善を行う取組み。",
+      "item": "U26-1"
+     },
+     {
+      "term": "ウォーターフォールモデル",
+      "read": "うぉーたーふぉーるもでる",
+      "desc": "工程を順番に進め、原則として前の工程に戻らない開発モデル。",
+      "item": "U26-2"
+     },
+     {
+      "term": "プロトタイピングモデル",
+      "read": "ぷろとたいぴんぐもでる",
+      "desc": "試作品を早い段階で作り、利用者の確認を受けながら要件を固めるモデル。",
+      "item": "U26-2"
+     },
+     {
+      "term": "リバースエンジニアリング",
+      "read": "りばーすえんじにありんぐ",
+      "desc": "既存のソフトウェアを解析して、仕様や構成などの情報を得ること。",
+      "item": "U26-2"
+     },
+     {
+      "term": "スクラム",
+      "read": "すくらむ",
+      "desc": "アジャイルの代表的な枠組み。スプリントを繰り返し、チームで成果を積み上げる。",
+      "item": "U26-3"
+     },
+     {
+      "term": "テスト駆動開発",
+      "read": "てすとくどうかいはつ",
+      "desc": "先にテストを書き、それに合格するようにプログラムを作る進め方。",
+      "item": "U26-3"
+     },
+     {
+      "term": "リファクタリング",
+      "read": "りふぁくたりんぐ",
+      "desc": "外から見た動きは変えずに、プログラムの内部を読みやすく整理すること。",
+      "item": "U26-3"
+     },
+     {
+      "term": "共通フレーム（SLCP）",
+      "read": "きょうつうふれーむ",
+      "desc": "ソフトウェア開発や取引の作業項目・用語を標準化した枠組み。",
+      "item": "U26-4"
+     }
+    ],
+    "points": [
+     "ウォーターフォール／プロトタイピング／アジャイルの違い",
+     "スクラムの役割（プロダクトオーナー・開発者・スクラムマスター）とバックログ",
+     "XPの手法（テスト駆動開発・ペアプログラミング・リファクタリング）",
+     "共通フレーム（SLCP）とCMMIの目的"
+    ]
+   }
+  },
+  "U26-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ],
+   "note": "スクラムでは計画・レビュー・ふりかえりもスプリントの中で行う（S4）ため、「スプリント」を独立した段階のように見せていた2番目のコマと説明文を修正。",
+   "patch": {
+    "caption": "スプリントの中で、計画・日々の開発・レビュー・ふりかえりを行い、バックログを見直して次のスプリントへ進みます。",
+    "nodes": [
+     {
+      "label": "スプリント計画",
+      "note": "バックログから項目を選び、スプリントバックログを作る"
+     },
+     {
+      "label": "日々の開発",
+      "note": "デイリースクラムで進み具合を確かめながら作る"
+     },
+     {
+      "label": "スプリントレビュー",
+      "note": "できた成果を関係者に見せ、意見をもらう"
+     },
+     {
+      "label": "ふりかえり",
+      "note": "チームの進め方を見直し、次の改善を決める"
+     },
+     {
+      "label": "バックログの見直し",
+      "note": "プロダクトオーナーが中心となり項目を並べ替える"
+     }
+    ]
+   }
+  },
+  "U26-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ],
+   "note": "誤りの選択肢「スパイラルモデル」の説明を資料で確認できなかったため、資料（S5）で確認できるリバースエンジニアリングに差し替え。",
+   "patch": {
+    "choices": [
+     "プロトタイピングモデル",
+     "リバースエンジニアリング",
+     "ウォーターフォールモデル",
+     "アジャイル開発"
+    ],
+    "why": [
+     "誤り。プロトタイピングは、要件があいまいなときに試作品で確認する方法です。",
+     "誤り。リバースエンジニアリングは、既存のソフトウェアを解析して仕様や構成などの情報を得ることで、新しく作るときの開発モデルではありません。",
+     "正しい。要件が明確で変更が少ないなら、工程を順に進めるウォーターフォールモデルが適しています。",
+     "誤り。アジャイルは、変化に合わせて短い期間で開発を繰り返す方法で、この事例の条件には合いません。"
+    ]
+   }
+  },
+  "U26-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "スパイラルモデルの定義を、開けた公的資料（IPA応用情報・基本情報シラバス、DS-120、DS-121）で確認できなかった（SRC-001は用語名のみ）。"
+  },
+  "U26-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S9",
+    "S4"
+   ]
+  },
+  "U26-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U26-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "作成時低信頼。RADの特徴（少人数・ツール活用・利用者参加・短期間）を、開けた公的資料で確認できなかった（SRC-001は用語名のみ）。"
+  },
+  "U26-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "U26-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4"
+   ]
+  },
+  "lesson:U27": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "図の数値・式をnodeで再計算し一致（数値は説明用の例）。"
+  },
+  "U27-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "U27-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U27-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S5"
+   ]
+  },
+  "lesson:U28": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "図の数値・式をnodeで再計算し一致（数値は説明用の例）。 S3の稼働率の指標（計画停止等を除く）と一致。"
+  },
+  "U28-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U28-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3",
+    "S11"
+   ],
+   "note": "作成時低信頼。S5（ITIL＝フレームワーク、JIS Q 20000＝組織に対する要求事項をJISで規定）とS11（JIS Q 20000-1による認証制度）で確認。"
+  },
+  "U28-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U28-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U28-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U28-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "作成時低信頼。SLAは組織と顧客の合意文書（S5）であり、提供側（情報システム部門）や無関係者を顧客とする他の選択肢は明らかに誤りで、正解は1つ。"
+  },
+  "U28-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U28-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ],
+   "note": "nodeで再計算し一致。 S3の稼働率の指標（計画停止等を除いた予定稼働時間で割る）で考え方を確認。"
+  },
+  "lesson:U29": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U29-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "SLAは提供者と「顧客」の合意文書（S5：組織と顧客との間の合意文書）なので、問題文の「利用者」を「顧客」に修正。",
+   "patch": {
+    "q": "サービスの提供者と顧客の間で合意したサービスレベルを文書（SLA）にし、達成状況を測定・報告して、改善につなげていく活動はどれか。"
+   }
+  },
+  "U29-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U29-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U29-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S3"
+   ]
+  },
+  "U29-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "U29-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ]
+  },
+  "lesson:U30": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6",
+    "S7"
+   ]
+  },
+  "U30-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6",
+    "S7"
+   ]
+  },
+  "U30-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6",
+    "S7"
+   ],
+   "note": "作成時低信頼。S7で雷サージ対策のSPDが電源用と通信・信号回路用に分かれること、S6で落雷等による過電流からの保護を確認。"
+  },
+  "U30-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ],
+   "note": "「バッテリの劣化」を原因とする記述を資料で確認できなかったため、総務省ガイドライン（S6）の解説にある「サーバの増設などで給電できる時間が短くなる→給電できる時間を定期的に確認する」に沿って設問を修正。",
+   "patch": {
+    "q": "UPSを導入した後、サーバ室にはサーバが何台も増設されていた。先日の停電で、UPSが想定していた時間よりもずっと早く給電を止めてしまい、サーバが突然停止した。原因として考えられることと、今後の対策の組合せとして、最も適切なものはどれか。",
+    "choices": [
+     "サーバのOSが古い ― OSを新しくする",
+     "室温が低すぎた ― 空調を止める",
+     "接続する機器が増えて、UPSが給電できる時間が短くなっていた ― 給電できる時間を定期的に確認し、必要に応じてUPSの容量を見直す",
+     "サージ防護をしていた ― サージ防護を外す"
+    ],
+    "why": [
+     "OSの古さは、UPSが給電できる時間には関係しません。",
+     "空調を止めると、機器の故障の原因になります。",
+     "正しい。機器の増設などで給電できる時間は短くなるため、定期的に確認して容量を見直します。",
+     "サージ防護は雷などへの備えで、UPSの給電時間が短くなった原因ではありません。"
+    ],
+    "explain": "UPSが給電できる時間は、接続する機器の消費電力が増えると短くなります。例えば、以前は30分程度給電できたものが、サーバの増設で15分程度しかもたなくなることもあります。給電できる時間を定期的に確認し、必要に応じてUPSの容量を見直します。"
+   }
+  },
+  "U30-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U30-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ],
+   "note": "作成時低信頼。シラバスSRC-001の「グリーンIT（Green of IT）」とS5の環境側面（地球環境に配慮したIT製品・インフラと、環境保護につながるIT利用）で区別を確認。"
+  },
+  "U30-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ],
+   "note": "作成時低信頼。S5の空調設備（コールドアイル・ホットアイル、エアフロー）とS6の排気熱の滞留防止で確認。"
+  },
+  "U30-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ]
+  },
+  "U30-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6",
+    "S7"
+   ]
+  },
+  "lesson:U31": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ],
+   "note": "「改善の指示は経営者（監査の依頼者）が行う」は現行のシステム監査基準（令和5年、S1）で確認できなかったため、【基準12】の主旨（監査人は改善の実施そのものに責任を負わず、改善の実施が適切かをフォローアップし、取締役会等及び経営者等に報告する）に沿った問題に作り直した。",
+   "patch": {
+    "q": "システム監査人が監査報告書で改善を提案し、その後、改善の実施状況をフォローアップした。システム監査基準で、監査人がフォローアップの結果を報告する相手とされているものとして、最も適切なものはどれか。",
+    "choices": [
+     "改善を行った監査対象部門の担当者だけ",
+     "外部の認証機関",
+     "取締役会等及び経営者等",
+     "取引先の企業"
+    ],
+    "answer": 2,
+    "explain": "システム監査基準では、監査人は改善の実施そのものに責任を負うことはなく、改善の実施が適切であるかどうかをフォローアップし、取締役会等及び経営者等に報告するとしています。改善は監査対象部門の責任で行われ、監査人が改善計画の策定や実行に関与すると独立性と客観性を損ないます。",
+    "why": [
+     "誤り。担当者だけでなく、取締役会等及び経営者等に報告します。",
+     "誤り。社内のシステム監査のフォローアップ結果を、外部の認証機関に報告することとはされていません。",
+     "正しい。改善の実施が適切かをフォローアップし、取締役会等及び経営者等に報告します。",
+     "誤り。取引先は、社内のシステム監査のフォローアップ結果の報告先ではありません。"
+    ],
+    "format": "term"
+   }
+  },
+  "U31-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ],
+   "note": "システム監査基準（S1）の前文では、他のガイドラインや組織体独自の諸規程・マニュアル等も判断尺度に用いることができるとしており、誤りの選択肢「監査対象部門が自分たちで作った基準だけを用いる」の扱いが紛らわしかったため、基準の記述と明確に食い違う選択肢に差し替え、解説も基準の文言に合わせた。",
+   "patch": {
+    "choices": [
+     "システム管理基準などを基本にしつつ、監査の目的やテーマに応じて適切な基準を選んで用いる",
+     "どのような監査でも、システム管理基準のすべての項目を必ずそのまま用いる",
+     "システム管理基準以外のガイドラインや組織体独自の規程は、判断尺度として一切用いてはならない",
+     "判断尺度は、監査報告書を作成した後に決める"
+    ],
+    "why": [
+     "正しい。目的やテーマに応じて適切な基準を選びます。",
+     "誤り。システム管理基準は、組織体の特性や状況等に応じて調整編集して用いることができます。",
+     "誤り。他のガイドラインや組織体独自の諸規程・マニュアル等を判断尺度として用いることもできます。",
+     "誤り。判断尺度がなければ監査証拠を評価できないので、評価・結論より前に決めておく必要があります。"
+    ],
+    "explain": "システム監査基準では、判断尺度として「システム管理基準」又はそれを組織体の特性や状況等に応じて調整編集した基準・規程等を利用することが望ましいとし、他のガイドラインや組織体独自の諸規程・マニュアル等を用いることもできるとしています。監査の目的やテーマに応じて適切な基準を選びます。"
+   }
+  },
+  "U31-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5",
+    "S2"
+   ]
+  },
+  "U31-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ],
+   "note": "作成時低信頼。S1の意義と目的（保証を与える、又は改善のための助言を行う）・保証目的／助言目的の監査で確認。"
+  },
+  "U31-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "U31-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S5"
+   ]
+  },
+  "lesson:U32": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1",
+    "S5"
+   ]
+  },
+  "U32-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1",
+    "S5"
+   ],
+   "note": "作成時低信頼。S1用語集のガバナンス（評価：Evaluate、指示：Direct、モニタ：Monitor）とS5のITガバナンス用語例（JIS Q 38500）で確認。"
+  },
+  "U32-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1",
+    "S5"
+   ]
+  },
+  "U32-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1",
+    "S5"
+   ]
+  },
+  "U32-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ],
+   "note": "誤りの選択肢「IT全社的統制」は金融庁の基準・実施基準（S2）で確認できない用語だったため、基準にある「全社的な内部統制」に差し替え。",
+   "patch": {
+    "choices": [
+     "全社的な内部統制",
+     "IT全般統制",
+     "ITガバナンス",
+     "IT業務処理統制"
+    ],
+    "why": [
+     "誤り。全社的な内部統制は、連結ベースでの財務報告全体に重要な影響を及ぼす内部統制で、個々の業務処理に組み込まれた入力チェックのことではありません。",
+     "誤り。IT全般統制は、システムの開発・保守・運用・アクセス管理など、基盤となる統制です。",
+     "誤り。ITガバナンスは、経営陣がITの利用を方向付ける仕組みで、個々の入力チェックではありません。",
+     "正しい。業務処理の中の入力チェックはIT業務処理統制です。"
+    ]
+   }
+  },
+  "U32-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1",
+    "S5"
+   ]
+  },
+  "U32-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ]
+  },
+  "U32-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1",
+    "S5"
+   ]
+  },
+  "U32-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S1"
+   ],
+   "note": "作成時低信頼。S2の独立的評価（内部監査部門等）とモニタリングの定義で確認。"
+  },
+  "lesson:U33": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ]
+  },
+  "U33-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "図の数値・式をnodeで再計算し一致（数値は説明用の例）。"
+  },
+  "U33-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "図の数値・式をnodeで再計算し一致（数値は説明用の例）。"
+  },
+  "U33-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。 作成時低信頼。S5の補数表現・表現可能な数値の範囲を確認。"
+  },
+  "U33-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ]
+  },
+  "U33-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ]
+  },
+  "U33-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ]
+  },
+  "U33-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ],
+   "note": "nodeで再計算し一致。"
+  },
+  "U33-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S8"
+   ]
+  }
+ }
+}

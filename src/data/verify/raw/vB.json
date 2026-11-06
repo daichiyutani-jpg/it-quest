@@ -1,0 +1,2688 @@
+{
+ "range": "U13-U22",
+ "verifier": "照合担当B（作成とは別のAI）",
+ "checkedAt": "2026-11-06",
+ "sources": [
+  {
+   "key": "S1",
+   "name": "「人間中心のAI社会原則」及び「AI戦略2019(有識者提案)」について（説明資料）",
+   "publisher": "内閣府政策統括官（科学技術・イノベーション担当）（厚生労働省サイト掲載）",
+   "url": "https://www.mhlw.go.jp/content/10601000/000502267.pdf",
+   "where": "人間中心のAI社会原則 (1)〜(7)",
+   "published": "平成31年4月17日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S2",
+   "name": "ガバメントクラウド",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/policies/gov_cloud",
+   "where": "冒頭・概要",
+   "published": "最終更新 2026年3月27日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S3",
+   "name": "ベース・レジストリ",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/policies/base_registry",
+   "where": "冒頭の定義",
+   "published": "最終更新 2026年7月21日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S4",
+   "name": "平成29年版 消防白書 トピックス（Jアラート）",
+   "publisher": "消防庁",
+   "url": "https://www.fdma.go.jp/publication/hakusho/h29/topics10/46067.html",
+   "where": "Jアラートの概要",
+   "published": "平成29年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S5",
+   "name": "自動運転車の安全技術ガイドライン",
+   "publisher": "国土交通省自動車局",
+   "url": "https://www.mlit.go.jp/common/001253665.pdf",
+   "where": "2. 対象車両「自動運転化レベルの定義の概要」表",
+   "published": "平成30年9月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S6",
+   "name": "DX白書2023",
+   "publisher": "IPA",
+   "url": "https://www.ipa.go.jp/publish/wp-dx/gmcbt8000000botk-att/000108041.pdf",
+   "where": "第5部 第2章（EA・クラウドの提供形態・図表5-10）、デジタルツイン、CASE",
+   "published": "2023年3月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S7",
+   "name": "DXの現在地とレガシーシステム脱却に向けて（レガシーシステムモダン化委員会総括レポート）",
+   "publisher": "経済産業省（IPA掲載）",
+   "url": "https://www.ipa.go.jp/disc/committee/begoj90000002xuk-att/legacy-system-modernization-committee-20250528-report.pdf",
+   "where": "はじめに、レガシーシステムの定義",
+   "published": "2025年5月28日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8",
+   "name": "「共通フレーム2013に基づく調達管理ガイド」試作版",
+   "publisher": "IPA",
+   "url": "https://www.ipa.go.jp/archive/files/000029060.pdf",
+   "where": "2.1.1 システム化構想の立案／2.1.2 システム化計画の立案（タスク一覧）／2.2 要件定義",
+   "published": "2013年3月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S9",
+   "name": "データセンターの安全・信頼性に係る情報開示指針（第3版）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_content/000475605.pdf",
+   "where": "前提 ハウジングの定義",
+   "published": "記載なし（第3版）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S10",
+   "name": "データセンターの安全・信頼性に係る情報開示指針 新旧対照表",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_content/000138674.pdf",
+   "where": "前提 ハウジング、ホスティングの定義",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S11",
+   "name": "教えて！にちぎん「暗号資産（仮想通貨）とは何ですか？」",
+   "publisher": "日本銀行",
+   "url": "https://www.boj.or.jp/about/education/oshiete/money/c27.htm",
+   "where": "回答",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S12",
+   "name": "教えて！にちぎん「中央銀行デジタル通貨とは何ですか？」",
+   "publisher": "日本銀行",
+   "url": "https://www.boj.or.jp/about/education/oshiete/money/c28.htm",
+   "where": "回答",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13",
+   "name": "教えて！にちぎん「電子マネーとは何ですか？」",
+   "publisher": "日本銀行",
+   "url": "https://www.boj.or.jp/about/education/oshiete/money/c26.htm",
+   "where": "回答",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S14",
+   "name": "DS-100 デジタル・ガバメント推進標準ガイドライン",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/54d8725e/20260715_resources_standard_guidelines_guideline_01.pdf",
+   "where": "デジタル3原則の記述",
+   "published": "2026年6月12日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S15",
+   "name": "DS-120 デジタル・ガバメント推進標準ガイドライン実践ガイドブック",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+   "where": "クラウド・バイ・デフォルト原則、ペルソナ、BPR、ファームウェアのアップデート",
+   "published": "2026年6月12日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S16",
+   "name": "難治性疾患克服研究事業 資料（魔の川・死の谷・淘汰の海の図）",
+   "publisher": "厚生労働省",
+   "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000002473g-att/2r9852000002479t.pdf",
+   "where": "図中の障壁",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S17",
+   "name": "オープンイノベーション白書 第三版",
+   "publisher": "NEDO",
+   "url": "https://www.nedo.go.jp/content/100918466.pdf",
+   "where": "p12〜15（キャズム・イノベーションのジレンマ）、p30〜31（オープン／クローズドイノベーション）、p21（デザイン思考）、p37（リーンスタートアップ・MVP）",
+   "published": "2020年5月29日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S18",
+   "name": "UTECの取組み（STARTシンポジウム資料）",
+   "publisher": "文部科学省掲載（作成：東京大学エッジキャピタル）",
+   "url": "https://www.mext.go.jp/component/a_menu/science/detail/__icsFiles/afieldfile/2012/11/15/1328201_06.pdf",
+   "where": "魔の川・死の谷・ダーウィンの海",
+   "published": "2012年10月22日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S19",
+   "name": "産学官連携ジャーナル Vol.15 No.6",
+   "publisher": "JST（J-STAGE）",
+   "url": "https://www.jstage.jst.go.jp/article/sangakukanjournal/15/6/15_24/_pdf",
+   "where": "魔の川・死の谷・ダーウィンの海",
+   "published": "2019年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S20",
+   "name": "中小規模製造業者の製造分野におけるDX推進ガイド 用語集",
+   "publisher": "IPA",
+   "url": "https://www.ipa.go.jp/digital/dx/mfg-dx/ug65p90000001kqv-att/000093475.pdf",
+   "where": "JIT、部品表、CAD、CAM、PoC、デザイン思考、リーンスタートアップ、オープンイノベーション",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S21",
+   "name": "DX関連用語集",
+   "publisher": "IPA DX SQUARE",
+   "url": "https://dx.ipa.go.jp/dx-glossary-all",
+   "where": "PoC・デザイン思考・リーンスタートアップ・オープンイノベーション",
+   "published": "2021年11月30日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S22",
+   "name": "DX SQUARE インタビュー（応用地質）",
+   "publisher": "IPA DX SQUARE",
+   "url": "https://dx.ipa.go.jp/interview-oyo",
+   "where": "PoCとPoV（価値実証）の区別",
+   "published": "2022年10月5日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S23",
+   "name": "オープンAPIって何？",
+   "publisher": "全国銀行協会",
+   "url": "https://www.zenginkyo.or.jp/article/tag-g/9797/",
+   "where": "オープンAPI・APIの説明",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S24",
+   "name": "平成30年版 情報通信白書 API公開の効果と課題",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h30/html/nd133120.html",
+   "where": "API公開による連携",
+   "published": "平成30年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S25",
+   "name": "ビジネス短信（ジャパン・ハッカソン）",
+   "publisher": "JETRO",
+   "url": "https://www.jetro.go.jp/biznews/2020/07/5d4484040bb39f34.html",
+   "where": "注1 ハッカソンの説明",
+   "published": "2020年7月13日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S26",
+   "name": "PLATEAU Journal j036",
+   "publisher": "国土交通省",
+   "url": "https://www.mlit.go.jp/plateau/journal/j036/",
+   "where": "ビジネスモデルキャンバス（9つのブロック）",
+   "published": "2023年9月15日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S27",
+   "name": "MOT教育コアカリキュラム（参考資料）",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/b_menu/shingi/chousa/koutou/084/gijiroku/__icsFiles/afieldfile/2018/01/29/1399843_11.pdf",
+   "where": "MOT、技術ロードマップ",
+   "published": "2018年1月掲載",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S28",
+   "name": "戦略策定調査事業 中間評価資料",
+   "publisher": "NEDO",
+   "url": "https://www.nedo.go.jp/content/100875165.pdf",
+   "where": "技術ロードマップの策定・更新",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S29",
+   "name": "高等学校学習指導要領解説 工業編",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20251203-mxt_kyoiku01-100002620_23.pdf",
+   "where": "科目「生産技術」（CAD/CAM、FMS）",
+   "published": "平成30年7月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S30",
+   "name": "J-Net21 Q1091（リーン生産方式）",
+   "publisher": "中小企業基盤整備機構",
+   "url": "https://j-net21.smrj.go.jp/solution/qa/production/Q1091.html",
+   "where": "回答（リーン生産方式・JIT）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S31",
+   "name": "J-Net21 Q1317（IoT投資の効果）",
+   "publisher": "中小企業基盤整備機構",
+   "url": "https://j-net21.smrj.go.jp/solution/qa/systems/Q1317.html",
+   "where": "回答（予知保全・センサー計測）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S32",
+   "name": "平成16年版 情報通信白書 用語解説",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h16/yougo/index.html",
+   "where": "ASP・B2B・B2C・EDI・ETC・GIS・ITS・電子タグ・非接触型ICカード・テレワーク・準天頂衛星・デジタル・ディバイド・eラーニング・電子商取引",
+   "published": "平成16年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S33",
+   "name": "平成18年版 情報通信白書（企業間取引のネットワーク化）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h18/html/i1c40000.html",
+   "where": "EDI・eマーケットプレイス",
+   "published": "平成18年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S34",
+   "name": "平成18年版 情報通信白書（ロングテール現象）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h18/html/i1440000.html",
+   "where": "本文",
+   "published": "平成18年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S35",
+   "name": "平成28年版 情報通信白書（ICTの貢献の多様性）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h28/html/nc114110.html",
+   "where": "フリーミアム",
+   "published": "平成28年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S36",
+   "name": "平成25年版 情報通信白書（O2O）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h25/html/nc111320.html",
+   "where": "O2O",
+   "published": "平成25年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S37",
+   "name": "令和2年版 情報通信白書 コラム（O2OからOMOへ）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r02/html/nd134620.html",
+   "where": "OMO",
+   "published": "令和2年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S38",
+   "name": "平成25年版 情報通信白書（クラウドファンディング）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h25/html/nc112140.html",
+   "where": "クラウドファンディング",
+   "published": "平成25年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S39",
+   "name": "平成27年版 情報通信白書（クラウドソーシング）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc243120.html",
+   "where": "クラウドソーシング",
+   "published": "平成27年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S40",
+   "name": "平成27年版 情報通信白書（シェアリング・エコノミーとは）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc242110.html",
+   "where": "本文",
+   "published": "平成27年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S41",
+   "name": "平成29年版 情報通信白書（FinTech）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h29/html/nc112210.html",
+   "where": "本文",
+   "published": "平成29年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S42",
+   "name": "令和5年版 情報通信白書（Web3の応用事例）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r05/html/nd131120.html",
+   "where": "NFT",
+   "published": "令和5年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S43",
+   "name": "令和2年版 情報通信白書 第3章第3節",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r02/pdf/n3300000.pdf",
+   "where": "情報銀行",
+   "published": "令和2年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S44",
+   "name": "令和6年版 情報通信白書（メタバース・デジタルツイン）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd132100.html",
+   "where": "デジタルツイン",
+   "published": "令和6年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S45",
+   "name": "平成27年版 情報通信白書（ユビキタスからIoTへ）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc254110.html",
+   "where": "M2M",
+   "published": "平成27年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S46",
+   "name": "国民のためのサイバーセキュリティサイト（フィッシング詐欺とは？）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/risk/04/",
+   "where": "本文・対策",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S47",
+   "name": "国民のためのサイバーセキュリティサイト 用語集（は行）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_06/",
+   "where": "ファームウェア",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S49",
+   "name": "キャリア決済を中心としたキャッシュレス決済の動向整理",
+   "publisher": "消費者庁",
+   "url": "https://www.caa.go.jp/policies/policy/consumer_policy/meeting_materials/assets/internet_committee_211012_0002.pdf",
+   "where": "キャリア決済",
+   "published": "2021年9月28日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S50",
+   "name": "サイバー防犯 Vol.13",
+   "publisher": "警察庁",
+   "url": "https://www.npa.go.jp/bureau/cyber/pdf/Vol.13cpal.pdf",
+   "where": "エスクローサービス",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S51",
+   "name": "マネロン・テロ資金供与・拡散金融対策ガイドラインに関するFAQ",
+   "publisher": "金融庁",
+   "url": "https://www.fsa.go.jp/common/law/amlcft/amlcftgl_faq.pdf",
+   "where": "マネー・ローンダリングの説明",
+   "published": "令和6年4月1日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S52",
+   "name": "犯罪収益移転防止法におけるオンラインで完結可能な本人確認方法の概要",
+   "publisher": "金融庁",
+   "url": "https://www.fsa.go.jp/common/law/guide/kakunin-qa/2.pdf",
+   "where": "規則6条1項1号ホ・ヘ",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S53",
+   "name": "銀行法（e-Gov法令API）",
+   "publisher": "e-Gov（デジタル庁）",
+   "url": "https://laws.e-gov.go.jp/api/1/lawdata/356AC0000000059",
+   "where": "第2条第21項（電子決済等代行業）",
+   "published": "照合日時点の現行法",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S54",
+   "name": "令和4年版 国土交通白書",
+   "publisher": "国土交通省",
+   "url": "https://www.mlit.go.jp/hakusyo/mlit/r03/hakusho/r04/html/n2243000.html",
+   "where": "MaaS",
+   "published": "令和4年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S55",
+   "name": "スマートシティ",
+   "publisher": "内閣府",
+   "url": "https://www8.cao.go.jp/cstp/society5_0/smartcity/index.html",
+   "where": "定義",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S57",
+   "name": "みちびきとは何か",
+   "publisher": "内閣府（みちびき公式サイト）",
+   "url": "https://qzss.go.jp/overview/services/sv01_what.html",
+   "where": "本文",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S58",
+   "name": "スマート農業について教えてください",
+   "publisher": "農林水産省",
+   "url": "https://www.maff.go.jp/j/heya/sodan/17009/02.html",
+   "where": "回答",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S60",
+   "name": "環境展望台（HEMS）",
+   "publisher": "国立環境研究所",
+   "url": "https://tenbou.nies.go.jp/science/description/detail.php?id=17",
+   "where": "解説",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S61",
+   "name": "再生可能エネルギー技術白書 第9章",
+   "publisher": "NEDO",
+   "url": "https://www.nedo.go.jp/content/100107277.pdf",
+   "where": "スマートグリッド",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S62",
+   "name": "BPMN Specification",
+   "publisher": "OMG",
+   "url": "https://www.omg.org/spec/BPMN/",
+   "where": "概要",
+   "published": "Version 2.0.2",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S63",
+   "name": "平成13年版 情報通信白書（電子商取引市場）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h13/html/D1124000.htm",
+   "where": "e-マーケットプレイス",
+   "published": "平成13年版",
+   "checked": "2026-11-06"
+  }
+ ],
+ "items": {
+  "lesson:U13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S16",
+    "S17",
+    "S19",
+    "S20",
+    "S21",
+    "S15"
+   ],
+   "note": "魔の川等・キャズム・オープンイノベーション・デザイン思考・PoC・リーンスタートアップ・ペルソナは確認。バックキャスティング、プロダクト/プロセスイノベーションの定義、VC/CVCの説明を公的資料で確認できなかった"
+  },
+  "U13-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19",
+    "S16",
+    "S18"
+   ],
+   "note": "順序と各関門の位置づけを確認（資料により区切り方の表現に幅がある）"
+  },
+  "U13-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "プロダクト／プロセスイノベーションの定義を公的資料で確認できなかった"
+  },
+  "U13-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19",
+    "S16",
+    "S18",
+    "S17"
+   ],
+   "note": ""
+  },
+  "U13-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17",
+    "S21"
+   ],
+   "note": "クローズドイノベーションもS17で確認"
+  },
+  "U13-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "S17：初期少数採用者と初期多数採用者の間に深い溝"
+  },
+  "U13-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S21",
+    "S22"
+   ],
+   "note": ""
+  },
+  "U13-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17",
+    "S21",
+    "S26"
+   ],
+   "note": ""
+  },
+  "U13-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "プロセスイノベーションの定義を公的資料で確認できなかった"
+  },
+  "U13-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "バックキャスティング／フォアキャスティングの定義を公的資料で確認できなかった"
+  },
+  "U13-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "S17（クリステンセン、持続的／破壊的イノベーション）"
+  },
+  "U13-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S25"
+   ],
+   "note": ""
+  },
+  "U13-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "IPランドスケープの特許庁資料が自動取得を拒否（403）し開けなかった"
+  },
+  "U13-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "ベンチャーキャピタルの定義を公的資料で確認できなかった"
+  },
+  "U13-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27",
+    "S28"
+   ],
+   "note": ""
+  },
+  "U13-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23",
+    "S24"
+   ],
+   "note": "銀行のオープンAPIはS23（全銀協）、API公開による連携はS24で確認"
+  },
+  "U13-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24"
+   ],
+   "note": ""
+  },
+  "U13-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19",
+    "S18",
+    "S16"
+   ],
+   "note": ""
+  },
+  "U13-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "初期少数採用者と初期多数採用者の間"
+  },
+  "U13-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27"
+   ],
+   "note": ""
+  },
+  "U13-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19",
+    "S18",
+    "S16"
+   ],
+   "note": ""
+  },
+  "U13-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S21",
+    "S17",
+    "S20"
+   ],
+   "note": ""
+  },
+  "U13-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S26"
+   ],
+   "note": "9つのブロックで構成されることを確認"
+  },
+  "U13-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "CVCの定義を公的資料で確認できなかった（S17は言及のみ）"
+  },
+  "U13-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S21"
+   ],
+   "note": "S22でPoC（技術）とPoV（価値実証）の区別を確認"
+  },
+  "lesson:U14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S44",
+    "S32"
+   ],
+   "note": "AI社会原則・行政システム・デジタルツイン等は確認。POS・SFA・マイナポータル・ソフトウェアパッケージ・ハルシネーション・XAI・HITLの定義を公的資料で確認できなかった。ベースレジストリの用語説明（terms）だけをデジタル庁の定義に合わせて直した（他の用語は原文のまま）",
+   "patch": {
+    "terms": [
+     {
+      "term": "POSシステム",
+      "read": "ポスシステム",
+      "desc": "販売時点情報管理。商品が売れた時点で、何が・いつ・いくつ売れたかを記録し、売上分析や発注に生かす。",
+      "item": "U14-1"
+     },
+     {
+      "term": "トレーサビリティ",
+      "read": "トレーサビリティ",
+      "desc": "商品の生産から販売までの経路や履歴を、後からたどれるようにすること。",
+      "item": "U14-1"
+     },
+     {
+      "term": "デジタルツイン",
+      "read": "デジタルツイン",
+      "desc": "現実の設備や都市などのデータを使い、仮想空間にそっくりな「双子」を再現して分析・予測すること。",
+      "item": "U14-1"
+     },
+     {
+      "term": "マイナポータル",
+      "read": "マイナポータル",
+      "desc": "政府が運営するオンラインサービス。行政手続きの検索・電子申請や、行政機関が持つ自分の情報の確認ができる。",
+      "item": "U14-2"
+     },
+     {
+      "term": "ベースレジストリ",
+      "read": "ベースレジストリ",
+      "desc": "住所・所在地や法人の名称など、制度を横断して多くの行政手続で参照される基本となるデータを整備したデータベース。",
+      "item": "U14-2"
+     },
+     {
+      "term": "Jアラート",
+      "read": "ジェイアラート",
+      "desc": "全国瞬時警報システム。弾道ミサイル情報や緊急地震速報などを国から自治体などへ瞬時に伝える。",
+      "item": "U14-2"
+     },
+     {
+      "term": "業種別・業務別ソフトウェアパッケージ",
+      "read": "ぎょうしゅべつ・ぎょうむべつ",
+      "desc": "業種別は医療・金融など特定の業界向け、業務別は会計・販売管理など多くの業界に共通する業務向けの既製ソフト。",
+      "item": "U14-3"
+     },
+     {
+      "term": "ハルシネーション",
+      "read": "ハルシネーション",
+      "desc": "AIが事実と異なる内容を、もっともらしく出力してしまう現象。",
+      "item": "U14-4"
+     },
+     {
+      "term": "説明可能なAI（XAI）",
+      "read": "エックスエーアイ",
+      "desc": "AIがなぜその結果を出したのか、根拠を人が理解できる形で示せるようにする技術や考え方。",
+      "item": "U14-4"
+     },
+     {
+      "term": "ヒューマンインザループ（HITL）",
+      "read": "ヒューマンインザループ",
+      "desc": "AIの処理の流れの中に人間の確認・判断を組み込み、誤りや偏りを人が正す仕組み。",
+      "item": "U14-4"
+     }
+    ]
+   }
+  },
+  "U14-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "教師あり・教師なし・強化学習の説明と活用例を公的資料で確認できなかった"
+  },
+  "U14-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "業務別／業種別パッケージの区別を公的資料で確認できなかった"
+  },
+  "U14-q01": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": "POSシステムの定義を公的資料で確認できなかった（GIS・ETCはS32で確認）"
+  },
+  "U14-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S44",
+    "S6",
+    "S32",
+    "S61"
+   ],
+   "note": ""
+  },
+  "U14-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S4",
+    "S3"
+   ],
+   "note": "マイナポータルの説明を公的資料で確認できなかった"
+  },
+  "U14-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S4",
+    "S2"
+   ],
+   "note": "正解の選択肢と解説を、デジタル庁の定義（制度を横断して多数の手続で参照されるデータからなるデータベース）に合わせて修正。元の「人・法人・土地・建物」は資料の例示（住所・所在地、法人の名称）と一致しない",
+   "patch": {
+    "choices": [
+     "国から自治体などへ、弾道ミサイル情報や緊急地震速報などを瞬時に伝えるシステム",
+     "国や自治体の情報システムが共通して利用できるクラウドサービスの利用環境",
+     "住所・所在地や法人の名称など、制度を横断して多くの行政手続で参照される基本となるデータを整備したデータベース",
+     "国や自治体が物品やサービスを購入する手続きを、インターネット上で行う仕組み"
+    ],
+    "why": [
+     "誤り。これはJアラート（全国瞬時警報システム）の説明。",
+     "誤り。これはガバメントクラウドの説明。",
+     "正しい。多くの行政手続で共通に参照される基本データを整備したデータベースがベースレジストリ。",
+     "誤り。これは電子調達の説明。"
+    ],
+    "explain": "ベースレジストリは、住所・所在地や法人の名称など、制度を横断して多数の行政手続で参照される基本データを、正確・最新の状態で整備したデータベースである。"
+   }
+  },
+  "U14-q05": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（業種別ソフトウェアパッケージ）"
+  },
+  "U14-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ハルシネーション）"
+  },
+  "U14-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "生成AIの出力の誤り・入力情報の扱いに関する公的資料を開けなかった"
+  },
+  "U14-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "S1「公平性、説明責任及び透明性の原則」（不当な差別の禁止、AIを利用している事実等の説明）"
+  },
+  "U14-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S41"
+   ],
+   "note": ""
+  },
+  "U14-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（名寄せ）"
+  },
+  "U14-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SFA）"
+  },
+  "U14-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S57",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U14-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": "S32 電子タグ：電波でICチップのデータを読み書き"
+  },
+  "U14-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "学習データの品質確保に関する公的資料を開けなかった"
+  },
+  "U14-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（自然言語処理）"
+  },
+  "U14-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "AIとRPA・マクロの区別を確かめる公的資料を開けなかった"
+  },
+  "U14-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（DTP）"
+  },
+  "U14-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（業務別ソフトウェアパッケージ）"
+  },
+  "U14-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S6",
+    "S3",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U14-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4"
+   ],
+   "note": "S4：消防庁の送信設備から人工衛星・地上回線で市町村へ送り、防災行政無線を自動起動"
+  },
+  "U14-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（トレーサビリティ）"
+  },
+  "U14-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（教師なし学習）"
+  },
+  "lesson:U15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S29",
+    "S30",
+    "S31"
+   ],
+   "note": "CAD/CAM・JIT・FMS・リーン生産・センシングは確認。かんばん方式・MRP・コンカレントエンジニアリング・セル生産の定義を公的資料で確認できなかった"
+  },
+  "U15-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（MRPの所要量計算）"
+  },
+  "U15-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "見込生産／受注生産の定義を公的資料で確認できなかった"
+  },
+  "U15-q01": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "エンジニアリング分野のIT活用の意義を直接述べた公的資料を開けなかった"
+  },
+  "U15-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S29"
+   ],
+   "note": ""
+  },
+  "U15-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（コンカレントエンジニアリング）"
+  },
+  "U15-q04": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（かんばん方式）"
+  },
+  "U15-q05": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（50）"
+  },
+  "U15-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29"
+   ],
+   "note": "S29：フレキシブル生産システムなど生産の自動化"
+  },
+  "U15-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "生産管理システムの活用例を述べた公的資料を開けなかった"
+  },
+  "U15-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S29"
+   ],
+   "note": ""
+  },
+  "U15-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（シミュレーション）"
+  },
+  "U15-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20",
+    "S30"
+   ],
+   "note": ""
+  },
+  "U15-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S30"
+   ],
+   "note": "S30：リーン生産方式はトヨタ生産方式を一般化したもの"
+  },
+  "U15-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（MRP）"
+  },
+  "U15-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（45）"
+  },
+  "U15-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（5日）"
+  },
+  "U15-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": ""
+  },
+  "U15-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（セル生産方式）"
+  },
+  "U15-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（受注生産）"
+  },
+  "U15-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "S31：振動等をセンサーで計測し故障の予兆を判断"
+  },
+  "U15-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（140）"
+  },
+  "U15-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S20"
+   ],
+   "note": "S20：部品表＝製品を構成する部品の一覧"
+  },
+  "U15-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（設計0〜4、試作2〜5、生産準備4〜7か月目→7か月）。誤りの選択肢2つの理由が同じ一般的な文だったため具体化",
+   "patch": {
+    "why": [
+     "誤り。5か月では短すぎる。試作は2か月目から5か月目まで、生産準備は4か月目から7か月目まで続くので、5か月では生産準備が終わらない。",
+     "誤り。重ねた期間は2＋1＝3か月なので、短くできるのは3か月まで。6か月にするには4か月短くする必要があり、重ねた期間を1か月多く引いている。",
+     "正しい。重ねた2か月と1か月の分だけ短くなり、10−3＝7か月。",
+     "誤り。10か月は工程を重ねない場合の期間。"
+    ]
+   }
+  },
+  "U15-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S20"
+   ],
+   "note": "CADの設計データ再利用の効果を述べた公的資料を開けなかった"
+  },
+  "lesson:U16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S34",
+    "S35",
+    "S32",
+    "S33",
+    "S50",
+    "S36",
+    "S37",
+    "S39",
+    "S13",
+    "S11",
+    "S12",
+    "S52",
+    "S51",
+    "S53"
+   ],
+   "note": ""
+  },
+  "U16-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S50"
+   ],
+   "note": ""
+  },
+  "U16-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（15＋0.1S＜60 → S＜450万円）"
+  },
+  "U16-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S34",
+    "S35",
+    "S36",
+    "S39"
+   ],
+   "note": ""
+  },
+  "U16-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35"
+   ],
+   "note": ""
+  },
+  "U16-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S50"
+   ],
+   "note": ""
+  },
+  "U16-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36",
+    "S37",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U16-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S12",
+    "S11",
+    "S13",
+    "S42"
+   ],
+   "note": ""
+  },
+  "U16-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S52",
+    "S51"
+   ],
+   "note": "S52 規則6条1項1号ホ（本人確認書類の画像と容貌の画像）"
+  },
+  "U16-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S53"
+   ],
+   "note": "口座情報を取得して提供する電子決済等代行業（銀行法2条21項）として確認"
+  },
+  "U16-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S40"
+   ],
+   "note": ""
+  },
+  "U16-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S37",
+    "S36"
+   ],
+   "note": ""
+  },
+  "U16-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S33"
+   ],
+   "note": ""
+  },
+  "U16-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（EFT）"
+  },
+  "U16-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S38",
+    "S39"
+   ],
+   "note": ""
+  },
+  "U16-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S39",
+    "S38"
+   ],
+   "note": ""
+  },
+  "U16-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S42",
+    "S12"
+   ],
+   "note": ""
+  },
+  "U16-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S63",
+    "S33"
+   ],
+   "note": ""
+  },
+  "U16-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11",
+    "S12",
+    "S13"
+   ],
+   "note": "S11：法定通貨ではなく、価格が大きく変動する傾向"
+  },
+  "U16-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S49"
+   ],
+   "note": ""
+  },
+  "U16-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S34"
+   ],
+   "note": "電子商取引の特徴を直接述べた公的資料を開けなかった"
+  },
+  "U16-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S51"
+   ],
+   "note": ""
+  },
+  "U16-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S46"
+   ],
+   "note": ""
+  },
+  "U16-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "通信の暗号化・カード情報の非保持に関する公的資料を開けなかった（経産省サイトは自動取得不可）"
+  },
+  "U16-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（S＜450万円）"
+  },
+  "lesson:U17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S54",
+    "S60",
+    "S58",
+    "S55",
+    "S47",
+    "S6"
+   ],
+   "note": "自動運転レベル・MaaS・HEMS・スマート農業・スマートシティ・ファームウェア・CASEは確認。IoTの効果4段階、AR/VR/MR、マシンビジョン、組込みシステムの特徴を公的資料で確認できなかった"
+  },
+  "U17-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "AR・MR・VRの区別を公的資料で確認できなかった"
+  },
+  "U17-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "IoTの効果4段階の各段階の説明を公的資料で確認できなかった"
+  },
+  "U17-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S54"
+   ],
+   "note": ""
+  },
+  "U17-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "S5の表：レベル4は作動継続が困難な場合への応答も限定領域でシステムが実行"
+  },
+  "U17-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "IoTの効果4段階の説明を公的資料で確認できなかった"
+  },
+  "U17-q04": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ARグラス）"
+  },
+  "U17-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S60",
+    "S61"
+   ],
+   "note": ""
+  },
+  "U17-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S47"
+   ],
+   "note": ""
+  },
+  "U17-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（組込みシステムの特徴）"
+  },
+  "U17-q08": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "ドローンの一般的な定義を公的資料で確認できなかった"
+  },
+  "U17-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（VRゴーグル）"
+  },
+  "U17-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（スマートスピーカー）"
+  },
+  "U17-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "S6にCASE（電動化を含む）の記述"
+  },
+  "U17-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ワイヤレス給電）"
+  },
+  "U17-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "IoTの効果4段階の説明を公的資料で確認できなかった"
+  },
+  "U17-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（スマートファクトリー）"
+  },
+  "U17-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（マシンビジョン）"
+  },
+  "U17-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": ""
+  },
+  "U17-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S55"
+   ],
+   "note": ""
+  },
+  "U17-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "S5の表：レベル1運転支援、レベル2部分運転自動化（運転者が監視）、レベル3は介入要求に応答、レベル4は応答もシステム"
+  },
+  "U17-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（組込みシステムの例）"
+  },
+  "U17-q20": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（リアルタイムOS。シラバスの用語例にもない）"
+  },
+  "U17-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S47",
+    "S15"
+   ],
+   "note": ""
+  },
+  "U17-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ロボティクス）"
+  },
+  "lesson:U18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S7"
+   ],
+   "note": "情報システム戦略・EAの4階層・全体最適は確認。SoR／SoE、エンタープライズサーチ、As-Is／To-Beを公的資料で確認できなかった"
+  },
+  "U18-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "4階層の名称はS6で確認したが、データ・アプリケーション階層の説明を確認できなかった"
+  },
+  "U18-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（3.9／3.7／3.8）"
+  },
+  "U18-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U18-q02": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（エンタープライズサーチ）"
+  },
+  "U18-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U18-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U18-q05": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SoE）"
+  },
+  "U18-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SoR／SoE）"
+  },
+  "U18-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（CIO）"
+  },
+  "U18-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U18-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "S8：システム化計画で経営事業戦略・情報戦略・システム化構想との検証"
+  },
+  "U18-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U18-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U18-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U18-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SWOT分析）"
+  },
+  "U18-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SWOT分析）"
+  },
+  "U18-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "データアーキテクチャの内容の説明を公的資料で確認できなかった"
+  },
+  "U18-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（As-Is／To-Be）"
+  },
+  "U18-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SoR）"
+  },
+  "U18-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（14分）"
+  },
+  "U18-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "戦略目標の書き方に関する公的資料を開けなかった"
+  },
+  "U18-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S15",
+    "S14",
+    "S6"
+   ],
+   "note": "S15：クラウドサービスの利用を第一候補として検討"
+  },
+  "U18-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（A3.9・B3.7・C3.8）"
+  },
+  "U18-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S8"
+   ],
+   "note": ""
+  },
+  "lesson:U19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S62",
+    "S43",
+    "S45",
+    "S32"
+   ],
+   "note": "BPMN・情報銀行・M2M・テレワークは確認。DFD・E-R図・BPR・BPM・RPA・BYOD・PDSの定義を公的資料で確認できなかった"
+  },
+  "U19-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S62"
+   ],
+   "note": "DFD・E-R図の説明を公的資料で確認できなかった"
+  },
+  "U19-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（80時間）"
+  },
+  "U19-q01": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（DFD）"
+  },
+  "U19-q02": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（E-R図）"
+  },
+  "U19-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（BPM）"
+  },
+  "U19-q04": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（RPA）"
+  },
+  "U19-q05": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "ボトルネックの考え方を述べた公的資料を開けなかった"
+  },
+  "U19-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（BYOD）"
+  },
+  "U19-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S43",
+    "S40"
+   ],
+   "note": ""
+  },
+  "U19-q08": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（WFA。シラバスの用語例にない）"
+  },
+  "U19-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（プロセスマイニング）"
+  },
+  "U19-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S62"
+   ],
+   "note": ""
+  },
+  "U19-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "モデリングの目的を述べた公的資料を開けなかった"
+  },
+  "U19-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "RPA導入の進め方を述べた公的資料を開けなかった"
+  },
+  "U19-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "業務効率化の方法の選び方に関する公的資料を開けなかった"
+  },
+  "U19-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S40"
+   ],
+   "note": ""
+  },
+  "U19-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S45"
+   ],
+   "note": ""
+  },
+  "U19-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S15"
+   ],
+   "note": "BPRの定義を公的資料で確認できなかった（S15は語のみ）"
+  },
+  "U19-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ワークフローシステム）"
+  },
+  "U19-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S43"
+   ],
+   "note": "PDSの定義を公的資料で確認できなかった（S43は語の言及のみ）"
+  },
+  "U19-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ライフログ）"
+  },
+  "U19-q20": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": "Web会議の説明を公的資料で確認できなかった"
+  },
+  "U19-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（80時間）。誤りの選択肢「60時間」は理由が「値を取り違えている」と一般的だったため、分を時間に直す誤り（÷100）の選択肢に差し替え",
+   "patch": {
+    "choices": [
+     "20時間",
+     "48時間",
+     "80時間",
+     "100時間"
+    ],
+    "why": [
+     "誤り。20時間は、導入後に残る作業時間（3分×400件）である。",
+     "誤り。48時間は、4,800分を100で割った値。1時間は60分なので、60で割る必要がある。",
+     "正しい。12分×400件÷60＝80時間。",
+     "誤り。100時間は、導入前の作業時間（15分×400件）である。"
+    ]
+   }
+  },
+  "U19-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（E-R図の多対多）"
+  },
+  "lesson:U20": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S9",
+    "S10",
+    "S32"
+   ],
+   "note": "SaaS/PaaS/IaaS・クラウドの提供形態・ハウジング・ホスティング・ASPは確認。ソリューションビジネス、SI、DaaS、マネージドサービスの定義を公的資料で確認できなかった"
+  },
+  "U20-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "S6 図表5-10"
+  },
+  "U20-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（n＝5）"
+  },
+  "U20-q01": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ソリューションビジネス）"
+  },
+  "U20-q02": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ソリューションの進め方）"
+  },
+  "U20-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U20-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9",
+    "S10"
+   ],
+   "note": "S9：利用者の持込機器へのサービスはハウジングに含む"
+  },
+  "U20-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "S6：オンプレミス／プライベートとパブリックの組合せがハイブリッド、複数のパブリッククラウドの組合せがマルチクラウド"
+  },
+  "U20-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（DaaS）"
+  },
+  "U20-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10",
+    "S9"
+   ],
+   "note": ""
+  },
+  "U20-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（SI）"
+  },
+  "U20-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（アウトソーシング）"
+  },
+  "U20-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U20-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（マネージドサービス）"
+  },
+  "U20-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ソリューションの進め方）"
+  },
+  "U20-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U20-q20": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（5年）"
+  },
+  "U20-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（72万円）"
+  },
+  "U20-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "パッケージ導入が適する条件を述べた公的資料を開けなかった"
+  },
+  "lesson:U21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S7"
+   ],
+   "note": "デジタルディバイド・レガシーシステムは確認。デジタルリテラシー、ゲーミフィケーション、システムライフサイクル、費用対効果の説明を公的資料で確認できなかった"
+  },
+  "U21-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（ROI 50％）"
+  },
+  "U21-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "利用実態の評価方法の分類を公的資料で確認できなかった"
+  },
+  "U21-q01": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（デジタルリテラシー）"
+  },
+  "U21-q02": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（デジタルリテラシー研修）"
+  },
+  "U21-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（ゲーミフィケーション）"
+  },
+  "U21-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U21-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U21-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（3年）"
+  },
+  "U21-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（システムライフサイクル）"
+  },
+  "U21-q08": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（デジタルリテラシー）"
+  },
+  "U21-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "普及啓発の具体策を述べた公的資料を開けなかった"
+  },
+  "U21-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": "デジタルディバイドの定義は確認したが、配慮策を述べた公的資料を開けなかった"
+  },
+  "U21-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（利用者満足度調査）"
+  },
+  "U21-q12": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（費用対効果分析）"
+  },
+  "U21-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（保守費用）"
+  },
+  "U21-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（185÷50＝3.7）。誤りの選択肢3.4・3.5の理由が同じ一般的な文だったため、具体的な誤り方の選択肢（3.0・3.5）に差し替え",
+   "patch": {
+    "choices": [
+     "3.0",
+     "3.5",
+     "3.7",
+     "4.0"
+    ],
+    "why": [
+     "誤り。3.0は人数を考えずに1〜5点を単純に平均した値（15÷5）で、人数による重み付けをしていない。",
+     "誤り。3.5は回答者のいた点数（5・4・3・2点）だけを単純に平均した値（14÷4）で、人数を掛けていない。",
+     "正しい。185÷50＝3.7。",
+     "誤り。4.0は最も人数の多い4点を答えたもので、平均ではない。"
+    ]
+   }
+  },
+  "U21-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（50％）"
+  },
+  "U21-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（900万円）"
+  },
+  "U21-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ],
+   "note": ""
+  },
+  "U21-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "利用実態の評価結果の活用を述べた公的資料を開けなかった"
+  },
+  "U21-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（75％）。誤りの選択肢「50％」の理由が一般的だったため、割る数を取り違えた選択肢（33％）に差し替え",
+   "patch": {
+    "choices": [
+     "25％",
+     "33％",
+     "75％",
+     "133％"
+    ],
+    "why": [
+     "誤り。25％は利用しなかった人の割合である。",
+     "誤り。33％は利用しなかった50人を利用した150人で割った値で、ライセンス数（200人）で割っていない。",
+     "正しい。150÷200＝0.75で75％。",
+     "誤り。133％は200を150で割った値で、割る数が逆である。"
+    ]
+   }
+  },
+  "U21-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": ""
+  },
+  "U21-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "システム廃棄時のデータ消去・移行を述べた公的資料を開けなかった"
+  },
+  "U21-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "導入効果の評価のための事前測定を述べた公的資料を開けなかった"
+  },
+  "lesson:U22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "企画プロセス（構想→計画→要件定義）、スケジュール・費用と投資効果・推進体制・承認はS8で確認。適用範囲とリスク分析の説明、費用対効果の比較式を公的資料で確認できなかった"
+  },
+  "U22-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8",
+    "S6"
+   ],
+   "note": ""
+  },
+  "U22-f2": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（A50・B45・C40・D20万円）"
+  },
+  "U22-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U22-q02": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（リスク分析）"
+  },
+  "U22-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（A250・B200万円）"
+  },
+  "U22-q04": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（適用範囲）"
+  },
+  "U22-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U22-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U22-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "S8：プロジェクト推進体制の策定"
+  },
+  "U22-q08": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "システム間の依存関係と開発順序を述べた公的資料を開けなかった"
+  },
+  "U22-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（定性的効果）"
+  },
+  "U22-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（600万円）"
+  },
+  "U22-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（800万円）。誤りの選択肢「2,000万円」の理由が一般的だったため、具体的な誤り方の選択肢（1,800万円）に差し替え",
+   "patch": {
+    "choices": [
+     "600万円",
+     "800万円",
+     "1,200万円",
+     "1,800万円"
+    ],
+    "why": [
+     "誤り。600万円は開発費だけで、機器の費用を足していない。",
+     "正しい。600＋200＝800万円。",
+     "誤り。1,200万円は6人月に機器の費用200万円を掛けた値で、式が違う。",
+     "誤り。1,800万円は、機器の費用200万円を1人月ごとにかかるものとして単価に足し、（100＋200）×6としている。機器の費用は1回分だけ足す。"
+    ]
+   }
+  },
+  "U22-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "誤りの選択肢「受入れテスト」の理由を具体化",
+   "patch": {
+    "why": [
+     "正しい。システム化計画の立案は企画プロセスで行う。",
+     "誤り。詳細設計は開発プロセスで行う。",
+     "誤り。単体テストは開発プロセスで行う。",
+     "誤り。受入れテストは、開発が終わったシステムを利用者側が確認して受け入れる作業で、企画プロセスより後に行う。"
+    ]
+   }
+  },
+  "U22-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "S8：システム化構想の立案で経営上のニーズ・課題の確認、対象業務の明確化"
+  },
+  "U22-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（期待損失額の比較）"
+  },
+  "U22-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "利用部門の参加・合意を述べた公的資料を開けなかった"
+  },
+  "U22-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U22-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "法令対応と費用対効果の扱いを述べた公的資料を開けなかった"
+  },
+  "U22-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "nodeで再計算し正解と一致したが、式・考え方を確かめる公的資料を開けなかった（12か月→翌年3月末）"
+  },
+  "U22-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "S8：システム化計画の文書化と承認"
+  },
+  "U22-q20": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "段階的導入を述べた公的資料を開けなかった"
+  },
+  "U22-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": ""
+  },
+  "U22-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "照合日に開けた公的資料で、正解の根拠となる定義を確認できなかった（内容に明らかな誤りは見つけていない）（適用範囲）"
+  }
+ }
+}

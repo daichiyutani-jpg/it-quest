@@ -1,0 +1,1614 @@
+{
+ "range": "U01-U05",
+ "verifier": "照合担当A1（作成とは別のAI）",
+ "checkedAt": "2026-11-06",
+ "sources": [
+  {
+   "key": "S1",
+   "name": "著作権法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 文化庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/345AC0000000048?response_format=xml",
+   "where": "第2条1項1号（著作物）、第10条1項・3項（プログラム言語・規約・解法には保護が及ばない）、第15条（職務著作）、第17条2項（無方式）、第21条（複製権）、第30条（私的使用）、第51条（死後70年）、第63条（利用の許諾）、第89条（著作隣接権）",
+   "published": "現行版 345AC0000000048_20260624（2026-06-24施行分まで反映）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S2",
+   "name": "特許法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 特許庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000121?response_format=xml",
+   "where": "第2条1項（発明＝自然法則を利用した技術的思想の創作のうち高度のもの）・3項、第66条（設定の登録により発生）、第67条（出願の日から20年）",
+   "published": "現行版 334AC0000000121_20260624",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S3",
+   "name": "実用新案法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 特許庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000123?response_format=xml",
+   "where": "第1条（物品の形状・構造・組合せに係る考案）、第14条（放棄等を除き設定の登録をする＝実体審査なし）、第15条（出願の日から10年）",
+   "published": "現行版 334AC0000000123_20260521",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S4",
+   "name": "意匠法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 特許庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000125?response_format=xml",
+   "where": "第2条（物品・建築物・画像の形状等で美感を起こさせるもの）、第21条（出願の日から25年）",
+   "published": "現行版 334AC0000000125_20260521",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S5",
+   "name": "商標法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 特許庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000127?response_format=xml",
+   "where": "第2条1項1号（商品）・2号（役務）、第19条（設定登録の日から10年・更新可）",
+   "published": "現行版 334AC0000000127_20260521",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S6",
+   "name": "不正競争防止法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 経済産業省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/405AC0000000047?response_format=xml",
+   "where": "第2条1項17号・18号（技術的制限手段の効果を妨げる装置等の提供）、19号（ドメイン名の不正取得等）、2条6項（営業秘密の3要件）、7項（限定提供データ。営業秘密を除く）",
+   "published": "現行版 405AC0000000047_20260521",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S7",
+   "name": "不正アクセス行為の禁止等に関する法律（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 警察庁・総務省・経済産業省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/411AC0000000128?response_format=xml",
+   "where": "第2条2項（識別符号）・4項（不正アクセス行為）、第3条、第4条（不正取得）、第5条（助長行為）、第6条（不正保管）、第7条（識別符号の入力を不正に要求する行為）",
+   "published": "現行版 411AC0000000128_20250601",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8",
+   "name": "個人情報の保護に関する法律（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 個人情報保護委員会",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057?response_format=xml",
+   "where": "第2条1項〜3項（個人情報・個人識別符号・要配慮個人情報）、第16条3項・4項（個人データ・保有個人データ）、第20条2項、第26条（漏えい等の報告・本人通知）、第27条1項・2項（第三者提供の制限・オプトアウト）、第41条（仮名加工情報）、第43条・44条（匿名加工情報）",
+   "published": "現行版 415AC0000000057_20261102。改正法（令和8年法律第56号、2026-07-17公布）の一部が2027-01-17・2028-07-16に施行予定（未施行分は照合対象外）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S9",
+   "name": "個人情報の保護に関する法律施行令（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 個人情報保護委員会",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/415CO0000000507?response_format=xml",
+   "where": "第1条（個人識別符号：身体の特徴のデータ、旅券番号、基礎年金番号、運転免許証の番号、個人番号 等）",
+   "published": "現行版（2026-11-06取得）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S10",
+   "name": "個人情報の保護に関する法律施行規則（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 個人情報保護委員会",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/428M60020000003?response_format=xml",
+   "where": "第7条（報告対象となる事態：要配慮個人情報、財産的被害のおそれ、不正の目的のおそれ、本人の数が千人超）",
+   "published": "現行版 428M60020000003_20260614",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S11",
+   "name": "サイバーセキュリティ基本法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/426AC1000000104?response_format=xml",
+   "where": "第1条（目的）、第3条（基本理念）、第4条〜第8条（国・地方公共団体・重要社会基盤事業者・サイバー関連事業者・教育研究機関の責務等）、第9条（国民の努力）",
+   "published": "現行版 426AC1000000104_20261001（令和7年法律第43号による改正後。法律名は変更なし）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S12",
+   "name": "行政手続における特定の個人を識別するための番号の利用等に関する法律（番号法）（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 デジタル庁・個人情報保護委員会",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/425AC0000000027?response_format=xml",
+   "where": "第7条2項（漏えいして不正に用いられるおそれがあるときの個人番号の変更）、第9条（利用範囲）",
+   "published": "現行版 425AC0000000027_20261001",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13",
+   "name": "特定電子メールの送信の適正化等に関する法律（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 総務省・消費者庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/414AC0100000026?response_format=xml",
+   "where": "第3条（同意した者等以外への送信の禁止、拒否した者への送信禁止）、第4条（送信者の氏名・名称、拒否の通知先などの表示義務）",
+   "published": "現行版 414AC0100000026_20250601",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S14",
+   "name": "刑法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 法務省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/140AC0000000045?response_format=xml",
+   "where": "第168条の2（正当な理由がないのに、人の電子計算機における実行の用に供する目的で作成・提供、2項 供用）、第168条の3（同目的での取得・保管）",
+   "published": "現行版 140AC0000000045_20260521",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S15",
+   "name": "消費税法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 財務省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/363AC0000000108?response_format=xml",
+   "where": "第30条7項（帳簿及び請求書等の保存がない課税仕入れは仕入税額控除を適用しない）",
+   "published": "現行版 363AC0000000108_20261101",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S16",
+   "name": "法人税法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 財務省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000034?response_format=xml",
+   "where": "第5条（内国法人の各事業年度の所得に法人税を課する）",
+   "published": "現行版 340AC0000000034_20261001",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S17",
+   "name": "財務諸表等の用語、様式及び作成方法に関する規則（財務諸表等規則）（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 金融庁",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/338M50000040059?response_format=xml",
+   "where": "第15条（流動資産：売掛金＝通常の取引に基づく営業上の未収金）、第22条（有形固定資産）、第27条（無形固定資産）、第47条（流動負債）、第51条（固定負債）、第75条（売上原価＝期首棚卸高＋当期仕入高－期末棚卸高）、第83条（売上総利益）、第84条（販売費及び一般管理費）、第89条（営業利益）、第95条（経常利益）、第95条の4・5（税引前当期純利益・当期純利益）、第112条・114条・115条（キャッシュ・フロー計算書の3区分）",
+   "published": "現行版 338M50000040059_20260807",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S18",
+   "name": "会社法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 法務省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/417AC0000000086?response_format=xml",
+   "where": "第295条（株主総会の権限）、第329条（役員の選任）、第362条（取締役会の職務）、第390条（監査役会）、第438条（計算書類の定時株主総会への提出）",
+   "published": "現行版 417AC0000000086_20260812",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S19",
+   "name": "私的独占の禁止及び公正取引の確保に関する法律（独占禁止法）（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 公正取引委員会",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000054?response_format=xml",
+   "where": "第9条（子会社株式の取得価額の合計額が総資産の50％を超える会社＝持株会社）",
+   "published": "現行版 322AC0000000054_20260521",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S20",
+   "name": "地方税法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 総務省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=xml",
+   "where": "第342条（固定資産税は固定資産所在の市町村において課する）",
+   "published": "現行版 325AC0000000226_20261101",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S21",
+   "name": "印紙税法（e-Gov法令API）",
+   "publisher": "デジタル庁 e-Gov法令検索（法令API）・所管 財務省",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/342AC0000000023?response_format=xml",
+   "where": "第2条（別表第一の課税物件に印紙税を課する）",
+   "published": "現行版 342AC0000000023_20261001",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S22",
+   "name": "インボイス制度の概要",
+   "publisher": "国税庁",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm",
+   "where": "2023年10月1日開始、仕入税額控除の要件として原則インボイスの保存が必要、記載事項（登録番号等）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S23",
+   "name": "よくある質問「産業財産権について教えてください。」",
+   "publisher": "独立行政法人工業所有権情報・研修館（INPIT）",
+   "url": "https://faq.inpit.go.jp/FAQ/2024/01/000158.html",
+   "where": "回答本文（特許・実用新案・意匠・商標の4つ、特許庁に出願し登録されて権利となる、存続期間）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S24",
+   "name": "よくある質問「ビジネス関連発明（ビジネスモデル）の特許とはどのようなものですか。」",
+   "publisher": "INPIT",
+   "url": "https://faq.inpit.go.jp/FAQ/2024/01/000044.html",
+   "where": "回答本文（ビジネス方法そのものは対象外、ICTを利用して具体的に実現していれば特許の対象）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S25",
+   "name": "「AIと著作権に関する考え方について」【概要】",
+   "publisher": "文化庁（文化審議会著作権分科会法制度小委員会）",
+   "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/pdf/94057901_01.pdf",
+   "where": "生成・利用段階は通常の著作権侵害と同じく類似性・依拠性で判断",
+   "published": "本体は令和6年3月15日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S26",
+   "name": "著作権テキスト（令和8年度）",
+   "publisher": "文化庁著作権課",
+   "url": "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/94436101_01.pdf",
+   "where": "知的財産権の種類の図（著作権・産業財産権・不正競争防止法等と存続期間）、著作権は無方式、肖像権・パブリシティ権（法律の規定はなく判例で確立）p.108",
+   "published": "令和8年度版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S27",
+   "name": "GDPR（一般データ保護規則）条文 仮日本語訳",
+   "publisher": "個人情報保護委員会",
+   "url": "https://www.ppc.go.jp/files/pdf/gdpr-provisions-ja.pdf",
+   "where": "第3条2項（域外適用）、第4条5項（仮名化）、第17条（消去の権利（忘れられる権利））、第20条（データポータビリティの権利）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S28",
+   "name": "GDPR（一般データ保護規則）前文 仮日本語訳",
+   "publisher": "個人情報保護委員会",
+   "url": "https://www.ppc.go.jp/files/pdf/gdpr-preface-ja.pdf",
+   "where": "前文(26)（仮名化されたデータは個人データ、匿名情報には適用しない）、(27)",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S29",
+   "name": "特定個人情報の適正な取扱いに関するガイドライン（事業者編）",
+   "publisher": "個人情報保護委員会",
+   "url": "https://www.ppc.go.jp/legal/policy/my_number_guideline_jigyosha/",
+   "where": "第4-1-(1)（個人番号の利用範囲は社会保障・税・災害対策等の事務に限定、本人の同意があっても目的外利用不可）",
+   "published": "平成26年12月11日（令和7年6月一部改正）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S30",
+   "name": "Society 5.0",
+   "publisher": "内閣府",
+   "url": "https://www8.cao.go.jp/cstp/society5_0/",
+   "where": "定義（サイバー空間とフィジカル空間を高度に融合させたシステムにより、経済発展と社会的課題の解決を両立する人間中心の社会）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S31",
+   "name": "事業継続ガイドライン―あらゆる危機的事象を乗り越えるための戦略と対応―",
+   "publisher": "内閣府（防災担当）",
+   "url": "https://www.bousai.go.jp/kyoiku/kigyou/pdf/guideline202303.pdf",
+   "where": "1.1（BCP・BCMの定義）",
+   "published": "令和5年3月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S32",
+   "name": "「デジタル化」と「DX」は何が異なる？（DX SQUARE）",
+   "publisher": "独立行政法人情報処理推進機構（IPA）",
+   "url": "https://dx.ipa.go.jp/dx-digital",
+   "where": "DX・デジタイゼーション・デジタライゼーションの説明",
+   "published": "2021-11-30",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S33",
+   "name": "令和3年版 情報通信白書（デジタル・ディスラプション）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r03/html/nd112220.html",
+   "where": "デジタル・ディスラプションの説明",
+   "published": "令和3年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S34",
+   "name": "令和3年版 情報通信白書（デジタル・トランスフォーメーションの定義）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r03/html/nd112210.html",
+   "where": "デジタイゼーション・デジタライゼーション・DXの区別",
+   "published": "令和3年版",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S35",
+   "name": "平成28年度 年次経済財政報告 第2章第1節",
+   "publisher": "内閣府",
+   "url": "https://www5.cao.go.jp/keizai3/2016/0117nk/pdf/n16_2_1.pdf",
+   "where": "第4次産業革命とは（第1次〜第4次産業革命の区分）",
+   "published": "平成29年1月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S36",
+   "name": "GX実現に向けた基本方針～今後10年を見据えたロードマップ～",
+   "publisher": "内閣官房（GX実行会議）",
+   "url": "https://www.cas.go.jp/jp/seisaku/gx_jikkou_kaigi/pdf/kihon.pdf",
+   "where": "1.はじめに（化石エネルギー中心からクリーンエネルギー中心への転換＝GX）",
+   "published": "令和5年2月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S37",
+   "name": "カーボンフットプリント全般",
+   "publisher": "環境省",
+   "url": "https://www.env.go.jp/earth/ondanka/supply_chain/gvc/cfp_calculation.html",
+   "where": "CFPの定義（ライフサイクル全体の温室効果ガス排出量をCO2換算）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S38",
+   "name": "平成18年版 環境白書（社会的責任投資）",
+   "publisher": "環境省",
+   "url": "https://www.env.go.jp/policy/hakusyo/h18/26990_k225_r602.html",
+   "where": "SRIの説明",
+   "published": "平成18年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S39",
+   "name": "人材開発支援助成金 リーフレット（OFF-JT／OJT）",
+   "publisher": "厚生労働省",
+   "url": "https://www.mhlw.go.jp/content/11600000/000651168.pdf",
+   "where": "「OFF-JT／OJTってなに？」",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S40",
+   "name": "生産性向上マニュアル（PDCAサイクルとOODAループ）",
+   "publisher": "厚生労働省",
+   "url": "https://www.mhlw.go.jp/content/001297217.pdf",
+   "where": "PDCAサイクルの説明、OODAループ（観察・状況判断・意思決定・行動）の説明",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S41",
+   "name": "こころの耳 用語解説「コーチング」",
+   "publisher": "厚生労働省",
+   "url": "https://kokoro.mhlw.go.jp/glossaries/word-1558/",
+   "where": "コーチングの定義",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S42",
+   "name": "こころの耳 用語解説「ワークエンゲイジメント」",
+   "publisher": "厚生労働省",
+   "url": "https://kokoro.mhlw.go.jp/glossaries/word-1711/",
+   "where": "ワーク・エンゲイジメントの定義（活力・熱意・没頭）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S43",
+   "name": "コラム「タレントマネジメントとは」",
+   "publisher": "厚生労働省（マイジョブ・カード）",
+   "url": "https://www.job-card.mhlw.go.jp/column/company/management",
+   "where": "タレントマネジメントの定義",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S44",
+   "name": "従業員のスキルアップ・リ・スキリング",
+   "publisher": "厚生労働省",
+   "url": "https://www.mhlw.go.jp/roudou-navi/company/05.html",
+   "where": "リ・スキリングの定義",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S45",
+   "name": "Discussion Paper 10-J-057（日本企業の事業組織に関する研究）",
+   "publisher": "独立行政法人経済産業研究所（RIETI）",
+   "url": "https://www.rieti.go.jp/jp/publications/dp/10j057.pdf",
+   "where": "職能別組織・事業部制組織・社内カンパニー制・純粋持株会社の説明",
+   "published": "2010年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S46",
+   "name": "ミッション・ビジョン・バリューに関する資料",
+   "publisher": "人事院",
+   "url": "https://www.jinji.go.jp/content/900042175.pdf",
+   "where": "ミッション・ビジョン・バリューの説明",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S47",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第1章",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_003.pdf",
+   "where": "ブレーンストーミングの4つのルール、KJ法、フィールドワーク",
+   "published": "2020年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S48",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材 第4章",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_006.pdf",
+   "where": "代表値、散布図と相関、相関係数、回帰、仮説検定（有意水準・第1種／第2種の過誤）、A/Bテスト",
+   "published": "2020年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S49",
+   "name": "高等学校情報科「情報Ⅱ」教員研修用教材（_003）",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200609-mxt_jogai01-000007843_003.pdf",
+   "where": "インタビュー手法（構造化・半構造化・非構造化）",
+   "published": "2020年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S50",
+   "name": "高等学校情報科「情報Ⅱ」教員研修用教材（_004）",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200702-mxt_jogai01-000007843_004.pdf",
+   "where": "特性要因図、構造化データ（行列データ）、重回帰、主成分分析（次元削減）、クラスタリング",
+   "published": "2020年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S51",
+   "name": "なるほど統計学園「パレート図」",
+   "publisher": "総務省統計局",
+   "url": "https://www.stat.go.jp/naruhodo/9_graph/jyokyu/pareto.html",
+   "where": "パレート図の特徴、ABC分析",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S52",
+   "name": "なるほど統計学園「散布図」",
+   "publisher": "総務省統計局",
+   "url": "https://www.stat.go.jp/naruhodo/9_graph/jyokyu/sanpu.html",
+   "where": "散布図の特徴、相関関係と因果関係",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S53",
+   "name": "なるほど統計学園「バブルチャート」",
+   "publisher": "総務省統計局",
+   "url": "https://www.stat.go.jp/naruhodo/9_graph/jyokyu/bubble.html",
+   "where": "バブルチャートの特徴（あわせて同サイトの 9_graph/jyokyu/redar.html レーダーチャート、4_graph/shokyu/histogram.html ヒストグラム を確認）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S54",
+   "name": "なるほど統計学園「全数調査・標本調査」",
+   "publisher": "総務省統計局",
+   "url": "https://www.stat.go.jp/naruhodo/7_shurui/zensu.html",
+   "where": "全数調査と標本調査、標本調査の種類（単純無作為・集落・多段・層別抽出）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S55",
+   "name": "なるほど統計学園「中心的な傾向を捉える」",
+   "publisher": "総務省統計局",
+   "url": "https://www.stat.go.jp/naruhodo/5_tokucho/chushin.html",
+   "where": "平均値・中央値・最頻値（あわせて同サイトの 10_tokucho/hukusu.html 相関係数・回帰分析、10_tokucho/sonota.html 時系列分析・移動平均 を確認）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S56",
+   "name": "なるほど統計学園「製品のバラツキを管理」",
+   "publisher": "総務省統計局",
+   "url": "https://www.stat.go.jp/naruhodo/15_episode/toukeigaku/baratuki.html",
+   "where": "管理図（中心線・管理限界線）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S57",
+   "name": "財務指標の例（法人企業統計）",
+   "publisher": "財務省 財務総合政策研究所",
+   "url": "https://www.mof.go.jp/pri/reference/ssc/zaimu/index.htm",
+   "where": "収益性・安定性・効率性の分類、zaimu01_04（売上高営業利益率）、zaimu01_06（流動比率）、zaimu01_09（自己資本比率）、zaimu01_13（有形固定資産回転率）の各PDF",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S58",
+   "name": "高等学校学習指導要領（平成30年告示）解説 商業編",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/1407073_15_1_1_2.pdf",
+   "where": "「原価計算」「管理会計」（損益分岐分析、投下資本利益率、製造間接費の配賦）、「財務会計」（キャッシュ・フローの3区分）、組織形態",
+   "published": "平成30年7月",
+   "checked": "2026-11-06"
+  }
+ ],
+ "items": {
+  "lesson:U01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S18",
+    "S31",
+    "S40",
+    "S30",
+    "S32",
+    "S45",
+    "S46"
+   ],
+   "note": "株主総会（会社法）、BCP/BCM、PDCA/OODA、Society 5.0、DX、職能別・事業部制、MVVを公的資料で照合し誤りなし。マトリックス組織・CIOの説明は公的資料で直接確認できなかったが、誤りは見当たらない。"
+  },
+  "U01-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S18"
+   ]
+  },
+  "U01-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S38",
+    "S37"
+   ]
+  },
+  "U01-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ]
+  },
+  "U01-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S39",
+    "S44"
+   ]
+  },
+  "U01-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S40",
+    "S31"
+   ]
+  },
+  "U01-q06": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S45"
+   ],
+   "note": "マトリックス組織（2つの指示系統を持つ）の定義を公的機関の資料で確認できなかった。（RIETIの資料は職能別・事業部制・カンパニー制・持株会社のみ）"
+  },
+  "U01-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S45",
+    "S58"
+   ],
+   "note": "事業部制・職能別は公的資料の定義と一致。マトリックス・プロジェクト組織は直接確認できなかったが、問題文の条件（製品別・利益責任）に当たるのは事業部制だけで正解は一意。"
+  },
+  "U01-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S30",
+    "S32"
+   ]
+  },
+  "lesson:U02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S49",
+    "S51",
+    "S56",
+    "S52",
+    "S54",
+    "S48",
+    "S47"
+   ],
+   "note": "インタビュー手法、パレート図・ABC分析、管理図、散布図、標本抽出、相関と因果、ブレーンストーミング・KJ法を公的資料で照合し誤りなし。PERT・デシジョンツリー・発注方式・親和図法の説明は公的資料で直接確認できなかったが、誤りは見当たらない。"
+  },
+  "U02-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S49"
+   ]
+  },
+  "U02-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S51",
+    "S50",
+    "S56",
+    "S52"
+   ]
+  },
+  "U02-q03": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し12日で一致したが、PERT・クリティカルパスの考え方を公的機関の資料で確認できなかった。"
+  },
+  "U02-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S52",
+    "S48"
+   ]
+  },
+  "U02-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S54"
+   ]
+  },
+  "U02-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S48"
+   ]
+  },
+  "U02-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し220万円で一致したが、期待値によるデシジョンツリーの考え方を公的機関の資料で確認できなかった。"
+  },
+  "U02-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S47"
+   ]
+  },
+  "lesson:U03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17",
+    "S57",
+    "S22",
+    "S15",
+    "S16",
+    "S58"
+   ],
+   "note": "4ページ目「買い手が納める消費税から」は納税の仕組みとして不正確なため、事業者が売上げにかかる消費税から仕入れにかかる消費税を差し引くと分かる表現に修正。他は誤りなし。例の計算は node で検算（50個・15,000円）。",
+   "patch": {
+    "pages": [
+     {
+      "title": "利益にはいくつかの段階がある",
+      "body": "売上高から商品の仕入れや製造にかかった「売上原価」を引いたものが「売上総利益（粗利益）」です。そこから人件費や広告費などの「販売費及び一般管理費」を引くと「営業利益」、本業のもうけです。さらに利息など本業以外の収益・費用を加減すると「経常利益」になります。これらは損益計算書（P/L）で表します。"
+     },
+     {
+      "title": "損益分岐点＝もうけがゼロの売上",
+      "body": "費用には、売上に関係なくかかる「固定費」（家賃など）と、売上に比例して増える「変動費」（材料費など）があります。売上高に対する変動費の割合が「変動費率」です。利益がちょうど0になる売上高を「損益分岐点売上高」といい、 固定費÷（1－変動費率） で求めます。"
+     },
+     {
+      "title": "会社の財産を表す貸借対照表",
+      "body": "貸借対照表（B/S）は、ある時点の財産の状態を表します。左側が「資産」、右側が「負債」と「純資産」です。1年以内に現金化・返済するものを「流動」、それ以外を「固定」と分けます。安全性の目安「流動比率」は 流動資産÷流動負債×100（％）で、高いほど短期の支払い能力があります。お金の出入りはキャッシュフロー計算書で見ます。"
+     },
+     {
+      "title": "税金とインボイス制度",
+      "body": "会社のもうけには「法人税」がかかり、商品の売買には「消費税」がかかります。2023年10月から始まった「インボイス制度（適格請求書等保存方式）」では、事業者が納める消費税を計算するとき、売上げにかかる消費税から仕入れ時に払った消費税を差し引く（仕入税額控除）ために、原則として登録番号などが書かれた「適格請求書」を保存する必要があります。"
+     }
+    ]
+   }
+  },
+  "U03-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ]
+  },
+  "U03-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "node で再計算（150万円）一致。"
+  },
+  "U03-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "node で再計算（750万円、誤答の値も一致）。"
+  },
+  "U03-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "node で再計算（1,500万円）一致。"
+  },
+  "U03-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S57"
+   ],
+   "note": "node で再計算（150％）一致。"
+  },
+  "U03-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ]
+  },
+  "U03-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17",
+    "S58"
+   ]
+  },
+  "U03-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S15"
+   ]
+  },
+  "lesson:U04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S23",
+    "S24",
+    "S26"
+   ],
+   "note": "著作権法・産業財産権4法・不正競争防止法の条文と文化庁・INPITの資料で照合し誤りなし。ライセンス形態（ボリュームライセンス・サブスクリプション等）の説明は公的資料で直接確認できなかったが、誤りは見当たらない。"
+  },
+  "U04-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S26"
+   ]
+  },
+  "U04-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "著作権法第10条3項2号の「規約」は「プログラム言語の用法についての特別の約束」であり、通信規約（プロトコル）を指す定義ではないため、選択肢エ・理由・解説を条文の定義に合わせて修正。正解は変わらない。",
+   "patch": {
+    "choices": [
+     "ソースコードとして書かれたプログラム",
+     "プログラムを書くためのプログラム言語そのもの",
+     "問題を解くための手順であるアルゴリズム",
+     "プログラム言語の用法についての特別の約束である規約（インターフェースの取決めなど）"
+    ],
+    "why": [
+     "正しい。表現されたプログラムは著作物として保護されます。",
+     "誤り。プログラム言語そのものは著作権法の保護対象外です。",
+     "誤り。アルゴリズム（解法）は保護対象外です。アイデアは特許で守られる場合があります。",
+     "誤り。規約（プログラム言語の用法についての特別の約束）には著作権法の保護が及びません。"
+    ],
+    "explain": "著作権法は「表現」を守ります。具体的に書かれたプログラム（ソースコード）は著作物として保護されますが、それを作るために用いるプログラム言語・規約（プログラム言語の用法についての特別の約束）・解法（アルゴリズム）には保護が及ばないと定められています（著作権法第10条3項）。"
+   }
+  },
+  "U04-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ]
+  },
+  "U04-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S2",
+    "S3",
+    "S4",
+    "S26"
+   ]
+  },
+  "U04-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S5",
+    "S1",
+    "S26"
+   ]
+  },
+  "U04-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ]
+  },
+  "U04-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "購入しても著作権は移らず、許諾（第63条）の範囲を超える複製は複製権（第21条）の侵害になる点を確認。"
+  },
+  "U04-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S26",
+    "S4",
+    "S1"
+   ]
+  },
+  "lesson:U05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11",
+    "S7",
+    "S8",
+    "S9",
+    "S27",
+    "S13",
+    "S14"
+   ],
+   "note": "4ページ目のウイルス作成罪に、刑法第168条の2・3の要件（人の電子計算機における実行の用に供する目的）を補う修正。他は各法令とGDPR仮日本語訳で照合し誤りなし。",
+   "patch": {
+    "pages": [
+     {
+      "title": "国全体の守りと不正アクセスの禁止",
+      "body": "「サイバーセキュリティ基本法」は、サイバーセキュリティに関する国の政策の基本理念と、国・地方公共団体・重要インフラ事業者・国民などの責務を定めた法律です。「不正アクセス禁止法」は、他人のIDやパスワードを無断で使ってログインすることなどを禁止しています。他人のIDやパスワードを本人に無断で第三者に教えることや、それらを不正に取得・保管することも禁止されています。"
+     },
+     {
+      "title": "個人情報保護法のきほん",
+      "body": "個人情報とは、生きている個人を特定できる情報です。氏名のほか、運転免許証番号やマイナンバー、指紋データなどの「個人識別符号」も含まれます。病歴や犯罪の経歴など、差別や偏見につながるおそれがある情報は「要配慮個人情報」として、取得に原則として本人の同意が必要です。法律を運用する国の機関は「個人情報保護委員会」です。"
+     },
+     {
+      "title": "第三者提供と匿名加工情報",
+      "body": "個人データを他の会社に渡す（第三者提供）には、原則として本人の事前同意が必要です。事前に同意を得る方式を「オプトイン」、本人が拒否しない限り提供し、求めがあれば止める方式を「オプトアウト」といいます。要配慮個人情報はオプトアウトでは提供できません。個人を特定できないように加工し、元に戻せないようにした「匿名加工情報」は、一定のルールのもとで活用できます。"
+     },
+     {
+      "title": "海外の動向とその他の法律",
+      "body": "EUの「GDPR（一般データ保護規則）」は、EU域内の人の個人データを守る規則で、EUの人にサービスを提供する日本企業にも適用されることがあります。自分のデータを消してもらう「忘れられる権利（消去権）」も定めています。日本では、広告メールを原則として同意した人にだけ送れるとする「特定電子メール法」や、正当な理由なく、他人のコンピュータで実行させる目的でウイルスを作ったり保管したりすることを罰する「不正指令電磁的記録に関する罪（ウイルス作成罪）」があります。"
+     }
+    ]
+   }
+  },
+  "U05-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11",
+    "S7",
+    "S8",
+    "S13"
+   ]
+  },
+  "U05-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ]
+  },
+  "U05-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8",
+    "S9"
+   ]
+  },
+  "U05-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ]
+  },
+  "U05-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ]
+  },
+  "U05-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27"
+   ]
+  },
+  "U05-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13"
+   ]
+  },
+  "U05-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S14"
+   ],
+   "note": "刑法第168条の2・3は「人の電子計算機における実行の用に供する目的」を要件とするため、正解の選択肢・理由・解説にこの目的を補った。正解は変わらない。",
+   "patch": {
+    "choices": [
+     "ウイルスを作っただけなら、他人のPCで実際に動かさない限り罪にならない",
+     "正当な理由なく、他人のPCで実行させる目的で、意図に反して動くウイルスを作成したり保管したりすることも処罰の対象になる",
+     "ウイルス対策ソフトの会社が、正当な目的で行う解析や研究も必ず処罰される",
+     "特定電子メール法の中で定められている罪である"
+    ],
+    "why": [
+     "誤り。他人のPCで実行させる目的があれば、実際に動かさなくても、正当な理由のない作成や保管は処罰の対象です。",
+     "正しい。他人のPCで実行させる目的での、正当な理由のない作成・保管なども処罰の対象になります。",
+     "誤り。正当な理由がある場合は処罰の対象になりません。",
+     "誤り。この罪は刑法に定められています。"
+    ],
+    "explain": "ウイルス作成罪は刑法に定められた罪で、正当な理由がないのに、他人のPCで実行させる目的でウイルスを作成・提供すること、実際に他人のPCで実行させること（供用）、同じ目的で取得・保管することが処罰の対象です。ウイルス対策ソフトの開発のような正当な理由がある場合は対象外です。"
+   }
+  },
+  "U01-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S46"
+   ]
+  },
+  "U01-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S45",
+    "S58"
+   ]
+  },
+  "U01-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "CTO・CFO・COOの役割を公的機関の資料で確認できなかった。（シラバスの用語例はCEO・CIOのみ）"
+  },
+  "U01-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S34"
+   ]
+  },
+  "U01-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33"
+   ]
+  },
+  "U01-q14": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "範囲外の疑い：インバウンド需要はシラバスU01の項目・用語例にない（U10に「インバウンドマーケティング」があるのみ）。"
+  },
+  "U01-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "範囲外の疑い：IPO（新規株式公開）はシラバスのどの単元の用語例にもない。"
+  },
+  "U01-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35"
+   ]
+  },
+  "U02-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し案B（最悪の場合10）で一致したが、マクシミン原理を公的機関の資料で確認できなかった。用語もシラバスの用語例にない。"
+  },
+  "U02-q10": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "ビッグデータの3V（Volume・Velocity・Variety）を公的機関の資料で確認できなかった。"
+  },
+  "U02-q11": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "フェルミ推定・デルファイ法を公的機関の資料で確認できなかった。用語もシラバスの用語例にない。"
+  },
+  "U02-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S55",
+    "S51",
+    "S50"
+   ]
+  },
+  "U02-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "node で再計算し60個で一致したが、定期発注方式の発注量の式を公的機関の資料で確認できなかった。"
+  },
+  "U02-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S50",
+    "S48",
+    "S55"
+   ]
+  },
+  "U02-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S53",
+    "S56"
+   ]
+  },
+  "U02-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "定量発注方式・定期発注方式の説明を公的機関の資料で確認できなかった。"
+  },
+  "U03-q09": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "製造直接費・製造間接費の区分（定義）を公的機関の資料で確認できなかった。（MEXT解説は「製造間接費の配賦」を扱うとあるのみ）"
+  },
+  "U03-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S57"
+   ],
+   "note": "node で再計算（40％）一致。"
+  },
+  "U03-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "財務諸表等規則第75条の算式で node 再計算（770万円）一致。"
+  },
+  "U03-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "node で再計算（400万円）一致。"
+  },
+  "U03-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "node で再計算（500個）一致。"
+  },
+  "U03-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "node で再計算（1,300万円）一致。"
+  },
+  "U03-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "node で再計算（15,000個）一致。"
+  },
+  "U03-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S57"
+   ],
+   "note": "財務総研の分類（収益性・安定性・効率性）と一致。シラバスの「安全性」は財務総研の「安定性」に当たる。"
+  },
+  "U04-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S25",
+    "S1"
+   ]
+  },
+  "U04-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24",
+    "S2",
+    "S1",
+    "S5"
+   ]
+  },
+  "U04-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S4",
+    "S3"
+   ]
+  },
+  "U04-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ]
+  },
+  "U04-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ],
+   "note": "第2条7項は限定提供データから営業秘密を除くと定めており、問題文と整合。"
+  },
+  "U04-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S2",
+    "S4",
+    "S26"
+   ]
+  },
+  "U04-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6"
+   ]
+  },
+  "U04-q16": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "サブスクリプション・買い切り型ライセンス等の定義を公的機関の資料で確認できなかった。"
+  },
+  "U05-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ]
+  },
+  "U05-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S14"
+   ]
+  },
+  "U05-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27"
+   ]
+  },
+  "U05-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ]
+  },
+  "U05-q13": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "範囲外の疑い：情報流通プラットフォーム対処法はシラバスではU07（情報倫理）の用語例で、U05の用語例にない。内容自体に誤りは見当たらない。"
+  },
+  "U05-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8",
+    "S10"
+   ],
+   "note": "現行法（第26条・規則第7条）で照合。令和8年法律第56号による改正の未施行部分（2028-07-16までに施行予定）で漏えい等報告の扱いが変わる可能性があるため、施行時に再照合が必要。"
+  },
+  "U05-q15": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "範囲外の疑い：電子署名法はシラバスのどの単元の用語例にもない。"
+  },
+  "U05-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ]
+  },
+  "U01-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S45"
+   ],
+   "note": "職能別・事業部制は確認できたが、マトリックス組織の分け方・長所・注意点を公的機関の資料で確認できなかった。"
+  },
+  "U01-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S40"
+   ]
+  },
+  "U01-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S41",
+    "S39"
+   ]
+  },
+  "U01-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S44",
+    "S42"
+   ]
+  },
+  "U01-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S43",
+    "S42",
+    "S45"
+   ]
+  },
+  "U01-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S37"
+   ]
+  },
+  "U01-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S19",
+    "S45"
+   ]
+  },
+  "U01-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36",
+    "S30",
+    "S31",
+    "S32"
+   ]
+  },
+  "U02-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S55",
+    "S48"
+   ],
+   "note": "node で再計算（平均6・中央値5）一致。"
+  },
+  "U02-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S48"
+   ]
+  },
+  "U02-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S47",
+    "S49"
+   ]
+  },
+  "U02-q18": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S47"
+   ],
+   "note": "ブレーンライティングの説明を公的機関の資料で確認できなかった。（MEXT教材はブレーンストーミング・KJ法のみ）"
+  },
+  "U02-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S47"
+   ],
+   "note": "カードをグループ化して見出しを付ける手法はMEXT教材でKJ法として確認できたが、「親和図法」という名称との対応を公的機関の資料で確認できなかった。"
+  },
+  "U02-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S56",
+    "S53",
+    "S52"
+   ]
+  },
+  "U02-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S55",
+    "S48"
+   ],
+   "note": "node で再計算（平均4・中央値2）一致。"
+  },
+  "U02-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S50"
+   ]
+  },
+  "U03-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "node で再計算（1,250万円で利益0）一致。"
+  },
+  "U03-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ]
+  },
+  "U03-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S58"
+   ],
+   "note": "node で再計算（25％）一致。"
+  },
+  "U03-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ],
+   "note": "node で再計算（280万円）一致。"
+  },
+  "U03-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17"
+   ]
+  },
+  "U03-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S57",
+    "S17"
+   ],
+   "note": "node で再計算（7.5％）一致。"
+  },
+  "U03-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S16",
+    "S20",
+    "S21",
+    "S22"
+   ]
+  },
+  "U03-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S17",
+    "S58"
+   ]
+  },
+  "U04-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S26",
+    "S6"
+   ]
+  },
+  "U04-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S23",
+    "S26"
+   ]
+  },
+  "U04-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S26"
+   ]
+  },
+  "U04-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S26",
+    "S23",
+    "S6"
+   ]
+  },
+  "U04-q19": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "CAL・サイトライセンス等の定義を公的機関の資料で確認できなかった。"
+  },
+  "U04-q20": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "OSSにも著作権がある点は著作権法で説明できるが、OSSの定義（改変・再配布を認めるライセンス）を公的機関の資料で確認できなかった。"
+  },
+  "U04-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001"
+   ],
+   "note": "アクティベーション（ライセンス認証）の定義を公的機関の資料で確認できなかった。"
+  },
+  "U04-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S26"
+   ]
+  },
+  "U05-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ],
+   "note": "個人情報・個人データ・保有個人データの範囲は個人情報保護法で確認できたが、「パーソナルデータ」の説明を公的機関の資料で確認できなかった。"
+  },
+  "U05-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8"
+   ]
+  },
+  "U05-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ]
+  },
+  "U05-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7"
+   ]
+  },
+  "U05-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11"
+   ]
+  },
+  "U05-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27"
+   ]
+  },
+  "U05-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27",
+    "S28"
+   ]
+  },
+  "U05-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S12",
+    "S29"
+   ]
+  }
+ }
+}

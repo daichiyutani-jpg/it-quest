@@ -1,0 +1,1804 @@
+{
+ "range": "U52-U57",
+ "verifier": "照合担当F1（作成とは別のAI）",
+ "checkedAt": "2026-11-06",
+ "sources": [
+  {
+   "key": "S1",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材（本編）第2章 コミュニケーションと情報デザイン",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200928-mxt_jogai01-100013300_001.pdf",
+   "where": "学習6「デジタルにするということ」pp.58-65（デジタル化のプロセス、画像、ラスタ／ベクタ、解像度dpi/ppi、加法混色・減法混色とキープレート、階調・24bit、動画・フレームレート、画像・動画の主な拡張子、可逆／非可逆圧縮、ランレングス法、ハフマン法、DRM）、学習8 p.75（ラスタ系・ベクタ系画像処理ソフト）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S2",
+   "name": "高等学校情報科「情報Ⅰ」教員研修用教材（本編）第4章 情報通信ネットワークとデータの活用",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_006.pdf",
+   "where": "学習21「さまざまな形式のデータとその表現形式」pp.176-178（リレーショナルデータベース、フィールド・レコード、選択・射影・結合、INSERT/DELETE、テーブルの正規化、キー・バリュー形式、NoSQL、離散グラフ）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S3",
+   "name": "高等学校情報科「情報Ⅱ」教員研修用教材 第3章 情報とデータサイエンス（前半）",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/content/20200702-mxt_jogai01-000007843_004.pdf",
+   "where": "学習11「データと関係データベース」pp.112-115（RDB・SQL、NoSQLの種類：キー・バリュー型・カラム型・ドキュメント型・グラフ型、JSONの入れ子）、学習12 pp.119-120（表記ゆれ・重複の修正＝データクリーニング、データの結合）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S4",
+   "name": "基本情報技術者試験（レベル2）シラバス Ver.9.1",
+   "publisher": "IPA 情報処理推進機構",
+   "url": "https://www.ipa.go.jp/shiken/syllabus/nl10bi0000007tf7-att/syllabus_fe_ver9_1.pdf",
+   "where": "大分類3 中分類8「マルチメディア」pp.26-27、中分類9「データベース」1〜4 pp.28-31（3層スキーマとデータの独立性、DBMSの機能、データ分析→概念設計→論理設計→物理設計、カーディナリティ、関係演算、専有ロック・共有ロック、2相コミットメント、ジャーナル、チェックポイント、ACID特性）、知的財産適用管理「技術的保護」（DRM、CPRM）",
+   "published": "2025（著作権表示）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S5",
+   "name": "ITU-T Recommendation X.851 (12/97) Service definition for the Commitment, Concurrency and Recovery service element",
+   "publisher": "ITU-T",
+   "url": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.851-199712-I!!PDF-E&type=items",
+   "where": "3.6（atomicity, consistency, durability, isolation, rollback の定義）、6.1.1",
+   "published": "1997-12",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S6",
+   "name": "ITU-T Recommendation X.860 (12/97) Distributed transaction processing: Model",
+   "publisher": "ITU-T",
+   "url": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.860-199712-I!!PDF-E&type=items",
+   "where": "7.1 Transaction（ACIDの4性質）、8.6.1 Two-phase commitment、8.7.1.3、8.8 Concurrency control and deadlock、Annex B",
+   "published": "1997-12",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S7",
+   "name": "ITU-T Recommendation G.711 (11/88) Pulse code modulation (PCM) of voice frequencies",
+   "publisher": "ITU-T",
+   "url": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-G.711-198811-I!!PDF-E&type=items",
+   "where": "2 Sampling rate（8000 samples per second）、3 Encoding law（8 binary digits per sample）",
+   "published": "1988-11",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S8",
+   "name": "ITU-T Recommendation H.265 (01/26) High efficiency video coding — Summary",
+   "publisher": "ITU-T",
+   "url": "https://www.itu.int/dms_pubrec/itu-t/rec/h/T-REC-H.265-202601-I!!SUM-HTM-E.htm",
+   "where": "Summary（既存の動画符号化勧告の発展で、より高い圧縮の必要に応えて開発）",
+   "published": "2026-01",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S9",
+   "name": "新4K8K衛星放送開始に向けた取り組み（放送セミナー2017 in 山口、NHK広島放送局技術部）",
+   "publisher": "総務省（掲載）",
+   "url": "https://www.soumu.go.jp/main_content/000533786.pdf",
+   "where": "p.4（4K 3840×2160、8K 7680×4320、ハイビジョン1920×1080）、p.14（4倍・16倍）、p.17（4K・8K放送の映像圧縮方式 H.265(HEVC)）",
+   "published": "平成30年1月",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S10",
+   "name": "令和5年版 情報通信白書「メタバース」",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r05/html/nd247520.html",
+   "where": "第4章第7節（2）メタバース（コミュニケーションが可能なインターネット上の仮想空間、XR（VR・AR・MR））",
+   "published": "令和5年",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S11",
+   "name": "BIM/CIM研修資料 2.3.5「VR、ARについて」「MRについて」",
+   "publisher": "国土交通省 国土技術政策総合研究所",
+   "url": "https://www.nilim.go.jp/lab/qbg/bimcim/training/pdf/2/2.3.5.pdf",
+   "where": "p.1（VR：CGで仮想空間を作り出す技術、AR：現実世界に映像を重ね合わせる技術）、p.2（MR：現実空間と仮想空間を混合し、現実のモノと仮想的なモノがリアルタイムで影響しあう）",
+   "published": "Ver.1.0（日付記載なし）",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S12",
+   "name": "呉市景観計画「色彩計画の方針」",
+   "publisher": "呉市",
+   "url": "https://www.city.kure.lg.jp/uploaded/attachment/12391.pdf",
+   "where": "p.46「色の三属性」（色相＝色合い、明度＝明るさ、彩度＝鮮やかさ）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S13",
+   "name": "文化審議会著作権分科会報告書 参考資料「主要なコンテンツ保護技術」",
+   "publisher": "文化庁（文部科学省サイト掲載）",
+   "url": "https://www.mext.go.jp/b_menu/shingi/bunka/toushin/06012705/004/005/009.htm",
+   "where": "表「暗号・スクランブル等を伴うコンテンツ保護技術」CPRM（記録可能なメディア用に開発されたコンテンツ保護の仕組み。DVD-R/RW/RAM、SDカードなどで使用）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S14",
+   "name": "情報通信審議会 第五次中間答申【概要版】（文化審議会著作権分科会 参考資料4）",
+   "publisher": "総務省 情報通信審議会（文部科学省サイト掲載）",
+   "url": "https://www.mext.go.jp/b_menu/shingi/bunka/gijiroku/020/08071107/002.pdf",
+   "where": "pp.2-3 第1章第1節 デジタル放送におけるコピー制御のルール（コピーワンス→ダビング10、DVDへのコピー）",
+   "published": "平成20年6月27日",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S15",
+   "name": "Sustainability of Digital Formats: MIDI Sequence Data",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000102.shtml",
+   "where": "Description（シンセサイザーに演奏方法を指示する命令で、音そのものではない）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S16",
+   "name": "Sustainability of Digital Formats: MP3 (MPEG Layer III Audio Encoding)",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000012.shtml",
+   "where": "Description（心理音響モデルによる知覚符号化で、聞こえにくい成分を捨てる）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S17",
+   "name": "Sustainability of Digital Formats: AAC (MPEG-4)",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000114.shtml",
+   "where": "Description（Perceptual audio encoding format）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S18",
+   "name": "Sustainability of Digital Formats: WAVE Audio File Format",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000001.shtml",
+   "where": "Description（Microsoft・IBMのRIFFの一部、一般的な中身はLPCM）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S19",
+   "name": "Sustainability of Digital Formats: TIFF, Revision 6.0",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml",
+   "where": "Description（タグ方式のラスター画像形式、PostScript印刷用に作られ、DTPで使われる、色空間もタグで示す）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S20",
+   "name": "Sustainability of Digital Formats: Encapsulated PostScript, Version 3.x",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000246.shtml",
+   "where": "Description（PostScriptで1つの図を表す、ベクターとラスターの組合せに向く、印刷業界の標準的な交換形式）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S21",
+   "name": "Sustainability of Digital Formats: BMP (Microsoft Windows Bitmap), Version 5",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000189.shtml",
+   "where": "Description（実際にはほとんどのBMPは無圧縮）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S22",
+   "name": "Sustainability of Digital Formats: GIF 89a",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000133.shtml",
+   "where": "Description（256色以下のパレット、LZWの可逆圧縮、複数画像による短いアニメーション）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S23",
+   "name": "Sustainability of Digital Formats: PNG",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000153.shtml",
+   "where": "Description（圧縮はすべて可逆、トゥルーカラー、画素ごとの透明度＝アルファチャネル、W3C勧告・ISO/IEC 15948）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S24",
+   "name": "Sustainability of Digital Formats: MPEG-4 File Format, Version 2 (MP4)",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml",
+   "where": "Description（ISO/IEC 14496-14、MPEG-4の映像・映像と音声・音声のみを収める、AVC/H.264・AAC）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S25",
+   "name": "Sustainability of Digital Formats: PDF (Portable Document Format) Family",
+   "publisher": "Library of Congress",
+   "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000030.shtml",
+   "where": "Description（装置・解像度に依存しない、ページのレイアウトを表す、プラットフォームに依存しない文書形式、ISO 32000）",
+   "published": "記載なし",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S26",
+   "name": "RFC 8259 The JavaScript Object Notation (JSON) Data Interchange Format",
+   "publisher": "IETF",
+   "url": "https://www.rfc-editor.org/rfc/rfc8259",
+   "where": "1, 3, 4, 13（オブジェクト＝名前と値の組、値にオブジェクト・配列を入れ子にできる）",
+   "published": "2017-12",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S27",
+   "name": "RFC 7826 Real-Time Streaming Protocol Version 2.0",
+   "publisher": "IETF",
+   "url": "https://www.rfc-editor.org/rfc/rfc7826",
+   "where": "1 Introduction（ストリーミングメディアの例：ビデオオンデマンド・ライブ配信）、2.3 Media Delivery Control（PLAY後にサーバから届くメディアを受信）",
+   "published": "2016-12",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S28",
+   "name": "NIST SP 1500-1r2 NIST Big Data Interoperability Framework: Volume 1, Definitions (Version 3)",
+   "publisher": "NIST",
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-1r2.pdf",
+   "where": "4.2.2 Non-relational platforms (NoSQL)（key-value、document store：値の中の文書も索引・検索できる、graph database：ノードとリンク）",
+   "published": "2019-10",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S29",
+   "name": "データベース 第1回「データベースシステムとは」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/01.pdf",
+   "where": "pp.7-19（ファイル管理の問題点、DBMSの機能：データ記述・操作、整合性の保持、機密保護、同時実行制御、障害回復、3レベルとデータ独立性、DDL/DML）",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S30",
+   "name": "データベース 第2回「データモデリング」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/02.pdf",
+   "where": "pp.5-11（代表的データモデル：ネットワーク・階層・関係、概念設計→論理設計、実体関連モデル、1対N・N対M・1対1）",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S31",
+   "name": "データベース 第3回「リレーショナルデータモデル(1)」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/03.pdf",
+   "where": "pp.11-16（整合性制約：ドメイン制約・キー制約・参照整合性制約、主キーは空値になり得ない、外部キー）",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S32",
+   "name": "データベース 第6回「リレーショナルデータベース設計論(1)」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/06.pdf",
+   "where": "pp.16-17（更新不整合：修正不整合・挿入不整合・削除不整合、リレーションの分解、無損失結合分解）",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S33",
+   "name": "データベース 第10回「物理的データ格納方式」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/10.pdf",
+   "where": "索引付ファイル（索引で読むべきページを特定、キー値の挿入処理のコスト）、二次索引",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S34",
+   "name": "データベース 第12回「同時実行制御」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/12.pdf",
+   "where": "pp.2, 29-36（トランザクション、共有ロック・専有ロックと両立性行列、デッドロックの例：T1がA→B、T2がB→Aの順にロック、待ちグラフ・タイムアウト）",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S35",
+   "name": "データベース 第13回「障害回復」（2019年度講義資料、石川佳治）",
+   "publisher": "名古屋大学 情報学部・大学院情報学研究科",
+   "url": "https://www.db.is.i.nagoya-u.ac.jp/~ishikawa/lectures/db19/13.pdf",
+   "where": "pp.2-3, 7-8, 17（障害の分類、ログ＝ジャーナル、ビフォアイメージ・アフタイメージ、アンドゥ・リドゥ、チェックポイント：バッファを周期的にディスクへ書き出し、再開時は最新のチェックポイント以降のログを解析）",
+   "published": "2019年度",
+   "checked": "2026-11-06"
+  },
+  {
+   "key": "S36",
+   "name": "データベースと応用システム：障害回復（山本和英、長岡技術科学大学 電気系）",
+   "publisher": "長岡技術科学大学（Speaker Deck 掲載）",
+   "url": "https://speakerdeck.com/jnlp/detabesutoying-yong-sisutemu-zhang-hai-hui-fu-1",
+   "where": "スライド5-6（更新前・更新後ログ、DBとログは別ディスク）、8（ロールバック＝undo、ロールフォワード＝redo）、9・11-12（チェックポイント前のコミットは処理不要、後のコミットはロールフォワード、実行中はロールバック）、22（媒体障害：バックアップを戻してログでロールフォワード）",
+   "published": "2014-06-27",
+   "checked": "2026-11-06"
+  }
+ ],
+ "items": {
+  "lesson:U52": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S7",
+    "S13",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S22",
+    "S23",
+    "S8",
+    "S24",
+    "S27"
+   ],
+   "note": "ランレングスの例AAAABB→A4B2、データ量の式を node で確認。"
+  },
+  "U52-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S27",
+    "S4"
+   ],
+   "note": "ストリーミング＝サーバから届くメディアを受信しながら再生（RFC 7826 1・2.3）。エンコード／デコードはS1（符号化・復号）。"
+  },
+  "U52-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S25",
+    "S15",
+    "S13"
+   ],
+   "note": "DRM（動画の複製を制限するデジタル著作権管理）はS1図表10、CPRMはS13。"
+  },
+  "U52-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S7"
+   ],
+   "note": "node で再計算して一致。44,100×16×2×60÷8＝10,584,000、誤答の5.3M／84.7M／2.6Mの由来も一致。"
+  },
+  "U52-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S23",
+    "S1",
+    "S21"
+   ],
+   "note": "JPEGの透過非対応・BMPの「Webでは一般に使われない」は資料で確かめられないため、誤答の理由を資料で確かめられる内容に修正。",
+   "patch": {
+    "why": [
+     "誤り。JPEGはデジカメの写真などに使われる非可逆圧縮の形式で、画質を落とさずに保存するという条件に合いません。",
+     "誤り。MP3は音声の形式です。",
+     "誤り。BMPは多くの場合圧縮しない形式で、ファイルが大きくなります。可逆圧縮で小さくするという条件に合いません。",
+     "正しい。PNGは可逆圧縮で透過も使え、ロゴに適しています。"
+    ]
+   }
+  },
+  "U52-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。S1展開2（1920×1080・24ビットのデータ量）と同じ考え方。"
+  },
+  "U52-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。フレームレート＝1秒当たりのフレーム数（S1）。"
+  },
+  "U52-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。ランレングス法の考え方（A5B5の例）はS1 p.61。"
+  },
+  "U52-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "文書は完全に元に戻す必要があり可逆圧縮、画像などは非可逆圧縮でもよい（S1 p.61）。"
+  },
+  "U52-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S27",
+    "S13"
+   ],
+   "note": "符号化・復号（S1 p.60）。"
+  },
+  "U52-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S13",
+    "S14",
+    "S4"
+   ],
+   "note": "要確認とされた問題。CPRMは記録可能なメディア（DVD-R/RW/RAM・SDカード）用のコンテンツ保護技術（S13）、デジタル放送のコピー制御ルールでDVDへのコピーが制限付きで認められている（S14）。"
+  },
+  "U52-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S25",
+    "S21",
+    "S15",
+    "S1"
+   ],
+   "note": "PDFは装置・プラットフォームに依存せずページのレイアウトを表す（S25）。AVIはS1図表10。"
+  },
+  "U52-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "標本化→量子化→符号化の順（S1 p.59）。"
+  },
+  "U52-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S15",
+    "S18",
+    "S16",
+    "S17"
+   ],
+   "note": "MIDIは演奏の指示で音そのものではない（S15）。WAVEの一般的な中身はLPCM（S18）。"
+  },
+  "U52-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S7",
+    "S1"
+   ],
+   "note": "node で再計算して一致。8,000回/秒×8ビット＝64kビット/秒（G.711と同じ条件）、×60÷8＝480kバイト。"
+  },
+  "U52-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S16",
+    "S17",
+    "S18",
+    "S15"
+   ],
+   "note": "MP3・AACは聞こえにくい成分を捨てる知覚符号化（S16・S17）。"
+  },
+  "U52-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "ラスタは写真向きで拡大に弱い、ベクタは拡大しても画質維持（S1 p.59）。"
+  },
+  "U52-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S22",
+    "S1",
+    "S21",
+    "S19"
+   ],
+   "note": "GIFは256色以下・可逆圧縮・複数画像の短いアニメーション（S22）。JPEGの誤りの理由「256色の制限やアニメーションの機能はありません」は資料で確かめられないため修正。",
+   "patch": {
+    "why": [
+     "JPEGはデジカメの写真などに使われる非可逆圧縮の形式で、画質を落とさずに保存するという条件に合いません。",
+     "BMPは、通常は圧縮せずに画素をそのまま記録する形式です。",
+     "正しい。256色まで・可逆圧縮・アニメーションが作れるのはGIFです。",
+     "TIFFは、タグで画像の情報を管理する形式で、印刷・DTPなどで使われます。"
+    ]
+   }
+  },
+  "U52-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S21",
+    "S19",
+    "S20"
+   ],
+   "note": "要確認とされた問題。BMP＝Windows標準・無圧縮（S1図表9、S21）、TIFF＝タグ方式・印刷/DTP（S19）、EPS＝PostScriptで図を表し印刷用の交換形式（S20）。"
+  },
+  "U52-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S8",
+    "S9",
+    "S1"
+   ],
+   "note": "要確認とされた問題。H.265はより高い圧縮のための発展版（S8）、新4K8K衛星放送の映像圧縮方式はH.265(HEVC)（S9 p.17）。AVIは様々なコーデックを使える形式（S1）。"
+  },
+  "U52-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。S1展開2（フレームを並べた動画のデータ量）と同じ考え方。"
+  },
+  "U52-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S24",
+    "S1",
+    "S22",
+    "S18",
+    "S20"
+   ],
+   "note": "MP4はMPEG-4の映像と音声を収める形式（S24）、広く普及しH.264のmp4が推奨（S1図表10）。"
+  },
+  "U52-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。よく使う文字に短い符号を割り当てる（S1 p.61）。"
+  },
+  "U52-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "S1 p.59の手順と一致。"
+  },
+  "U52-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S7"
+   ],
+   "note": "node で再計算して一致。16,000×16×1÷8×10＝320,000バイト。"
+  },
+  "lesson:U53": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1",
+    "S4",
+    "S11",
+    "S10",
+    "S12"
+   ],
+   "note": "「CMYだけでは純粋な黒が出にくい」は資料で確かめられないため、S1の記述（輪郭線を表すキープレートとして黒を加える）に合わせて修正。",
+   "patch": {
+    "pages": [
+     {
+      "title": "光の色とインクの色",
+      "body": "ディスプレイは赤・緑・青（RGB：光の3原色）の光を重ねて色を作り、全部重ねると白になります。これを加法混色といいます。プリンターはシアン・マゼンタ・イエロー（CMY：色の3原色）のインクを重ね、重ねるほど暗くなります（減法混色）。プリンターなどでは、これに輪郭線などを表す黒（K：キープレート）を加えたCMYKを使うことが多いです。色は色相・明度・彩度でも表します。"
+     },
+     {
+      "title": "画像のきめ細かさ",
+      "body": "画像は画素（ピクセル）の集まりです。画素が多いほど細かく、表せる色の段階（階調）が多いほどなめらかです。dpiはプリンターやスキャナーの「1インチあたりの点の数」、ppiは画面などの「1インチあたりの画素数」です。ペイント系ソフトは画素単位で描き（ラスター形式）、ドロー系ソフトは図形を式で描く（ベクター形式）ため、拡大してもきれいです。"
+     },
+     {
+      "title": "マルチメディアの応用",
+      "body": "CG（コンピュータグラフィックス）は映画やゲームに使われます。VR（仮想現実）はゴーグルで完全に作られた世界に入る技術、AR（拡張現実）は現実の映像に情報を重ねる技術、MR（複合現実）は現実と仮想を融合させ、仮想の物を現実の位置に合わせて操作できる技術です。メタバースはアバターで集まるネット上の仮想空間、シミュレーターは運転や操縦の訓練などに使われます。"
+     }
+    ]
+   }
+  },
+  "U53-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ]
+  },
+  "U53-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "正解の選択肢と解説の「純粋な黒が出にくい」「インクも3倍使う」「安く」を資料で確かめられないため、S1 p.59（輪郭線を表すキープレートとして黒を加える）に合わせて修正。",
+   "patch": {
+    "choices": [
+     "3色を重ねると白になってしまうから",
+     "光の3原色を補うため",
+     "画面のppiを上げるため",
+     "文字や輪郭線などの黒を、くっきりと表すため"
+    ],
+    "why": [
+     "誤り。インクは重ねるほど暗くなります。白になるのは光の加法混色です。",
+     "誤り。光の3原色（RGB）はディスプレイの話で、インクとは別です。",
+     "誤り。ppiは画面の細かさで、インクの色数とは関係ありません。",
+     "正しい。プリンターなどでは、CMYに加えて輪郭線などを表すキープレート（K）として黒を使います。"
+    ],
+    "explain": "印刷では、色の3原色（シアン・マゼンタ・イエロー）のインクを重ねる減法混色で色を表します。プリンターなどでは、この3色に加えて、輪郭線などを表すキープレート（K）として黒を使うことが多く、これをCMYKといいます。"
+   }
+  },
+  "U53-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。dpi＝1インチ当たりの点の数（S1）。"
+  },
+  "U53-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "ベクタ系ソフトは図形を数式で表し拡大しても劣化しない（S1 p.75）。"
+  },
+  "U53-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11",
+    "S10",
+    "S9"
+   ]
+  },
+  "U53-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11",
+    "S9"
+   ]
+  },
+  "U53-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S12",
+    "S1"
+   ],
+   "note": "色相＝色合い、明度＝明るさ、彩度＝鮮やかさ（S12）。階調はS1。"
+  },
+  "U53-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S12",
+    "S1"
+   ]
+  },
+  "U53-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "S1図表7は「シアン＋マゼンタ＋イエロー＝黒」と表記。「黒に近い色」と矛盾しない。"
+  },
+  "U53-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。24bitで16,777,216色（S1 p.60）。"
+  },
+  "U53-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "階調＝濃さや明るさを表現する段階（S1 p.60）、解像度＝点の集まり具合（S1 p.59）。"
+  },
+  "U53-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "dpi（dot per inch）・ppi（pixels per inch）（S1 p.59）。fps＝フレームレートの単位（S1）。"
+  },
+  "U53-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "ラスタ系ソフトは画像をピクセルで描画（S1 p.75）。"
+  },
+  "U53-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "node で再計算して一致。"
+  },
+  "U53-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11",
+    "S9"
+   ],
+   "note": "要確認とされた問題。MR＝現実空間と仮想空間を混合し、現実のモノと仮想的なモノがリアルタイムで影響しあう（S11 p.2）。VRは仮想空間を作り出す技術（S11 p.1）。"
+  },
+  "U53-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S10",
+    "S11",
+    "S4",
+    "S13"
+   ],
+   "note": "メタバース＝コミュニケーションが可能なインターネット上の仮想空間（S10）。"
+  },
+  "U53-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": "node で再計算して一致。8Kはハイビジョンの16倍（S9 p.14）。"
+  },
+  "U53-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4",
+    "S11",
+    "S10",
+    "S1"
+   ],
+   "note": "シミュレーターはIPAシラバスのマルチメディア応用例。誤りの3つ（AR・メタバース・DRM）が当てはまらないことをS11・S10・S1で確認。"
+  },
+  "U53-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4",
+    "S11",
+    "S7",
+    "S1",
+    "S15"
+   ],
+   "note": "CGで仮想の映像を作る（S11）。誤りの3つ（PCM・ランレングス法・MIDI）が当てはまらないことをS7・S1・S15で確認。"
+  },
+  "U53-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11"
+   ]
+  },
+  "U53-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S9"
+   ],
+   "note": "4K＝3840×2160、8K＝7680×4320、ハイビジョン＝1920×1080（S9 p.4）。1,280×720を「HD（720p）」とする説明は資料で確かめられないため、誤りの理由を確かめられる内容に修正。",
+   "patch": {
+    "why": [
+     "正しい。4Kは3,840×2,160画素です。",
+     "フルHD（ハイビジョン）の画素数です。",
+     "4Kの画素数（3,840×2,160）ではありません。フルHD（1,920×1,080）よりも少ない画素数です。",
+     "8Kの画素数です。"
+    ]
+   }
+  },
+  "U53-q22": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S4"
+   ],
+   "note": "左右の目に異なる映像を見せる立体視の仕組みを、公的機関・規格団体の資料で確かめられなかった（ISOのページは開けず）。"
+  },
+  "U53-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S1"
+   ],
+   "note": "S1図表7と一致。"
+  },
+  "U53-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S11"
+   ]
+  },
+  "lesson:U54": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S2",
+    "S3",
+    "S28",
+    "S4"
+   ]
+  },
+  "U54-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S2"
+   ]
+  },
+  "U54-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S30",
+    "S4"
+   ]
+  },
+  "U54-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S1"
+   ],
+   "note": "DBMSの機能（S29 pp.11-14）。"
+  },
+  "U54-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S28",
+    "S2",
+    "S3"
+   ],
+   "note": "解説の「Webサービスのログイン状態の保存などによく使われます」を資料で確かめられないため削除。",
+   "patch": {
+    "explain": "キーと値の組だけで管理するのがキーバリューストア（KVS）です。データはキーを指定して取り出します。"
+   }
+  },
+  "U54-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S28",
+    "S2",
+    "S3"
+   ],
+   "note": "グラフ型はデータ要素をノード、関係をリンクで表す（S28）。"
+  },
+  "U54-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S28",
+    "S29"
+   ],
+   "note": "ドキュメント型は表形式では保持しにくいデータに対応した形式（S3 p.114）、整合性の保持・同時実行制御はDBMSの機能（S29）。"
+  },
+  "U54-q07": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S30",
+    "S4"
+   ],
+   "note": "階層モデルは「子の親は1つだけ」という構造上の特徴を、公的機関・規格団体の資料で確かめられなかった（S30・S4は名称のみ）。"
+  },
+  "U54-q08": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S30",
+    "S4"
+   ],
+   "note": "要確認とされた問題。ネットワークモデルで子が複数の親を持てることを、公的機関・規格団体の資料で確かめられなかった（S30・S4は名称のみ）。"
+  },
+  "U54-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29"
+   ],
+   "note": "ファイルごとの管理は不統一・不整合・冗長の原因、統合で重複・不整合を除く（S29 pp.7-10）。"
+  },
+  "U54-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S4"
+   ],
+   "note": "要確認とされた問題。データ独立性：データをアプリケーションから分離し、スキーマ変更がアプリに影響しないようにする（S29 p.19、S4 3層スキーマ）。"
+  },
+  "U54-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29"
+   ]
+  },
+  "U54-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29"
+   ],
+   "note": "機密保護：各ユーザが可能な操作を指定（S29 p.14）。データ定義（DDL）もS29。"
+  },
+  "U54-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S2",
+    "S3"
+   ],
+   "note": "同時実行制御（S29 p.14）。正規化はS2、データの整理（クリーニング）はS3。"
+  },
+  "U54-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S35"
+   ],
+   "note": "障害回復（S29 p.14）、ログを用いた回復（S35）。インデックス＝索引（S29 p.13）。"
+  },
+  "U54-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31",
+    "S29"
+   ],
+   "note": "ドメイン制約で値の範囲を指定（S31 p.12）。CHECK制約で−3が拒否されることを node:sqlite で確認。"
+  },
+  "U54-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S2",
+    "S28"
+   ]
+  },
+  "U54-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S28",
+    "S3",
+    "S26",
+    "S30"
+   ],
+   "note": "document storeは値の中の文書も索引を付けて検索できる（S28）、JSONは名前と値の組で入れ子にできる（S26、S3）。"
+  },
+  "U54-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S28",
+    "S3"
+   ],
+   "note": "NoSQL＝関係代数に従わないデータモデルの総称（S28）。"
+  },
+  "U54-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S4"
+   ],
+   "note": "DDL（データ定義）・DML（データ操作）（S29 p.20）。"
+  },
+  "U54-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S29"
+   ]
+  },
+  "U54-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29"
+   ],
+   "note": "DBMSを用いてデータをアプリケーションと独立に管理（S29 p.10）。"
+  },
+  "U54-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29"
+   ]
+  },
+  "U54-f1": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S30",
+    "S4"
+   ],
+   "note": "要確認とされた図。階層モデル「子の親は1つだけ」・ネットワークモデル「子が複数の親を持てる」を、公的機関・規格団体の資料で確かめられなかった。"
+  },
+  "U54-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S3",
+    "S28"
+   ]
+  },
+  "lesson:U55": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S2",
+    "S31",
+    "S30",
+    "S32",
+    "S33",
+    "S4"
+   ],
+   "note": "データクレンジングはS3では「データクリーニング」の名で説明。"
+  },
+  "U55-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S4",
+    "S33",
+    "S1"
+   ],
+   "note": "表記のゆれ・重複を修正する作業（S3 pp.119-120、データクリーニング）。"
+  },
+  "U55-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3",
+    "S2"
+   ]
+  },
+  "U55-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "主キーは空値になり得ない・キー制約（S31 pp.14-15）。node:sqlite で主キーのNULL・重複が拒否されることも確認。"
+  },
+  "U55-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "外部キー（S31 p.17）。"
+  },
+  "U55-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S30"
+   ],
+   "note": "実体関連モデル・実体関連図（S30）。"
+  },
+  "U55-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S32"
+   ]
+  },
+  "U55-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S2"
+   ],
+   "note": "修正不整合と分解（S32 pp.16-17）。"
+  },
+  "U55-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。参照される側から登録したときだけエラーにならない。"
+  },
+  "U55-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33",
+    "S29",
+    "S6",
+    "S31"
+   ],
+   "note": "ビュー＝外部スキーマ（S29 p.17）。"
+  },
+  "U55-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S3"
+   ]
+  },
+  "U55-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31",
+    "S30"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U55-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32",
+    "S2"
+   ],
+   "note": "リレーションの分解（S32 p.17）。正規化の詳細（正規形の名前）は問うておらず、シラバスの範囲内。"
+  },
+  "U55-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ],
+   "note": "参照整合性制約（S31 p.17）。node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U55-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4",
+    "S30"
+   ],
+   "note": "データ分析→概念設計→論理設計→物理設計（S4 データベース設計(1)〜(4)、S30 p.7）。"
+  },
+  "U55-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4",
+    "S33"
+   ],
+   "note": "データ分析＝必要なデータの洗出しと整理、物理設計＝ディスク容量見積りなど（S4）。"
+  },
+  "U55-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S3"
+   ],
+   "note": "表記のゆれの修正（S3 p.120）。"
+  },
+  "U55-q17": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S4"
+   ],
+   "note": "コード設計の考え方（桁数に余裕を持たせる等）を、公的機関・規格団体の資料で具体的に確かめられなかった（S4は項目名のみ）。"
+  },
+  "U55-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S30",
+    "S4"
+   ],
+   "note": "1対N（S30 p.11）、カーディナリティ（S4）。"
+  },
+  "U55-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S33",
+    "S4"
+   ],
+   "note": "索引の途中にキー値を挿入する処理のコストが高い（S33）、インデックス数と負荷（S4）。"
+  },
+  "U55-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31"
+   ]
+  },
+  "U55-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S32"
+   ],
+   "note": "挿入不整合（S32 p.16）。"
+  },
+  "U55-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S32"
+   ]
+  },
+  "U55-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S4",
+    "S30"
+   ],
+   "note": "要確認とされた図。工程の順序をS4・S30で確認。"
+  },
+  "U55-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S32"
+   ]
+  },
+  "lesson:U56": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "SELECT/INSERT/DELETE（S2 演習1）、挿入・更新（S4）。"
+  },
+  "U56-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S31",
+    "S2"
+   ],
+   "note": "キー制約（S31 p.15）。node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q21": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ],
+   "note": "node:sqlite で表を作って実行し、結果が一致。"
+  },
+  "U56-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2",
+    "S4"
+   ]
+  },
+  "U56-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S2"
+   ]
+  },
+  "lesson:U57": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6",
+    "S34",
+    "S35",
+    "S36",
+    "S4"
+   ],
+   "note": "本文の「耐久性」と問題・図の「永続性」をそろえるため、用語の説明に両方を併記。",
+   "patch": {
+    "terms": [
+     {
+      "term": "トランザクション",
+      "read": "とらんざくしょん",
+      "desc": "「全部成功」か「全部取り消し」かで扱う、ひとまとまりの処理の単位。",
+      "item": "U57-1"
+     },
+     {
+      "term": "ACID特性",
+      "read": "アシッドとくせい",
+      "desc": "原子性・一貫性・独立性・永続性（耐久性）の4つ。トランザクションが守るべき性質。",
+      "item": "U57-1"
+     },
+     {
+      "term": "排他制御",
+      "read": "はいたせいぎょ",
+      "desc": "更新中のデータにロックをかけ、他の処理を待たせて矛盾を防ぐ仕組み。",
+      "item": "U57-1"
+     },
+     {
+      "term": "デッドロック",
+      "read": "でっどろっく",
+      "desc": "複数の処理が互いに相手のロック解除を待ち続け、どれも進まなくなる状態。",
+      "item": "U57-1"
+     },
+     {
+      "term": "2相コミットメント",
+      "read": "にそうこみっとめんと",
+      "desc": "複数のデータベースをまたぐ更新で、全員の準備OKを確認してから一斉に確定する方式。",
+      "item": "U57-1"
+     },
+     {
+      "term": "チェックポイント",
+      "read": "ちぇっくぽいんと",
+      "desc": "メモリ上の更新内容をディスクに書き出す区切り。障害回復を速くする。",
+      "item": "U57-2"
+     },
+     {
+      "term": "ロールバック",
+      "read": "ろーるばっく",
+      "desc": "更新前の記録を使って、トランザクション開始前の状態に戻すこと（バックワードリカバリ）。",
+      "item": "U57-2"
+     },
+     {
+      "term": "ロールフォワード",
+      "read": "ろーるふぉわーど",
+      "desc": "バックアップを戻した後、更新後の記録を使って確定済みの更新をやり直すこと（フォワードリカバリ）。",
+      "item": "U57-2"
+     }
+    ]
+   }
+  },
+  "U57-q01": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S5"
+   ]
+  },
+  "U57-q02": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "atomicity：すべて実行されるか、どれも実行されない（S5 3.6.11）。"
+  },
+  "U57-q03": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S29",
+    "S34"
+   ],
+   "note": "node で再計算して一致。同時更新で矛盾が起きる（S29 p.9）、ロックによる制御（S34）。"
+  },
+  "U57-q04": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S34",
+    "S6"
+   ]
+  },
+  "U57-q05": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S6",
+    "S5"
+   ],
+   "note": "2相コミットメント（S6 8.6.1）。"
+  },
+  "U57-q06": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35",
+    "S36",
+    "S5"
+   ]
+  },
+  "U57-q07": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36",
+    "S35"
+   ],
+   "note": "媒体障害はバックアップを戻してロールフォワード（S36 スライド22）。"
+  },
+  "U57-q08": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "consistency（S5 3.6.30）。"
+  },
+  "U57-q09": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "isolation：途中の結果が他から見えない＝直列化可能（S5 3.6.41）。"
+  },
+  "U57-q10": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "durability：完了した操作の効果がどんな障害でも変わらない（S5 3.6.33）。"
+  },
+  "U57-q11": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6",
+    "S35"
+   ]
+  },
+  "U57-q12": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S34",
+    "S4"
+   ],
+   "note": "要確認とされた問題。両立性行列：共有ロック同士のみ両立、専有ロックはどれとも両立しない（S34 p.29）。"
+  },
+  "U57-q13": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S34",
+    "S6"
+   ],
+   "note": "S34 p.32のデッドロック例（T1がA→B、T2がB→A）と同じ状況。node で2つの処理のすべての実行順を調べ、逆順ならデッドロックが起こり得て、同じ順ならどの順でも起きないことを確認。"
+  },
+  "U57-q14": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35",
+    "S36"
+   ]
+  },
+  "U57-q15": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35",
+    "S36"
+   ],
+   "note": "ログ＝ジャーナル、更新前（ビフォアイメージ）・更新後（アフタイメージ）を記録（S35 pp.7-8）。"
+  },
+  "U57-q16": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36",
+    "S35"
+   ],
+   "note": "要確認とされた問題。チェックポイント前にコミット済みは処理不要、後にコミットはロールフォワード（S36 スライド12）。node で分類して一致。"
+  },
+  "U57-q17": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36",
+    "S35"
+   ],
+   "note": "要確認とされた問題。障害時に実行中のものは開始がチェックポイントの前後を問わずロールバック（S36 スライド12）。node で分類して一致。"
+  },
+  "U57-q18": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35",
+    "S36"
+   ]
+  },
+  "U57-q19": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35"
+   ],
+   "note": "チェックポイントでバッファを書き出し、再開時は最新のチェックポイント以降のログを解析（S35 p.17）。"
+  },
+  "U57-q20": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5"
+   ],
+   "note": "ロールバックで開始前の状態に戻ることを node:sqlite（BEGIN→UPDATE→ROLLBACK）で確認。"
+  },
+  "U57-q21": {
+   "status": "needs_review",
+   "sourceIds": [
+    "SRC-001",
+    "S36"
+   ],
+   "note": "DBとログは別のディスクに書く（S36 スライド5）。 【統合時】根拠が Speaker Deck 掲載の講義資料（S36）だけのため needs_review に戻した（大学サイト上の資料・公的資料での確認が必要）。"
+  },
+  "U57-q22": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S36",
+    "S35"
+   ],
+   "note": "日曜日のバックアップ取得後に日曜日中の更新があり得るため、「月曜日から」を「バックアップを取った後から」に修正。",
+   "patch": {
+    "choices": [
+     "日曜日のバックアップの時点に戻り、バックアップを取った後から故障までに確定した更新は失われる。",
+     "故障の直前の状態まで、完全に戻すことができる。",
+     "ロールバックを行えば、故障の直前の状態まで戻せる。",
+     "バックアップを戻しても、データは何も戻らない。"
+    ]
+   }
+  },
+  "U57-f1": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S5",
+    "S6"
+   ],
+   "note": "教材本文の「耐久性」とそろえるため、Dの名前に両方を併記。",
+   "patch": {
+    "rows": [
+     [
+      "原子性（A）",
+      "すべて実行するか、まったく実行しないか"
+     ],
+     [
+      "一貫性（C）",
+      "処理の前後でデータの整合性が保たれる"
+     ],
+     [
+      "独立性（I）",
+      "同時に実行しても互いに影響しない"
+     ],
+     [
+      "永続性・耐久性（D）",
+      "コミットした結果は障害でも失われない"
+     ]
+    ]
+   }
+  },
+  "U57-f2": {
+   "status": "verified",
+   "sourceIds": [
+    "SRC-001",
+    "S35",
+    "S36"
+   ]
+  }
+ }
+}

@@ -8,7 +8,9 @@ function seenOrder(s, ids) {
   // 復習の必要が高い順：未解決の間違い → 予定日を過ぎた日数が多い → 箱が小さい
   return ids.slice().sort((a, b) => {
     const qa = s.qstate[a] || {}; const qb = s.qstate[b] || {};
-    const wa = qa.lastCorrect === false ? 1 : 0; const wb = qb.lastCorrect === false ? 1 : 0;
+    // 未解決の間違い(2) → 自信のない正解(1) → その他(0)
+    const rank = (q) => (q.lastCorrect === false ? 2 : q.lastCorrect === true && (q.lastConf === 'guess' || q.lastConf === 'maybe') ? 1 : 0);
+    const wa = rank(qa); const wb = rank(qb);
     if (wa !== wb) return wb - wa;
     const oa = qa.due ? diffDays(qa.due, t) : -99; const ob = qb.due ? diffDays(qb.due, t) : -99;
     if (oa !== ob) return ob - oa;
@@ -28,8 +30,17 @@ export function pick(s, DB, A, opts, rnd = Math.random) {
   const n = opts.count || 10;
   const studiedUnits = new Set(UNITS.filter((u) => A.units[u.id].status !== 'new').map((u) => u.id));
   switch (opts.kind) {
+    case 'unitTest':
+      return pickUnitTest(s, DB, opts.unit, rnd);
+    case 'lessonCheck': {
+      // 教材の中の練習問題（3問・その場で解説）。小テストに使う問題をなるべく残すため、出題済みを先に使う
+      const ids = DB.byUnit[opts.unit] || [];
+      const tested = testedSet(s, opts.unit);
+      const seen = shuffle(ids.filter((id) => s.qstate[id]?.seen && !tested.has(id)), rnd);
+      const fresh = shuffle(ids.filter((id) => !s.qstate[id]?.seen), rnd);
+      return [...seen, ...fresh].slice(0, opts.count || 3);
+    }
     case 'unit':
-    case 'lessonCheck':
       return freshFirst(s, DB.byUnit[opts.unit] || [], opts.count || 99, rnd);
     case 'remedial': {
       const ids = DB.byUnit[opts.unit] || [];
@@ -76,6 +87,50 @@ export function pick(s, DB, A, opts, rnd = Math.random) {
     default:
       return [];
   }
+}
+
+function testedSet(s, unit) {
+  return new Set(((s.tests && s.tests[unit]) || []).flatMap((t) => t.qids));
+}
+
+/**
+ * 小テスト（10問）：前回までの小テストに出していない問題 → 練習で解いていない問題 → の順に選ぶ。
+ * 全部出し切ったら、いちばん前に出したテストの問題から使う（同じ10問の繰り返しにしない）。
+ */
+export function pickUnitTest(s, DB, unit, rnd = Math.random) {
+  const ids = DB.byUnit[unit] || [];
+  const tests = (s.tests && s.tests[unit]) || [];
+  const tested = testedSet(s, unit);
+  const notTested = ids.filter((id) => !tested.has(id));
+  const a = shuffle(notTested.filter((id) => !s.qstate[id]?.seen), rnd);
+  const b = shuffle(notTested.filter((id) => s.qstate[id]?.seen), rnd);
+  let out = [...a, ...b];
+  if (out.length < 10) {
+    const last = new Set(tests.length ? tests[tests.length - 1].qids : []);
+    const older = shuffle(ids.filter((id) => tested.has(id) && !last.has(id)), rnd);
+    const lastOnes = shuffle(ids.filter((id) => last.has(id)), rnd);
+    out = [...out, ...older, ...lastOnes];
+  }
+  const res = out.slice(0, 10);
+  res.reused = res.filter((id) => tested.has(id)).length;
+  return res;
+}
+
+/** 初回の基礎確認（10問）：分野の比率に近く（S4・M2・T4）、基礎(level1)の問題から、中分類が重ならないように */
+export function pickDiagnostic(DB, rnd = Math.random) {
+  const want = { S: 4, M: 2, T: 4 };
+  const out = [];
+  for (const f of ['S', 'M', 'T']) {
+    const units = shuffle(UNITS.filter((u) => u.field === f), rnd);
+    const usedChu = new Set();
+    for (const u of units) {
+      if (out.filter((id) => DB.questions[id].field === f).length >= want[f]) break;
+      if (usedChu.has(u.chu)) continue;
+      const cand = shuffle((DB.byUnit[u.id] || []).filter((id) => DB.questions[id].level === 1), rnd);
+      if (cand.length) { out.push(cand[0]); usedChu.add(u.chu); }
+    }
+  }
+  return out;
 }
 
 /** 模擬試験：本試験の分野比率（35:20:45）に合わせて、単元が偏らないように選ぶ。足りないときは足りないまま返す */

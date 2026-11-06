@@ -198,3 +198,45 @@ details summary { cursor: pointer; min-height: 36px; }
 .past-stem summary { cursor: pointer; font-weight: 700; }
 .notice h3 { margin-top: 0; }
 div.warn { background: #fff7ed; border: 1px solid #fdba74; border-radius: 10px; padding: 10px; margin-top: 8px; color: var(--ink); }
+
+/* ---------- 図解・アニメーション（src/ui/figure.js） ---------- */
+.fig { margin: 12px 0; padding: 10px; border: 2px solid var(--line); border-radius: 14px; background: #fbfcff; }
+.fig-title { font-weight: 700; margin-bottom: 6px; }
+.fig-stage { overflow-x: auto; }
+.fig-svg { width: 100%; height: auto; display: block; }
+.fig-box { fill: #fff; stroke: var(--accent); stroke-width: 2; }
+.fig-box.fig-accent { fill: #eef0ff; }
+.fig-svg text { fill: var(--ink); }
+.fig-svg .fig-note { fill: var(--muted); }
+.fig-line { stroke: var(--accent); stroke-width: 2; }
+.fig-arrowhead { fill: var(--accent); }
+.fig-f { transition: opacity .45s ease; }
+.fig-f.off { opacity: .08; }
+.fig-ctrl { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; }
+.fig-ctrl .btn.small { margin-top: 0; }
+.fig-cap { margin: 6px 0 0; }
+.fig-table-wrap { overflow-x: auto; }
+.fig-table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+.fig-table th, .fig-table td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+.fig-table thead th { background: #eef0ff; }
+.fig-steps { margin: 0; padding-left: 1.4em; }
+.fig-steps li { margin: 6px 0; }
+.fig-steps code { display: block; background: #f1f3ff; border-radius: 8px; padding: 4px 8px; margin-top: 2px; font-size: .9rem; white-space: pre-wrap; }
+.fig-tree .fig-root { display: inline-block; border: 2px solid var(--accent); background: #eef0ff; border-radius: 10px; padding: 4px 12px; font-weight: 700; }
+.fig-tree > ul { margin: 6px 0 0; padding-left: 1.2em; border-left: 2px solid var(--accent); }
+.fig-tree li { margin: 4px 0; }
+.fig-tree li ul { padding-left: 1.2em; font-size: .88rem; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .fig-f { transition: none; } }
+
+/* 自信の選択・小テスト */
+.conf { display: flex; gap: 6px; margin-top: 10px; }
+.conf .chip { flex: 1; justify-content: center; }
+.conf-q { margin-top: 10px; font-weight: 700; }
+.choice.sel { border-color: var(--accent); background: #eef0ff; }
+.verdict-only { font-size: 1.3rem; font-weight: 700; text-align: center; margin: 12px 0 4px; }
+.verdict-only.ok { color: var(--ok); } .verdict-only.ng { color: var(--ng); }
+.status-chip { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--line); }
+.status-chip.ok { border-color: var(--ok); color: var(--ok); }
+.status-chip.ng { border-color: var(--warn); color: var(--warn); }
+.check-list { list-style: none; padding: 0; margin: 0; }
+.check-list li { padding: 6px 0; border-bottom: 1px dashed var(--line); }

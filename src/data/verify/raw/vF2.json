@@ -1,0 +1,2395 @@
+{
+  "range": "U58-U63",
+  "verifier": "照合担当F2（作成とは別のAI）",
+  "checkedAt": "2026-11-06",
+  "sources": [
+    {
+      "key": "S1",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（英数字）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/en/",
+      "where": "DNS・IPv6・ESSID/SSID・WPA2-PSK・IDS/IPS・SMTP・POP3・HTTP・DHCP・NTP・TCP・UDP・BCC/CC・Cookie・URL・MACアドレス・Bluetooth・DNSキャッシュポイズニング・DoS/DDoS 等の項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S2",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（か行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_02/",
+      "where": "可用性・完全性・機密性・共通鍵暗号方式・公開鍵暗号方式・キーロガーの項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S3",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（さ行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_03/",
+      "where": "サーバ証明書・ステルス機能・侵入検知システム・生体認証・セキュリティ・バイ・デザイン・情報セキュリティポリシー・情報資産・脆弱性・ソーシャルエンジニアリング 等の項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S4",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（た行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_04/",
+      "where": "多要素認証・電子署名・トロイの木馬の項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S5",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（な行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_05/",
+      "where": "認証局・認証サーバ（シングルサインオン）・二段階認証の項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S6",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（は行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_06/",
+      "where": "バックドア・否認防止・秘密鍵・ポート・プロキシサーバ・ファイアウォール・ボットの項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S7",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（ま行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_07/",
+      "where": "マルウェア（種類としてワームを含む）・メーリングリストの項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S8",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（ら行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_09/",
+      "where": "ランサムウェア・ルート証明書の項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S9",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 用語辞典（わ行）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/glossary/ja_10/",
+      "where": "ワームの項",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S10",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 インターネットの仕組み",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/service/01/",
+      "where": "プロトコル・DNS・IPv6・ルータ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S11",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 電子メールの仕組み",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/service/04/",
+      "where": "メールサーバ・送受信",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S12",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 無線LANの仕組み",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/service/08/",
+      "where": "無線LAN",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S13",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 マルウェア",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/risk/01/",
+      "where": "閲覧だけで感染する手口",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S14",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 フィッシング詐欺",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/risk/04/",
+      "where": "SMSを使った手口",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S15",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 不正アクセス",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/risk/07/",
+      "where": "総当たり攻撃・バックドア",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S16",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 基礎知識 脆弱性",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/risk/11/",
+      "where": "脆弱性・ゼロデイ攻撃",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S17",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 従業員 無線LAN",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/staff/03/",
+      "where": "WPA2/WPA3",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S18",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 従業員 パスワード・認証",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/staff/06/",
+      "where": "多要素認証（SMSのパスコード例）・使い回し禁止・離席時の画面ロック",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S19",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 管理者 Webサーバ",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/admin/05/",
+      "where": "WAF",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S20",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 管理者 機器の廃棄",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/admin/06/",
+      "where": "SSDは専用の消去か物理破壊",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S21",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 管理者 ログ管理",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/admin/12/",
+      "where": "NTPによる時刻同期・IDS/IPSのログ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S22",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 管理者 バックアップ",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/admin/13/",
+      "where": "オフラインのバックアップ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S23",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 経営者 情報セキュリティポリシー",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/executive/02/",
+      "where": "組織の代表者がポリシーを示す",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S24",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 企業・組織の対策 経営者 情報セキュリティマネジメント",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/executive/03/",
+      "where": "PDCA（Planで情報資産の洗い出し、Checkに監査）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S25",
+      "name": "総務省「国民のためのサイバーセキュリティサイト」 事例 オンラインストレージの公開設定",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/case/end_user/10/",
+      "where": "共有範囲の設定",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S27",
+      "name": "一般利用者が安心して無線LANを利用するために",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000199322.pdf",
+      "where": "パスフレーズ・SSIDステルス・MACアドレスフィルタリング・アドホックモード・テザリング",
+      "published": "2012-11-02",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S28",
+      "name": "平成29年版 情報通信白書 LPWA",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h29/html/nc133220.html",
+      "where": "LPWAの速度・電池寿命・通信距離",
+      "published": "平成29年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S30",
+      "name": "令和2年版 情報通信白書 5Gの利用シナリオ",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r02/html/nd111310.html",
+      "where": "5Gの特徴",
+      "published": "令和2年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S31",
+      "name": "令和2年版 情報通信白書 モバイルエッジコンピューティング",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r02/html/nd111330.html",
+      "where": "MEC",
+      "published": "令和2年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S32",
+      "name": "平成30年版 情報通信白書 5G",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h30/html/nd133420.html",
+      "where": "超高速・多数同時接続・超低遅延",
+      "published": "平成30年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S33",
+      "name": "平成26年版 情報通信白書 電波の特性",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h26/pdf/n5700000.pdf",
+      "where": "周波数が低いほど回り込みやすい",
+      "published": "平成26年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S34",
+      "name": "平成13年版 情報通信白書 コラム VoIP",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h13/html/D1Z01000.htm",
+      "where": "VoIP",
+      "published": "平成13年版",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S35",
+      "name": "PRISM 基本計画（IoT関連）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000564306.pdf",
+      "where": "IoTエリアネットワーク（IoTデバイスとゲートウェイの間）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S36",
+      "name": "Wi-SUN 資料（NICT）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000454146.pdf",
+      "where": "マルチホップ（バケツリレー）",
+      "published": "2016-11-21",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S37",
+      "name": "関東総合通信局 高周波利用設備の概要",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/soutsu/kanto/other/koshuha/gaiyo/index.html",
+      "where": "電力線搬送通信（PLC）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S38",
+      "name": "携帯電話ポータル 選び方",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/menu_seisaku/ictseisaku/keitai_portal/erabikata_2.html",
+      "where": "MVNO・料金プランの選び方",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S39",
+      "name": "情報通信白書 for Kids テザリング",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/hakusho-kids/howto/terminal/terminal_02.html",
+      "where": "テザリング",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S40",
+      "name": "インターネット政策懇談会 報告書",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000009979.pdf",
+      "where": "ハンドオーバー",
+      "published": "2009",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S41",
+      "name": "大臣会見（プラチナバンド）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001277.html",
+      "where": "700MHz帯は広い範囲をカバーしつながりやすい",
+      "published": "2023-10-03",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S42",
+      "name": "LTE-Advanced 意見募集の結果",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000260271.pdf",
+      "where": "キャリアアグリゲーション",
+      "published": "平成25年",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S43",
+      "name": "公的個人認証 研究会 資料5",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/kojin_ninsho/pdf/071115_1_si5.pdf",
+      "where": "記憶・所持・身体/行動の特徴による認証、耐タンパー性",
+      "published": "2007-11-15",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S44",
+      "name": "四国総合通信局 調達仕様書",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000863621.pdf",
+      "where": "アンチパスバックの定義",
+      "published": "令和5年",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S45",
+      "name": "RFC 1122 Requirements for Internet Hosts",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc1122",
+      "where": "4層（Link/Internet/Transport/Application）・デフォルトゲートウェイ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S46",
+      "name": "RFC 768 User Datagram Protocol",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc768",
+      "where": "UDP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S47",
+      "name": "RFC 9293 Transmission Control Protocol",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293",
+      "where": "TCP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S48",
+      "name": "RFC 5321 SMTP",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc5321",
+      "where": "SMTP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S49",
+      "name": "RFC 1939 POP3",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc1939",
+      "where": "POP3",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S50",
+      "name": "RFC 9051 IMAP4rev2",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc9051",
+      "where": "IMAP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S51",
+      "name": "RFC 959 File Transfer Protocol",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc959",
+      "where": "FTP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S52",
+      "name": "RFC 5905 NTPv4",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc5905",
+      "where": "NTP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S53",
+      "name": "RFC 2131 DHCP",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc2131",
+      "where": "DHCP",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S54",
+      "name": "RFC 2045 MIME Part One",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc2045",
+      "where": "MIME",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S55",
+      "name": "RFC 5322 Internet Message Format",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc5322",
+      "where": "3.6.3 To/Cc/Bcc",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S56",
+      "name": "RFC 9110 HTTP Semantics",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110",
+      "where": "http/https スキーム・既定ポート80/443・TLS",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S57",
+      "name": "RFC 6265 HTTP State Management Mechanism",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc6265",
+      "where": "Cookie",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S58",
+      "name": "RFC 3986 URI Generic Syntax",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc3986",
+      "where": "スキーム",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S59",
+      "name": "RFC 1918 Address Allocation for Private Internets",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc1918",
+      "where": "プライベートアドレス",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S60",
+      "name": "RFC 4291 IPv6 Addressing Architecture",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc4291",
+      "where": "128ビット・16ビット×8の16進表記",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S61",
+      "name": "RFC 4632 CIDR",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc4632",
+      "where": "プレフィックス表記",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S62",
+      "name": "RFC 919 Broadcasting Internet Datagrams",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc919",
+      "where": "ホスト部全0/全1",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S63",
+      "name": "RFC 1034 Domain Names - Concepts",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc1034",
+      "where": "名前解決",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S64",
+      "name": "RFC 1812 Requirements for IP Version 4 Routers",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc1812",
+      "where": "ルータ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S65",
+      "name": "RFC 1983 Internet Users' Glossary",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc1983",
+      "where": "repeater・bridge・router・gateway・LAN・WAN",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S66",
+      "name": "RFC 7042 IANA Considerations for IEEE 802 Parameters",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc7042",
+      "where": "48ビットMACアドレス（RFC 9542 で置換済み）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S67",
+      "name": "RFC 5280 X.509 PKI Certificate and CRL Profile",
+      "publisher": "IETF",
+      "url": "https://www.rfc-editor.org/rfc/rfc5280",
+      "where": "CRL",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S68",
+      "name": "Service Name and Transport Protocol Port Number Registry",
+      "publisher": "IANA",
+      "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt",
+      "where": "http 80・https 443・smtp 25・pop3 110・imap 143・ftp 21・ntp 123・domain 53",
+      "published": "2026-11-05（最終更新）",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S69",
+      "name": "ITU-T X.200 OSI Basic Reference Model",
+      "publisher": "ITU-T",
+      "url": "https://www.itu.int/rec/T-REC-X.200-199407-I/en",
+      "where": "7層と各層の役割",
+      "published": "1994-07",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S70",
+      "name": "IEEE 802.3bt（PoE）",
+      "publisher": "IEEE",
+      "url": "https://standards.ieee.org/ieee/802.3bt/6749/",
+      "where": "LANケーブルでの給電",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S71",
+      "name": "IEEE 802.1Q（VLAN）",
+      "publisher": "IEEE",
+      "url": "https://www.ieee802.org/1/pages/802.1Q.html",
+      "where": "VLAN",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S72",
+      "name": "Wi-Fi Direct",
+      "publisher": "Wi-Fi Alliance",
+      "url": "https://www.wi-fi.org/discover-wi-fi/wi-fi-direct",
+      "where": "機器どうしの直接接続",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S73",
+      "name": "Bluetooth Technology Overview",
+      "publisher": "Bluetooth SIG",
+      "url": "https://www.bluetooth.com/learn-about-bluetooth/tech-overview/",
+      "where": "LEの低消費電力・位置情報（ビーコン）",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S74",
+      "name": "RSS 2.0 Specification",
+      "publisher": "RSS Advisory Board",
+      "url": "https://www.rssboard.org/rss-specification",
+      "where": "RSSの構成",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S75",
+      "name": "PCI DSS",
+      "publisher": "PCI Security Standards Council",
+      "url": "https://www.pcisecuritystandards.org/standards/pci-dss/",
+      "where": "カード会員データ保護の基準",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S77",
+      "name": "安全なウェブサイトの作り方 SQLインジェクション",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/vuln/websecurity/sql.html",
+      "where": "プレースホルダ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S78",
+      "name": "安全なウェブサイトの作り方 クロスサイト・スクリプティング",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/vuln/websecurity/cross-site-scripting.html",
+      "where": "エスケープ処理",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S79",
+      "name": "情報セキュリティ10大脅威 2026",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/10threats/10threats2026.html",
+      "where": "組織・個人の順位",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S80",
+      "name": "情報セキュリティ10大脅威 2026 解説書［組織編］",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/10threats/omgdg50000008fi8-att/kaisetsu_2026_soshiki.pdf",
+      "where": "ランサムウェア（二重脅迫・バックアップ）・水飲み場型攻撃・ゼロデイ・BEC・DDoS・間接的プロンプトインジェクション・シャドーIT",
+      "published": "2026-03",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S81",
+      "name": "情報セキュリティ10大脅威 2025 解説書［個人編］",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/10threats/eid2eo0000005231-att/kaisetsu_2025_kojin.pdf",
+      "where": "パスワードリスト攻撃・多要素認証・本人認証サービス（3Dセキュア）",
+      "published": "2025",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S82",
+      "name": "SECURITY ACTION",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/security-action/sa/index.html",
+      "where": "一つ星・二つ星の自己宣言",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S85",
+      "name": "IPA NEWS 2023年12月号",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/about/ipanews/ipanews202312.html",
+      "where": "不正のトライアングル",
+      "published": "2023-12",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S86",
+      "name": "組織における内部不正防止ガイドライン 第5版",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/guide/hjuojm00000055l0-att/ps6vr7000000jvcb.pdf",
+      "where": "職務分離・クリアデスク／クリアスクリーン",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S87",
+      "name": "中小企業の情報セキュリティ対策ガイドライン 第4.0版",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/guide/sme/ug65p90000019cbk-att/sme_guideline_v4.0.pdf",
+      "where": "情報資産（営業情報・技術情報等）・リスクの特定/分析/評価・リスク対応（低減・保有・回避・移転）・CIA・報告",
+      "published": "2026-03-27",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S88",
+      "name": "暗号技術 Q&A",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/archive/security/crypto/qa.html",
+      "where": "共通鍵・公開鍵・ハイブリッド暗号",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S89",
+      "name": "モバイルデバイス設定マニュアル 解説編",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/archive/security/crypto/gmcbt80000005tnj-att/000026760.pdf",
+      "where": "他人受入率と本人拒否率のトレードオフ",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S90",
+      "name": "入退管理システム 調査報告書",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/jisec/about/knowledge/cdk3vs00000024ph-att/refer_2019_ecs_report.pdf",
+      "where": "アンチパスバック・インターロック",
+      "published": "2019-01",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S91",
+      "name": "標的型攻撃に関する資料（J-CSIP）",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/j-csip/ug65p9000000nkvm-att/000024542.pdf",
+      "where": "APT",
+      "published": "2011",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S92",
+      "name": "ゼロトラスト導入指南書（中核人材育成プログラム成果物）",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2021/zero-trust.html",
+      "where": "ゼロトラストの考え方",
+      "published": "2021",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S93",
+      "name": "AIセーフティに関するレッドチーミング手法ガイド",
+      "publisher": "独立行政法人情報処理推進機構（IPA）（AISI）",
+      "url": "https://www.ipa.go.jp/digital/ai/begoj90000004szb-att/ai_safety_rt_v1.00_ja.pdf",
+      "where": "プロンプトインジェクション",
+      "published": "2024-09-25",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S94",
+      "name": "サイバーセキュリティ経営ガイドライン Ver3.0 実践のためのプラクティス集 第4版",
+      "publisher": "独立行政法人情報処理推進機構（IPA）",
+      "url": "https://www.ipa.go.jp/security/economics/hjuojm00000044dc-att/cms_practice_v4_1.pdf",
+      "where": "経済産業省とIPA・3原則・重要10項目・CSIRT",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S95",
+      "name": "電子署名と認証の仕組み",
+      "publisher": "法務省",
+      "url": "https://www.moj.go.jp/ONLINE/CERTIFICATION/GUIDE/guide02.html",
+      "where": "署名・ハッシュ・電子証明書",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S96",
+      "name": "デジタル・フォレンジック",
+      "publisher": "警察庁",
+      "url": "https://www.npa.go.jp/bureau/cyber/what-we-do/digitalforensics.html",
+      "where": "証拠の保全と解析",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S97",
+      "name": "CSIRTマテリアル",
+      "publisher": "JPCERT/CC",
+      "url": "https://www.jpcert.or.jp/csirt_material/",
+      "where": "CSIRTの役割",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S98",
+      "name": "個人情報の保護に関する法律についてのガイドライン（通則編）",
+      "publisher": "個人情報保護委員会",
+      "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+      "where": "安全管理措置（法第23条）・第三者提供（法第27条）",
+      "published": "令和8年6月一部改正",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S99",
+      "name": "プライバシーマーク制度 概要と目的",
+      "publisher": "JIPDEC",
+      "url": "https://privacymark.jp/system/about/outline_and_purpose.html",
+      "where": "制度の概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S100",
+      "name": "ISMSクラウドセキュリティ認証",
+      "publisher": "ISMS-AC",
+      "url": "https://isms.jp/isms-cls.html",
+      "where": "ISO/IEC 27017・JIP-ISMS517",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S101",
+      "name": "ISMS適合性評価制度",
+      "publisher": "ISMS-AC",
+      "url": "https://isms.jp/isms.html",
+      "where": "ISMSの概要",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S102",
+      "name": "Society 5.0",
+      "publisher": "内閣府",
+      "url": "https://www8.cao.go.jp/cstp/society5_0/",
+      "where": "サイバー空間",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S103",
+      "name": "インターネットの安全・安心ハンドブック 用語集",
+      "publisher": "内閣サイバーセキュリティセンター（NISC）",
+      "url": "https://security-portal.cyber.go.jp/guidance/pdf/handbook/handbook-yougo.pdf",
+      "where": "ドライブバイダウンロード・水飲み場攻撃・ゼロトラスト・DMZ",
+      "published": "2025-03",
+      "checked": "2026-11-06"
+    },
+    {
+      "key": "S104",
+      "name": "Hash Functions",
+      "publisher": "NIST CSRC",
+      "url": "https://csrc.nist.gov/projects/hash-functions",
+      "where": "任意長→固定長・衝突困難性",
+      "published": "記載なし",
+      "checked": "2026-11-06"
+    }
+  ],
+  "items": {
+    "U58-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S65",
+        "S10"
+      ],
+      "note": ""
+    },
+    "U58-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10",
+        "S64",
+        "S65"
+      ],
+      "note": ""
+    },
+    "U58-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45",
+        "S65"
+      ],
+      "note": ""
+    },
+    "U58-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "nodeで再計算（600MB×8÷(100Mbps×0.6)=80秒）。bps（ビット／秒）の定義はシラバス、式は定義どおり"
+    },
+    "U58-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S27"
+      ],
+      "note": ""
+    },
+    "U58-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S28",
+        "S73",
+        "S1",
+        "S72"
+      ],
+      "note": "BLEの誤り理由「数十m」は開いた資料で確かめられないため、近距離向けという表現に修正",
+      "patch": {
+        "why": [
+          "誤り。Wi-Fi Directは機器どうしを無線LANで直接つなぐ方式で、数kmは届かず電力も多く使います。",
+          "誤り。山あいで数kmの配線は現実的ではありません。",
+          "誤り。BLEは省電力ですが近距離向けの無線で、数km離れた設備には届きません。",
+          "正しい。省電力・長距離のLPWAが適しています。"
+        ]
+      }
+    },
+    "U58-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S31"
+      ],
+      "note": ""
+    },
+    "U58-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S73"
+      ],
+      "note": ""
+    },
+    "U58-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S6"
+      ],
+      "note": ""
+    },
+    "U58-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3",
+        "S27"
+      ],
+      "note": ""
+    },
+    "U58-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S36"
+      ],
+      "note": ""
+    },
+    "U58-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S37",
+        "S70"
+      ],
+      "note": ""
+    },
+    "U58-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S27",
+        "S17"
+      ],
+      "note": ""
+    },
+    "U58-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S27"
+      ],
+      "note": ""
+    },
+    "U58-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S65"
+      ],
+      "note": ""
+    },
+    "U58-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S65",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U58-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S65"
+      ],
+      "note": ""
+    },
+    "U58-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S66"
+      ],
+      "note": ""
+    },
+    "U58-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S71"
+      ],
+      "note": ""
+    },
+    "U58-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S32",
+        "S30"
+      ],
+      "note": ""
+    },
+    "U58-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "nodeで再計算（1.5GB×8÷240秒÷0.5=100Mbps）。誤りの選択肢の値も確認"
+    },
+    "U58-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S35"
+      ],
+      "note": "自信が低い問題。総務省PRISM基本計画の「IoTエリアネットワーク＝IoTデバイスとゲートウェイの間」で確認"
+    },
+    "U58-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S65",
+        "S10"
+      ],
+      "note": ""
+    },
+    "U58-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": "nodeで再計算（例の値200秒が一致）"
+    },
+    "lesson:U58": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S65",
+        "S27",
+        "S28",
+        "S35",
+        "S32",
+        "S37",
+        "S70",
+        "S71",
+        "S36",
+        "S12"
+      ],
+      "note": ""
+    },
+    "U59-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45"
+      ],
+      "note": ""
+    },
+    "U59-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S48",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S53",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S50",
+        "S11"
+      ],
+      "note": ""
+    },
+    "U59-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S46",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S6",
+        "S68"
+      ],
+      "note": ""
+    },
+    "U59-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S45"
+      ],
+      "note": ""
+    },
+    "U59-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S65",
+        "S69"
+      ],
+      "note": ""
+    },
+    "U59-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S56",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S56",
+        "S1",
+        "S3"
+      ],
+      "note": ""
+    },
+    "U59-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S49",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S51",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S52",
+        "S1",
+        "S21"
+      ],
+      "note": ""
+    },
+    "U59-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S47",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U59-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S68",
+        "S56"
+      ],
+      "note": ""
+    },
+    "U59-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10"
+      ],
+      "note": ""
+    },
+    "U59-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69",
+        "S45"
+      ],
+      "note": ""
+    },
+    "U59-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S46",
+        "S47",
+        "S1"
+      ],
+      "note": ""
+    },
+    "lesson:U59": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S69",
+        "S45",
+        "S68",
+        "S1",
+        "S10",
+        "S11"
+      ],
+      "note": ""
+    },
+    "U60-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S63",
+        "S10"
+      ],
+      "note": ""
+    },
+    "U60-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S59"
+      ],
+      "note": ""
+    },
+    "U60-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S59",
+        "S61",
+        "S62"
+      ],
+      "note": "nodeで再計算（2^8-2=254）"
+    },
+    "U60-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S60",
+        "S1"
+      ],
+      "note": "nodeで再計算（2^128/2^32=2^96）"
+    },
+    "U60-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S55",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U60-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S57",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U60-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": ""
+    },
+    "U60-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S39",
+        "S27"
+      ],
+      "note": ""
+    },
+    "U60-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S42"
+      ],
+      "note": ""
+    },
+    "U60-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S41",
+        "S33"
+      ],
+      "note": ""
+    },
+    "U60-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S74"
+      ],
+      "note": ""
+    },
+    "U60-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S34"
+      ],
+      "note": ""
+    },
+    "U60-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S48",
+        "S50",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U60-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S61",
+        "S62"
+      ],
+      "note": "nodeで再計算（75 AND 192=64、範囲64〜127）"
+    },
+    "U60-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S55",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U60-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S58",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U60-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S60"
+      ],
+      "note": ""
+    },
+    "U60-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S7"
+      ],
+      "note": ""
+    },
+    "U60-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S54"
+      ],
+      "note": ""
+    },
+    "U60-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S25"
+      ],
+      "note": ""
+    },
+    "U60-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S40"
+      ],
+      "note": ""
+    },
+    "U60-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S38"
+      ],
+      "note": "料金比較は算数のみ。nodeで再計算（8GBで2,500円、14GBで4,000円、10GBが正解）"
+    },
+    "U60-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10",
+        "S63"
+      ],
+      "note": ""
+    },
+    "U60-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S61",
+        "S62"
+      ],
+      "note": "nodeで再計算（200 AND 224=192）"
+    },
+    "lesson:U60": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S10",
+        "S63",
+        "S59",
+        "S60",
+        "S55",
+        "S57",
+        "S38",
+        "S42",
+        "S41",
+        "S39"
+      ],
+      "note": ""
+    },
+    "U61-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S15",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3",
+        "S87"
+      ],
+      "note": ""
+    },
+    "U61-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3"
+      ],
+      "note": ""
+    },
+    "U61-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S8",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S85",
+        "S86"
+      ],
+      "note": ""
+    },
+    "U61-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S81"
+      ],
+      "note": ""
+    },
+    "U61-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S77",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U61-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S14"
+      ],
+      "note": ""
+    },
+    "U61-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S91"
+      ],
+      "note": ""
+    },
+    "U61-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U61-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S103",
+        "S13"
+      ],
+      "note": ""
+    },
+    "U61-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S6",
+        "S15"
+      ],
+      "note": ""
+    },
+    "U61-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S22",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S16",
+        "S15",
+        "S1"
+      ],
+      "note": "内容はU61-4の範囲だが item 欄がU61-3（patchできない欄のため記録のみ）"
+    },
+    "U61-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S16",
+        "S3"
+      ],
+      "note": ""
+    },
+    "U61-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S102"
+      ],
+      "note": ""
+    },
+    "U61-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87",
+        "S3"
+      ],
+      "note": ""
+    },
+    "U61-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87",
+        "S3"
+      ],
+      "note": ""
+    },
+    "U61-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S93",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S103",
+        "S80"
+      ],
+      "note": ""
+    },
+    "U61-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3",
+        "S7",
+        "S9",
+        "S4",
+        "S2",
+        "S86"
+      ],
+      "note": "「マルウェア」と、その一種であるワーム・トロイの木馬が同列に並んでいたため、孫ラベルを修正",
+      "patch": {
+        "children": [
+          {
+            "label": "人的脅威",
+            "children": [
+              {
+                "label": "誤操作・紛失"
+              },
+              {
+                "label": "盗み見・なりすまし"
+              },
+              {
+                "label": "ソーシャルエンジニアリング"
+              },
+              {
+                "label": "内部不正"
+              }
+            ]
+          },
+          {
+            "label": "技術的脅威",
+            "children": [
+              {
+                "label": "コンピュータウイルス"
+              },
+              {
+                "label": "ワーム・トロイの木馬"
+              },
+              {
+                "label": "ランサムウェア"
+              },
+              {
+                "label": "キーロガー"
+              }
+            ]
+          },
+          {
+            "label": "物理的脅威",
+            "children": [
+              {
+                "label": "災害"
+              },
+              {
+                "label": "破壊"
+              },
+              {
+                "label": "妨害行為"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "U61-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S81",
+        "S15"
+      ],
+      "note": ""
+    },
+    "lesson:U61": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3",
+        "S7",
+        "S80",
+        "S87",
+        "S16",
+        "S15",
+        "S79"
+      ],
+      "note": "補足の「脅威＝外から来る危険」は内部不正・災害を含まず図・本文と食い違うため修正",
+      "patch": {
+        "beginner": "「脅威＝損害を起こす原因（外部からの攻撃だけでなく内部不正や災害も含む）」「脆弱性＝こちら側の弱点」と区別しましょう。どちらかがなければ被害は起きにくくなります。攻撃手法は名前が多いので、「何を狙うか（パスワード・Webの入力欄・サービス・人）」で整理すると覚えやすいです。"
+      }
+    },
+    "U62-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87"
+      ],
+      "note": ""
+    },
+    "U62-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87"
+      ],
+      "note": "自信が低い問題。IPA中小企業ガイドラインのリスク回避（リスクを生む業務をやめる）で確認"
+    },
+    "U62-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": ""
+    },
+    "U62-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S6"
+      ],
+      "note": ""
+    },
+    "U62-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3",
+        "S23"
+      ],
+      "note": ""
+    },
+    "U62-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S98"
+      ],
+      "note": ""
+    },
+    "U62-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S98"
+      ],
+      "note": ""
+    },
+    "U62-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S97"
+      ],
+      "note": ""
+    },
+    "U62-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S94"
+      ],
+      "note": ""
+    },
+    "U62-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S75"
+      ],
+      "note": ""
+    },
+    "U62-q11": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": ""
+    },
+    "U62-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S24"
+      ],
+      "note": ""
+    },
+    "U62-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S24",
+        "S101"
+      ],
+      "note": "正解肢を「適用範囲を決め情報資産を洗い出す」にし、総務省のPlan（情報資産の洗い出し）と合わせた。JIS Q 27001 本文は開けず",
+      "patch": {
+        "choices": [
+          "ISMSの適用範囲（どの部署・拠点・業務を対象にするか）を決め、その範囲の情報資産を洗い出す。",
+          "全社員を対象に、標的型攻撃メールの訓練を行う。",
+          "内部監査を行い、規格に適合しているかを確かめる。",
+          "リスクアセスメントを行わずに、最新のファイアウォールを導入する。"
+        ],
+        "why": [
+          "正しい。対象とする範囲を決め、守るべき情報資産を洗い出すことが出発点です。",
+          "誤り。教育・訓練は対策の一つで、範囲やリスクを決めた後に計画して行います。",
+          "誤り。内部監査は、ISMSを運用した後に行う評価の活動です。",
+          "誤り。リスクを評価せずに対策を決めるのは、ISMSの考え方に反します。"
+        ],
+        "explain": "ISMSは、まず適用範囲を決めてその範囲の情報資産を洗い出し、リスクアセスメントを行い、リスク対応を決めて運用し、内部監査などで確かめる、という流れで進めます。範囲と情報資産が決まらないと、何を守るかが決まりません。"
+      }
+    },
+    "U62-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S24",
+        "S101"
+      ],
+      "note": "内部監査の位置づけは総務省・ISMS-ACで確認（JIS Q 27001 本文は開けず）"
+    },
+    "U62-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87"
+      ],
+      "note": ""
+    },
+    "U62-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S23",
+        "S101"
+      ],
+      "note": ""
+    },
+    "U62-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87",
+        "S97"
+      ],
+      "note": ""
+    },
+    "U62-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S100"
+      ],
+      "note": ""
+    },
+    "U62-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S94"
+      ],
+      "note": ""
+    },
+    "U62-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2"
+      ],
+      "note": "問題文が物理的な立入制限としか読めず他の要素とも迷い得るため、盗み見・持ち出し防止の意図を明示",
+      "patch": {
+        "q": "サーバ室の入口にICカードによる入室管理を導入し、許可されていない人がサーバ室に入って画面を盗み見たりデータを持ち出したりできないようにした。この対策が主に高める情報セキュリティの要素はどれか。"
+      }
+    },
+    "U62-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S99"
+      ],
+      "note": ""
+    },
+    "U62-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S82"
+      ],
+      "note": ""
+    },
+    "U62-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87"
+      ],
+      "note": "自信が低い図。特定→分析→評価→対応の順をIPA中小企業ガイドラインで確認（JIS Q 31000 は開けず）"
+    },
+    "U62-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S24"
+      ],
+      "note": ""
+    },
+    "lesson:U62": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S87",
+        "S101",
+        "S2",
+        "S98",
+        "S97",
+        "S94",
+        "S82",
+        "S24"
+      ],
+      "note": ""
+    },
+    "U63-q01": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S90",
+        "S44"
+      ],
+      "note": ""
+    },
+    "U63-q02": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S86",
+        "S18"
+      ],
+      "note": "クリアデスク／クリアスクリーンはIPA内部不正防止ガイドラインで確認。誤り肢「リスクベース認証」の説明文は資料未確認だが正解に影響しない"
+    },
+    "U63-q03": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2",
+        "S88"
+      ],
+      "note": ""
+    },
+    "U63-q04": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2",
+        "S88"
+      ],
+      "note": "nodeで再計算（10C2=45、公開鍵なら20）"
+    },
+    "U63-q05": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S104",
+        "S95"
+      ],
+      "note": "誤り肢「リスクベース認証」の説明文は資料未確認だが正解に影響しない"
+    },
+    "U63-q06": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S95"
+      ],
+      "note": ""
+    },
+    "U63-q07": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S18"
+      ],
+      "note": ""
+    },
+    "U63-q08": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S89"
+      ],
+      "note": ""
+    },
+    "U63-q09": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S67",
+        "S5"
+      ],
+      "note": ""
+    },
+    "U63-q10": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S78"
+      ],
+      "note": ""
+    },
+    "U63-q11": {
+      "status": "needs_review",
+      "sourceIds": [
+        "SRC-001"
+      ],
+      "note": "リスクベース認証の定義を、開けた公的資料で確かめられなかった（シラバスの用語例にはある）"
+    },
+    "U63-q12": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S103",
+        "S92"
+      ],
+      "note": ""
+    },
+    "U63-q13": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3",
+        "S1"
+      ],
+      "note": ""
+    },
+    "U63-q14": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S96"
+      ],
+      "note": ""
+    },
+    "U63-q15": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S88",
+        "S2"
+      ],
+      "note": ""
+    },
+    "U63-q16": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2",
+        "S88"
+      ],
+      "note": ""
+    },
+    "U63-q17": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S4",
+        "S95"
+      ],
+      "note": ""
+    },
+    "U63-q18": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S43",
+        "S4"
+      ],
+      "note": ""
+    },
+    "U63-q19": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S43"
+      ],
+      "note": "行動の特徴による認証は総務省 公的個人認証 資料5で確認"
+    },
+    "U63-q20": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S5",
+        "S95"
+      ],
+      "note": ""
+    },
+    "U63-q21": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S19"
+      ],
+      "note": ""
+    },
+    "U63-q22": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S43"
+      ],
+      "note": ""
+    },
+    "U63-q23": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S3"
+      ],
+      "note": "誤り肢「リスクベース認証」の説明文は資料未確認だが正解に影響しない"
+    },
+    "U63-q24": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S20"
+      ],
+      "note": ""
+    },
+    "U63-q25": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S5"
+      ],
+      "note": "SSOは総務省「認証サーバ」の項で確認。誤り肢「リスクベース認証」の説明文は資料未確認"
+    },
+    "U63-f1": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S2",
+        "S88"
+      ],
+      "note": ""
+    },
+    "U63-f2": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S95",
+        "S4"
+      ],
+      "note": "受信者も本文からハッシュ値を求めて比べることが分かるよう注記を修正",
+      "patch": {
+        "nodes": [
+          {
+            "label": "ハッシュ値を作る",
+            "note": "送信者が本文からハッシュ値を求める"
+          },
+          {
+            "label": "署名する",
+            "note": "ハッシュ値を送信者の秘密鍵で暗号化する"
+          },
+          {
+            "label": "本文と署名を送る"
+          },
+          {
+            "label": "署名を検証する",
+            "note": "送信者の公開鍵で署名を復号する"
+          },
+          {
+            "label": "ハッシュ値を比べる",
+            "note": "本文から求めた値と一致すれば改ざんなし・本人と確認"
+          }
+        ]
+      }
+    },
+    "lesson:U63": {
+      "status": "verified",
+      "sourceIds": [
+        "SRC-001",
+        "S90",
+        "S44",
+        "S86",
+        "S88",
+        "S2",
+        "S4",
+        "S5",
+        "S95",
+        "S43",
+        "S67",
+        "S78",
+        "S77",
+        "S3",
+        "S18",
+        "S81",
+        "S104",
+        "S20"
+      ],
+      "note": "本人確認と認証のページから、資料で確かめられなかったリスクベース認証の説明を削除",
+      "patch": {
+        "pages": [
+          {
+            "title": "対策は人・技術・物理の3方向",
+            "body": "人的対策は、啓発や標的型メール訓練、内部不正防止ガイドラインに沿ったルール作りなどです。技術的対策は、アクセス権の設定や監視などです。物理的対策は、施錠や監視カメラ、入退室管理です。入室記録のないカードでは退室できないアンチパスバック、一方の扉が閉まらないと次の扉が開かないインターロック、席を離れるとき机に書類を置かず画面をロックするクリアデスク・クリアスクリーン、PCの盗難を防ぐセキュリティケーブル、災害に備えて離れた場所に保管する遠隔バックアップもあります。"
+          },
+          {
+            "title": "暗号の基本",
+            "body": "共通鍵暗号方式は、暗号化と復号に同じ鍵を使い、処理が速い一方、鍵を安全に渡すのが難点です。公開鍵暗号方式は、公開鍵で暗号化し、ペアの秘密鍵でだけ復号できます。受信者の公開鍵で暗号化して送ります。両方の良いところを組み合わせたのがハイブリッド暗号方式です。ハッシュ関数はデータから固定長の値を作り、改ざん検知に使います。PCの紛失に備えたディスク暗号化、ファイル単位のファイル暗号化もあります。"
+          },
+          {
+            "title": "本人確認と認証",
+            "body": "認証には、知識（パスワード）、所持（ICカード、スマホ）、生体（指紋・顔・静脈・虹彩など）の3要素があり、2つ以上を組み合わせるのが多要素認証です。ワンタイムパスワードは1回限りのパスワード、SMS認証はSMSで届く確認コードを使います。シングルサインオンは1回の認証で複数のサービスを使える仕組み、EMV 3-Dセキュアはネットでのカード決済の本人認証です。"
+          },
+          {
+            "title": "デジタル署名とPKI",
+            "body": "デジタル署名は、送信者が自分の秘密鍵（署名鍵）で署名し、受信者が送信者の公開鍵（検証鍵）で確かめます。本人が送ったことと改ざんがないことが分かります。公開鍵が本人のものだと証明するのがデジタル証明書で、認証局（CA）が発行します。この仕組み全体がPKIです。無効になった証明書はCRL（証明書失効リスト）で公開されます。アプリ開発では、SQLインジェクションやクロスサイトスクリプティングへの対策を企画・設計の段階から組み込むセキュリティバイデザインが大切です。"
+          }
+        ]
+      }
+    }
+  }
+}

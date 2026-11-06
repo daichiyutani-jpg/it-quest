@@ -5,7 +5,6 @@ import { analyze } from './core/mastery.js';
 import { buildPlan, planSummary } from './core/planner.js';
 import { Tracker } from './core/session.js';
 import { checkTitles, updateStreak, addXP, XP, levelInfo } from './core/game.js';
-import * as audio from './core/audio.js';
 import { $, toast } from './ui/dom.js';
 import { today } from './core/util.js';
 
@@ -42,7 +41,7 @@ export const app = {
     this.refresh();
     const titles = checkTitles(s, this.A);
     this.store.touch('game');
-    if (up) { audio.se('levelup'); toast(`⭐ レベル${up}になりました！（レベルは努力の記録です）`, 3000); }
+    if (up) { toast(`⭐ レベル${up}になりました！（レベルは努力の記録です）`, 3000); }
     for (const t of titles) setTimeout(() => toast(`🏅 称号「${t.name}」を獲得！`, 3000), up ? 3100 : 300);
   },
 
@@ -107,16 +106,14 @@ async function boot() {
   app.tracker.closeStale();
   app.refresh();
   if (app.P.gapDays >= 3) app.store.logPlan({ reason: `${app.P.gapDays}日ぶりの学習で再計画`, status: app.P.status, summary: planSummary(app.P), detail: app.P.messages.slice(0, 3) });
-  audio.configure(app.s.settings.sound);
   document.documentElement.style.setProperty('--fs', app.s.settings.fontScale || 1);
 
   // 端末の容量が少ないときに、学習データが自動で消されないよう依頼する
   if (navigator.storage?.persist) navigator.storage.persisted().then((p) => { if (!p) navigator.storage.persist(); }).catch(() => {});
 
   document.addEventListener('click', (e) => {
-    audio.unlock();
     const a = e.target.closest('[data-go]');
-    if (a) { e.preventDefault(); audio.se('tap'); app.go(a.dataset.go); }
+    if (a) { e.preventDefault(); app.go(a.dataset.go); }
   });
   window.addEventListener('hashchange', route);
   window.addEventListener('beforeunload', () => { app.tracker.flush(); app.store.flush(); });

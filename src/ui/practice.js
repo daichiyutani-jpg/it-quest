@@ -4,7 +4,6 @@ import { EXAM } from '../data/calendar.js';
 import { pickTerms } from '../core/picker.js';
 import { XP } from '../core/game.js';
 import { unitRec } from '../core/mastery.js';
-import * as audio from '../core/audio.js';
 import { esc, rich, choiceChips, bindChoice } from './dom.js';
 import { startQuiz } from './actions.js';
 
@@ -79,7 +78,6 @@ export function renderTerms(view, app) {
       app.clearResume();
       app.reward(Math.min(8, cards.length) * XP.term, '重要用語の確認');
       app.replan('重要用語カードの終了');
-      audio.se('finish');
       view.innerHTML = `<section class="card"><h2>📖 重要用語カード 完了</h2><p>${cards.length}語中 <b>${known}語</b> を「覚えていた」と答えました。</p>
         <p class="small muted">覚えていなかった用語は、単元の説明でもう一度確認しましょう。</p>
         <div class="col gap"><button class="btn primary wide" id="again">もう一度</button><a class="btn ghost wide" href="#/home">ホームへ</a></div></section>`;
@@ -97,7 +95,7 @@ export function renderTerms(view, app) {
       </button>
       ${flipped ? '<div class="row gap"><button class="btn ghost" id="no">あやしい</button><button class="btn primary" id="yes">覚えていた</button></div>' : ''}
     </section>`;
-    view.querySelector('#card').addEventListener('click', () => { flipped = !flipped; audio.se('page'); draw(); });
+    view.querySelector('#card').addEventListener('click', () => { flipped = !flipped; draw(); });
     view.querySelector('#yes')?.addEventListener('click', () => { known++; next(); });
     view.querySelector('#no')?.addEventListener('click', () => next());
   };

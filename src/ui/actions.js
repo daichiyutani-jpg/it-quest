@@ -3,7 +3,7 @@ import { pick } from '../core/picker.js';
 import { uid } from '../core/util.js';
 import { toast } from './dom.js';
 
-const IMMEDIATE = new Set(['unit', 'lessonCheck', 'remedial', 'field', 'drill', 'weak', 'weakUnits', 'wrong', 'flagged', 'review', 'check', 'random', 'diag']);
+const IMMEDIATE = new Set(['unitTest', 'unit', 'lessonCheck', 'remedial', 'field', 'drill', 'weak', 'weakUnits', 'wrong', 'flagged', 'review', 'check', 'random', 'diag']);
 
 /**
  * 演習を始める。opts: { kind, title, unit?, field?, count?, limitMin?, includeWrong?, returnTo?, block? }
@@ -36,6 +36,9 @@ export function startBlock(app, b, idx = null) {
     case 'remedial':
       app.go(`#/unit/${b.unit}?mode=remedial&from=plan`);
       return;
+    case 'unitTest':
+      startQuiz(app, { kind: 'unitTest', title: `小テスト：${b.title.replace(/^小テスト：/, '').replace(/（10問）$/, '')}`, unit: b.unit, returnTo: '#/result', block });
+      return;
     case 'terms':
       app.go('#/terms');
       return;
@@ -63,4 +66,4 @@ export function startBlock(app, b, idx = null) {
   }
 }
 
-export const BLOCK_ICON = { terms: '📖', wrong: '🔁', review: '🔁', remedial: '🩹', lesson: '🗺️', check: '✅', drill: '⚔️', weak: '🎯', mock: '🗼', timed: '⏱️' };
+export const BLOCK_ICON = { unitTest: '📝', terms: '📖', wrong: '🔁', review: '🔁', remedial: '🩹', lesson: '🗺️', check: '✅', drill: '⚔️', weak: '🎯', mock: '🗼', timed: '⏱️' };

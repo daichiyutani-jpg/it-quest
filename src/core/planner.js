@@ -17,6 +17,14 @@ export const PACE = {
 const LEVEL_FACTOR = { 1: 1.3, 2: 1.1, 3: 0.95, 4: 0.85 };
 const REVIEW_RESERVE = 0.2; // 使える時間のうち2割は復習に回す前提
 const MIN_DAYS_FOR_ACTUAL = 3; // 実績が3日分たまったら実績で補正を始める
+// 学習アプリ共通ルール §12：1日120分が基本・30日以内に全範囲・30日間の目安60時間。模擬試験は31日目以降。
+export const PLAN30 = { days: 30, dailyMin: 120, totalMin: 3600, mockFromDay: 31 };
+
+/** 30日計画の何日目か（開始前・未設定は null） */
+export function planDay(settings, d = today()) {
+  if (!settings.planStart) return null;
+  return diffDays(settings.planStart, d) + 1;
+}
 
 export function isOffDay(d) { const w = parseYmd(d).getDay(); return w === 0 || w === 6 || HOLIDAYS.has(d); }
 
@@ -28,11 +36,12 @@ export function plannedMinutes(settings, d) {
 
 /** その単元を「基礎理解済み」まで進めるのに必要な時間の見積り（分） */
 export function unitMinutes(settings, st, status, hasLesson) {
+  // 説明（図解を含む）約16分＋練習3問 約3分＋小テスト10問 約12分。docs/ESTIMATE.md
   let m;
   if (status === 'basic' || status === 'mastered') m = 0;
-  else if (status === 'review') m = 8;
-  else if (status === 'learning') m = st.lessonDone || !hasLesson ? 7 : 14;
-  else m = hasLesson ? 18 : 9;
+  else if (status === 'review') m = 14; // 復習＋再テスト
+  else if (status === 'learning') m = st.lessonDone || !hasLesson ? 14 : 28;
+  else m = hasLesson ? 31 : 15;
   let f = LEVEL_FACTOR[settings.selfLevel] || 1;
   if (settings.experience === 'retake') f *= 0.9;
   return m * f;
@@ -96,9 +105,16 @@ export function buildPlan(s, DB, A) {
   if (exam && daysToExam < 0) mode = 'afterExam';
   else if (exam && t >= finalStart) mode = 'final';
 
-  // 一通り学習の目標日（受験日があれば直前対策の前日まで、なければ目安日）
+  // 30日計画（開始日を設定していればそれが最優先の目標）
+  const dayNo = planDay(set, t);
+  const planEnd = set.planStart ? addDays(set.planStart, PLAN30.days - 1) : null;
+  const mockOk = dayNo != null && dayNo >= PLAN30.mockFromDay;
+  // 一通り学習の目標日（30日計画 → 受験日から逆算 → 目安日 の順）
   let target; let targetLabel;
-  if (exam) {
+  if (planEnd) {
+    target = planEnd;
+    targetLabel = '30日計画の最終日';
+  } else if (exam) {
     target = addDays(finalStart, -1);
     if (target < t) target = exam;
     targetLabel = '受験日から逆算した一通り学習の目安';
@@ -149,6 +165,7 @@ export function buildPlan(s, DB, A) {
     // 同じ重要度の中では、過去4年の出題数が多い単元を先に（最大+6）
     score += Math.min(6, (u.pastFreq || 0) * 0.25);
     if (u.weight === 3) reasons.push(u.pastFreq ? `よく出る（過去4年で${u.pastFreq}問）` : '重要度が高い');
+    if (set.diag?.startUnit === u.id && st.status === 'new') { score += 30; reasons.push('基礎の確認のおすすめ'); }
     score -= u.no * 0.15;
     if (!DB.lessons[u.id] && !(DB.byUnit[u.id] || []).length) { score -= 100; reasons.push('教材未作成'); }
     scored.push({ id: u.id, score, reasons, min: remaining.find((r) => r.id === u.id)?.min || 0 });
@@ -197,6 +214,10 @@ export function buildPlan(s, DB, A) {
   if (gapDays != null && gapDays >= 3) messages.push(`最後の学習から${gapDays}日空きました。未学習の範囲と残りの日数から計画を作り直しました。まずは短い復習から再開しましょう。`);
   if (weakField) messages.push(`${weakField.name}の直近の正答率が${Math.round(weakField.acc * 100)}%と低いため、次回は新しい範囲を進める前に15分の復習をおすすめします。`);
   if (stuck.length) messages.push(`「${nm(stuck[0])}」の理解がまだ不十分です。次の単元に進む前に、解説の読み直しと確認問題で補強します。`);
+  if (dayNo != null && dayNo >= 1 && dayNo <= PLAN30.days) messages.unshift(`30日計画の${dayNo}日目です（${fmtDate(set.planStart)}〜${fmtDate(planEnd)}）。模擬試験と最終的な実力確認は31日目（${fmtDate(addDays(set.planStart, PLAN30.days))}）から始めます。`);
+  if (dayNo != null && dayNo < 1) messages.unshift(`30日計画は${fmtDate(set.planStart)}に始まります。`);
+  if (mockOk) messages.unshift(`30日計画の期間が終わりました（${dayNo}日目）。模擬試験と、時間を空けた再テストで最終的な実力を確認する期間です。`);
+  if (planEnd && exam && exam <= planEnd) messages.push(`受験日（${fmtDate(exam)}）が30日計画の最終日（${fmtDate(planEnd)}）までに来ます。模擬試験の期間（31日目以降）を取れないため、計画どおりには進められない見込みです。受験日の変更も検討してください。`);
   if (mode === 'final') {
     messages.push(`直前対策の期間です（受験日まであと${daysToExam}日）。模擬試験・苦手問題・間違えた問題の解き直しを中心にします。`);
     const imp = priority.filter((id) => A.units[id].status === 'new' && UNITS.find((u) => u.id === id).weight === 3);
@@ -219,7 +240,11 @@ export function buildPlan(s, DB, A) {
   if (af.span >= MIN_DAYS_FOR_ACTUAL && af.ratio > 1.3) messages.push(`直近${af.span}日は1日平均約${Math.round(af.actualDaily)}分と、設定より多く学習できています。実績に合わせて見込みを上げて計算しています。`);
   if (!exam && mode === 'normal') messages.push('受験日が決まったら設定してください。直前対策（受験日の約7日前から）の開始日を自動で決めます。');
 
+  // 60時間（30日×120分）で足りるかの見積り
+  const need60 = remainingMin / (1 - REVIEW_RESERVE);
+  if (!set.planStart && need60 > PLAN30.totalMin) messages.push(`今の見積りでは、全範囲に約${Math.round(need60 / 60)}時間（復習を含む）かかり、30日間の目安60時間では足りない見込みです（根拠：単元ごとの見積り${Math.round(remainingMin / 60)}時間＋復習2割）。`);
   return {
+    dayNo, planStart: set.planStart || null, planEnd, mockOk, need60: Math.round(need60),
     mode, status, statusLabel: PACE[status].label, messages,
     exam, daysToExam, finalStart, finalDays, target, targetLabel,
     remainingMin: Math.round(remainingMin), capacityMin: Math.round(cap), usableMin: Math.round(usable), ratio,
@@ -249,11 +274,12 @@ export function sessionPlan(s, DB, A, P, minutes) {
   const lessonUnits = P.nextNew.filter((id) => DB.lessons[id] || (DB.byUnit[id] || []).length);
   const stuck = P.stuck[0] || null;
 
-  if (P.mode === 'final') {
+  if (P.mode === 'final' || P.mockOk) {
+    // 模擬試験は30日計画の31日目以降だけ（共通ルール §12）
     // 未学習の重要単元が多いときは、模擬試験を短くして学習の時間を残す（切り捨てない）
     const impNew = lessonUnits.filter((id) => UNITS.find((u) => u.id === id).weight === 3);
-    if (M >= 120 && (impNew.length <= 3 || M >= 150)) add({ kind: 'mock', title: '総合模擬試験（100問・120分）', min: 120, count: 100, limitMin: 120, reason: '本番と同じ問題数・時間で実力と時間配分を確認' });
-    else if (M >= 75 || (M >= 60 && impNew.length <= 3)) add({ kind: 'mock', title: 'ハーフ模擬試験（50問・60分）', min: 60, count: 50, limitMin: 60, reason: '本番の半分の量で実力を確認' });
+    if (!P.mockOk) { /* 31日目より前：模擬試験は入れない */ } else if (M >= 120 && (impNew.length <= 3 || M >= 150)) add({ kind: 'mock', title: '総合模擬試験（100問・120分）', min: 120, count: 100, limitMin: 120, reason: '本番と同じ問題数・時間で実力と時間配分を確認' });
+    else if (P.mockOk && (M >= 75 || (M >= 60 && impNew.length <= 3))) add({ kind: 'mock', title: 'ハーフ模擬試験（50問・60分）', min: 60, count: 50, limitMin: 60, reason: '本番の半分の量で実力を確認' });
     const imp = impNew[0] || lessonUnits[0];
     if (imp && M >= 20) add({ kind: 'lesson', title: `未学習の重要単元：${nm(imp)}`, min: 15, unit: imp, reason: '未学習のまま本番を迎えないように' });
     if (wrong) add({ kind: 'wrong', title: '間違えた問題の解き直し', min: Math.min(15, Math.max(5, Math.ceil(wrong * 1.2))), count: Math.min(15, wrong), reason: `${wrong}問が未解決` });
@@ -295,7 +321,7 @@ export function sessionPlan(s, DB, A, P, minutes) {
   if (stuck) add({ kind: 'remedial', title: `補強：${nm(stuck)}`, min: 12, unit: stuck, reason: '理解が不十分なまま次に進まないため' });
   // 途中の単元 → 新しい単元
   const conts = P.inProgress.slice(0, 2);
-  for (const id of conts) { if (left < 8) break; add({ kind: 'remedial', title: `続き：${nm(id)}`, min: 8, unit: id, reason: '途中の単元を基礎理解まで進める' }); }
+  for (const id of conts) { if (left < 8) break; add({ kind: 'unitTest', title: `小テスト：${nm(id)}（10問）`, min: 12, unit: id, reason: '説明を読んだ単元を、小テスト合格（90%）で基礎理解済みにする' }); }
   const maxNew = stuck && M <= 40 ? 0 : M <= 40 ? 1 : M <= 75 ? 2 : 3;
   let newCount = 0;
   for (const id of lessonUnits) {
@@ -303,7 +329,7 @@ export function sessionPlan(s, DB, A, P, minutes) {
     if (add({ kind: 'lesson', title: `新しい単元：${nm(id)}`, min: 16, unit: id, reason: (P.reasonsOf[id] || []).join('・') || '優先度が高い単元' })) newCount++;
   }
   if (M > 75 && left >= 15) add({ kind: 'drill', title: `分野別演習（${fieldName(weakF || 'T')}）`, min: 15, field: weakF || 'T', count: 15, reason: 'まとまった演習で実力を確認' });
-  if (M >= 110 && A.studiedUnits >= 15 && left >= 24) add({ kind: 'mock', title: 'ミニ模擬試験（20問・24分）', min: 24, count: 20, limitMin: 24, reason: '模擬試験形式で時間配分に慣れる' });
+  if (P.mockOk && M >= 110 && A.studiedUnits >= 15 && left >= 24) add({ kind: 'mock', title: 'ミニ模擬試験（20問・24分）', min: 24, count: 20, limitMin: 24, reason: '模擬試験形式で時間配分に慣れる' });
   if (left >= 4) add({ kind: 'check', title: '学習内容の確認テスト', min: Math.min(10, left), count: Math.min(10, Math.max(3, left)), reason: '今回学んだ範囲の定着を確認' });
   if (left >= 3) add({ kind: 'terms', title: '重要用語の学習', min: Math.min(5, left), reason: '残りの時間で用語を確認' });
   return { blocks, left, total: M };
