@@ -42,7 +42,7 @@ export function renderPlan(view, app) {
   <section class="card"><h2>学習する順番（優先順位）</h2>
     <ol class="small">${P.priority.slice(0, 15).map((id) => `<li><a href="#/unit/${id}">${esc(nm(id))}</a> <span class="muted">${esc((P.reasonsOf[id] || []).join('・'))}</span></li>`).join('')}</ol>
     ${P.priority.length > 15 ? `<details><summary>残り${P.priority.length - 15}単元</summary><ol start="16" class="small">${P.priority.slice(15).map((id) => `<li><a href="#/unit/${id}">${esc(nm(id))}</a></li>`).join('')}</ol></details>` : ''}
-    <p class="tiny muted">順番：途中の単元 → 理解が不足した単元 → 重要度・分野の進み具合。いつでもマップから好きな単元を学べます。</p>
+    <p class="tiny muted">順番：途中の単元 → 理解が不足した単元 → 重要度（IPA公開問題 令和5〜8年度の出題数から本アプリが判定）・分野の進み具合。いつでもマップから好きな単元を学べます。</p>
   </section>
   <section class="card"><h2>後回しにする単元</h2>
     ${P.deferred.length ? `<p class="small">今のペースでは目安日までに全単元を終えられない見込みのため、次の単元を後回しにしています。<b>省略ではありません</b>。時間ができたら学習し、試験までに一度は目を通しましょう。</p>

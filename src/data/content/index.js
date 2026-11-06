@@ -1,7 +1,7 @@
 // 教材・問題データの読み込み。ファイルが欠けていてもアプリは動き、その単元を「教材未作成」として扱う。
 import { UNITS } from '../syllabus.js';
 
-export const CONTENT_FILES = ['c1', 'c2', 'c3', 'c4', 'c5'];
+export const CONTENT_FILES = ['c1', 'c2', 'c3', 'c4', 'c5', 'c6a', 'c6b', 'c6c'];
 
 export const TYPE_LABEL = {
   official: '公式公開問題',

@@ -146,7 +146,9 @@ export function buildPlan(s, DB, A) {
     else if (st.status === 'learning' && st.pagesSeen > 0) { score += 15; reasons.push('読みかけ'); }
     if (st.status === 'review') { score += 20; reasons.push('理解が不足'); }
     score += (share[u.field] - fieldProg[u.field] * share[u.field]) * 20;
-    if (u.weight === 3) reasons.push('重要度が高い');
+    // 同じ重要度の中では、過去4年の出題数が多い単元を先に（最大+6）
+    score += Math.min(6, (u.pastFreq || 0) * 0.25);
+    if (u.weight === 3) reasons.push(u.pastFreq ? `よく出る（過去4年で${u.pastFreq}問）` : '重要度が高い');
     score -= u.no * 0.15;
     if (!DB.lessons[u.id] && !(DB.byUnit[u.id] || []).length) { score -= 100; reasons.push('教材未作成'); }
     scored.push({ id: u.id, score, reasons, min: remaining.find((r) => r.id === u.id)?.min || 0 });

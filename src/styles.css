@@ -183,3 +183,18 @@ details.res { border-bottom: 1px solid var(--line); padding: 8px 0; } details.re
 .modal-card { background: #fff; border-radius: 18px; padding: 18px; width: 100%; max-width: 420px; }
 details summary { cursor: pointer; min-height: 36px; }
 @media (prefers-reduced-motion: reduce) { .pico { animation: none; } * { transition: none !important; } }
+
+/* 公式の過去問 */
+.past-zoom { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: #fff; margin: 8px 0; cursor: zoom-in; }
+.past-img { display: block; width: 100%; height: auto; }
+.past-zoom.on { cursor: zoom-out; }
+.past-zoom.on .past-img { width: 200%; max-width: none; }
+.past-choices { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 8px; }
+.past-choice { justify-content: center; align-items: center; font-size: 1.3rem; margin: 0; }
+.past-sheet { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.past-sheet .chip.ok { border-color: var(--ok); } .past-sheet .chip.ng { border-color: var(--ng); }
+.badge.official { background: #e0f2fe; color: #075985; } .badge.ok { background: #dcfce7; color: #166534; }
+.badges { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; }
+.past-stem summary { cursor: pointer; font-weight: 700; }
+.notice h3 { margin-top: 0; }
+div.warn { background: #fff7ed; border: 1px solid #fdba74; border-radius: 10px; padding: 10px; margin-top: 8px; color: var(--ink); }

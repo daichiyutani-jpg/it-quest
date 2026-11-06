@@ -2,7 +2,7 @@
 // 問題の正誤そのものは人（またはレビュー）が確かめる。ここでは形・ID・矛盾しやすい箇所を機械的に調べる。
 import { UNITS } from '../src/data/syllabus.js';
 
-const names = process.argv.slice(2).length ? process.argv.slice(2) : ['c1', 'c2', 'c3', 'c4', 'c5'];
+const names = process.argv.slice(2).length ? process.argv.slice(2) : ['c1', 'c2', 'c3', 'c4', 'c5', 'c6a', 'c6b', 'c6c'];
 const unitIds = new Set(UNITS.map((u) => u.id));
 const itemIds = new Set(UNITS.flatMap((u) => u.items.map((i) => i.id)));
 const errors = [];
@@ -19,9 +19,13 @@ for (const n of names) {
   for (const u of mod.default) {
     const where = `${n}/${u.unit}`;
     if (!unitIds.has(u.unit)) errors.push(`${where}: 不明な単元ID`);
-    if (seenUnit.has(u.unit)) errors.push(`${where}: 単元が重複`);
+    // 教材なし（questions だけ）の項目は、既に教材がある単元への追加問題として扱う
+    const supplement = !u.lesson;
+    if (supplement && !seenUnit.has(u.unit)) errors.push(`${where}: 追加問題だけで、先に教材のある単元がない`);
+    if (!supplement && seenUnit.has(u.unit)) errors.push(`${where}: 単元が重複`);
     seenUnit.add(u.unit);
     const L = u.lesson || {};
+    if (!supplement) {
     if (!Array.isArray(L.pages) || L.pages.length < 1) errors.push(`${where}: lesson.pages が無い`);
     for (const p of L.pages || []) {
       if (!p.title || !p.body) errors.push(`${where}: ページに title/body が無い`);
@@ -34,7 +38,8 @@ for (const n of names) {
     }
     if (!L.example) errors.push(`${where}: example が無い`);
     if (!L.beginner) errors.push(`${where}: beginner が無い`);
-    if (!Array.isArray(u.questions) || u.questions.length < 4) errors.push(`${where}: 問題が4問未満`);
+    }
+    if (!Array.isArray(u.questions) || u.questions.length < (supplement ? 1 : 4)) errors.push(`${where}: 問題が足りない`);
     for (const q of u.questions || []) {
       const w = `${where}/${q.id}`;
       qCount++;

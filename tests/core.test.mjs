@@ -10,7 +10,7 @@ import { buildPlan, sessionPlan } from '../src/core/planner.js';
 import { pickMock, pick } from '../src/core/picker.js';
 import { updateStreak, levelInfo } from '../src/core/game.js';
 
-const mods = await Promise.all(['c1', 'c2', 'c3', 'c4', 'c5'].map((f) => import(`../src/data/content/${f}.js`).then((m) => m.default)));
+const mods = await Promise.all(['c1', 'c2', 'c3', 'c4', 'c5', 'c6a', 'c6b', 'c6c'].map((f) => import(`../src/data/content/${f}.js`).then((m) => m.default)));
 indexContent(mods);
 
 async function fresh(start = '2026-11-05T09:00:00') {

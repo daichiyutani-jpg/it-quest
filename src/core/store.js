@@ -5,7 +5,7 @@ import { now, today, uid } from './util.js';
 import { DEFAULT_SOFT_GOAL } from '../data/calendar.js';
 
 export const SCHEMA_VERSION = 1;
-export const SECTIONS = ['meta', 'settings', 'units', 'qstate', 'answers', 'days', 'sessions', 'mocks', 'planHistory', 'game', 'resume'];
+export const SECTIONS = ['meta', 'settings', 'units', 'qstate', 'answers', 'days', 'sessions', 'mocks', 'planHistory', 'game', 'resume', 'past'];
 
 export function defaultState() {
   return {
@@ -34,6 +34,7 @@ export function defaultState() {
     planHistory: [], // { at, reason, status, summary, detail }
     game: { xp: 0, titles: [], streak: 0, bestStreak: 0, lastStreakDate: null, log: [] },
     resume: null, // 中断した演習・学習の続き
+    past: { sessions: [], active: null }, // 公式公開問題の結果（問題の画像は別のDB it-quest-past にあり、ここには入れない）
   };
 }
 

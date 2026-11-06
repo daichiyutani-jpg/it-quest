@@ -3,6 +3,8 @@
 // https://www.ipa.go.jp/shiken/syllabus/gaiyou.html
 // 構成：分野 → 大分類 → 中分類 → 小分類（=本アプリの「単元」63個）→ 項目（シラバスの (1)(2)… 180個）
 // weight（重要度 1〜3）は本アプリ独自の学習計画用の目安で、IPAの公表値ではありません。
+// 2026-11-06 に、IPA公開問題 令和5〜8年度の400問を本アプリの単元に分類した出題数（pastFreq）から決め直した：
+//   4年で9問以上→3、4〜8問→2、3問以下→1（出題0でもシラバスの範囲なので学習対象からは外さない）。
 // シラバスが改訂されたら、このファイルを差し替えてください（項目を勝手に削除しないこと）。
 export const SYLLABUS_INFO = {
   name: 'ITパスポート試験 シラバス',
@@ -29,6 +31,7 @@ export const UNITS = [
   "chuName": "企業活動",
   "name": "経営・組織論",
   "weight": 3,
+  "pastFreq": 12,
   "items": [
    {
     "id": "U01-1",
@@ -62,6 +65,7 @@ export const UNITS = [
   "chuName": "企業活動",
   "name": "業務分析・データ利活用",
   "weight": 3,
+  "pastFreq": 12,
   "items": [
    {
     "id": "U02-1",
@@ -100,6 +104,7 @@ export const UNITS = [
   "chuName": "企業活動",
   "name": "会計・財務",
   "weight": 3,
+  "pastFreq": 9,
   "items": [
    {
     "id": "U03-1",
@@ -118,6 +123,7 @@ export const UNITS = [
   "chuName": "法務",
   "name": "知的財産権",
   "weight": 3,
+  "pastFreq": 10,
   "items": [
    {
     "id": "U04-1",
@@ -155,7 +161,8 @@ export const UNITS = [
   "chu": 2,
   "chuName": "法務",
   "name": "セキュリティ関連法規",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 8,
   "items": [
    {
     "id": "U05-1",
@@ -193,7 +200,8 @@ export const UNITS = [
   "chu": 2,
   "chuName": "法務",
   "name": "労働関連・取引関連法規",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U06-1",
@@ -216,7 +224,8 @@ export const UNITS = [
   "chu": 2,
   "chuName": "法務",
   "name": "その他の法律・ガイドライン・情報倫理",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 5,
   "items": [
    {
     "id": "U07-1",
@@ -255,6 +264,7 @@ export const UNITS = [
   "chuName": "法務",
   "name": "標準化関連",
   "weight": 1,
+  "pastFreq": 3,
   "items": [
    {
     "id": "U08-1",
@@ -282,7 +292,8 @@ export const UNITS = [
   "chu": 3,
   "chuName": "経営戦略マネジメント",
   "name": "経営戦略手法",
-  "weight": 3,
+  "weight": 1,
+  "pastFreq": 2,
   "items": [
    {
     "id": "U09-1",
@@ -305,7 +316,8 @@ export const UNITS = [
   "chu": 3,
   "chuName": "経営戦略マネジメント",
   "name": "マーケティング",
-  "weight": 3,
+  "weight": 1,
+  "pastFreq": 3,
   "items": [
    {
     "id": "U10-1",
@@ -338,7 +350,8 @@ export const UNITS = [
   "chu": 3,
   "chuName": "経営戦略マネジメント",
   "name": "ビジネス戦略と目標・評価",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 2,
   "items": [
    {
     "id": "U11-1",
@@ -356,7 +369,8 @@ export const UNITS = [
   "chu": 3,
   "chuName": "経営戦略マネジメント",
   "name": "経営管理システム",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 2,
   "items": [
    {
     "id": "U12-1",
@@ -374,7 +388,8 @@ export const UNITS = [
   "chu": 4,
   "chuName": "技術戦略マネジメント",
   "name": "技術開発戦略の立案・技術開発計画",
-  "weight": 1,
+  "weight": 3,
+  "pastFreq": 11,
   "items": [
    {
     "id": "U13-1",
@@ -392,7 +407,8 @@ export const UNITS = [
   "chu": 5,
   "chuName": "ビジネスインダストリ",
   "name": "ビジネスシステム",
-  "weight": 2,
+  "weight": 3,
+  "pastFreq": 14,
   "items": [
    {
     "id": "U14-1",
@@ -425,7 +441,8 @@ export const UNITS = [
   "chu": 5,
   "chuName": "ビジネスインダストリ",
   "name": "エンジニアリングシステム",
-  "weight": 1,
+  "weight": 2,
+  "pastFreq": 6,
   "items": [
    {
     "id": "U15-1",
@@ -448,7 +465,8 @@ export const UNITS = [
   "chu": 5,
   "chuName": "ビジネスインダストリ",
   "name": "e-ビジネス",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 5,
   "items": [
    {
     "id": "U16-1",
@@ -472,6 +490,7 @@ export const UNITS = [
   "chuName": "ビジネスインダストリ",
   "name": "IoT システム・組込みシステム",
   "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U17-1",
@@ -495,6 +514,7 @@ export const UNITS = [
   "chuName": "システム戦略",
   "name": "情報システム戦略",
   "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U18-1",
@@ -518,6 +538,7 @@ export const UNITS = [
   "chuName": "システム戦略",
   "name": "業務プロセス",
   "weight": 3,
+  "pastFreq": 14,
   "items": [
    {
     "id": "U19-1",
@@ -545,7 +566,8 @@ export const UNITS = [
   "chu": 6,
   "chuName": "システム戦略",
   "name": "ソリューションビジネス",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U20-1",
@@ -568,7 +590,8 @@ export const UNITS = [
   "chu": 6,
   "chuName": "システム戦略",
   "name": "システム活用促進・評価",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U21-1",
@@ -596,7 +619,8 @@ export const UNITS = [
   "chu": 7,
   "chuName": "システム企画",
   "name": "システム化計画",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 3,
   "items": [
    {
     "id": "U22-1",
@@ -614,7 +638,8 @@ export const UNITS = [
   "chu": 7,
   "chuName": "システム企画",
   "name": "要件定義",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U23-1",
@@ -632,7 +657,8 @@ export const UNITS = [
   "chu": 7,
   "chuName": "システム企画",
   "name": "調達計画・実施",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 3,
   "items": [
    {
     "id": "U24-1",
@@ -670,7 +696,8 @@ export const UNITS = [
   "chu": 8,
   "chuName": "システム開発技術",
   "name": "システム開発技術",
-  "weight": 2,
+  "weight": 3,
+  "pastFreq": 10,
   "items": [
    {
     "id": "U25-1",
@@ -694,6 +721,7 @@ export const UNITS = [
   "chuName": "ソフトウェア開発管理技術",
   "name": "開発プロセス・手法",
   "weight": 3,
+  "pastFreq": 9,
   "items": [
    {
     "id": "U26-1",
@@ -727,6 +755,7 @@ export const UNITS = [
   "chuName": "プロジェクトマネジメント",
   "name": "プロジェクトマネジメント",
   "weight": 3,
+  "pastFreq": 18,
   "items": [
    {
     "id": "U27-1",
@@ -744,7 +773,8 @@ export const UNITS = [
   "chu": 11,
   "chuName": "サービスマネジメント",
   "name": "サービスマネジメント",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 5,
   "items": [
    {
     "id": "U28-1",
@@ -772,7 +802,8 @@ export const UNITS = [
   "chu": 11,
   "chuName": "サービスマネジメント",
   "name": "サービスマネジメントシステム",
-  "weight": 2,
+  "weight": 3,
+  "pastFreq": 13,
   "items": [
    {
     "id": "U29-1",
@@ -795,7 +826,8 @@ export const UNITS = [
   "chu": 11,
   "chuName": "サービスマネジメント",
   "name": "ファシリティマネジメント",
-  "weight": 1,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U30-1",
@@ -819,6 +851,7 @@ export const UNITS = [
   "chuName": "システム監査",
   "name": "システム監査",
   "weight": 3,
+  "pastFreq": 10,
   "items": [
    {
     "id": "U31-1",
@@ -842,6 +875,7 @@ export const UNITS = [
   "chuName": "システム監査",
   "name": "内部統制",
   "weight": 3,
+  "pastFreq": 9,
   "items": [
    {
     "id": "U32-1",
@@ -869,7 +903,8 @@ export const UNITS = [
   "chu": 13,
   "chuName": "基礎理論",
   "name": "離散数学",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 0,
   "items": [
    {
     "id": "U33-1",
@@ -898,6 +933,7 @@ export const UNITS = [
   "chuName": "基礎理論",
   "name": "応用数学",
   "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U34-1",
@@ -936,6 +972,7 @@ export const UNITS = [
   "chuName": "基礎理論",
   "name": "情報に関する理論",
   "weight": 3,
+  "pastFreq": 14,
   "items": [
    {
     "id": "U35-1",
@@ -973,7 +1010,8 @@ export const UNITS = [
   "chu": 14,
   "chuName": "アルゴリズムとプログラミング",
   "name": "データ構造",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 0,
   "items": [
    {
     "id": "U36-1",
@@ -992,6 +1030,7 @@ export const UNITS = [
   "chuName": "アルゴリズムとプログラミング",
   "name": "アルゴリズムとプログラミング",
   "weight": 3,
+  "pastFreq": 11,
   "items": [
    {
     "id": "U37-1",
@@ -1024,7 +1063,8 @@ export const UNITS = [
   "chu": 14,
   "chuName": "アルゴリズムとプログラミング",
   "name": "プログラム言語",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U38-1",
@@ -1048,6 +1088,7 @@ export const UNITS = [
   "chuName": "アルゴリズムとプログラミング",
   "name": "その他の言語",
   "weight": 1,
+  "pastFreq": 0,
   "items": [
    {
     "id": "U39-1",
@@ -1070,7 +1111,8 @@ export const UNITS = [
   "chu": 15,
   "chuName": "コンピュータ構成要素",
   "name": "プロセッサ",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U40-1",
@@ -1094,6 +1136,7 @@ export const UNITS = [
   "chuName": "コンピュータ構成要素",
   "name": "メモリ",
   "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U41-1",
@@ -1121,7 +1164,8 @@ export const UNITS = [
   "chu": 15,
   "chuName": "コンピュータ構成要素",
   "name": "入出力デバイス",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 2,
   "items": [
    {
     "id": "U42-1",
@@ -1150,6 +1194,7 @@ export const UNITS = [
   "chuName": "システム構成要素",
   "name": "システムの構成",
   "weight": 2,
+  "pastFreq": 5,
   "items": [
    {
     "id": "U43-1",
@@ -1177,7 +1222,8 @@ export const UNITS = [
   "chu": 16,
   "chuName": "システム構成要素",
   "name": "システムの評価指標",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U44-1",
@@ -1205,7 +1251,8 @@ export const UNITS = [
   "chu": 17,
   "chuName": "ソフトウェア",
   "name": "オペレーティングシステム",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U45-1",
@@ -1233,7 +1280,8 @@ export const UNITS = [
   "chu": 17,
   "chuName": "ソフトウェア",
   "name": "ファイルシステム",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 1,
   "items": [
    {
     "id": "U46-1",
@@ -1256,7 +1304,8 @@ export const UNITS = [
   "chu": 17,
   "chuName": "ソフトウェア",
   "name": "オフィスツール",
-  "weight": 1,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U47-1",
@@ -1294,7 +1343,8 @@ export const UNITS = [
   "chu": 17,
   "chuName": "ソフトウェア",
   "name": "オープンソースソフトウェア",
-  "weight": 1,
+  "weight": 2,
+  "pastFreq": 6,
   "items": [
    {
     "id": "U48-1",
@@ -1313,6 +1363,7 @@ export const UNITS = [
   "chuName": "ハードウェア",
   "name": "ハードウェア（コンピュータ・入出力装置）",
   "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U49-1",
@@ -1335,7 +1386,8 @@ export const UNITS = [
   "chu": 19,
   "chuName": "情報デザイン",
   "name": "情報デザイン",
-  "weight": 1,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U50-1",
@@ -1358,7 +1410,8 @@ export const UNITS = [
   "chu": 19,
   "chuName": "情報デザイン",
   "name": "インタフェース設計",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 3,
   "items": [
    {
     "id": "U51-1",
@@ -1396,7 +1449,8 @@ export const UNITS = [
   "chu": 20,
   "chuName": "情報メディア",
   "name": "マルチメディア技術",
-  "weight": 2,
+  "weight": 1,
+  "pastFreq": 0,
   "items": [
    {
     "id": "U52-1",
@@ -1435,6 +1489,7 @@ export const UNITS = [
   "chuName": "情報メディア",
   "name": "マルチメディア応用",
   "weight": 1,
+  "pastFreq": 0,
   "items": [
    {
     "id": "U53-1",
@@ -1457,7 +1512,8 @@ export const UNITS = [
   "chu": 21,
   "chuName": "データベース",
   "name": "データベース方式",
-  "weight": 3,
+  "weight": 1,
+  "pastFreq": 0,
   "items": [
    {
     "id": "U54-1",
@@ -1481,6 +1537,7 @@ export const UNITS = [
   "chuName": "データベース",
   "name": "データベース設計",
   "weight": 3,
+  "pastFreq": 9,
   "items": [
    {
     "id": "U55-1",
@@ -1508,7 +1565,8 @@ export const UNITS = [
   "chu": 21,
   "chuName": "データベース",
   "name": "データ操作",
-  "weight": 3,
+  "weight": 1,
+  "pastFreq": 3,
   "items": [
    {
     "id": "U56-1",
@@ -1526,7 +1584,8 @@ export const UNITS = [
   "chu": 21,
   "chuName": "データベース",
   "name": "トランザクション処理",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U57-1",
@@ -1550,6 +1609,7 @@ export const UNITS = [
   "chuName": "ネットワーク",
   "name": "ネットワーク方式",
   "weight": 3,
+  "pastFreq": 10,
   "items": [
    {
     "id": "U58-1",
@@ -1577,7 +1637,8 @@ export const UNITS = [
   "chu": 22,
   "chuName": "ネットワーク",
   "name": "通信プロトコル",
-  "weight": 3,
+  "weight": 2,
+  "pastFreq": 4,
   "items": [
    {
     "id": "U59-1",
@@ -1601,6 +1662,7 @@ export const UNITS = [
   "chuName": "ネットワーク",
   "name": "ネットワーク応用",
   "weight": 3,
+  "pastFreq": 12,
   "items": [
    {
     "id": "U60-1",
@@ -1629,6 +1691,7 @@ export const UNITS = [
   "chuName": "セキュリティ",
   "name": "情報セキュリティ",
   "weight": 3,
+  "pastFreq": 15,
   "items": [
    {
     "id": "U61-1",
@@ -1662,6 +1725,7 @@ export const UNITS = [
   "chuName": "セキュリティ",
   "name": "情報セキュリティ管理",
   "weight": 3,
+  "pastFreq": 21,
   "items": [
    {
     "id": "U62-1",
@@ -1700,6 +1764,7 @@ export const UNITS = [
   "chuName": "セキュリティ",
   "name": "情報セキュリティ対策・情報セキュリティ実装技術",
   "weight": 3,
+  "pastFreq": 36,
   "items": [
    {
     "id": "U63-1",

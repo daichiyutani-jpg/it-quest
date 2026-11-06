@@ -34,7 +34,7 @@ export function renderMap(view, app) {
           const nq = (DB.byUnit[u.id] || []).length;
           return `<li><a class="unit" href="#/unit/${u.id}">
             <span class="pill ${STATUS[st.status].cls}">${STATUS[st.status].label}</span>
-            <span class="un"><b>${esc(u.name)}</b><small>${'★'.repeat(u.weight)}${'☆'.repeat(3 - u.weight)}　問題${nq}問${st.recentAcc != null ? `　直近${pct(st.recentAcc)}` : ''}${!DB.lessons[u.id] ? '　<em>教材未作成</em>' : ''}${deferred.has(u.id) ? '　<em>後回し候補</em>' : ''}</small></span></a></li>`;
+            <span class="un"><b>${esc(u.name)}</b><small>${'★'.repeat(u.weight)}${'☆'.repeat(3 - u.weight)}${u.pastFreq != null ? `　過去4年${u.pastFreq}問` : ''}　問題${nq}問${st.recentAcc != null ? `　直近${pct(st.recentAcc)}` : ''}${!DB.lessons[u.id] ? '　<em>教材未作成</em>' : ''}${deferred.has(u.id) ? '　<em>後回し候補</em>' : ''}</small></span></a></li>`;
         }).join('')}</ul>`;
       }).join('')}</section>`;
   }).join('')}

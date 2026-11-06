@@ -19,7 +19,8 @@ export function renderPractice(view, app) {
   if (!sel.unit || !unitOpts.find((u) => u.id === sel.unit)) sel.unit = unitOpts[0]?.id || null;
   view.innerHTML = `
   <section class="card"><h2>問題演習</h2>
-    <p class="small muted">収録問題 ${total}問（すべてオリジナル問題。公式公開問題は未収録）</p>
+    <p class="small muted">収録問題 ${total}問（オリジナル問題）</p>
+    <a class="btn primary wide" href="#/past">📜 公式の過去問（IPA公開問題）を解く</a>
     ${P.mode === 'final' ? '<p class="final-flag">🗼 直前対策期間：模擬試験と苦手の復習がおすすめです</p>' : ''}
     <div class="menu">
       <button class="mi" data-k="review"><b>🔁 復習問題</b><small>予定日が来た問題 ${A.dueAll.length}問</small></button>

@@ -19,6 +19,7 @@ import { renderStats } from './ui/stats.js';
 import { renderAdventure } from './ui/adventure.js';
 import { renderData } from './ui/data.js';
 import { renderSessionEnd } from './ui/sessionEnd.js';
+import { renderPast } from './ui/past.js';
 
 export const app = {
   store: null, DB, tracker: null, A: null, P: null, quiz: null, lastSession: null,
@@ -58,10 +59,10 @@ export const app = {
 const ROUTES = {
   setup: renderSetup, home: renderHome, plan: renderPlan, learn: renderMap, unit: renderUnit,
   practice: renderPractice, quiz: renderQuiz, result: renderResult, terms: renderTerms,
-  stats: renderStats, adventure: renderAdventure, settings: renderSettings, data: renderData, end: renderSessionEnd,
+  stats: renderStats, adventure: renderAdventure, settings: renderSettings, data: renderData, end: renderSessionEnd, past: renderPast,
 };
-const STUDY_ROUTES = new Set(['unit', 'quiz', 'terms']);
-const NAV = { home: 'home', plan: 'home', learn: 'learn', unit: 'learn', practice: 'practice', quiz: 'practice', result: 'practice', terms: 'practice', adventure: 'adventure', stats: 'stats', settings: 'stats', data: 'stats', end: 'home' };
+const STUDY_ROUTES = new Set(['unit', 'quiz', 'terms', 'past']);
+const NAV = { home: 'home', plan: 'home', learn: 'learn', unit: 'learn', practice: 'practice', quiz: 'practice', result: 'practice', terms: 'practice', past: 'practice', adventure: 'adventure', stats: 'stats', settings: 'stats', data: 'stats', end: 'home' };
 
 function parseHash() {
   const h = location.hash.replace(/^#\/?/, '');
