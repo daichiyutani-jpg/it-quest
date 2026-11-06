@@ -1,6 +1,6 @@
 // オフライン用 Service Worker（tools/build-sw.mjs で自動生成。直接編集しない）
 // 学習データは IndexedDB にあり、ここで扱うキャッシュとは別。キャッシュを入れ替えても学習データは消えない。
-const CACHE = 'it-quest-73e71ad8e5';
+const CACHE = 'it-quest-bb5fd8c371';
 const FILES = [
   "./",
   "./icons/icon-192.png",

@@ -8,7 +8,8 @@ import MANUAL from '../data/readiness-manual.js';
 
 export const MIN_Q_PER_UNIT = TEST.size * 2; // 小テストを別の問題で2回組める数
 
-export function readiness(DB) {
+/** manual：人が行う確認の記録（省略時は src/data/readiness-manual.js）。テストでは差し替えて使う */
+export function readiness(DB, manual = MANUAL) {
   const checks = [];
   const add = (id, label, ok, detail) => checks.push({ id, label, ok: !!ok, detail });
 
@@ -35,7 +36,7 @@ export function readiness(DB) {
   add('figures', '図解・アニメーションの正確性（照合済みの図が全単元にある）', noFig.length === 0 && figPending === 0,
     `図のある単元 ${UNITS.length - noFig.length}/${UNITS.length}・未照合の図 ${figPending}個`);
 
-  for (const m of MANUAL.checks) add(m.id, m.label, m.result === 'ok', m.date ? `${m.date}：${m.method}。${m.note || ''}` : '未実施');
+  for (const m of manual.checks) add(m.id, m.label, m.result === 'ok', m.date ? `${m.date}：${m.method}。${m.note || ''}` : '未実施');
 
-  return { ready: checks.every((c) => c.ok), checks, recordedAt: MANUAL.recordedAt };
+  return { ready: checks.every((c) => c.ok), checks, recordedAt: manual.recordedAt };
 }

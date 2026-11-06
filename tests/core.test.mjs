@@ -63,7 +63,10 @@ test('照合前の教材は出さない・利用停止は出さない・照合�
   assert.equal(D2.questions[id1].explain, '直した解説');
   assert.ok(inventory().suspended.some((x) => x.id === id0));
   indexContent(mods, ALL_OK);
-  assert.equal(readiness(DB).ready, false, '人が行う確認が未実施なら準備完了にしない');
+  const NOT_DONE = { recordedAt: null, checks: [{ id: 'mobile', label: 'スマートフォン', date: null, method: '', result: null }] };
+  assert.equal(readiness(DB, NOT_DONE).ready, false, '人が行う確認が未実施なら準備完了にしない');
+  const ALL_DONE = { recordedAt: '2026-11-06', checks: [{ id: 'mobile', label: 'スマートフォン', date: '2026-11-06', method: 'test', result: 'ok' }] };
+  assert.equal(readiness(DB, ALL_DONE).ready, true, '照合済みで人が行う確認も済めば準備完了');
 });
 
 test('理解度：読んで正解しただけでは基礎理解にならず、小テスト9/10で合格、日を空けた別問題で習得確認', async () => {
